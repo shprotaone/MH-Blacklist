@@ -7,6 +7,7 @@ namespace Systems
 {
     public class LanguageProvider
     {
+        public event Action OnLanguageChange;
         private string _currentLanguage;
         private List<LanguagePair> _languageDict;
 
@@ -19,6 +20,7 @@ namespace Systems
         public void SetLanguage(string language)
         {
             _currentLanguage = language;
+            OnLanguageChange?.Invoke();
         }
 
         public string GetName(string dataName)

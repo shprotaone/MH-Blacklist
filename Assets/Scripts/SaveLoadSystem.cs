@@ -59,14 +59,6 @@ public class SaveLoadSystem
                 fileStream.Write(Encoding.Default.GetBytes(empty));
                 callback.Invoke(JsonUtility.FromJson<T>(empty));
             }
-
-
-            // var data = new ProgressData();
-            // Save(path,data);
-            // var result = JsonUtility.FromJson<T>("");
-            // callback.Invoke(result);
-            // Delete(key);
-            return;
         }
     }
 
@@ -91,36 +83,4 @@ public class SaveLoadSystem
         Debug.Log("Path " + path);
         return path;
     }
-
-
-    /*
-    public ProgressData LoadProgressData()
-    {
-        /*ProgressData data;
-        if (!File.Exists(path))
-        {
-            using (FileStream fileStream = new FileStream(path,FileMode.OpenOrCreate))
-            {
-                data = new ProgressData();
-
-                var empty = JsonUtility.ToJson(data);
-                fileStream.Write(Encoding.Default.GetBytes(empty));
-            }
-
-            return data;
-        }
-
-        var json = File.ReadAllText(path);
-        data = JsonUtility.FromJson<ProgressData>(json);
-
-        return data;#1#
-        return null;
-    }
-
-    public void SaveProgressData(ProgressData monsterProgressData)
-    {
-        // var json = JsonUtility.ToJson(monsterProgressData);
-        // File.WriteAllText(path,json);
-
-    }*/
 }

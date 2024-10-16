@@ -8,20 +8,19 @@ using UnityEngine;
 
 public class Bootstrap : MonoBehaviour
 {
-    private string riseFilePath = "RiseMonstersData";
-    private string worldFilePath = "WorldMonstersData";
+
 
     [SerializeField] private string _language;
     [SerializeField] private AssetProvider _assetProvider;
     [SerializeField] private MonsterScrollView _scrollView;
-    [SerializeField] private MainPanelView _mainPanelViewVertical;
-    [SerializeField] private MainPanelView _mainPanelViewHorizontal;
+    [SerializeField] private SettingsView _settingsView;
     [SerializeField] private FindSystem _findSystem;
     [SerializeField] private UIController _uiController;
 
     private PlayerData _playerData;
     private LanguageProvider _languageProvider;
     private SaveLoadSystem _saveLoadSystem;
+    private SettingsController _settingsController;
     private MonsterTierList _tierList;
     private Monsters _riseMonsters;
     private Monsters _worldMonsters;
@@ -31,15 +30,22 @@ public class Bootstrap : MonoBehaviour
         _languageProvider = new LanguageProvider();
         _tierList = new MonsterTierList(_languageProvider);
         _saveLoadSystem = new SaveLoadSystem();
+        _settingsController = new SettingsController();
         _saveLoadSystem.Initialize(_assetProvider);
         _playerData = new PlayerData(_saveLoadSystem);
+        _scrollView.Initialize(0);
+        _uiController.Initialize(this);
 
         StartCoroutine(Loading());
+        _languageProvider.OnLanguageChange += ChangeLanguage;
 
-        _mainPanelViewVertical.WorldButton.onClick.AddListener(CreateWorldList);
-        _mainPanelViewVertical.RiseButton.onClick.AddListener(CreateRiseList);
-        _mainPanelViewHorizontal.WorldButton.onClick.AddListener(CreateWorldList);
-        _mainPanelViewHorizontal.RiseButton.onClick.AddListener(CreateRiseList);
+        _settingsController.Initialize(_settingsView,_scrollView,_languageProvider,_saveLoadSystem);
+    }
+
+    private void ChangeLanguage()
+    {
+        _scrollView.Clear();
+        StartCoroutine(ShowMonsters(_riseMonsters,StyleType.RISE));
     }
 
     private void FixedUpdate()
@@ -54,13 +60,13 @@ public class Bootstrap : MonoBehaviour
         }
     }
 
-    private void CreateRiseList()
+    public void CreateRiseList()
     {
         _scrollView.Clear();
         StartCoroutine(ShowMonsters(_riseMonsters,StyleType.RISE));
     }
 
-    private void CreateWorldList()
+    public void CreateWorldList()
     {
         _scrollView.Clear();
         StartCoroutine(ShowMonsters(_worldMonsters,StyleType.WORLD));
@@ -72,8 +78,8 @@ public class Bootstrap : MonoBehaviour
         GlobalSystems.Instance.SetLanguage(_language);
         yield return _assetProvider.LoadMonsterCell();
 
-        _saveLoadSystem.Load<Monsters>(riseFilePath,LoadMonsters,true);
-        _saveLoadSystem.Load<Monsters>(worldFilePath,LoadMonsters,true);
+        _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath,LoadMonsters,true);
+        _saveLoadSystem.Load<Monsters>(StaticData.worldFilePath,LoadMonsters,true);
 
         _findSystem.Initialize(_scrollView.ContentContainer);
 
