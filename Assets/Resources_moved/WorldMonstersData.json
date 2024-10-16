@@ -1,0 +1,641 @@
+{"data":[
+    {
+        "name": "Great Jagras",
+        "low": 1,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "fire,frost,thunder,dragon",
+        "RUtranslate": "Большой Яграс",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Kulu-Ya-Ku",
+        "low": 1,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "water,thunder,frost,fire,dragon",
+        "RUtranslate": "Кулу-Йа-Ку",
+        "monsterType": "Bird wyverns"
+    },
+    {
+        "name": "Pukei-Pukei",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,thunder,water,frost",
+        "RUtranslate": "Поки-Поки",
+        "monsterType": "Bird wyverns"
+    },
+    {
+        "name": "Tobi-Kadachi",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,frost,fire,dragon",
+        "RUtranslate": "Тоби-кадачи",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Barroth",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,frost,dragon",
+        "RUtranslate": "Баррот",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Anjanath",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,frost,thunder,dragon",
+        "RUtranslate": "Аньянат",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Paolumu",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,thunder,frost,dragon",
+        "RUtranslate": "Паолуму",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Tzitzi-Ya-Ku",
+        "low": 1,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "thunder,frost,water,dragon,fire",
+        "RUtranslate": "Цици-йа-ку",
+        "monsterType": "Bird wyverns"
+    },
+    {
+        "name": "Great Girros",
+        "low": 1,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "water,frost,fire,fire,dragon",
+        "RUtranslate": "Большой Гиррос",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Rathian",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,thunder,frost,water",
+        "RUtranslate": "Ратиана",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Radobaan",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,frost,fire,thunder,water",
+        "RUtranslate": "Радобаан",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Legiana",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,fire,dragon,water",
+        "RUtranslate": "Легиана",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Rathalos",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,thunder,water,frost",
+        "RUtranslate": "Раталос",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Diablos",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,water,dragon,water,thunder",
+        "RUtranslate": "Диаблос",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Odogaron",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,thunder,water,fire",
+        "RUtranslate": "Одогарон",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Jyuratodus",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,water,dragon,fire",
+        "RUtranslate": "Юратод",
+        "monsterType": "Piscine wyverns"
+    },
+    {
+        "name": "Dodogama",
+        "low": 1,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "thunder,water,dragon,frost",
+        "RUtranslate": "Додогама",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Azure Rathalos",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,frost,thunder,water",
+        "RUtranslate": "Лазурный Раталос",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Pink Rathian",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,thunder,frost,water",
+        "RUtranslate": "Розовая Ратиана",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Black Diablos",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,water,thunder",
+        "RUtranslate": "Черная Диаблос",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Lavasioth",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,dragon,water,thunder",
+        "RUtranslate": "Лавасиот",
+        "monsterType": "Piscine wyverns"
+    },
+    {
+        "name": "Uragaan",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,frost,dragon",
+        "RUtranslate": "Урагаан",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Bazelgeuse",
+        "low": 1,
+        "mr": 0,
+        "tempered": 1,
+        "weakness": "thunder,frost,dragon,water",
+        "RUtranslate": "Базельгейс",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Deviljho",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,dragon,water,fire,frost",
+        "RUtranslate": "Девильо",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Vaal Hazak",
+        "low": 1,
+        "mr": 0,
+        "tempered": 1,
+        "weakness": "dragon,fire,frost,thunder",
+        "RUtranslate": "Ваал-Хазак",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Teostra",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,water,thunder,dragon",
+        "RUtranslate": "Теостра",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Lunsatra",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,dragon",
+        "RUtranslate": "Лунастра",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Kirin",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,frost,water,dragon",
+        "RUtranslate": "Кирин",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Nergigante",
+        "low": 1,
+        "mr": 0,
+        "tempered": 1,
+        "weakness": "thunder,dragon,fire,frost,water",
+        "RUtranslate": "Нергигант",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Xeno`jiiva",
+        "low": 1,
+        "mr": 0,
+        "tempered": 1,
+        "weakness": "dragon,fire,frost,thunder,water",
+        "RUtranslate": "Ксено`джиива",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Kushala Daora",
+        "low": 1,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,dragon",
+        "RUtranslate": "Кушала-даора",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Beotodus",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,thunder",
+        "RUtranslate": "Беотод",
+        "monsterType": "Piscine wyverns"
+    },
+    {
+        "name": "Banbaro",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,fire",
+        "RUtranslate": "Банбаро",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Viper Tobi-Kadachi",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,frost",
+        "RUtranslate": "Аспидовый Тоби-кадачи",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Nightshade Paolumu",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,fire",
+        "RUtranslate": "Ночной Паолуму",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Coral Pukei-Pukei",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,thunder,water,fire",
+        "RUtranslate": "Коралловый Поки-Поки",
+        "monsterType": "Bird wyverns"
+    },
+    {
+        "name": "Barioth",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,thunder",
+        "RUtranslate": "Бариот",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Nargacuga",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,fire",
+        "RUtranslate": "Наргакуга",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Glavenus",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,frost,dragon",
+        "RUtranslate": "Главенус",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Tigrex",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,dragon",
+        "RUtranslate": "Тигрэкс",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Brachydios",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,water",
+        "RUtranslate": "Брахидиос",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Shrieking Legiana",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,thunder",
+        "RUtranslate": "Визжащая Легиана",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Fulgur Anjanath",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,water,fire",
+        "RUtranslate": "Громовой Аньянат",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Acidic Glavenus",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,thunder,dragon",
+        "RUtranslate": "Кислотный  Главенус",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Ebony Odogaron",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,thunder,fire,frost",
+        "RUtranslate": "Эбеновый одогарон",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Seething Bazelgeuse",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,thunder",
+        "RUtranslate": "Вспыльчивый Базельгейс",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Zinogre",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost,water",
+        "RUtranslate": "Зиногр",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Namielle",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,dragon",
+        "RUtranslate": "Намиэль",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Blackveil Vaal Hazak",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,dragon",
+        "RUtranslate": "Тленный ваал-хазак",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Velkhana",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,dragon,thunder",
+        "RUtranslate": "Велханга",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Ruiner Nergigante",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "dragon,thunder",
+        "RUtranslate": "Нергигант-губитель",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Yian Garuga",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "water,dragon",
+        "RUtranslate": "Йан-гаруга",
+        "monsterType": "Bird wyverns"
+    },
+    {
+        "name": "Rajang",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost",
+        "RUtranslate": "Раянг",
+        "monsterType": "Fanged beasts"
+    },
+    {
+        "name": "Furious Rajang",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "frost",
+        "RUtranslate": "Взбешенный Раянг",
+        "monsterType": "Fanged beasts"
+    },
+    {
+        "name": "Scarred Yian Garuga",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "water,dragon",
+        "RUtranslate": "Матерый йан-гаруга",
+        "monsterType": "Bird wyverns"
+    },
+    {
+        "name": "Raging Brachydios",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "frost,water",
+        "RUtranslate": "Неистовый Брахидиос",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Savage Deviljho",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,dragon,fire,water",
+        "RUtranslate": "Лютый Девильо",
+        "monsterType": "Brute wyverns"
+    },
+    {
+        "name": "Stygian Zinogre",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,water",
+        "RUtranslate": "Стигийский Зиногр",
+        "monsterType": "Fanged wyverns"
+    },
+    {
+        "name": "Frostfang Barioth",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "fire,thunder",
+        "RUtranslate": "Ледозубый бариот",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Silver Rathalos",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,thunder",
+        "RUtranslate": "Серебристый Раталос",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Gold Rathian",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "thunder,water",
+        "RUtranslate": "Золотая Ратиана",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Brute Tigrex",
+        "low": 0,
+        "mr": 1,
+        "tempered": 1,
+        "weakness": "water,thunder",
+        "RUtranslate": "Свирепый Тигрекс",
+        "monsterType": "Flying wyverns"
+    },
+    {
+        "name": "Ancient Leshen",
+        "low": 0,
+        "mr": 0,
+        "tempered": 0,
+        "weakness": "fire,thunder,dragon,frost",
+        "RUtranslate": "Древний Леший",
+        "monsterType": "Relict"
+    },
+    {
+        "name": "Leshen",
+        "low": 1,
+        "mr": 0,
+        "tempered": 0,
+        "weakness": "fire,thunder,dragon",
+        "RUtranslate": "Леший",
+        "monsterType": "Relict"
+    },
+    {
+        "name": "Alatreon",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": null,
+        "RUtranslate": "Алатреон",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Behemoth",
+        "low": 1,
+        "mr": 0,
+        "tempered": 0,
+        "weakness": "dragon",
+        "RUtranslate": "Бахамут",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Fatalis",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "dragon,fire",
+        "RUtranslate": "Фаталис",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Kulve Taroth",
+        "low": 0,
+        "mr": 0,
+        "tempered": 0,
+        "weakness": "water,frost,dragon,thunder",
+        "RUtranslate": "Кулве тарот",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Safi`jiva",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": null,
+        "RUtranslate": "Сафиджива",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Shara Ishvalda",
+        "low": 0,
+        "mr": 1,
+        "tempered": 0,
+        "weakness": "frost,water",
+        "RUtranslate": "Шара-ишвалда",
+        "monsterType": "Elder dragon"
+    },
+    {
+        "name": "Zorah Magdaros",
+        "low": 1,
+        "mr": 0,
+        "tempered": 0,
+        "weakness": "dragon,water,frost,thunder",
+        "RUtranslate": "Дзора Магдарос",
+        "monsterType": "Elder dragon"
+    }
+]}
