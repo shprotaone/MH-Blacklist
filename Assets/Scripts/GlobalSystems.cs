@@ -6,21 +6,12 @@ using UnityEngine;
 
 public class GlobalSystems
 {
-    private static GlobalSystems _instance;
-    private static LanguageProvider _languageProvider;
-    private static AssetProvider _assetProvider;
-    private static PlayerData _playerData;
+    public event Action OnChangeStyle;
 
-    private GlobalSystems(){}
-
-    public static GlobalSystems Instance
-    {
-        get
-        {
-            _instance = new GlobalSystems();
-            return _instance;
-        }
-    }
+    private GlobalSystems _instance;
+    private LanguageProvider _languageProvider;
+    private AssetProvider _assetProvider;
+    private PlayerData _playerData;
 
     public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider)
     {
@@ -82,5 +73,10 @@ public class GlobalSystems
         }
 
         return " ";
+    }
+
+    public void ChangeStyle()
+    {
+        OnChangeStyle?.Invoke();
     }
 }

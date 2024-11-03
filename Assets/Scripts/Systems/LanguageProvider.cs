@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Data;
+using UnityEngine;
 
 namespace Systems
 {
@@ -10,10 +10,12 @@ namespace Systems
         public event Action OnLanguageChange;
         private string _currentLanguage;
         private List<LanguagePair> _languageDict;
+        private List<TranslateObj> _translateObjects;
 
         public LanguageProvider()
         {
             _languageDict = new List<LanguagePair>();
+            _translateObjects = GameObject.FindObjectsOfType<TranslateObj>().ToList();  //TODO: WEAK
             CreateLangs();
         }
 
@@ -119,6 +121,20 @@ namespace Systems
             AddPair("NONE", "ENG", "???");
             AddPair("NONE", "RUS", "???");
 
+            foreach (var translateObject in _translateObjects)
+            {
+                AddPair(translateObject.Key,"RUS",translateObject.RUS);
+                AddPair(translateObject.Key,"ENG",translateObject.ENG);
+            }
+
+        }
+
+        public void ChangeLanguageText()
+        {
+            foreach (var translateObj in _translateObjects)
+            {
+                translateObj.ChangeText(_currentLanguage);
+            }
         }
     }
 }

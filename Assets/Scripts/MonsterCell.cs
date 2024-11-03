@@ -1,4 +1,3 @@
-using Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,23 +14,25 @@ public class MonsterCell : MonoBehaviour
 
     [SerializeField] private ClickHandler _handler;
 
+    private GlobalSystems _globalSystems;
     private MonsterModel _model;
     private bool _isDefeated;
 
     public MonsterModel Model => _model;
     public string Name => _name.text;
 
-    public void Initialize(MonsterModel model)
+    public void Initialize(GlobalSystems globalSystems, MonsterModel model)
     {
+        _globalSystems = globalSystems;
         _model = model;
-        _name.text = GlobalSystems.Instance.GetName(model.name);
-        _type.text = GlobalSystems.Instance.GetMonsterTypeName(model.type);
+        _name.text = globalSystems.GetName(model.name);
+        _type.text = globalSystems.GetMonsterTypeName(model.type);
 
-        string imageName = model.imageName + " " + GlobalSystems.Instance.GetStyle(model.style);
-        _monsterImage.sprite = GlobalSystems.Instance.GetSprite(imageName);
-        _rankImage.sprite = GlobalSystems.Instance.GetSprite(model.rank,model.style);
-        _weakness.Fill(model.weaknessTypes,model.style);
-        _isDefeated = GlobalSystems.Instance.GetDefeated(model);
+        string imageName = model.imageName + " " + globalSystems.GetStyle(model.style);
+        _monsterImage.sprite = globalSystems.GetSprite(imageName);
+        _rankImage.sprite = globalSystems.GetSprite(model.rank,model.style);
+        _weakness.Fill(_globalSystems,model.weaknessTypes,model.style);
+        _isDefeated = globalSystems.GetDefeated(model);
         _defeatedImage.gameObject.SetActive(_isDefeated);
         _handler.Initialize(this);
     }
@@ -40,6 +41,6 @@ public class MonsterCell : MonoBehaviour
     {
         _isDefeated = !_isDefeated;
         _defeatedImage.gameObject.SetActive(_isDefeated);
-        GlobalSystems.Instance.SetDefeatedState(_model.name,_model.rank,_model.style, _isDefeated);
+        _globalSystems.SetDefeatedState(_model.name,_model.rank,_model.style, _isDefeated);
     }
 }

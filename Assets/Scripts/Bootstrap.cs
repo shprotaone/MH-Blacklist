@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Data;
@@ -9,7 +10,6 @@ using UnityEngine;
 public class Bootstrap : MonoBehaviour
 {
 
-
     [SerializeField] private string _language;
     [SerializeField] private AssetProvider _assetProvider;
     [SerializeField] private MonsterScrollView _scrollView;
@@ -17,6 +17,7 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private FindSystem _findSystem;
     [SerializeField] private UIController _uiController;
 
+    private GlobalSystems _globalSystems;
     private PlayerData _playerData;
     private LanguageProvider _languageProvider;
     private SaveLoadSystem _saveLoadSystem;
@@ -25,8 +26,12 @@ public class Bootstrap : MonoBehaviour
     private Monsters _riseMonsters;
     private Monsters _worldMonsters;
 
+    private Monsters _currentMonsterList;
+    private StyleType _currentStyle;
+
     void Start()
     {
+        _globalSystems = new GlobalSystems();
         _languageProvider = new LanguageProvider();
         _tierList = new MonsterTierList(_languageProvider);
         _saveLoadSystem = new SaveLoadSystem();
@@ -45,7 +50,8 @@ public class Bootstrap : MonoBehaviour
     private void ChangeLanguage()
     {
         _scrollView.Clear();
-        StartCoroutine(ShowMonsters(_riseMonsters,StyleType.RISE));
+        _languageProvider.ChangeLanguageText();
+        StartCoroutine(ShowMonsters(_currentMonsterList,_currentStyle));
     }
 
     private void FixedUpdate()
@@ -62,28 +68,37 @@ public class Bootstrap : MonoBehaviour
 
     public void CreateRiseList()
     {
+        _currentStyle = StyleType.RISE;
+        _currentMonsterList = _riseMonsters;
+        _uiController.SetScaledButton(StyleType.RISE);
         _scrollView.Clear();
         StartCoroutine(ShowMonsters(_riseMonsters,StyleType.RISE));
     }
 
     public void CreateWorldList()
     {
+        _currentStyle = StyleType.WORLD;
+        _currentMonsterList = _worldMonsters;
+
+        _uiController.SetScaledButton(StyleType.WORLD);
         _scrollView.Clear();
         StartCoroutine(ShowMonsters(_worldMonsters,StyleType.WORLD));
     }
 
     private IEnumerator Loading()
     {
-        GlobalSystems.Instance.Initialize(_assetProvider,_playerData,_languageProvider);
-        GlobalSystems.Instance.SetLanguage(_language);
+        _globalSystems.Initialize(_assetProvider,_playerData,_languageProvider);
+        _globalSystems.SetLanguage(_language);
         yield return _assetProvider.LoadMonsterCell();
 
         _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath,LoadMonsters,true);
         _saveLoadSystem.Load<Monsters>(StaticData.worldFilePath,LoadMonsters,true);
 
-        _findSystem.Initialize(_scrollView.ContentContainer);
+        _findSystem.Initialize(_globalSystems,_scrollView.ContentContainer);
 
-        yield return ShowMonsters(_riseMonsters,StyleType.RISE);
+        _currentMonsterList = _riseMonsters;
+        yield return ShowMonsters(_currentMonsterList,StyleType.RISE);
+        _uiController.SetScaledButton(StyleType.RISE);
 
     }
 
@@ -108,8 +123,11 @@ public class Bootstrap : MonoBehaviour
         CreateMonsters(_tierList.GetMasterRankList());
         CreateMonsters(_tierList.GetTemperedlist());
 
-        yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(0.5f);
         _findSystem.SetList();
+        _globalSystems.ChangeStyle();
+
+        yield break;
     }
 
     private void CreateMonsters(List<MonsterModel> monsters)
@@ -117,7 +135,7 @@ public class Bootstrap : MonoBehaviour
         foreach (var data in monsters)
         {
             var monsterCell = Instantiate(_assetProvider.GetMonsterCell(), _scrollView.ContentContainer, false);
-            monsterCell.Initialize(data);
+            monsterCell.Initialize(_globalSystems,data);
         }
     }
 }

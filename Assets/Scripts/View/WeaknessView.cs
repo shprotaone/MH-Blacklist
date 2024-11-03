@@ -7,13 +7,13 @@ public class WeaknessView : MonoBehaviour
 {
     [SerializeField] private List<Image> _slots;
 
-    public void Fill(WeaknessType[] dataWeaknessTypes,StyleType type)
+    public void Fill(GlobalSystems globalSystems, WeaknessType[] dataWeaknessTypes,StyleType type)
     {
         DisableSlots();
 
         for (int i = 0; i < dataWeaknessTypes.Length; i++)
         {
-            _slots[i].sprite = GlobalSystems.Instance.GetSprite(dataWeaknessTypes[i],type);
+            _slots[i].sprite = globalSystems.GetSprite(dataWeaknessTypes[i],type);
             _slots[i].gameObject.SetActive(true);
         }
     }
