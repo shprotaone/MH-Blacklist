@@ -18,6 +18,7 @@ public class MonsterCell : MonoBehaviour
     private MonsterModel _model;
     private bool _isDefeated;
 
+    public bool IsDefeated => _isDefeated;
     public MonsterModel Model => _model;
     public string Name => _name.text;
 

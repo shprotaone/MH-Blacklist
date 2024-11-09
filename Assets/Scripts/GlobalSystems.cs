@@ -12,9 +12,11 @@ public class GlobalSystems
     private LanguageProvider _languageProvider;
     private AssetProvider _assetProvider;
     private PlayerData _playerData;
+    private ProgressSeeker _progressSeeker;
 
-    public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider)
+    public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider,ProgressSeeker progressSeeker)
     {
+        _progressSeeker = progressSeeker;
         _languageProvider = languageProvider;
         _assetProvider = assetProvider;
         _playerData = playerData;
@@ -58,6 +60,7 @@ public class GlobalSystems
     public void SetDefeatedState(string modelName, RankType rank, StyleType style, bool isDefeated)
     {
         _playerData.SetDefeated(modelName, rank, style,isDefeated);
+        _progressSeeker.UpdateSlider();
     }
 
     public string GetStyle(StyleType modelStyle)

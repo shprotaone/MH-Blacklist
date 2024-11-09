@@ -16,6 +16,8 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private SettingsView _settingsView;
     [SerializeField] private FindSystem _findSystem;
     [SerializeField] private UIController _uiController;
+    [SerializeField] private ProgressSeeker _progressSeeker;
+    [SerializeField] private DesignChanger _designChanger;
 
     private GlobalSystems _globalSystems;
     private PlayerData _playerData;
@@ -36,6 +38,7 @@ public class Bootstrap : MonoBehaviour
         _tierList = new MonsterTierList(_languageProvider);
         _saveLoadSystem = new SaveLoadSystem();
         _settingsController = new SettingsController();
+
         _saveLoadSystem.Initialize(_assetProvider);
         _playerData = new PlayerData(_saveLoadSystem);
         _scrollView.Initialize(0);
@@ -44,6 +47,7 @@ public class Bootstrap : MonoBehaviour
         StartCoroutine(Loading());
         _languageProvider.OnLanguageChange += ChangeLanguage;
 
+        _designChanger.Initialize();
         _settingsController.Initialize(_settingsView,_scrollView,_languageProvider,_saveLoadSystem);
     }
 
@@ -87,7 +91,7 @@ public class Bootstrap : MonoBehaviour
 
     private IEnumerator Loading()
     {
-        _globalSystems.Initialize(_assetProvider,_playerData,_languageProvider);
+        _globalSystems.Initialize(_assetProvider,_playerData,_languageProvider,_progressSeeker);
         _globalSystems.SetLanguage(_language);
         yield return _assetProvider.LoadMonsterCell();
 
@@ -97,8 +101,10 @@ public class Bootstrap : MonoBehaviour
         _findSystem.Initialize(_globalSystems,_scrollView.ContentContainer);
 
         _currentMonsterList = _riseMonsters;
-        yield return ShowMonsters(_currentMonsterList,StyleType.RISE);
+        yield return ShowMonsters(_currentMonsterList,_currentStyle);
         _uiController.SetScaledButton(StyleType.RISE);
+
+
 
     }
 
@@ -126,6 +132,12 @@ public class Bootstrap : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         _findSystem.SetList();
         _globalSystems.ChangeStyle();
+
+        _designChanger.ChangeStyle(style);
+
+        _progressSeeker.Initialize(_scrollView.ContentContainer);
+        _progressSeeker.UpdateSlider();
+
 
         yield break;
     }
