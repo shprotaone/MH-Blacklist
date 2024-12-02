@@ -47,7 +47,7 @@ public class Bootstrap : MonoBehaviour
         StartCoroutine(Loading());
         _languageProvider.OnLanguageChange += ChangeLanguage;
 
-        _designChanger.Initialize();
+        _designChanger.Initialize(_assetProvider);
         _settingsController.Initialize(_settingsView,_scrollView,_languageProvider,_saveLoadSystem);
     }
 

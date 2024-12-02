@@ -5,18 +5,40 @@ using UnityEngine;
 
 public class DesignChanger : MonoBehaviour
 {
-   [SerializeField] private List<DesignElement> _elememts;
+   [SerializeField] private List<DesignElement> _elements;
 
    private AssetProvider _assetProvider;
 
-   public void Initialize()
+   public void Initialize(AssetProvider assetProvider)
    {
-      _elememts = GetComponentsInChildren<DesignElement>().ToList();
+      _assetProvider = assetProvider;
+      _elements = GetComponentsInChildren<DesignElement>().ToList();
    }
 
    public void ChangeStyle(StyleType style)
    {
-      //TODO: Get from assetProvider
-      //TODO: Set All designElement
+      foreach (var element in _elements)
+      {
+         if (element.Type == DesignElementType.BACKGROUND)
+         {
+            element.ChangeSprite(_assetProvider.GetBackground(style));
+         }
+         else if(element.Type == DesignElementType.SLIDER_FRAME)
+         {
+            element.ChangeSprite(_assetProvider.GetSliderFrame(style));
+         }
+         else if (element.Type == DesignElementType.SLIDER_FILL_BACKGROUND)
+         {
+            element.ChangeSprite(_assetProvider.GetSliderFill(style));
+         }
+         else if (element.Type == DesignElementType.BORDER_UP)
+         {
+            element.ChangeSprite(_assetProvider.GetBorderUp(style));
+         }
+         else if (element.Type == DesignElementType.BORDER_DOWN)
+         {
+            element.ChangeSprite(_assetProvider.GetBorderDown(style));
+         }
+      }
    }
 }

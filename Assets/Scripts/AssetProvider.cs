@@ -103,4 +103,33 @@ public class AssetProvider : MonoBehaviour
 
         return result;
     }
+
+    public Sprite GetBackground(StyleType style)
+    {
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("");
+        }
+        throw new NotImplementedException();
+    }
+
+    public Sprite GetSliderFrame(StyleType style)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Sprite GetSliderFill(StyleType style)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Sprite GetBorderUp(StyleType style)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Sprite GetBorderDown(StyleType style)
+    {
+        throw new NotImplementedException();
+    }
 }
