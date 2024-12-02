@@ -887,6 +887,7 @@ MonoBehaviour:
   _monsterImage: {fileID: 5875918288947881435}
   _defeatedImage: {fileID: 6332269181952390060}
   _rankImage: {fileID: 4274420199383476103}
+  _backGround: {fileID: 1558673508335825895}
   _weakness: {fileID: 2680451070487473246}
   _handler: {fileID: 3693937011736125069}
 --- !u!114 &1558673508335825895

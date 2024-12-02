@@ -10,6 +10,7 @@ public class MonsterCell : MonoBehaviour
     [SerializeField] private Image _monsterImage;
     [SerializeField] private Image _defeatedImage;
     [SerializeField] private Image _rankImage;
+    [SerializeField] private Image _backGround;
     [SerializeField] private WeaknessView _weakness;
 
     [SerializeField] private ClickHandler _handler;
@@ -43,5 +44,10 @@ public class MonsterCell : MonoBehaviour
         _isDefeated = !_isDefeated;
         _defeatedImage.gameObject.SetActive(_isDefeated);
         _globalSystems.SetDefeatedState(_model.name,_model.rank,_model.style, _isDefeated);
+    }
+
+    public void SetBackground(Sprite background)
+    {
+        _backGround.sprite = background;
     }
 }

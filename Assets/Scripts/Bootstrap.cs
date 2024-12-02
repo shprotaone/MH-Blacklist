@@ -18,6 +18,7 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private UIController _uiController;
     [SerializeField] private ProgressSeeker _progressSeeker;
     [SerializeField] private DesignChanger _designChanger;
+    [SerializeField] private CellFactory _cellFactory;
 
     private GlobalSystems _globalSystems;
     private PlayerData _playerData;
@@ -31,7 +32,7 @@ public class Bootstrap : MonoBehaviour
     private Monsters _currentMonsterList;
     private StyleType _currentStyle;
 
-    void Start()
+    private async void Start()
     {
         _globalSystems = new GlobalSystems();
         _languageProvider = new LanguageProvider();
@@ -43,6 +44,7 @@ public class Bootstrap : MonoBehaviour
         _playerData = new PlayerData(_saveLoadSystem);
         _scrollView.Initialize(0);
         _uiController.Initialize(this);
+        await _cellFactory.Initialize(_globalSystems,_assetProvider,_scrollView.ContentContainer);
 
         StartCoroutine(Loading());
         _languageProvider.OnLanguageChange += ChangeLanguage;
@@ -93,7 +95,6 @@ public class Bootstrap : MonoBehaviour
     {
         _globalSystems.Initialize(_assetProvider,_playerData,_languageProvider,_progressSeeker);
         _globalSystems.SetLanguage(_language);
-        yield return _assetProvider.LoadMonsterCell();
 
         _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath,LoadMonsters,true);
         _saveLoadSystem.Load<Monsters>(StaticData.worldFilePath,LoadMonsters,true);
@@ -103,21 +104,15 @@ public class Bootstrap : MonoBehaviour
         _currentMonsterList = _riseMonsters;
         yield return ShowMonsters(_currentMonsterList,_currentStyle);
         _uiController.SetScaledButton(StyleType.RISE);
-
-
-
+        
     }
 
     private void LoadMonsters(Monsters obj)
     {
         if (_riseMonsters == null)
-        {
             _riseMonsters = obj;
-        }
         else
-        {
             _worldMonsters = obj;
-        }
 
     }
 
@@ -125,9 +120,9 @@ public class Bootstrap : MonoBehaviour
     {
         _tierList.CreateLists(monsters,style);
 
-        CreateMonsters(_tierList.GetLowRankList());
-        CreateMonsters(_tierList.GetMasterRankList());
-        CreateMonsters(_tierList.GetTemperedlist());
+        _cellFactory.CreateCells(_tierList.GetLowRankList());
+        _cellFactory.CreateCells(_tierList.GetMasterRankList());
+        _cellFactory.CreateCells(_tierList.GetTemperedlist());
 
             yield return new WaitForSeconds(0.5f);
         _findSystem.SetList();
@@ -140,14 +135,5 @@ public class Bootstrap : MonoBehaviour
 
 
         yield break;
-    }
-
-    private void CreateMonsters(List<MonsterModel> monsters)
-    {
-        foreach (var data in monsters)
-        {
-            var monsterCell = Instantiate(_assetProvider.GetMonsterCell(), _scrollView.ContentContainer, false);
-            monsterCell.Initialize(_globalSystems,data);
-        }
     }
 }

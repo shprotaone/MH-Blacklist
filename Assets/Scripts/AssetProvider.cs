@@ -1,5 +1,5 @@
 using System;
-using System.Collections;
+using Cysharp.Threading.Tasks;
 using Data;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -7,23 +7,10 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class AssetProvider : MonoBehaviour
 {
-
-    private MonsterCell _monsterCellPrefab;
-
-    public MonsterCell GetMonsterCell()
+    public async UniTask<MonsterCell> LoadMonsterCell()
     {
-        return _monsterCellPrefab;
-    }
-
-    public IEnumerator LoadMonsterCell()
-    {
-        var handle = Addressables.LoadAssetAsync<GameObject>("MonsterCell");
-        yield return handle;
-
-        if (handle.Status == AsyncOperationStatus.Succeeded)
-        {
-            _monsterCellPrefab = handle.Result.GetComponent<MonsterCell>();
-        }
+        var handle = await Addressables.LoadAssetAsync<GameObject>("MonsterCell");
+        return handle.GetComponent<MonsterCell>();
     }
 
     public Sprite GetSprite(string imageName)
