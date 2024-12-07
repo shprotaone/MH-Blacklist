@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WorldUI
+  m_EditorClassIdentifier: 
+  m_GroupName: WorldUI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 19b13abc4cda3f644aa4cbb53c9f7bea
+  m_SerializeEntries:
+  - m_GUID: 89c101c2bce40414fa7631e8f11bff57
+    m_Address: BACKGROUNDWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc5b2a1f0d466f740a6467d7b753dbdc
+    m_Address: BorderDownWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6930cb6658ab8884da63c93e47c1c946
+    m_Address: BorderUpWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e12a194503358a8499a7c1ee94d5296d
+    m_Address: OptionButtonWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5eb360f99ba7f304e99e555fb5ed3636
+    m_Address: ProgressBorderWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aad43d5ba52a3e4bb8d3861567cc8ff
+    m_Address: ProgressFillerWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e70ff7cb5b40c64d8fcb3ba917a9332
+    m_Address: SettingsBackgroundWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d191a0b6dc37b464ead84ebbf9e32cd6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f31780c5f56909a4aa92f9238bdbcaaf, type: 2}
+    - {fileID: 11400000, guid: db26ed4c47cbd58488a02776f6e8773b, type: 2}

@@ -12,7 +12,6 @@ public class DesignChanger : MonoBehaviour
    public void Initialize(AssetProvider assetProvider)
    {
       _assetProvider = assetProvider;
-      _elements = GetComponentsInChildren<DesignElement>().ToList();
    }
 
    public void ChangeStyle(StyleType style)
@@ -38,6 +37,15 @@ public class DesignChanger : MonoBehaviour
          else if (element.Type == DesignElementType.BORDER_DOWN)
          {
             element.ChangeSprite(_assetProvider.GetBorderDown(style));
+         }
+         else if (element.Type == DesignElementType.SETTINGS_BACKGROUND)
+         {
+            element.ChangeSprite(_assetProvider.GetSettingsBackground(style));   
+            if(style == StyleType.WORLD) element.SetColor(Color.white);
+         }
+         else if (element.Type == DesignElementType.OPTION_BUTTON)
+         {
+            element.ChangeSprite(_assetProvider.GetSettingsIcon(style));
          }
       }
    }

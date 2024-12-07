@@ -124,7 +124,7 @@ public class Bootstrap : MonoBehaviour
         _cellFactory.CreateCells(_tierList.GetMasterRankList());
         _cellFactory.CreateCells(_tierList.GetTemperedlist());
 
-            yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.5f);
         _findSystem.SetList();
         _globalSystems.ChangeStyle();
 

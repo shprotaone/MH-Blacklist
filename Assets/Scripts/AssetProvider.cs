@@ -95,28 +95,69 @@ public class AssetProvider : MonoBehaviour
     {
         if (style == StyleType.WORLD)
         {
-            return GetSprite("");
+            return GetSprite("BACKGROUNDWorld");
         }
-        throw new NotImplementedException();
+
+        return null;
     }
 
     public Sprite GetSliderFrame(StyleType style)
     {
-        throw new NotImplementedException();
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("ProgressBorderWorld");
+        }
+
+        return null;
     }
 
     public Sprite GetSliderFill(StyleType style)
     {
-        throw new NotImplementedException();
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("ProgressFillerWorld");
+        }
+
+        return null;
     }
 
     public Sprite GetBorderUp(StyleType style)
     {
-        throw new NotImplementedException();
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("BorderUpWorld");
+        }
+
+        return null;
     }
 
     public Sprite GetBorderDown(StyleType style)
     {
-        throw new NotImplementedException();
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("BorderDownWorld");
+        }
+
+        return null;
+    }
+
+    public Sprite GetSettingsBackground(StyleType style)
+    {
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("SettingsBackgroundWorld");
+        }
+
+        return null;
+    }
+
+    public Sprite GetSettingsIcon(StyleType style)
+    {
+        if (style == StyleType.WORLD)
+        {
+            return GetSprite("OptionButtonWorld");
+        }
+
+        return null;
     }
 }
