@@ -97,6 +97,10 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("BACKGROUNDWorld");
         }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("BACKGROUNDRise");
+        }
 
         return null;
     }
@@ -106,6 +110,10 @@ public class AssetProvider : MonoBehaviour
         if (style == StyleType.WORLD)
         {
             return GetSprite("ProgressBorderWorld");
+        }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("ProgressBorderRise");
         }
 
         return null;
@@ -117,6 +125,10 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("ProgressFillerWorld");
         }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("ProgressFillerRise");
+        }
 
         return null;
     }
@@ -126,6 +138,10 @@ public class AssetProvider : MonoBehaviour
         if (style == StyleType.WORLD)
         {
             return GetSprite("BorderUpWorld");
+        }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("BorderUpRise");
         }
 
         return null;
@@ -137,6 +153,10 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("BorderDownWorld");
         }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("BorderDownRise");
+        }
 
         return null;
     }
@@ -147,6 +167,10 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("SettingsBackgroundWorld");
         }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("SettingsBackgroundRise");
+        }
 
         return null;
     }
@@ -156,6 +180,10 @@ public class AssetProvider : MonoBehaviour
         if (style == StyleType.WORLD)
         {
             return GetSprite("OptionButtonWorld");
+        }
+        else if (style == StyleType.RISE)
+        {
+            return GetSprite("OptionButtonRise");
         }
 
         return null;

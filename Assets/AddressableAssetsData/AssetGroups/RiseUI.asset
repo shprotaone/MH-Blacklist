@@ -16,7 +16,52 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 5edada80b9c74a1469a3ac87547b582d
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 37f128fb5d222fa47873dfd4a5bc912f
+    m_Address: DefeatIconRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0c0783df2c5c4e4b9a02082fab9ce20
+    m_Address: SettingsBackgroundRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71aeb32114e0be64dac1a9b32b93d4c6
+    m_Address: BorderDownRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37c0b92e79133b54a8370163ba3d57de
+    m_Address: OptionButtonRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6821606b3c03b8a42a0edb59d8744304
+    m_Address: BACKGROUNDRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0ebde57bbe9a8f4b9f333167df2bade
+    m_Address: BorderUpRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b89396eb43677b41b9c3e4770efd8cb
+    m_Address: iconTaskRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e9ec84b92bb1a0479f979ca454d662d
+    m_Address: ProgressBorderRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a87d0aff1b830114d8f76e0f35ba0fa8
+    m_Address: ProgressFillerRise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d191a0b6dc37b464ead84ebbf9e32cd6, type: 2}
   m_SchemaSet:
