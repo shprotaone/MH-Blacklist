@@ -26,7 +26,7 @@ public class SaveLoadSystem
         callback?.Invoke(true);
     }
 
-    public void Load<T>(string key, Action<T> callback,bool fromResources)
+    public T Load<T>(string key, bool fromResources)
     {
         string path = BuildPath(key,fromResources);
         string json = "";
@@ -46,7 +46,7 @@ public class SaveLoadSystem
             }
 
             var data = JsonUtility.FromJson<T>(json);
-            callback.Invoke(data);
+            return data;
         }
         catch(Exception ex)
         {
@@ -57,7 +57,7 @@ public class SaveLoadSystem
 
                 var empty = JsonUtility.ToJson(data);
                 fileStream.Write(Encoding.Default.GetBytes(empty));
-                callback.Invoke(JsonUtility.FromJson<T>(empty));
+                return JsonUtility.FromJson<T>(empty);
             }
         }
     }

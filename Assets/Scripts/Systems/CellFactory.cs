@@ -9,7 +9,7 @@ public class CellFactory : MonoBehaviour
     private List<Sprite> _cellSprites;
 
     private GlobalSystems _globalSystems;
-    public async UniTask Initialize(GlobalSystems globalSystems,AssetProvider assetProvider,Transform content)
+    public async UniTask Initialize(GlobalSystems globalSystems,AssetProvider assetProvider,UIController uiController)
     {
         _monsterCellPrefab = await assetProvider.LoadMonsterCell();
         _cellSprites = new List<Sprite>();
@@ -17,7 +17,7 @@ public class CellFactory : MonoBehaviour
         _cellSprites.Add(assetProvider.GetSprite("CardBackGround2"));
         _cellSprites.Add(assetProvider.GetSprite("CardBackGround3"));
         
-        _content = content;
+        _content = uiController.MonsterScrollView.ContentContainer;
         _globalSystems = globalSystems;
     }
     

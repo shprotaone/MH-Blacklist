@@ -8,19 +8,19 @@ public class SettingsController
     private SettingsView _settingsView;
     private SaveLoadSystem _saveLoadSystem;
 
-    public void Initialize(SettingsView settingsView, MonsterScrollView monsterScrollView,LanguageProvider languageProvider
+    public void Initialize(UIController uiController,LanguageProvider languageProvider
     ,SaveLoadSystem saveLoadSystem)
     {
-        _settingsView = settingsView;
-        _monsterScrollView = monsterScrollView;
+        _settingsView = uiController.SettingsView;
+        _monsterScrollView = uiController.MonsterScrollView;
         _languageProvider = languageProvider;
         _saveLoadSystem = saveLoadSystem;
 
-        settingsView.EngButton.onClick.AddListener(SetEng);
-        settingsView.RusButton.onClick.AddListener(SetRus);
-        settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
-        settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
-        settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
+        _settingsView.EngButton.onClick.AddListener(SetEng);
+        _settingsView.RusButton.onClick.AddListener(SetRus);
+        _settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
+        _settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
+        _settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
         _monsterScrollView.OnChangeSize += ChangeValueText;
     }
 

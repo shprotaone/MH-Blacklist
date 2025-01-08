@@ -13,11 +13,11 @@ public class FindSystem : MonoBehaviour
     private GlobalSystems _globalSystems;
     private List<MonsterCell> _cells = new();
 
-    public void Initialize(GlobalSystems globalSystems, Transform content)
+    public void Initialize(GlobalSystems globalSystems, UIController uiController)
     {
         _globalSystems = globalSystems;
         _globalSystems.OnChangeStyle += FindCells;
-        _content = content;
+        _content = uiController.MonsterScrollView.ContentContainer;
         _verticalInputField.onValueChanged.AddListener(FindCells);
         _horizontalInputField.onValueChanged.AddListener(FindCells);
     }

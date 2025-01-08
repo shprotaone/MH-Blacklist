@@ -14,12 +14,7 @@ public class PlayerData
     public PlayerData(SaveLoadSystem saveLoadSystem)
     {
         _saveLoadSystem = saveLoadSystem;
-        _saveLoadSystem.Load<ProgressData>(path,LoadComplete,false);
-    }
-
-    private void LoadComplete(ProgressData obj)
-    {
-        _monsterProgressData = obj;
+        _monsterProgressData = _saveLoadSystem.Load<ProgressData>(path,false);
     }
 
     public void SetDefeated(string modelName, RankType rank, StyleType style, bool isDefeated)

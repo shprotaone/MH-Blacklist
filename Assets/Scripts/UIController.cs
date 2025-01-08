@@ -2,11 +2,14 @@ using Data;
 using DefaultNamespace.View;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class UIController : MonoBehaviour
 {
     [SerializeField] private MainPanelView _portraitPanel;
     [SerializeField] private MainPanelView _landscapePanel;
+    [FormerlySerializedAs("_scrollView")] [SerializeField] private MonsterScrollView monsterScrollView;
+    [SerializeField] private SettingsView _settingsView;
     [SerializeField] private Transform _contentTransform;
     [SerializeField] private RectTransform _settingsPanel;
 
@@ -15,14 +18,17 @@ public class UIController : MonoBehaviour
     private Vector3 _startPos;
     private bool _isPortrait;
     private bool _settingsIsOpen = false;
+    public MonsterScrollView MonsterScrollView => monsterScrollView;
+    public SettingsView SettingsView => _settingsView;
 
-    public void Initialize(Bootstrap bootstrap)
+    public void Initialize(MonsterListChanger monsterListChanger)
     {
-        _portraitPanel.WorldButton.Button.onClick.AddListener(bootstrap.CreateWorldList);
-        _portraitPanel.RiseButton.Button.onClick.AddListener(bootstrap.CreateRiseList);
+        monsterScrollView.Initialize(0);
+        _portraitPanel.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
+        _portraitPanel.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
         _portraitPanel.SettingsButton.onClick.AddListener(CallSettings);
-        _landscapePanel.WorldButton.Button.onClick.AddListener(bootstrap.CreateWorldList);
-        _landscapePanel.RiseButton.Button.onClick.AddListener(bootstrap.CreateRiseList);
+        _landscapePanel.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
+        _landscapePanel.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
         _landscapePanel.SettingsButton.onClick.AddListener(CallSettings);
         _startPos = _settingsPanel.position;
     }
@@ -81,5 +87,10 @@ public class UIController : MonoBehaviour
             _portraitPanel.RiseButton.SetMainScaled(false);
             _portraitPanel.RiseButton.SetScaled(false);
         }
+    }
+
+    public void ClearScrollList()
+    {
+        monsterScrollView.Clear();
     }
 }
