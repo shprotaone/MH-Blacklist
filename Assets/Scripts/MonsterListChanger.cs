@@ -31,6 +31,7 @@ public class MonsterListChanger : MonoBehaviour
         _progressSeeker = progressSeeker;
         _curtainSystem = curtainSystem;
         _globalSystems = globalSystems;
+        _curtainSystem.OnFullCurtain += ShowMonsters;
     }
     
     public void CreateRiseList()
@@ -38,8 +39,8 @@ public class MonsterListChanger : MonoBehaviour
         _currentStyle = StyleType.RISE;
         _currentMonsterList = _riseMonsters;
         _uiController.SetScaledButton(StyleType.RISE);
-        _uiController.ClearScrollList();
-        StartCoroutine(ShowMonsters(_riseMonsters, StyleType.RISE));
+        //_uiController.ClearScrollList();
+        StartCoroutine(ShowRoutine());
     }
 
     public void CreateWorldList()
@@ -48,27 +49,26 @@ public class MonsterListChanger : MonoBehaviour
         _currentMonsterList = _worldMonsters;
 
         _uiController.SetScaledButton(StyleType.WORLD);
-        _uiController.ClearScrollList();
-        StartCoroutine(ShowMonsters(_worldMonsters,StyleType.WORLD));
+        StartCoroutine(ShowRoutine());
     }
     
-    private IEnumerator ShowMonsters(Monsters monsters,StyleType style)
+    private IEnumerator ShowMonstersRoutine(Monsters monsters,StyleType style)
     {
+        _uiController.ClearScrollList();
         _tierList.CreateLists(monsters,style);
-
+        
         _cellFactory.CreateCells(_tierList.GetLowRankList());
         _cellFactory.CreateCells(_tierList.GetMasterRankList());
         _cellFactory.CreateCells(_tierList.GetTemperedlist());
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         _findSystem.SetList();
         _globalSystems.ChangeStyle();
         _designChanger.ChangeStyle(style);
 
         _progressSeeker.Initialize(_uiController.MonsterScrollView.ContentContainer);
         _progressSeeker.UpdateSlider();
-
-        _curtainSystem.Hide();
+        
         yield break;
     }
 
@@ -81,7 +81,11 @@ public class MonsterListChanger : MonoBehaviour
     private IEnumerator ShowRoutine()
     {
         yield return _curtainSystem.Show();
-        yield return ShowMonsters(_currentMonsterList, _currentStyle);
+    }
+
+    public void ShowMonsters()
+    {
+        StartCoroutine(ShowMonstersRoutine(_currentMonsterList, _currentStyle));
     }
 
     public void SetCurrentMonsterList(StyleType styleType)

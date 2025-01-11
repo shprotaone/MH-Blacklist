@@ -9,7 +9,7 @@ public class AssetProvider : MonoBehaviour
 {
     public async UniTask<MonsterCell> LoadMonsterCell()
     {
-        var handle = await Addressables.LoadAssetAsync<GameObject>("MonsterCell");
+        var handle = await Addressables.InstantiateAsync("MonsterCell");
         return handle.GetComponent<MonsterCell>();
     }
 
