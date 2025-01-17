@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Pool;
 using UnityEngine.UI;
 
 public class MonsterCell : MonoBehaviour
@@ -16,6 +17,7 @@ public class MonsterCell : MonoBehaviour
     [SerializeField] private ClickHandler _handler;
 
     private GlobalSystems _globalSystems;
+    private IObjectPool<MonsterCell> _pool;
     private MonsterModel _model;
     private bool _isDefeated;
 
@@ -49,5 +51,15 @@ public class MonsterCell : MonoBehaviour
     public void SetBackground(Sprite background)
     {
         _backGround.sprite = background;
+    }
+
+    public void Disable()
+    {
+        _pool.Release(this);
+    }
+
+    public void SetPool(IObjectPool<MonsterCell> cellPool)
+    {
+        _pool = cellPool;
     }
 }

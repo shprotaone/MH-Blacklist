@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a515a3b31c4f27e43aa944a3f5945821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _poolContainer: {fileID: 1630827087}
 --- !u!1 &76322377
 GameObject:
   m_ObjectHideFlags: 0
@@ -12477,6 +12478,37 @@ MonoBehaviour:
   _text: {fileID: 1620643909}
   _RUSResult: "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
   _ENGResult: Settings
+--- !u!1 &1630827086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630827087}
+  m_Layer: 0
+  m_Name: PoolContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1630827087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630827086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1635431103
 GameObject:
   m_ObjectHideFlags: 0
@@ -14092,3 +14124,4 @@ SceneRoots:
   - {fileID: 1372319909}
   - {fileID: 333278513}
   - {fileID: 1289031884}
+  - {fileID: 1630827087}

@@ -1,12 +1,16 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class MonsterScrollView : MonoBehaviour
 {
+    public event Action<string> OnChangeSize;
+
     [SerializeField] private GridLayoutGroup _gridLayoutGroup;
     [SerializeField] private Transform _contentContainer;
-    public event Action<string> OnChangeSize;
+
+    private List<MonsterCell> _cells;
     private float _startX;
     private float _startY;
     private int _currentIndex = 0;
@@ -20,14 +24,17 @@ public class MonsterScrollView : MonoBehaviour
         _currentIndex = savedIndexSize;
         ChangeSize();
         OnChangeSize?.Invoke(_currentIndex.ToString());
+        _cells = new List<MonsterCell>();
     }
 
     public void Clear()
     {
         for (int i = 0; i < _contentContainer.childCount; i++)
         {
-            Destroy(_contentContainer.GetChild(i).gameObject);
+            _cells[i].Disable();
         }
+
+        _cells.Clear();
     }
 
     public void DecreaseCellSize()
@@ -49,5 +56,10 @@ public class MonsterScrollView : MonoBehaviour
         var changeVal = _currentIndex * 20;
 
         _gridLayoutGroup.cellSize = new Vector2(_startX + changeVal, _startY + changeVal);
+    }
+
+    public void AddToList(MonsterCell monsterCell)
+    {
+        _cells.Add(monsterCell);
     }
 }
