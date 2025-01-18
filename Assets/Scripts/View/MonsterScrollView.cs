@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -29,11 +30,14 @@ public class MonsterScrollView : MonoBehaviour
 
     public void Clear()
     {
+        int counter = 0;
         for (int i = 0; i < _contentContainer.childCount; i++)
         {
             _cells[i].Disable();
+            counter++;
         }
 
+        Debug.Log("TrueCount " + counter);
         _cells.Clear();
     }
 

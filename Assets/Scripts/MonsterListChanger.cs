@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using Cysharp.Threading.Tasks;
 using Data;
 using DefaultNamespace;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MonsterListChanger : MonoBehaviour
@@ -52,24 +55,24 @@ public class MonsterListChanger : MonoBehaviour
         StartCoroutine(ShowRoutine());
     }
     
-    private IEnumerator ShowMonstersRoutine(Monsters monsters,StyleType style)
+    private async void ShowMonstersRoutine(Monsters monsters,StyleType style)
     {
         _uiController.ClearScrollList();
+        await UniTask.Delay(200);
         _tierList.CreateLists(monsters,style);
         
-        _cellFactory.CreateCells(_tierList.GetLowRankList());
-        _cellFactory.CreateCells(_tierList.GetMasterRankList());
-        _cellFactory.CreateCells(_tierList.GetTemperedlist());
-
-        yield return new WaitForSeconds(0.1f);
+        await _cellFactory.CreateCells(_tierList.GetLowRankList());
+        await _cellFactory.CreateCells(_tierList.GetMasterRankList());
+        await _cellFactory.CreateCells(_tierList.GetTemperedlist());
+        
         _findSystem.SetList();
         _globalSystems.ChangeStyle();
         _designChanger.ChangeStyle(style);
-
+        
         _progressSeeker.Initialize(_uiController.MonsterScrollView.ContentContainer);
         _progressSeeker.UpdateSlider();
         
-        yield break;
+        _curtainSystem.Hide();
     }
 
     public void LoadMonsters()
@@ -78,14 +81,13 @@ public class MonsterListChanger : MonoBehaviour
         Debug.Log("Try Load monsters");
     }
 
+    private void ShowMonsters()
+    {
+        ShowMonstersRoutine(_currentMonsterList, _currentStyle); 
+    }
     private IEnumerator ShowRoutine()
     {
         yield return _curtainSystem.Show();
-    }
-
-    public void ShowMonsters()
-    {
-        StartCoroutine(ShowMonstersRoutine(_currentMonsterList, _currentStyle));
     }
 
     public void SetCurrentMonsterList(StyleType styleType)
@@ -111,7 +113,7 @@ public class MonsterListChanger : MonoBehaviour
             _worldMonsters = monsters;
         }
 
-        if (type == StyleType.WORLD)
+        if (type == StyleType.WILDS)
         {
             
         }

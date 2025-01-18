@@ -55,11 +55,7 @@ public class MonsterCell : MonoBehaviour
 
     public void Disable()
     {
-        _pool.Release(this);
+        Destroy(this.gameObject);
     }
 
-    public void SetPool(IObjectPool<MonsterCell> cellPool)
-    {
-        _pool = cellPool;
-    }
 }
