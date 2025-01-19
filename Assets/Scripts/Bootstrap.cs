@@ -52,18 +52,6 @@ public class Bootstrap : MonoBehaviour
         _monsterListChanger.LoadMonsters();
     }
 
-    private void FixedUpdate()
-    {
-        if (Screen.width > Screen.height)
-        {
-            _uiController.SetLandscape();
-        }
-        else
-        {
-            _uiController.SetPortrait();
-        }
-    }
-
     private IEnumerator Loading()
     {
         _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker);

@@ -15,8 +15,8 @@ public class UIController : MonoBehaviour
     [SerializeField] private RectTransform _settingsPanel;
 
     [SerializeField] private RectTransform _openVerticalPos;
-
-    private Vector3 _startPos;
+    [SerializeField] private RectTransform _closePosition;
+    
     private bool _isPortrait;
     private bool _settingsIsOpen = false;
     public MonsterScrollView MonsterScrollView => monsterScrollView;
@@ -31,7 +31,6 @@ public class UIController : MonoBehaviour
         _landscapePanel.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
         _landscapePanel.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
         _landscapePanel.SettingsButton.onClick.AddListener(CallSettings);
-        _startPos = _settingsPanel.position;
     }
 
     public void SetPortrait()
@@ -68,7 +67,7 @@ public class UIController : MonoBehaviour
         {
             _settingsIsOpen = false;
             _portraitPanel.SettingsButton.transform.DORotate(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.InOutCubic);
-            _settingsPanel.DOMove(_startPos, 0.5f).SetEase(Ease.InOutCubic);
+            _settingsPanel.DOAnchorPos(_closePosition.anchoredPosition, 0.5f).SetEase(Ease.InOutCubic);
         }
     }
 

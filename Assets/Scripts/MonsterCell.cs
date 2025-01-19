@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Pool;
@@ -58,4 +59,23 @@ public class MonsterCell : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    public void AddToKillList()
+    {
+        _globalSystems.AddToKillList(this);
+    }
+}
+
+public class KillList
+{
+    private List<MonsterCell> _cells;
+
+    public KillList()
+    {
+        _cells = new List<MonsterCell>();
+    }
+    
+    public bool TryAddToList(MonsterCell monsterCell)
+    {
+        throw new System.NotImplementedException();
+    }
 }

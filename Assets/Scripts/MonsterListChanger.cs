@@ -60,18 +60,19 @@ public class MonsterListChanger : MonoBehaviour
         _uiController.ClearScrollList();
         await UniTask.Delay(200);
         _tierList.CreateLists(monsters,style);
-        
+        _uiController.CallSettings();
+
         await _cellFactory.CreateCells(_tierList.GetLowRankList());
         await _cellFactory.CreateCells(_tierList.GetMasterRankList());
         await _cellFactory.CreateCells(_tierList.GetTemperedlist());
-        
+
         _findSystem.SetList();
         _globalSystems.ChangeStyle();
         _designChanger.ChangeStyle(style);
-        
+
         _progressSeeker.Initialize(_uiController.MonsterScrollView.ContentContainer);
         _progressSeeker.UpdateSlider();
-        
+
         _curtainSystem.Hide();
     }
 

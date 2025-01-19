@@ -13,6 +13,7 @@ public class GlobalSystems
     private AssetProvider _assetProvider;
     private PlayerData _playerData;
     private ProgressSeeker _progressSeeker;
+    private KillList _killList;
 
     public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider,ProgressSeeker progressSeeker)
     {
@@ -81,5 +82,10 @@ public class GlobalSystems
     public void ChangeStyle()
     {
         OnChangeStyle?.Invoke();
+    }
+
+    public void AddToKillList(MonsterCell monsterCell)
+    {
+        _killList.TryAddToList(monsterCell);
     }
 }
