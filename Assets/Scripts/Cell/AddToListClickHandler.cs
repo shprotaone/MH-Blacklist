@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class AddToListClickHandler : MonoBehaviour
+public class AddToListClickHandler : MonoBehaviour,IPointerClickHandler
 {
     private MonsterCell _cell;
 
@@ -14,6 +12,9 @@ public class AddToListClickHandler : MonoBehaviour
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        _cell.AddToKillList();
+        if (eventData.clickCount == 2)
+        {
+            _cell.AddToKillList();
+        }
     }
 }

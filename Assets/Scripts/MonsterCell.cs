@@ -15,6 +15,7 @@ public class MonsterCell : MonoBehaviour
     [SerializeField] private WeaknessView _weakness;
 
     [SerializeField] private ClickHandler _handler;
+    [SerializeField] private AddToListClickHandler _addToListHandler;
 
     private GlobalSystems _globalSystems;
     private IObjectPool<MonsterCell> _pool;
@@ -38,7 +39,9 @@ public class MonsterCell : MonoBehaviour
         _weakness.Fill(_globalSystems,model.weaknessTypes,model.style);
         _isDefeated = globalSystems.GetDefeated(model);
         _defeatedImage.gameObject.SetActive(_isDefeated);
+
         _handler.Initialize(this);
+        _addToListHandler.Initialize(this);
     }
 
     public void ChangeState()

@@ -1,16 +1,41 @@
+using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 public class KillList
 {
-    private List<MonsterCell> _cells;
+    public event Action OnMonsterCountChange;
+    public event Action<bool> OnTryAddToList;
+
+    private List<MonsterModel> _cells;
+
+    public List<MonsterModel> CellList => _cells;
+
 
     public KillList()
     {
-        _cells = new List<MonsterCell>();
+        _cells = new List<MonsterModel>();
     }
-    
-    public bool TryAddToList(MonsterCell monsterCell)
+
+    public bool TryAddToList(MonsterModel monsterCell)
     {
-        throw new System.NotImplementedException();
+        Debug.Log(monsterCell.name + "add to list");
+
+
+        if (!_cells.Contains(monsterCell))
+        {
+            _cells.Add(monsterCell);
+            Debug.Log("Monster on list: " + _cells.Count);
+            OnMonsterCountChange?.Invoke();
+            OnTryAddToList?.Invoke(true);
+            return true;
+        }
+        else
+        {
+            Debug.Log("Already contains");
+            OnMonsterCountChange?.Invoke();
+            OnTryAddToList?.Invoke(false);
+            return false;
+        }
     }
 }

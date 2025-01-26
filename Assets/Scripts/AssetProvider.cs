@@ -188,4 +188,10 @@ public class AssetProvider : MonoBehaviour
 
         return null;
     }
+
+    public QuickCell GetQuickCell()
+    {
+        var handle = Addressables.LoadAssetAsync<GameObject>("QuickCell");
+        return handle.WaitForCompletion().GetComponent<QuickCell>();
+    }
 }

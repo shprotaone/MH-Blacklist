@@ -15,12 +15,13 @@ public class GlobalSystems
     private ProgressSeeker _progressSeeker;
     private KillList _killList;
 
-    public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider,ProgressSeeker progressSeeker)
+    public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider,ProgressSeeker progressSeeker,KillList killList)
     {
         _progressSeeker = progressSeeker;
         _languageProvider = languageProvider;
         _assetProvider = assetProvider;
         _playerData = playerData;
+        _killList = killList;
     }
 
     public Sprite GetSprite(string imageName)
@@ -86,6 +87,6 @@ public class GlobalSystems
 
     public void AddToKillList(MonsterCell monsterCell)
     {
-        _killList.TryAddToList(monsterCell);
+        _killList.TryAddToList(monsterCell.Model);
     }
 }

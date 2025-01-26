@@ -15,6 +15,7 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private CellFactory _cellFactory;
     [SerializeField] private CurtainSystem _curtainSystem;
     [SerializeField] private MonsterListChanger _monsterListChanger;
+    [SerializeField] private QuickMonsterListController _quickMonsterListController;
 
     private GlobalSystems _globalSystems;
     private PlayerData _playerData;
@@ -22,6 +23,7 @@ public class Bootstrap : MonoBehaviour
     private SaveLoadSystem _saveLoadSystem;
     private SettingsController _settingsController;
     private MonsterTierList _monsterTierList;
+    private KillList _killList;
 
     private async void Start()
     {
@@ -29,12 +31,14 @@ public class Bootstrap : MonoBehaviour
         _languageProvider = new LanguageProvider();
         _saveLoadSystem = new SaveLoadSystem();
         _settingsController = new SettingsController();
+        _killList = new KillList();
         _monsterTierList = new MonsterTierList(_languageProvider);
 
         _saveLoadSystem.Initialize(_assetProvider);
         _playerData = new PlayerData(_saveLoadSystem);
         _settingsController.Initialize(_uiController, _languageProvider, _saveLoadSystem);
         _uiController.Initialize(_monsterListChanger);
+        _quickMonsterListController.Initialize(_killList,_assetProvider);
         _monsterListChanger.Initialize(_uiController, _cellFactory, _findSystem, _designChanger, _progressSeeker,
             _curtainSystem,_globalSystems, _monsterTierList);
         await _cellFactory.Initialize(_globalSystems, _assetProvider, _uiController);
@@ -53,7 +57,7 @@ public class Bootstrap : MonoBehaviour
 
     private IEnumerator Loading()
     {
-        _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker);
+        _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker,_killList);
         _globalSystems.SetLanguage(_language);
         _curtainSystem.Show();
 
