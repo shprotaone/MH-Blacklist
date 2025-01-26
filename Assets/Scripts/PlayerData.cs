@@ -17,18 +17,19 @@ public class PlayerData
         _monsterProgressData = _saveLoadSystem.Load<ProgressData>(path,false);
     }
 
-    public void SetDefeated(string modelName, RankType rank, StyleType style, bool isDefeated)
+    public void SetDefeated(MonsterModel model, bool isDefeated)
     {
         if (_monsterProgressData == null) return;
-        var progressData = _monsterProgressData.progresses.FirstOrDefault(x => x.name == modelName &&
-                                                                               x.rank == rank &&
-                                                                               x.style == style);
+
+        var progressData = _monsterProgressData.progresses.FirstOrDefault(x => x.name == model.name &&
+                                                                               x.rank == model.rank &&
+                                                                               x.style == model.style);
         if (progressData == null)
         {
             MonsterProgressData data = new MonsterProgressData();
-            data.name = modelName;
-            data.rank = rank;
-            data.style = style;
+            data.name = model.name;
+            data.rank = model.rank;
+            data.style = model.style;
             progressData = data;
             _monsterProgressData.progresses.Add(data);
         }

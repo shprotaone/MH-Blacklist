@@ -11,59 +11,75 @@ public class MonsterScrollView : MonoBehaviour
     [SerializeField] private GridLayoutGroup _gridLayoutGroup;
     [SerializeField] private Transform _contentContainer;
 
+    private List<Vector2> _sizesVertical;
+    private List<Vector2> _sizesHorizontal;
+
     private List<MonsterCell> _cells;
-    private float _startX;
-    private float _startY;
-    private int _currentIndex = 0;
+    private int _currentIndex = 1;
 
     public Transform ContentContainer => _contentContainer;
 
     public void Initialize(int savedIndexSize)
     {
-        _startX = _gridLayoutGroup.cellSize.x;
-        _startY = _gridLayoutGroup.cellSize.y;
         _currentIndex = savedIndexSize;
+        _cells = new List<MonsterCell>();
+        CreateSizes();
         ChangeSize();
         OnChangeSize?.Invoke(_currentIndex.ToString());
-        _cells = new List<MonsterCell>();
     }
 
     public void Clear()
     {
-        int counter = 0;
         for (int i = 0; i < _contentContainer.childCount; i++)
         {
             _cells[i].Disable();
-            counter++;
         }
 
-        Debug.Log("TrueCount " + counter);
         _cells.Clear();
     }
 
     public void DecreaseCellSize()
     {
-        _currentIndex--;
-        ChangeSize();
-        OnChangeSize?.Invoke(_currentIndex.ToString());
+        if (_currentIndex > 0)
+        {
+            _currentIndex--;
+            ChangeSize();
+            OnChangeSize?.Invoke(_currentIndex.ToString());
+        }
     }
 
     public void IncreaseCellSize()
     {
-        _currentIndex++;
-        ChangeSize();
-        OnChangeSize?.Invoke(_currentIndex.ToString());
+        if (_currentIndex < 2)
+        {
+            _currentIndex++;
+            ChangeSize();
+            OnChangeSize?.Invoke(_currentIndex.ToString());
+        }
     }
 
     private void ChangeSize()
     {
-        var changeVal = _currentIndex * 20;
-
-        _gridLayoutGroup.cellSize = new Vector2(_startX + changeVal, _startY + changeVal);
+        _gridLayoutGroup.cellSize = _sizesVertical[_currentIndex];
     }
 
     public void AddToList(MonsterCell monsterCell)
     {
         _cells.Add(monsterCell);
+    }
+
+    private void CreateSizes()
+    {
+        _sizesVertical = new List<Vector2>();
+
+        _sizesVertical.Add(new Vector2(220,320));
+        _sizesVertical.Add(new Vector2(300,400));
+        _sizesVertical.Add(new Vector2(460,560));
+
+        // _sizesHorizontal = new List<Vector2>();
+        //
+        // _sizesHorizontal.Add(new Vector2(200,300));
+        // _sizesHorizontal.Add(new Vector2(340,440));
+        // _sizesHorizontal.Add(new Vector2(420,520));
     }
 }

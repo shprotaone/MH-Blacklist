@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Pool;
@@ -46,7 +45,7 @@ public class MonsterCell : MonoBehaviour
     {
         _isDefeated = !_isDefeated;
         _defeatedImage.gameObject.SetActive(_isDefeated);
-        _globalSystems.SetDefeatedState(_model.name,_model.rank,_model.style, _isDefeated);
+        _globalSystems.SetDefeatedState(_model, _isDefeated);
     }
 
     public void SetBackground(Sprite background)
@@ -62,20 +61,5 @@ public class MonsterCell : MonoBehaviour
     public void AddToKillList()
     {
         _globalSystems.AddToKillList(this);
-    }
-}
-
-public class KillList
-{
-    private List<MonsterCell> _cells;
-
-    public KillList()
-    {
-        _cells = new List<MonsterCell>();
-    }
-    
-    public bool TryAddToList(MonsterCell monsterCell)
-    {
-        throw new System.NotImplementedException();
     }
 }

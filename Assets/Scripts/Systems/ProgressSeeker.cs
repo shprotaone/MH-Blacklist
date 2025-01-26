@@ -12,10 +12,11 @@ public class ProgressSeeker : MonoBehaviour
         _contentContainer = contentContainer;
     }
 
+
     public void UpdateSlider()
     {
         int value = 0;
-        foreach (var cell in _contentContainer.GetComponentsInChildren<MonsterCell>())
+        foreach (var cell in _contentContainer.GetComponentsInChildren<MonsterCell>(true))
         {
             if (cell.IsDefeated) value++;
         }

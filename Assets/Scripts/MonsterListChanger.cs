@@ -60,7 +60,7 @@ public class MonsterListChanger : MonoBehaviour
         _uiController.ClearScrollList();
         await UniTask.Delay(200);
         _tierList.CreateLists(monsters,style);
-        _uiController.CallSettings();
+        _uiController.CallSettings(false);
 
         await _cellFactory.CreateCells(_tierList.GetLowRankList());
         await _cellFactory.CreateCells(_tierList.GetMasterRankList());

@@ -33,6 +33,7 @@ public class Bootstrap : MonoBehaviour
 
         _saveLoadSystem.Initialize(_assetProvider);
         _playerData = new PlayerData(_saveLoadSystem);
+        _settingsController.Initialize(_uiController, _languageProvider, _saveLoadSystem);
         _uiController.Initialize(_monsterListChanger);
         _monsterListChanger.Initialize(_uiController, _cellFactory, _findSystem, _designChanger, _progressSeeker,
             _curtainSystem,_globalSystems, _monsterTierList);
@@ -42,7 +43,6 @@ public class Bootstrap : MonoBehaviour
         _languageProvider.OnLanguageChange += ChangeLanguage;
 
         _designChanger.Initialize(_assetProvider);
-        _settingsController.Initialize(_uiController, _languageProvider, _saveLoadSystem);
     }
 
     private void ChangeLanguage()

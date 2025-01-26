@@ -58,9 +58,9 @@ public class GlobalSystems
         _languageProvider.SetLanguage(language);
     }
 
-    public void SetDefeatedState(string modelName, RankType rank, StyleType style, bool isDefeated)
+    public void SetDefeatedState(MonsterModel model, bool isDefeated)
     {
-        _playerData.SetDefeated(modelName, rank, style,isDefeated);
+        _playerData.SetDefeated(model,isDefeated);
         _progressSeeker.UpdateSlider();
     }
 

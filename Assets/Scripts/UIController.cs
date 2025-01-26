@@ -18,19 +18,20 @@ public class UIController : MonoBehaviour
     [SerializeField] private RectTransform _closePosition;
     
     private bool _isPortrait;
-    private bool _settingsIsOpen = false;
     public MonsterScrollView MonsterScrollView => monsterScrollView;
     public SettingsView SettingsView => _settingsView;
 
     public void Initialize(MonsterListChanger monsterListChanger)
     {
-        monsterScrollView.Initialize(0);
+        monsterScrollView.Initialize(1);
+
         _portraitPanel.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
         _portraitPanel.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
-        _portraitPanel.SettingsButton.onClick.AddListener(CallSettings);
+        _portraitPanel.SettingsButton.onClick.AddListener(() => CallSettings(true));
+
         _landscapePanel.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
         _landscapePanel.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
-        _landscapePanel.SettingsButton.onClick.AddListener(CallSettings);
+        _landscapePanel.SettingsButton.onClick.AddListener(() => CallSettings(true));
     }
 
     public void SetPortrait()
@@ -55,17 +56,15 @@ public class UIController : MonoBehaviour
         _contentTransform.SetParent(_landscapePanel.ViewPort,false);
     }
 
-    public void CallSettings()
+    public void CallSettings(bool isOpen)
     {
-        if (!_settingsIsOpen)
+        if (isOpen)
         {
-            _settingsIsOpen = true;
             _portraitPanel.SettingsButton.transform.DORotate(new Vector3(0, 0, -180), 0.5f).SetEase(Ease.InOutCubic);
             _settingsPanel.DOAnchorPos(_openVerticalPos.anchoredPosition, 0.5f).SetEase(Ease.InOutCubic);
         }
         else
         {
-            _settingsIsOpen = false;
             _portraitPanel.SettingsButton.transform.DORotate(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.InOutCubic);
             _settingsPanel.DOAnchorPos(_closePosition.anchoredPosition, 0.5f).SetEase(Ease.InOutCubic);
         }

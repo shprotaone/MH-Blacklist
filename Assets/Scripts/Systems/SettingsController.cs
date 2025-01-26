@@ -21,7 +21,7 @@ public class SettingsController
         _settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
         _settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
         _settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
-        _settingsView.CloseButton.onClick.AddListener(uiController.CallSettings);
+        _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
         _monsterScrollView.OnChangeSize += ChangeValueText;
     }
 
