@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class FindSystem : MonoBehaviour
 {
-    [SerializeField] private TMP_InputField _horizontalInputField;
     [SerializeField] private TMP_InputField _verticalInputField;
     [SerializeField] private Transform _content;
 
@@ -19,23 +18,14 @@ public class FindSystem : MonoBehaviour
         _globalSystems.OnChangeStyle += FindCells;
         _content = uiController.MonsterScrollView.ContentContainer;
         _verticalInputField.onValueChanged.AddListener(FindCells);
-        _horizontalInputField.onValueChanged.AddListener(FindCells);
     }
 
     private void FindCells()
     {
-        string val = null;
-        if (_horizontalInputField.gameObject.activeInHierarchy)
-        {
-            val = _horizontalInputField.text;
-        }
-        else if (_verticalInputField.gameObject.activeInHierarchy)
-        {
-            val = _verticalInputField.text;
-        }
+        var input = _verticalInputField.text;
 
-        if(val == string.Empty) return;
-        FindCells(val);
+        if(input == string.Empty) return;
+        FindCells(input);
     }
 
     public void SetList()

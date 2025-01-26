@@ -47,7 +47,6 @@ public class Bootstrap : MonoBehaviour
 
     private void ChangeLanguage()
     {
-        _uiController.ClearScrollList();
         _languageProvider.ChangeLanguageText();
         _monsterListChanger.LoadMonsters();
     }
