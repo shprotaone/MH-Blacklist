@@ -38,7 +38,7 @@ public class ButtonBehaviour : MonoBehaviour,IPointerEnterHandler,IPointerExitHa
 
         if (!_isScaled)
         {
-            transform.DOScale(new Vector2(2, 2), 0.2f).SetEase(Ease.InCubic);
+            transform.DOScale(new Vector2(1.5f, 1.5f), 0.2f).SetEase(Ease.InCubic);
             _isScaled = true;
         }
     }

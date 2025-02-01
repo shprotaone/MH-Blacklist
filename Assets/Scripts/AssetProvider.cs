@@ -199,4 +199,10 @@ public class AssetProvider : MonoBehaviour
     {
         return await Addressables.LoadAssetAsync<GameObject>(name);
     }
+
+    public GameObject GetPrefab(string name)
+    {
+        var handle = Addressables.LoadAssetAsync<GameObject>(name);
+        return handle.WaitForCompletion();
+    }
 }

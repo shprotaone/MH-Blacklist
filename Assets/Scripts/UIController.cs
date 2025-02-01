@@ -6,16 +6,21 @@ using UnityEngine;
 
 public class UIController : MonoBehaviour
 {
+    [SerializeField] private Transform _curtainPanel;
     [SerializeField] private MainPanelView _portraitPanel;
     [SerializeField] private MonsterScrollView monsterScrollView;
 
     [SerializeField] private RectTransform _openVerticalPos;
     [SerializeField] private RectTransform _closePosition;
 
+    private DetailedView _detailedView;
     private SettingsView _settingsView;
     private RectTransform _settingsPanel;
     private UIFactory _uiFactory;
     private bool _isPortrait;
+
+
+    public Transform CurtainPanel => _curtainPanel;
     public MonsterScrollView MonsterScrollView => monsterScrollView;
     public SettingsView SettingsView => _settingsView;
 
@@ -25,11 +30,24 @@ public class UIController : MonoBehaviour
 
         _uiFactory = new UIFactory();
         await _uiFactory.Initialize(assetProvider);
-        _settingsView = Instantiate(_uiFactory.GetSettingsView(),_portraitPanel.transform,false);
-        _settingsView.Initialize(settingsController);
-        _settingsPanel = _settingsView.GetComponent<RectTransform>();
+        CreateSettingsWindow(settingsController);
+        CreateDetailWindow();
 
         _portraitPanel.SettingsButton.onClick.AddListener(() => CallSettings(true));
+    }
+
+    private void CreateDetailWindow()
+    {
+        _detailedView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
+        var controller = new DetailedViewController(_detailedView);
+        _detailedView.Initialize(controller);
+    }
+
+    private void CreateSettingsWindow(SettingsController settingsController)
+    {
+        _settingsView = Instantiate(_uiFactory.GetSettingsView(), _portraitPanel.transform, false);
+        _settingsView.Initialize(settingsController);
+        _settingsPanel = _settingsView.GetComponent<RectTransform>();
     }
 
     public void CallSettings(bool isOpen)
@@ -49,5 +67,10 @@ public class UIController : MonoBehaviour
     public void ClearScrollList()
     {
         monsterScrollView.Clear();
+    }
+
+    public void FillDetailedList(MonsterModel model)
+    {
+        _detailedView.Controller.Fill(model);
     }
 }

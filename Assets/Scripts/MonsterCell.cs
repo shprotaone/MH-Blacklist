@@ -12,7 +12,7 @@ public class MonsterCell : MonoBehaviour
     [SerializeField] private Image _defeatedImage;
     [SerializeField] private Image _rankImage;
     [SerializeField] private Image _backGround;
-    [SerializeField] private WeaknessView _weakness;
+    [SerializeField] private Button _detailButton;
 
     [SerializeField] private ClickHandler _handler;
     [SerializeField] private AddToListClickHandler _addToListHandler;
@@ -36,7 +36,7 @@ public class MonsterCell : MonoBehaviour
         string imageName = model.imageName + " " + globalSystems.GetStyle(model.style);
         _monsterImage.sprite = globalSystems.GetSprite(imageName);
         _rankImage.sprite = globalSystems.GetSprite(model.rank,model.style);
-        _weakness.Fill(_globalSystems,model.weaknessTypes,model.style);
+        _detailButton.onClick.AddListener(() => globalSystems.CallDetail(_model));
         _isDefeated = globalSystems.GetDefeated(model);
         _defeatedImage.gameObject.SetActive(_isDefeated);
 

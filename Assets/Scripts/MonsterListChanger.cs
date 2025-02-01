@@ -43,7 +43,7 @@ public class MonsterListChanger : MonoBehaviour
         _currentMonsterList = _riseMonsters;
         _uiController.SettingsView.Controller.SetScaledButton(StyleType.RISE);
         //_uiController.ClearScrollList();
-        StartCoroutine(ShowRoutine());
+        _curtainSystem.Show();
     }
 
     public void CreateWorldList()
@@ -52,7 +52,7 @@ public class MonsterListChanger : MonoBehaviour
         _currentMonsterList = _worldMonsters;
 
         _uiController.SettingsView.Controller.SetScaledButton(StyleType.WORLD);
-        StartCoroutine(ShowRoutine());
+        _curtainSystem.Show();
     }
     
     private async void ShowMonstersRoutine(Monsters monsters,StyleType style)
@@ -78,17 +78,13 @@ public class MonsterListChanger : MonoBehaviour
 
     public void LoadMonsters()
     {
-        StartCoroutine(ShowRoutine());
+        _curtainSystem.Show();
         Debug.Log("Try Load monsters");
     }
 
     private void ShowMonsters()
     {
         ShowMonstersRoutine(_currentMonsterList, _currentStyle); 
-    }
-    private IEnumerator ShowRoutine()
-    {
-        yield return _curtainSystem.Show();
     }
 
     public void SetCurrentMonsterList(StyleType styleType)

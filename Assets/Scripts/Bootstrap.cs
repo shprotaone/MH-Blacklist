@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using Cysharp.Threading.Tasks;
 using Data;
 using DefaultNamespace;
 using Systems;
@@ -13,10 +15,10 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private ProgressSeeker _progressSeeker;
     [SerializeField] private DesignChanger _designChanger;
     [SerializeField] private CellFactory _cellFactory;
-    [SerializeField] private CurtainSystem _curtainSystem;
     [SerializeField] private MonsterListChanger _monsterListChanger;
     [SerializeField] private QuickMonsterListController _quickMonsterListController;
 
+    private CurtainSystem _curtainSystem;
     private GlobalSystems _globalSystems;
     private PlayerData _playerData;
     private LanguageProvider _languageProvider;
@@ -25,8 +27,14 @@ public class Bootstrap : MonoBehaviour
     private KillList _killList;
     private SettingsController _settingsController;
 
+    private void Awake()
+    {
+
+    }
+
     private async void Start()
     {
+        await InitCurtain();
         _globalSystems = new GlobalSystems();
         _languageProvider = new LanguageProvider();
         _saveLoadSystem = new SaveLoadSystem();
@@ -50,6 +58,15 @@ public class Bootstrap : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 
+    private async UniTask InitCurtain()
+    {
+        _curtainSystem = new CurtainSystem();
+        var go = await _assetProvider.GetPrefabAsync("LoadingCurtain");
+        var instance = Instantiate(go, _uiController.CurtainPanel, false);
+        _curtainSystem.Initialize(instance.GetComponent<CurtainView>());
+        _curtainSystem.Show();
+    }
+
     private void ChangeLanguage()
     {
         _languageProvider.ChangeLanguageText();
@@ -58,7 +75,7 @@ public class Bootstrap : MonoBehaviour
 
     private IEnumerator Loading()
     {
-        _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker,_killList);
+        _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker,_killList,_uiController);
         _globalSystems.SetLanguage(_language);
         _curtainSystem.Show();
 

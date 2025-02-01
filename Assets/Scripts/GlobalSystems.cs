@@ -2,6 +2,7 @@ using System;
 using Data;
 using Systems;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 public class GlobalSystems
@@ -14,14 +15,18 @@ public class GlobalSystems
     private PlayerData _playerData;
     private ProgressSeeker _progressSeeker;
     private KillList _killList;
+    private UIController _uiController;
 
-    public void Initialize(AssetProvider assetProvider,PlayerData playerData,LanguageProvider languageProvider,ProgressSeeker progressSeeker,KillList killList)
+    public void Initialize(AssetProvider assetProvider,PlayerData playerData,
+        LanguageProvider languageProvider,ProgressSeeker progressSeeker,
+        KillList killList,UIController uiController)
     {
         _progressSeeker = progressSeeker;
         _languageProvider = languageProvider;
         _assetProvider = assetProvider;
         _playerData = playerData;
         _killList = killList;
+        _uiController = uiController;
     }
 
     public Sprite GetSprite(string imageName)
@@ -88,5 +93,10 @@ public class GlobalSystems
     public void AddToKillList(MonsterCell monsterCell)
     {
         _killList.TryAddToList(monsterCell.Model);
+    }
+
+    public void CallDetail(MonsterModel model)
+    {
+        _uiController.FillDetailedList(model);
     }
 }
