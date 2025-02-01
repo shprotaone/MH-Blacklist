@@ -21,23 +21,23 @@ public class Bootstrap : MonoBehaviour
     private PlayerData _playerData;
     private LanguageProvider _languageProvider;
     private SaveLoadSystem _saveLoadSystem;
-    private SettingsController _settingsController;
     private MonsterTierList _monsterTierList;
     private KillList _killList;
+    private SettingsController _settingsController;
 
     private async void Start()
     {
         _globalSystems = new GlobalSystems();
         _languageProvider = new LanguageProvider();
         _saveLoadSystem = new SaveLoadSystem();
-        _settingsController = new SettingsController();
         _killList = new KillList();
         _monsterTierList = new MonsterTierList(_languageProvider);
+        _settingsController = new SettingsController();
 
         _saveLoadSystem.Initialize(_assetProvider);
         _playerData = new PlayerData(_saveLoadSystem);
-        _settingsController.Initialize(_uiController, _languageProvider, _saveLoadSystem);
-        _uiController.Initialize(_monsterListChanger);
+        await _uiController.Initialize(_assetProvider,_settingsController);
+        _settingsController.Initialize(_uiController,_languageProvider,_saveLoadSystem,_monsterListChanger);
         _quickMonsterListController.Initialize(_killList,_assetProvider);
         _monsterListChanger.Initialize(_uiController, _cellFactory, _findSystem, _designChanger, _progressSeeker,
             _curtainSystem,_globalSystems, _monsterTierList);
@@ -70,7 +70,7 @@ public class Bootstrap : MonoBehaviour
 
         _monsterListChanger.SetCurrentMonsterList(StyleType.RISE);
         _monsterListChanger.LoadMonsters();
-        _uiController.SetScaledButton(StyleType.RISE);
+        _settingsController.SetScaledButton(StyleType.RISE);
 
         yield break;
     }

@@ -1,4 +1,5 @@
 using System;
+using Data;
 using Systems;
 
 public class SettingsController
@@ -9,7 +10,7 @@ public class SettingsController
     private SaveLoadSystem _saveLoadSystem;
 
     public void Initialize(UIController uiController,LanguageProvider languageProvider
-    ,SaveLoadSystem saveLoadSystem)
+    ,SaveLoadSystem saveLoadSystem,MonsterListChanger monsterListChanger)
     {
         _settingsView = uiController.SettingsView;
         _monsterScrollView = uiController.MonsterScrollView;
@@ -21,8 +22,30 @@ public class SettingsController
         _settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
         _settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
         _settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
+
+        _settingsView.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
+        _settingsView.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
+
         _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
         _monsterScrollView.OnChangeSize += ChangeValueText;
+    }
+
+    public void SetScaledButton(StyleType styleType)
+    {
+        if (styleType == StyleType.RISE)
+        {
+            _settingsView.WorldButton.SetMainScaled(false);
+            _settingsView.WorldButton.SetScaled(false);
+            _settingsView.RiseButton.SetMainScaled(true);
+            _settingsView.RiseButton.SetScaled(true);
+        }
+        else if (styleType == StyleType.WORLD)
+        {
+            _settingsView.WorldButton.SetMainScaled(true);
+            _settingsView.WorldButton.SetScaled(true);
+            _settingsView.RiseButton.SetMainScaled(false);
+            _settingsView.RiseButton.SetScaled(false);
+        }
     }
 
     private void ChangeValueText(string valText)

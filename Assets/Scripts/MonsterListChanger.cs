@@ -41,7 +41,7 @@ public class MonsterListChanger : MonoBehaviour
     {
         _currentStyle = StyleType.RISE;
         _currentMonsterList = _riseMonsters;
-        _uiController.SetScaledButton(StyleType.RISE);
+        _uiController.SettingsView.Controller.SetScaledButton(StyleType.RISE);
         //_uiController.ClearScrollList();
         StartCoroutine(ShowRoutine());
     }
@@ -51,7 +51,7 @@ public class MonsterListChanger : MonoBehaviour
         _currentStyle = StyleType.WORLD;
         _currentMonsterList = _worldMonsters;
 
-        _uiController.SetScaledButton(StyleType.WORLD);
+        _uiController.SettingsView.Controller.SetScaledButton(StyleType.WORLD);
         StartCoroutine(ShowRoutine());
     }
     

@@ -194,4 +194,9 @@ public class AssetProvider : MonoBehaviour
         var handle = Addressables.LoadAssetAsync<GameObject>("QuickCell");
         return handle.WaitForCompletion().GetComponent<QuickCell>();
     }
+
+    public async UniTask<GameObject> GetPrefabAsync(string name)
+    {
+        return await Addressables.LoadAssetAsync<GameObject>(name);
+    }
 }
