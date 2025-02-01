@@ -47,6 +47,7 @@ public class Bootstrap : MonoBehaviour
         _languageProvider.OnLanguageChange += ChangeLanguage;
 
         _designChanger.Initialize(_assetProvider);
+        Application.targetFrameRate = 60;
     }
 
     private void ChangeLanguage()

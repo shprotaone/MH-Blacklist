@@ -14,13 +14,16 @@ public class QuickCell : MonoBehaviour
         _model = model;
         _name.text = model.name;
         _listController = listController;
-        _completeButton.onClick.AddListener(Disable);
-        _completeButton.onClick.AddListener(() => listController.CreateCells(true));
+        _completeButton.onClick.AddListener(Complete);
+    }
+
+    private void Complete()
+    {
+        _listController.DeleteMonster(_model);
     }
 
     public void Disable()
     {
-        _listController.DeleteMonster(_model);
         Destroy(this.gameObject);
     }
 }

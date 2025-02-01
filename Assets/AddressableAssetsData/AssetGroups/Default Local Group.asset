@@ -42,7 +42,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c9acc9fb675e8a245b37bb7b038cff05
+  - m_GUID: 82abbd59840a8c343bfa4c54e0923f88
     m_Address: masterWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
@@ -52,13 +52,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 48f6e988f241a9348ad8f45e203c9302
-    m_Address: standart
+  - m_GUID: 5afef4153af431f4aae4920dc8f251e6
+    m_Address: standartWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bdc7cf4de2383de4796b464e5288af32
-    m_Address: standartWorld
+  - m_GUID: 3e92164b9b170ce42a01620335324b07
+    m_Address: standart
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -97,11 +97,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fb2be05a428a5b040b7cfff82711e760
-    m_Address: Astalos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aa59ef6be80676d4682cdb745d61af28
     m_Address: WorldMonstersData
     m_ReadOnly: 0
@@ -114,6 +109,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 696f836e567e60a438a86b8f0a05efcd
     m_Address: QuickCell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f214a636567383f4ba96ed451f212de7
+    m_Address: WaterWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

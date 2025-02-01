@@ -65,4 +65,10 @@ public class MonsterCell : MonoBehaviour
     {
         _globalSystems.AddToKillList(this);
     }
+
+    public void CallDetailInfo()
+    {
+        Debug.Log("Call detail info");
+
+    }
 }

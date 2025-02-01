@@ -20,7 +20,6 @@ public class QuickMonsterListController : MonoBehaviour
 
         _killList.OnMonsterCountChange += CheckShowButton;
         _openListButton.onClick.AddListener(OpenList);
-        _openListButton.onClick.AddListener(() => CreateCells(true));
         _closeButton.onClick.AddListener(CloseList);
         CheckShowButton();
     }
@@ -35,6 +34,7 @@ public class QuickMonsterListController : MonoBehaviour
     {
         _openListButton.gameObject.SetActive(false);
         gameObject.SetActive(true);
+        CreateCells(true);
     }
 
     public void CreateCells(bool flag)
@@ -84,5 +84,6 @@ public class QuickMonsterListController : MonoBehaviour
     public void DeleteMonster(MonsterModel model)
     {
         _killList.CellList.Remove(model);
+        CreateCells(true);
     }
 }

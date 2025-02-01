@@ -17,393 +17,388 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 8004c52d21d065049837d5b8e7abd2a4
   m_SerializeEntries:
-  - m_GUID: 1456e9b082e80124db25e6cca97fd982
-    m_Address: Wind Serpent Ibushi RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 799d2682d705a0647b73e95cda28b45d
-    m_Address: Tigrex RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 207d02aee12517c45a332f39aa8df96d
-    m_Address: Bazelgeuse RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d41e5989ccb11e34b915179b398d43d2
-    m_Address: Barioth RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5b0a8c59f130ea44093bef95aa4603ee
-    m_Address: Arzuros RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9a3666f4f54896d46ab59031f3ea0a28
-    m_Address: Tetranadon RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c206bb784955c2a4fb6f37d0af68063e
-    m_Address: Seething Bazelgeuse RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b18f8884e2c3c214ead605fd07cc6bd2
-    m_Address: Thunder Serpent Narwa RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0b47547f0769ef149b0753a9523ee958
-    m_Address: Crimson Glow Valstrax RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 97d684a6c52bb9e43bdfe42db027df6c
-    m_Address: Pukei-Pukei RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9328cc60e0cf8274c8fbe01cd79408ca
-    m_Address: Teostra RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b10d446d9d0b0384083bc46e7651befd
-    m_Address: Kushala Daora RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e3f2ffb731f3a8d4486d33d4e269de62
-    m_Address: Chameleos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c5bd51a5f5bf223498b0d2f37d508d35
-    m_Address: Rakna-Kadaki RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dd36ae29020f2b646b0d0f80ed1dfc3e
-    m_Address: Jyuratodus RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2ccecea8349d1104fab5e393556c8354
-    m_Address: Somnacanth RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6a8ad327e89b4f54e83538564bc43992
-    m_Address: Royal Ludroth RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5f090055ada3665438a63f100629f27d
-    m_Address: Mizutsune RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7330a0cf602d90746a870dcce62407bc
-    m_Address: Almudron RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 302245a374b80954aa76f6edfa1734f4
-    m_Address: Rathian RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: efd9c66b71f8a7243bd14949c22eb1e5
-    m_Address: Rathalos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ef360605ef2c59d4dac71d4ab3d943a7
-    m_Address: Nargacuga RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 963bd69e275c8304fb6ee3c9c1f2790e
-    m_Address: Khezu RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 79c96b8e26d56c844af410851c1cf209
-    m_Address: Diablos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4b4716ca9269d3640b4150c9e826ca23
-    m_Address: Basarios RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c889c8a7ec04e2b4f95fffba0fadc4ea
-    m_Address: Zinogre RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 10865c52649b72b47b2ac2e8c0676534
-    m_Address: Magnamalo RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3638fecee2c3cfe4db28d316950a2285
-    m_Address: Tobi-Kadachi RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 44574e75b3466704bafef7f15e8c52c7
-    m_Address: Volvidon RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b0f8ce3eba5a6ac4bbe5e4dfa0483e35
-    m_Address: Rajang RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 54b6069fa9ca4594b9bb7c83ce02fedc
-    m_Address: Lagombi RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ffe6e5aac4c98254fbe64cd7aeb7cf2e
-    m_Address: Goss Harag RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4b8359ddfa7767c4f95d3943fb587ca5
-    m_Address: Bishaten RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ab89041464778254788ec3945daa9a1a
+  - m_GUID: 3df51469aa40155429f5cd579a4cc95f
     m_Address: Narwa the Allmother RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3fb85284d39e0d442a3565e050d5e45b
-    m_Address: Barroth RISE
+  - m_GUID: 71c6e0aa15464524aa70caa4b6bb580e
+    m_Address: Diablos RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 63949bbbd1a46944d8b6327c022e718d
-    m_Address: Great Wroggi RISE
+  - m_GUID: d209875be13a34c4588fa9edcd2d8a9e
+    m_Address: Basarios RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 19d403211b5804040bbe2b18fd8a9f27
-    m_Address: Great Izuchi RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d4f7ff660664df949969de8b21ec018d
-    m_Address: Great Baggi RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c2878583e7d7aab4da9a4e8744fdbcd8
-    m_Address: Aknosom RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8900a8a2a8ee75d4e9c23d238e820aeb
-    m_Address: Anjanath RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3207320ca50520345b9847e0da5ee5bf
-    m_Address: Amatsu RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 120a2dbb9df3ff84b9fd0e48e93c1fc9
-    m_Address: Gaismagorm RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4fd731852504a2442a33776a3798896c
-    m_Address: Malzeno RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b49a1b9445be3bb40bfa0d1cbd3c5bac
-    m_Address: Apex Diablos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 879e0800063a24f46abf9645ae2ad9b0
-    m_Address: Gold Rathian RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 67be03b650ca7814989046badcb2d919
-    m_Address: Apex Arzuros RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 969b50d3418ffb74c98f39119eedbf83
-    m_Address: Pyre Rakna-Kadaki RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f2632b98712cda46be0ffbe5cc71d0a
-    m_Address: Blood Orange Bishaten RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6951411d5c590b54ba6bc71ea8679f62
-    m_Address: Seregios RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a026ab8a4b9169b4b91246fea568b564
-    m_Address: Aurora Somnacanth RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d71e931a6f62fac4abc3da81d26b7b28
-    m_Address: Kulu-Ya-Ku RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c487952975bd2d74ca5e56bdfe4c1add
-    m_Address: Apex Rathalos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f28e9d12cd93d1647ae98b1a06d9b10d
-    m_Address: Magma Almudron RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9df8b0de2c311ac4cb5503397e2f81c2
-    m_Address: Espinas RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a5cb190b14ea81744bc62ad2ad04eb5c
-    m_Address: Velkhana RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f8941f738db009c4c8a7e76863b205d6
-    m_Address: Risen Kushala Daora RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1feabfb6f6c6ed7429f3b5cebc84279f
-    m_Address: Shogun Ceanataur RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0ca9e051fdb4cf3499e9e9b42cba01e9
-    m_Address: Apex Mizutsune RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2542bd502c32a7140b6c860eca42d4fd
+  - m_GUID: 533ca3acfdccdcf4d9fdbf78e74ee267
     m_Address: Flaming Espinas RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a668790bd26066d4ab09307d5d1740f7
-    m_Address: Risen Chameleos RISE
+  - m_GUID: 16421b5e2e6345848bace3e05afdf7d6
+    m_Address: Khezu RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14924672b74257640a5374dfdd911375
-    m_Address: Chaotic Gore Magala RISE
+  - m_GUID: 31be9e2e0d596af4882bcb79123f5345
+    m_Address: Mizutsune RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 62318b369ea0ed144bf7ef587ad23e1b
-    m_Address: Apex Rathian RISE
+  - m_GUID: 8d295b9623e28af408f6bce7fee464c1
+    m_Address: Gaismagorm RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 582aee28b533f8b49ad3b2866174a058
-    m_Address: Violet Mizutsune RISE
+  - m_GUID: 25530b48102cda548a4c3a454c2a4ec5
+    m_Address: Arzuros RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ac14abc3212da6b40931e4fad9107b0c
-    m_Address: Gore Magala RISE
+  - m_GUID: 2c20ea8d41df4b24881a96051e62e514
+    m_Address: Tigrex RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f6447d7b034d3e44fa2143257b9663b9
-    m_Address: Scorned Magnamalo RISE
+  - m_GUID: 606228b2f9554f344aeaf49f0c38a492
+    m_Address: Barioth RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c733bf3f6be20724db0079ee10b445ae
-    m_Address: Lunagaron RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0514fe6dc31ce624b85c984575eae5a9
+  - m_GUID: bc416928213d9634c80a1a9fd16b153b
     m_Address: Furious Rajang RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d4c727f18f7ffa845a53d5acca71530f
-    m_Address: Apex Zinogre RISE
+  - m_GUID: 50b63e1803cad71418bc4195f7dc69cb
+    m_Address: Scorned Magnamalo RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7208e337fa70a3244903781433eea9c4
-    m_Address: Shagaru Magala RISE
+  - m_GUID: 54aacea890e6f37478acc4e4778b9408
+    m_Address: Garangolm RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 310cfefac9349c449b89e03e44545b93
-    m_Address: Thunder Serpent Narwa RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1f36bbccd2266b943b69696dc653d7ff
-    m_Address: Silver Rathalos RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 58cfb029c6064764696bc72af1398188
-    m_Address: Lucent Nargacuga RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 89e2f3ec8dcdb854e823b1ba017eeeea
-    m_Address: Primordial Malzeno RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3b98afbfde1fe074abe31d42c360cb14
-    m_Address: Risen Crimson Glow Valstrax RISE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bb633c67f5eb3694e8e21a7ea7228e49
+  - m_GUID: ff3341d0e80f7444ebdb3aee4ae9d7fa
     m_Address: Daimyo Hermitaur RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 606fe1d9f113fa64682901672fab9162
+  - m_GUID: 070f2d682476a684e8fcf75e96cab1af
+    m_Address: Gore Magala RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd6dc1129bb12ab4087dd5672df74719
+    m_Address: Kulu-Ya-Ku RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cecb69fd636945489e713d230f5772a
+    m_Address: Tetranadon RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a180a10e719771647af8d8692110547d
+    m_Address: Pyre Rakna-Kadaki RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a63a6af2bae97b0499dacbcc924e0787
+    m_Address: Gold Rathian RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e0de8e273a694542ba20930d7c86bb9
+    m_Address: Primordial Malzeno RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbdbac5b66112a54caf419115a041c6f
+    m_Address: Apex Mizutsune RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5746b59c54152b74892ca596fd6a0a20
+    m_Address: Great Baggi RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3af895c2c03717649afcf60952915b3e
+    m_Address: Risen Crimson Glow Valstrax RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f85778f1e01319d4f81e2d8f123c31c9
+    m_Address: Somnacanth RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee9082028761cc248b8ddb44d07857a2
+    m_Address: Magma Almudron RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bc76d36da81dc249838b450c49bb06f
+    m_Address: Wind Serpent Ibushi RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e3d8b7e62782b54fb213b7c7dc5a1ef
+    m_Address: Risen Chameleos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bfcb682504874f418991e2005896349
+    m_Address: Almudron RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 212dcbe00b823754db2cbd34dfeff231
+    m_Address: Amatsu RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00fa474a9110a8f45b073a694c66a5c2
+    m_Address: Blood Orange Bishaten RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3828854d40755a54b8da220cf9de3abc
+    m_Address: Shagaru Magala RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85a21905f976a934c8b5d3606d82eb41
+    m_Address: Bazelgeuse RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec947d033e75b7048ac2808c7da5acce
+    m_Address: Crimson Glow Valstrax RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fdec53dd78b71e47891c9d46ebfc016
+    m_Address: Aurora Somnacanth RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cafad5285b1137e4883d02dd1af88452
+    m_Address: Great Izuchi RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d03a43dde581f984a8f174d984cd46c3
+    m_Address: Pukei-Pukei RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9227e6314bfb8147b11fefb3d8b33d4
+    m_Address: Rajang RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a609f0595fe7d14e86b413548519915
+    m_Address: Seething Bazelgeuse RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab1b6a9782b064c4eabd3fc8f46a049a
+    m_Address: Astalos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eea2e11da2daa6143b4ae093783cb76b
+    m_Address: Seregios RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84684e3048bc93f48b18d8a972a446a8
+    m_Address: Lagombi RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be8331e1ac2c7d249a880c267fc57fd0
+    m_Address: Apex Rathalos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fd1d3d825eee3b4881e4e6a78b69dd1
+    m_Address: Lucent Nargacuga RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e54d7d419bf65f448e4e509c7af1160
+    m_Address: Apex Diablos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed9012e2bfdca7b4ab3157eb64383afc
+    m_Address: Jyuratodus RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d60b01bafb24ce44e981d3da5e5f7853
+    m_Address: Kushala Daora RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4a04046f7ed27541bfb6e8c715e4079
+    m_Address: Apex Zinogre RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c53bd3b7cbe5afa45808e6f9d9ce21d3
+    m_Address: Chameleos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7199bd8707f43b84ab662ee5ed66a2ad
+    m_Address: Teostra RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fb0160d560d4d249a0ba0eb93d6b704
+    m_Address: Shogun Ceanataur RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de1a8c58100313b43be4e8784b31f38f
+    m_Address: Espinas RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac2050e978ee065499fe61beadfc9646
+    m_Address: Royal Ludroth RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 619d3e6c37fdd1e46828e1f016152a90
+    m_Address: Rakna-Kadaki RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff460ee4ef35b5942829fbec1dc823d2
+    m_Address: Apex Rathian RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cab402b480a4fc47a07da4f178a48bf
+    m_Address: Lunagaron RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6337e2323fbc61c49b77fa7131ac3f43
+    m_Address: Rathalos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0787ded712038f142a7bbb99e6ac194c
+    m_Address: Goss Harag RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42b48f80f0016b045b1671d8c9f28385
+    m_Address: Great Wroggi RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2bc71c55940e3e4891de9e40ec85b56
+    m_Address: Barroth RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f8403d126f9d5e46abd5b404d664d87
+    m_Address: Aknosom RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b6c10ea4687db84dbbb6600cd6fa632
+    m_Address: Magnamalo RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 027e7440533008f4e984a5d676b03534
+    m_Address: Silver Rathalos RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d9f3f2cd8d55ab4fba95ab921274a3b
+    m_Address: Bishaten RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98f943f3aaa60ad41a1634cd398205bc
+    m_Address: Tobi-Kadachi RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e31fdfc8942a6c240a8954da5590bdd4
     m_Address: Risen Teostra RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 31ceb02000439c244bf24a87368a2843
-    m_Address: Risen Shagaru Magala RISE
+  - m_GUID: 10594da09cf36694f8ac5007eb0bbbec
+    m_Address: Chaotic Gore Magala RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ba25cf3c299f34944a27ec87b0bf49f8
-    m_Address: Garangolm RISE
+  - m_GUID: 899a081adac31804f9980fa89385cfa9
+    m_Address: Zinogre RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bde66b2d41be7e848b19ae1064e66469
+    m_Address: Risen Kushala Daora RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9396f47b7820ab4f8f03e20f11a9f24
+    m_Address: Velkhana RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f822f146550ca534680db1f614f39b6d
+    m_Address: Anjanath RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efe30519b65de464696f9e1de1348b55
+    m_Address: Thunder Serpent Narwa RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c291f635c0021c4b84e384b99e4f7ee
+    m_Address: Malzeno RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ee115a78b871824886df33da2c53020
+    m_Address: Nargacuga RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f4896ed530a9654a91cec120bdb26fa
+    m_Address: Rathian RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b76f47eeb23d17d4ca6422a635d263d5
+    m_Address: Apex Arzuros RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afe350922f4cab547b09349874c6ab28
+    m_Address: Volvidon RISE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57b6bf995eb758c47a39ff57d2f93b43
+    m_Address: Violet Mizutsune RISE
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

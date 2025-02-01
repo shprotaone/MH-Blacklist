@@ -19,8 +19,6 @@ public class KillList
 
     public bool TryAddToList(MonsterModel monsterCell)
     {
-        Debug.Log(monsterCell.name + "add to list");
-
 
         if (!_cells.Contains(monsterCell))
         {
@@ -30,12 +28,10 @@ public class KillList
             OnTryAddToList?.Invoke(true);
             return true;
         }
-        else
-        {
-            Debug.Log("Already contains");
-            OnMonsterCountChange?.Invoke();
-            OnTryAddToList?.Invoke(false);
-            return false;
-        }
+
+        Debug.Log("Already contains");
+        OnMonsterCountChange?.Invoke();
+        OnTryAddToList?.Invoke(false);
+        return false;
     }
 }
