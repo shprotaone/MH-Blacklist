@@ -55,10 +55,9 @@ public class MonsterListChanger : MonoBehaviour
         _curtainSystem.Show();
     }
     
-    private async void ShowMonstersRoutine(Monsters monsters,StyleType style)
+    private async UniTask ShowMonstersRoutine(Monsters monsters,StyleType style)
     {
         _uiController.ClearScrollList();
-        await UniTask.Delay(200);
         _tierList.CreateLists(monsters,style);
         _uiController.CallSettings(false);
 
@@ -82,9 +81,9 @@ public class MonsterListChanger : MonoBehaviour
         Debug.Log("Try Load monsters");
     }
 
-    private void ShowMonsters()
+    private async void ShowMonsters()
     {
-        ShowMonstersRoutine(_currentMonsterList, _currentStyle); 
+        await ShowMonstersRoutine(_currentMonsterList, _currentStyle);
     }
 
     public void SetCurrentMonsterList(StyleType styleType)
@@ -95,7 +94,7 @@ public class MonsterListChanger : MonoBehaviour
         else if (styleType == StyleType.WORLD) 
             _currentMonsterList = _worldMonsters;
         
-        _tierList.CreateLists(_currentMonsterList, _currentStyle);
+        //_tierList.CreateLists(_currentMonsterList, _currentStyle);
     }
 
     public void SetMonsterList(Monsters monsters, StyleType type)

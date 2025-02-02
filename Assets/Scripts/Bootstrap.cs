@@ -27,11 +27,6 @@ public class Bootstrap : MonoBehaviour
     private KillList _killList;
     private SettingsController _settingsController;
 
-    private void Awake()
-    {
-
-    }
-
     private async void Start()
     {
         await InitCurtain();
@@ -77,7 +72,6 @@ public class Bootstrap : MonoBehaviour
     {
         _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker,_killList,_uiController);
         _globalSystems.SetLanguage(_language);
-        _curtainSystem.Show();
 
         var riseList = _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath, true);
         _monsterListChanger.SetMonsterList(riseList, StyleType.RISE);
@@ -86,7 +80,8 @@ public class Bootstrap : MonoBehaviour
         _findSystem.Initialize(_globalSystems, _uiController);
 
         _monsterListChanger.SetCurrentMonsterList(StyleType.RISE);
-        _monsterListChanger.LoadMonsters();
+        _curtainSystem.Show();
+        // _monsterListChanger.LoadMonsters();
         _settingsController.SetScaledButton(StyleType.RISE);
 
         yield break;
