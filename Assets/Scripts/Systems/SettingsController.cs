@@ -4,7 +4,7 @@ using Systems;
 
 public class SettingsController
 {
-    private MonsterScrollView _monsterScrollView;
+    private MonsterListChanger _monsterListChanger;
     private LanguageProvider _languageProvider;
     private SettingsView _settingsView;
     private SaveLoadSystem _saveLoadSystem;
@@ -13,7 +13,7 @@ public class SettingsController
     ,SaveLoadSystem saveLoadSystem,MonsterListChanger monsterListChanger)
     {
         _settingsView = uiController.SettingsView;
-        _monsterScrollView = uiController.MonsterScrollView;
+        _monsterListChanger = monsterListChanger;
         _languageProvider = languageProvider;
         _saveLoadSystem = saveLoadSystem;
 
@@ -27,7 +27,6 @@ public class SettingsController
         _settingsView.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
 
         _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
-        _monsterScrollView.OnChangeSize += ChangeValueText;
     }
 
     public void SetScaledButton(StyleType styleType)
@@ -55,12 +54,14 @@ public class SettingsController
 
     private void DecreaseSizeCell()
     {
-        _monsterScrollView.DecreaseCellSize();
+        _monsterListChanger.DecreaseCellSize();
+        ChangeValueText(_monsterListChanger.CellSize.ToString());
     }
 
     private void IncreaseSizeCell()
     {
-        _monsterScrollView.IncreaseCellSize();
+        _monsterListChanger.IncreaseCellSize();
+        ChangeValueText(_monsterListChanger.CellSize.ToString());
     }
 
     private void ResetProgress()

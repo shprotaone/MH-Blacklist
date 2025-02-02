@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,18 +6,18 @@ public class ProgressSeeker : MonoBehaviour
 {
     [SerializeField] private Slider _slider;
 
-    private Transform _contentContainer;
-    public void Initialize(Transform contentContainer)
+    private List<MonsterCell> _cells;
+    public void Initialize(List<MonsterCell> cells)
     {
-        _slider.maxValue = contentContainer.childCount;
-        _contentContainer = contentContainer;
+        _slider.maxValue = cells.Count;
+        _cells = cells;
     }
 
 
     public void UpdateSlider()
     {
         int value = 0;
-        foreach (var cell in _contentContainer.GetComponentsInChildren<MonsterCell>(true))
+        foreach (var cell in _cells)
         {
             if (cell.IsDefeated) value++;
         }

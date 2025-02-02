@@ -17,6 +17,8 @@ public class GlobalSystems
     private KillList _killList;
     private UIController _uiController;
 
+    public AssetProvider AssetProvider => _assetProvider;
+
     public void Initialize(AssetProvider assetProvider,PlayerData playerData,
         LanguageProvider languageProvider,ProgressSeeker progressSeeker,
         KillList killList,UIController uiController)

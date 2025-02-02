@@ -37,6 +37,7 @@ public class Bootstrap : MonoBehaviour
         _monsterTierList = new MonsterTierList(_languageProvider);
         _settingsController = new SettingsController();
 
+
         _saveLoadSystem.Initialize(_assetProvider);
         _playerData = new PlayerData(_saveLoadSystem);
         await _uiController.Initialize(_assetProvider,_settingsController);
@@ -81,7 +82,6 @@ public class Bootstrap : MonoBehaviour
 
         _monsterListChanger.SetCurrentMonsterList(StyleType.RISE);
         _curtainSystem.Show();
-        // _monsterListChanger.LoadMonsters();
         _settingsController.SetScaledButton(StyleType.RISE);
 
         yield break;

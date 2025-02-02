@@ -6,11 +6,8 @@ using UnityEngine.Pool;
 public class CellFactory : MonoBehaviour
 {
     [SerializeField] private Transform _poolContainer;
-    private Transform _content;
     private MonsterCell _monsterCellPrefab;
     private List<Sprite> _cellSprites;
-    private AssetProvider _assetProvider;
-    private MonsterScrollView _monstersView;
 
     private GlobalSystems _globalSystems;
 
@@ -20,21 +17,18 @@ public class CellFactory : MonoBehaviour
         _cellSprites.Add(assetProvider.GetSprite("CardBackGround1"));
         _cellSprites.Add(assetProvider.GetSprite("CardBackGround2"));
         _cellSprites.Add(assetProvider.GetSprite("CardBackGround3"));
-        _assetProvider = assetProvider;
         _monsterCellPrefab = await assetProvider.LoadMonsterCell();
-        _content = uiController.MonsterScrollView.ContentContainer;
         _globalSystems = globalSystems;
-        _monstersView = uiController.MonsterScrollView;
     }
 
-    public async UniTask CreateCells(List<MonsterModel> monsters)
+    public async UniTask CreateCells(List<MonsterModel> monsters,MonsterScrollView scrollView)
     {
         foreach (var data in monsters)
         {
-            var monsterCell = Instantiate(_monsterCellPrefab,_content,false);
+            var monsterCell = Instantiate(_monsterCellPrefab,scrollView.ContentContainer,false);
             monsterCell.Initialize(_globalSystems,data);
             monsterCell.SetBackground(GetRandomBackGround());
-            _monstersView.AddToList(monsterCell);
+            scrollView.AddToList(monsterCell);
         }
 
         await UniTask.Yield();

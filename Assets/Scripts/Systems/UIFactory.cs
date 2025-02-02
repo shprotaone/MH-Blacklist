@@ -1,9 +1,9 @@
 using Cysharp.Threading.Tasks;
-using UnityEngine;
 
 public class UIFactory
 {
     private AssetProvider _assetProvider;
+    private MonsterScrollView _monsterScrollView;
     private DetailedView _detailedView;
     private SettingsView _settingsView;
 
@@ -15,6 +15,9 @@ public class UIFactory
 
         go = await _assetProvider.GetPrefabAsync("DetailedPanel");
         _detailedView = go.GetComponent<DetailedView>();
+
+        go = await _assetProvider.GetPrefabAsync("MonsterScrollView");
+        _monsterScrollView = go.GetComponent<MonsterScrollView>();
     }
 
     public SettingsView GetSettingsView()
@@ -25,5 +28,10 @@ public class UIFactory
     public DetailedView GetDetailedView()
     {
         return _detailedView;
+    }
+
+    public MonsterScrollView GetScrollView()
+    {
+        return _monsterScrollView;
     }
 }

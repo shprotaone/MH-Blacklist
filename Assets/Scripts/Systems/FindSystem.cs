@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 
 public class FindSystem : MonoBehaviour
 {
     [SerializeField] private TMP_InputField _verticalInputField;
-    [SerializeField] private Transform _content;
 
     private GlobalSystems _globalSystems;
     private List<MonsterCell> _cells = new();
@@ -16,7 +14,6 @@ public class FindSystem : MonoBehaviour
     {
         _globalSystems = globalSystems;
         _globalSystems.OnChangeStyle += FindCells;
-        _content = uiController.MonsterScrollView.ContentContainer;
         _verticalInputField.onValueChanged.AddListener(FindCells);
     }
 
@@ -28,10 +25,10 @@ public class FindSystem : MonoBehaviour
         FindCells(input);
     }
 
-    public void SetList()
+    public void SetList(List<MonsterCell> cells)
     {
         _cells.Clear();
-        _cells = _content.GetComponentsInChildren<MonsterCell>().ToList();
+        _cells = cells;
     }
 
     private void FindCells(string val)

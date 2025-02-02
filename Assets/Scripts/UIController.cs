@@ -8,7 +8,7 @@ public class UIController : MonoBehaviour
 {
     [SerializeField] private Transform _curtainPanel;
     [SerializeField] private MainPanelView _portraitPanel;
-    [SerializeField] private MonsterScrollView monsterScrollView;
+    [SerializeField] private RankTabController _rankTabController;
 
     [SerializeField] private RectTransform _openVerticalPos;
     [SerializeField] private RectTransform _closePosition;
@@ -19,17 +19,16 @@ public class UIController : MonoBehaviour
     private UIFactory _uiFactory;
     private bool _isPortrait;
 
-
+    public RankTabController RankTabController => _rankTabController;
     public Transform CurtainPanel => _curtainPanel;
-    public MonsterScrollView MonsterScrollView => monsterScrollView;
     public SettingsView SettingsView => _settingsView;
+    public UIFactory UIFactory => _uiFactory;
 
     public async UniTask Initialize(AssetProvider assetProvider,SettingsController settingsController)
     {
-        monsterScrollView.Initialize(1);
-
         _uiFactory = new UIFactory();
         await _uiFactory.Initialize(assetProvider);
+        _rankTabController.Initialize(assetProvider);
         CreateSettingsWindow(settingsController);
         CreateDetailWindow();
 
@@ -62,11 +61,6 @@ public class UIController : MonoBehaviour
             _portraitPanel.SettingsButton.transform.DORotate(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.InOutCubic);
             _settingsPanel.DOAnchorPos(_closePosition.anchoredPosition, 0.5f).SetEase(Ease.InOutCubic);
         }
-    }
-
-    public void ClearScrollList()
-    {
-        monsterScrollView.Clear();
     }
 
     public void FillDetailedList(MonsterModel model)

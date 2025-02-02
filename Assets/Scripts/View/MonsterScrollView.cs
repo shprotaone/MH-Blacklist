@@ -16,6 +16,7 @@ public class MonsterScrollView : MonoBehaviour
     private List<MonsterCell> _cells;
     private int _currentIndex = 1;
 
+    public List<MonsterCell> Cells => _cells;
     public Transform ContentContainer => _contentContainer;
 
     public void Initialize(int savedIndexSize)
@@ -35,6 +36,7 @@ public class MonsterScrollView : MonoBehaviour
         }
 
         _cells.Clear();
+        Destroy(gameObject);
     }
 
     public void DecreaseCellSize()
@@ -43,7 +45,6 @@ public class MonsterScrollView : MonoBehaviour
         {
             _currentIndex--;
             ChangeSize();
-            OnChangeSize?.Invoke(_currentIndex.ToString());
         }
     }
 
@@ -53,7 +54,6 @@ public class MonsterScrollView : MonoBehaviour
         {
             _currentIndex++;
             ChangeSize();
-            OnChangeSize?.Invoke(_currentIndex.ToString());
         }
     }
 
@@ -80,5 +80,15 @@ public class MonsterScrollView : MonoBehaviour
         // _sizesHorizontal.Add(new Vector2(200,300));
         // _sizesHorizontal.Add(new Vector2(340,440));
         // _sizesHorizontal.Add(new Vector2(420,520));
+    }
+
+    public void Show()
+    {
+        gameObject.SetActive(true);
+    }
+
+    public void Hide()
+    {
+        gameObject.SetActive(false);
     }
 }

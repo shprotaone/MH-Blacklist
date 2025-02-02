@@ -1,14 +1,15 @@
 using System.Collections.Generic;
 using Data;
 using Systems;
-using UnityEngine;
 
 namespace DefaultNamespace
 {
     public class MonsterTierList
     {
         private LanguageProvider _languageProvider;
+
         private List<MonsterModel> _lowRankList = new();
+        private List<MonsterModel> _highRankList = new();
         private List<MonsterModel> _masterRankList = new();
         private List<MonsterModel> _temperedRankList = new();
 
@@ -19,7 +20,7 @@ namespace DefaultNamespace
 
         public void CreateLists(Monsters monsters,StyleType style)
         {
-            _lowRankList.Clear();
+            _highRankList.Clear();
             _masterRankList.Clear();
             _temperedRankList.Clear();
 
@@ -38,7 +39,7 @@ namespace DefaultNamespace
                     model.style = style;
                     model.rank = RankType.LOW;
                     model.type = GetMonsterType(monsterData.monsterType);
-                    _lowRankList.Add(model);
+                    _highRankList.Add(model);
                 }
 
                 if (monsterData.mr)
@@ -106,7 +107,7 @@ namespace DefaultNamespace
 
         public List<MonsterModel> GetLowRankList()
         {
-            return _lowRankList;
+            return _highRankList;
         }
 
         public List<MonsterModel> GetMasterRankList()
