@@ -74,12 +74,11 @@ public class MonsterListChanger : MonoBehaviour
 
         await CreateTabsAndScrolls();
 
+        _progressSeeker.Initialize(_allCells);
+        _progressSeeker.UpdateSlider();
         _findSystem.SetList(_allCells);
         _globalSystems.ChangeStyle();
         _designChanger.ChangeStyle(style);
-
-        _progressSeeker.Initialize(_allCells);
-        _progressSeeker.UpdateSlider();
 
         _curtainSystem.Hide();
     }
@@ -87,7 +86,7 @@ public class MonsterListChanger : MonoBehaviour
     private async UniTask CreateTabsAndScrolls()
     {
         _rankTabController.Clear();
-        ClearScrollList();
+        _allCells.Clear();
 
         if (_tierList.GetLowRankList().Count > 0)
         {

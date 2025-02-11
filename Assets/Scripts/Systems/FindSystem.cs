@@ -28,7 +28,7 @@ public class FindSystem : MonoBehaviour
     public void SetList(List<MonsterCell> cells)
     {
         _cells.Clear();
-        _cells = cells;
+        _cells.AddRange(cells);
     }
 
     private void FindCells(string val)

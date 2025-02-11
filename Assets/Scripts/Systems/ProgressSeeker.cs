@@ -6,11 +6,12 @@ public class ProgressSeeker : MonoBehaviour
 {
     [SerializeField] private Slider _slider;
 
-    private List<MonsterCell> _cells;
+    private List<MonsterCell> _cells = new();
     public void Initialize(List<MonsterCell> cells)
     {
         _slider.maxValue = cells.Count;
-        _cells = cells;
+        _cells.Clear();
+        _cells.AddRange(cells);
     }
 
 
