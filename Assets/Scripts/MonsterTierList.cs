@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using Data;
 using Systems;
+using UnityEngine;
 
 namespace DefaultNamespace
 {
@@ -35,6 +37,7 @@ namespace DefaultNamespace
 
                     model.name = monsterData.name;
                     model.weaknessTypes = CreateWeakness(monsterData);
+                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
                     model.imageName = monsterData.name;
                     model.style = style;
                     model.rank = RankType.LOW;
@@ -48,6 +51,7 @@ namespace DefaultNamespace
 
                     model.name = monsterData.name;
                     model.weaknessTypes = CreateWeakness(monsterData);
+                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
                     model.imageName = monsterData.name;
                     model.style = style;
                     model.rank = RankType.MASTER;
@@ -61,6 +65,7 @@ namespace DefaultNamespace
 
                     model.name = monsterData.name;
                     model.weaknessTypes = CreateWeakness(monsterData);
+                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
                     model.imageName = monsterData.name;
                     model.style = style;
                     model.rank = RankType.TEMPERED;
@@ -68,6 +73,51 @@ namespace DefaultNamespace
                     _temperedRankList.Add(model);
                 }
             }
+        }
+
+        private Dictionary<WeaknessStatusType,int> CreateWeaknessStatusType(MonsterData monsterData)
+        {
+            Dictionary<WeaknessStatusType,int> weaknessTypes = new();
+            var weaknessList = monsterData.weaknessStatus.Split(';',StringSplitOptions.RemoveEmptyEntries);
+            Dictionary<string, int> weaknessDict = new Dictionary<string, int>();
+
+            try
+            {
+                foreach (var weakness in weaknessList)
+                {
+                    var result = weakness.Split(",");
+                    weaknessDict.Add(result[0],Convert.ToInt16(result[1]));
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.Log(monsterData.name);
+            }
+            
+            foreach (var weakness in weaknessDict)
+            {
+                switch (weakness.Key)
+                {
+                        case "poison":
+                            weaknessTypes.Add(WeaknessStatusType.POISON,weakness.Value);
+                            break;
+                        case "sleep":
+                            weaknessTypes.Add(WeaknessStatusType.SLEEP,weakness.Value);
+                            break;
+                        case "para":
+                            weaknessTypes.Add(WeaknessStatusType.PARA,weakness.Value);
+                            break;
+                        case "blast":
+                            weaknessTypes.Add(WeaknessStatusType.BLAST,weakness.Value);
+                            break;
+                        case "stun":
+                            weaknessTypes.Add(WeaknessStatusType.STUN,weakness.Value);
+                            break;
+                }
+            }
+
+            return weaknessTypes;
+            
         }
 
         private MonsterType GetMonsterType(string monsterType)

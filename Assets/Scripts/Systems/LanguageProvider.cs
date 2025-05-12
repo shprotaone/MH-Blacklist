@@ -136,5 +136,12 @@ namespace Systems
                 translateObj.ChangeText(_currentLanguage);
             }
         }
+
+        public Lang GetLanguage()
+        {
+            if (_currentLanguage == "RUS") return Lang.RU;
+            
+            return Lang.ENG;
+        }
     }
 }

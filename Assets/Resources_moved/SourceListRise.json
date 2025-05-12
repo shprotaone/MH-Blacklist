@@ -1,0 +1,695 @@
+{"data":[
+    {
+        "name": "Aknosom",
+        "lowRU": "Чешуя Акносома;\r\nПеро Акносома;\r\nКлюв Акносома;\r\nПламенная железа;\r\nСредняя кость м.;\r\nГребень Акносома;\r\nСлеза виверны;",
+        "highRU": "Чешуя Акносома+;\r\nПеро Акносома+;\r\nКлюв Акносома;\r\nАдская железа;\r\nСамоцвет пер. в.;\r\nОстрая кость м.;\r\nГребень Акнос.+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Акносома;\r\nОперение Акносома;\r\nАлый клюв Акнос.;\r\nОгнеопасная железа;\r\nНеземной самоцв. вив.;\r\nМощная кость монстра;\r\nСамоцвет пер. в.;\r\nГолов. гребень Акнос.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nКость изм. м-ра;\r\nИзм. тв. Кость;\r\nИзм. кость монс.;",
+        "lowENG": "Aknosom Scale;\r\nAknosom Feather;\r\nAknosom Beak;\r\nFlame Sac;\r\nMonster Bone M;\r\nAknosom Crest;\r\nWyvern Tear;",
+        "highENG": "Aknosom Scale+;\r\nAknosom Feather+;\r\nAknosom Beak;\r\nInferno Sac;\r\nBird Wyvern Gem;\r\nMonster Keenbone;\r\nAknosom Crest+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Aknosom Shard;\r\nAknosom Plume;\r\nAknosom Burnbeak;\r\nConflagrant Sac;\r\nFey Wyvern Gem;\r\nMonster Toughbone;\r\nBird Wyvern Gem;\r\nAknosom Head-Crest;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Monster Bone;\r\nAfflicted Monster Hardbone;\r\nAfflicted Monster Slogbone;"
+    },
+    {
+        "name": "Almudron",
+        "lowRU": "Чешуя Алмудрона;\r\nШкура Алмудрона;\r\nПлавник Алмудр.;\r\nУс Алмудрона;\r\nХвост Алмудрона;\r\nЗолотой ил;\r\nПластина Алмуд.;\r\nКоготь Алмудрона;\r\nСлеза виверны;",
+        "highRU": "Чешуя Алмудрона+;\r\nШкура Алмудрона+;\r\nПлавник Алмуд.+;\r\nУс Алмудрона+;\r\nЗолотая грязь;\r\nПластина Алмуд.;\r\nЗол. сф. Алмуд.;\r\nХвост Алмудрона;\r\nКоготь Алмуд.+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Алмудрона;\r\nСердечник Алмудрона;\r\nБольш. плавник Алмуд.;\r\nАскетичный ус Алмуд.;\r\nБич Алмудрона;\r\nЧистая золотая грязь;\r\nЗол. сф. Алмуд.;\r\nПокров Алмудрона;\r\nКогтище Алмудрона;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзм. коготь+;\r\nИзм. Когтище;",
+        "lowENG": "Almudron Scale;\r\nAlmudron Shell;\r\nAlmudron Fin;\r\nAlmudron Whisker;\r\nAlmudron Tail;\r\nGolden Muck;\r\nAlmudron Plate;\r\nAlmudron Claw;\r\nWyvern Tear;",
+        "highENG": "Almudron Scale+;\r\nAlmudron Shell+;\r\nAlmudron Fin+;\r\nAlmudron Whisker+;\r\nGolden Sludge;\r\nAlmudron Plate;\r\nGolden Almudron Orb;\r\nAlmudron Tail;\r\nAlmudron Claw+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Afflicted Claw;\r\nAfflicted Claw+;\r\nAfflicted Hardclaw;\r\nAlmudron Shard;\r\nAlmudron Cortex;\r\nLarge Almudron Fin;\r\nAlmud Ascetic Whisker;\r\nAlmudron Lashtail;\r\nPure Golden Sludge;\r\nGolden Almudron Orb;\r\nAlmudron Mantle;\r\nAlmudron Hardclaw;\r\nWyvern Tear;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Amatsu",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник Амацу;\r\nПлевра Амацу;\r\nМембрана Амацу;\r\nШтормов. Полость;\r\nКогтище Амацу;\r\nШтрм.хвост Амацу;\r\nНебес. драк. Шип;\r\nКрепк. рог Амацу;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Amatsu Cortex;\r\nAmatsu Heavypleura;\r\nAmatsu Membrane;\r\nStorm Vesicle Clump;\r\nAmatsu Hardclaw;\r\nAmatsu Stormtail;\r\nHeavenly Dragonsphire;\r\nAmatsu Hardhorn;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Anjanath",
+        "lowRU": "Шкура Аньяната;\r\nЧешуя Аньяната;\r\nПереносица Аньян.;\r\nХвост Аньяната;\r\nПластина Аньян.;\r\nПламенная железа;\r\nКлык Аньяната;\r\nСлеза виверны;",
+        "highRU": "Шкура Аньяната+;\r\nЧешуя Аньяната+;\r\nПеренос. Аньян.+;\r\nХвост Аньяната;\r\nПластина Аньян.;\r\nСамоцвет Аньян.;\r\nАдская железа;\r\nКлык Аньяната+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Мех Аньяната;\r\nОсколок Аньяната;\r\nТяж. перенос. Аньян.;\r\nПлеть Аньяната;\r\nСамоцвет Аньян.;\r\nПокров Аньяната;\r\nОгнеопасная железа;\r\nРезец Аньяната;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная чешуя;\r\nИзм. чешуя+;\r\nИзмен. Осколок;",
+        "lowENG": "Anjanath Nosebone;\r\nAnjanath Tail;\r\nAnjanath Plate;\r\nFlame Sac;\r\nAnjanath Scale;\r\nAnjanath Pelt;\r\nAnjanath Fang;\r\nWyvern Tear;",
+        "highENG": "Anjanath Pelt+;\r\nAnjanath Scale+;\r\nAnjanath Nosebone+;\r\nAnjanath Tail;\r\nAnjanath Plate;\r\nAnjanath Gem;\r\nInferno Sac;\r\nAnjanath Fang+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Anjanath Fur;\r\nAnjanath Shard;\r\nHeavy Anjanath Nosebone;\r\nAnjanath Lash;\r\nAnjanath Gem;\r\nAnjanath Mantle;\r\nConflagrant Sac;\r\nAnjanath Hardfang;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Scale;\r\nAfflicted Scale+;\r\nAfflicted Shard;"
+    },
+    {
+        "name": "Apex Arzuros",
+        "lowRU": null,
+        "highRU": "Высший звероког.;\r\nПанцирь Арзуроса;\r\nШкура Арзуроса+;\r\nПрочная кость;\r\nМед;\r\nСамоцвет зверя;\r\nРыба-суши;\r\nЗолотая рыбка;",
+        "mrRU": "Высший звероког.;\r\nСердечник Арзуроса;\r\nМех Арзуроса;\r\nПлавильный пудинг;\r\nПлавильный мед;\r\nБол. самоцвет зверя;\r\nОгромная кость;\r\nМед;\r\nРыба-суши;\r\nЗолотая рыбка;",
+        "lowENG": null,
+        "highENG": "Apex Beastclaw;\r\nArzuros Carapace;\r\nArzuros Pelt+;\r\nStoutbone;\r\nHoney;\r\nBeast Gem;\r\nSushifish;\r\nGoldenfish;",
+        "mrENG": "Apex Beastclaw;\r\nArzuros Cortex;\r\nArzuros Fur;\r\nMelding Pudding;\r\nMelding Honey;\r\nLarge Beast Gem;\r\nMassive Bone;\r\nHoney;\r\nSushifish;\r\nGoldenfish;"
+    },
+    {
+        "name": "Apex Diablos",
+        "lowRU": null,
+        "highRU": "Высший витой рог;\r\nПанцирь Диаблоса;\r\nХребет Диаблоса+;\r\nКлык Диаблоса;\r\nХвостовик Диаб.;\r\nРывков. Экстракт;\r\nМозг. слой Диаб.;\r\nСамоцвет виверны;\r\nКост. мозг Диаб.;\r\nБ. слеза виверны;",
+        "mrRU": "Высший витой рог;\r\nСердечник Диаблоса;\r\nКостяк Диаблоса;\r\nХвостовик Диаблоса+;\r\nСплавильн. Кровь;\r\nБольшой самоцвет вив.;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": "Apex Curlhorn;\r\nDiablos Cortex;\r\nDiablos Chine;\r\nDiablos Tailcase+;\r\nMelding Blood;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;",
+        "mrENG": "Apex Curlhorn;\r\nDiablos Carapace;\r\nDiablos Ridge+;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nDash Extract;\r\nDiablos Medulla;\r\nWyvern Gem;\r\nDiablos Marrow;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Apex Mizutsune",
+        "lowRU": null,
+        "highRU": "Высшая пена;\r\nЧешуя Мидзуцунэ+;\r\nФиол. мех Мидз.+;\r\nКоготь Мидзуц.+;\r\nХвост Мидзуцунэ;\r\nПластина Мидзуц.;\r\nВод. сфера Мидз.;\r\nПлавник Мидзуц.+;\r\nБ. слеза виверны;",
+        "mrRU": "Высшая пена;\r\nОсколок Мидзуцунэ;\r\nПурпур Мидзуцунэ;\r\nКогтище Мидзуцунэ;\r\nПокров Мидзуцунэ;\r\nПлавильный пудинг;\r\nПлавильный мед;\r\nПурпур. хвост Мидзуц.;\r\nШелк. плавник Мидзуц.;\r\nБ. слеза виверны;\r\nВод. сфера Мидз.;",
+        "lowENG": null,
+        "highENG": "Apex Bubblefoam;\r\nMizutsune Scale+;\r\nMizutsune Purplefur+;\r\nMizutsune Claw+;\r\nMizutsune Tail;\r\nMizutsune Plate;\r\nMizutsune Water Orb;\r\nMizutsune Fin+;\r\nLarge Wyvern Tear;",
+        "mrENG": "Apex Bubblefoam;\r\nMizutsune Shard;\r\nMizutsune Purplefell;\r\nMizutsune Hardclaw;\r\nMizutsune Mantle;\r\nMelding Pudding;\r\nMelding Honey;\r\nPurple Mizutsune Tail;\r\nMizutsune Silkfin;\r\nLarge Wyvern Tear;\r\nMizutsune Water Orb;"
+    },
+    {
+        "name": "Apex Rathalos",
+        "lowRU": null,
+        "highRU": "В. плам. Железа;\r\nЧешуя Раталоса+;\r\nПанцирь Раталоса;\r\nКрыло Раталоса;\r\nМозг. слой Рат.;\r\nПласт. Раталоса;\r\nРубин Раталоса;\r\nХвост Раталоса;\r\nКр. шпора Рат+;\r\nБ. слеза виверны;",
+        "mrRU": "В. плам. Железа;\r\nОсколок Раталоса;\r\nСердечник Раталоса;\r\nЦельное крыло Ратал.;\r\nПокров Раталоса;\r\nПлавильный пудинг;\r\nПлавильный мед;\r\nПлеть Раталоса;\r\nПотрошитель Раты;\r\nБ. слеза виверны;\r\nРубин Раталоса;",
+        "lowENG": null,
+        "highENG": "Apex Blaze Sac;\r\nRathalos Scale+;\r\nRathalos Carapace;\r\nRathalos Wing;\r\nRath Medulla;\r\nRathalos Plate;\r\nRathalos Ruby;\r\nRathalos Tail;\r\nRath Wingtalon+;\r\nLarge Wyvern Tear;",
+        "mrENG": "Apex Blaze Sac;\r\nRathalos Shard;\r\nRathalos Cortex;\r\nRathalos Fellwing;\r\nRathalos Mantle;\r\nMelding Pudding;\r\nMelding Honey;\r\nRathalos Lash;\r\nRath Wingripper;\r\nLarge Wyvern Tear;\r\nRathalos Ruby;"
+    },
+    {
+        "name": "Apex Rathian",
+        "lowRU": null,
+        "highRU": "В. отрав. Шип;\r\nЧешуя Ратианы+;\r\nПанцирь Ратианы;\r\nПерепон. Ратианы;\r\nАдская железа;\r\nОстрая кость м.;\r\nПластина Ратианы;\r\nРубин Ратианы;\r\nМозг. слой Рат.;\r\nКр. шпора Рат+;\r\nБ. слеза виверны;",
+        "mrRU": "В. отрав. Шип;\r\nОсколок Ратианы;\r\nСердечник Ратианы;\r\nВолокно Ратианы;\r\nПлавильный пудинг;\r\nПлавильный мед;\r\nРубин Ратианы;\r\nПокров Ратианы;\r\nМозг. слой Рат.;\r\nПотрошитель Раты;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": "Apex Venom Spike;\r\nRathian Scale+;\r\nRathian Carapace;\r\nRathian Webbing;\r\nInferno Sac;\r\nMonster Keenbone;\r\nRathian Plate;\r\nRathian Ruby;\r\nRath Medulla;\r\nRath Wingtalon+;\r\nLarge Wyvern Tear;",
+        "mrENG": "Rathian Shard;\r\nRathian Cortex;\r\nRathian Weave;\r\nMelding Pudding;\r\nMelding Honey;\r\nRathian Mantle;\r\nRath Wingripper;"
+    },
+    {
+        "name": "Apex Zinogre",
+        "lowRU": null,
+        "highRU": "В. шок. Щиток;\r\nПанцирь Зиногра;\r\nЭл-шерсть Зиног.;\r\nХвост Зиногра;\r\nГромовой жук;\r\nПластина Зиногра;\r\nЯшма Зиногра;\r\nКоготь Зиногра+;\r\nРог Зиногра+;\r\nБ. слеза виверны;",
+        "mrRU": "В. шок. Щиток;\r\nСердечник Зиногра;\r\nЭлектрошерсть Зиног.+;\r\nПарализатор Зиногра;\r\nПлеть Зиногра;\r\nСплавильн. Кровь;\r\nНебесный изумруд Зин.;\r\nКогтище Зиногра;\r\nГромовой жук;\r\nКрепкий рог Зиногра;\r\nБ. слеза виверны;\r\nЯшма Зиногра;",
+        "lowENG": null,
+        "highENG": "Apex Shockshell;\r\nZinogre Carapace;\r\nZinogre Electrofur;\r\nZinogre Tail;\r\nFulgurbug;\r\nZinogre Plate;\r\nZinogre Jasper;\r\nZinogre Claw+;\r\nZinogre Horn+;\r\nLarge Wyvern Tear;",
+        "mrENG": "Apex Shockshell;\r\nZinogre Cortex;\r\nZinogre Electrofur+;\r\nZinogre Deathly Shocker;\r\nZinogre Lash;\r\nMelding Blood;\r\nZinogre Skymerald;\r\nZinogre Hardclaw;\r\nFulgurbug;\r\nZinogre Hardhorn;\r\nLarge Wyvern Tear;\r\nZinogre Jasper;"
+    },
+    {
+        "name": "Arzuros",
+        "lowRU": "Щиток Арзуроса;\r\nШкура Арзуроса;\r\nНаручи Арзуроса;\r\nГигантская кость;\r\nМед;\r\nСлеза зверя;\r\nРыба-суши;\r\nЗолотая рыбка;",
+        "highRU": "Панцирь Арзуроса;\r\nШкура Арзуроса+;\r\nНаручи Арзуроса+;\r\nПрочная кость;\r\nМед;\r\nСамоцвет зверя;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nРыба-суши;\r\nЗолотая рыбка;",
+        "mrRU": "Сердечник Арзуроса;\r\nМех Арзуроса;\r\nБраслет Арзуроса;\r\nОгромная кость;\r\nМед;\r\nБол. самоцвет зверя;\r\nСамоцвет зверя;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nРыба-суши;\r\nЗолотая рыбка;\r\nИзмененная кость;\r\nИзм. проч. Кость;\r\nИзм. свинц.кость;",
+        "lowENG": "Arzuros Shell;\r\nArzuros Pelt;\r\nArzuros Brace;\r\nJumbo Bone;\r\nHoney;\r\nBeast Tear;\r\nSushifish;\r\nGoldenfish;",
+        "highENG": "Arzuros Carapace;\r\nArzuros Pelt+;\r\nArzuros Brace+;\r\nStoutbone;\r\nHoney;\r\nBeast Gem;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nSushifish;\r\nGoldenfish;",
+        "mrENG": "Arzuros Cortex;\r\nArzuros Fur;\r\nArzuros Allbrace;\r\nMassive Bone;\r\nHoney;\r\nLarge Beast Gem;\r\nBeast Gem;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nSushifish;\r\nGoldenfish;\r\nAfflicted Bone;\r\nAfflicted Hardbone;\r\nAfflicted Slogbone;"
+    },
+    {
+        "name": "Astalos",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Чешуя;\r\nИзм. отч. чешуя+;\r\nИзм. отч.осколок;\r\nОсколок Асталоса;\r\nТяжелый щиток Астал.;\r\nКрыл. перепонка Аст.;\r\nГрозовая чешуя;\r\nТяжелый гребень Аст.+;\r\nХвостоножницы Астал.;\r\nПокров Асталоса;\r\nПотрошитель Асталоса;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Scale;\r\nAfflicted Dire Scale+;\r\nAfflicted Dire Shard;\r\nAstalos Shard;\r\nHeavy Astalos Shell;\r\nAstalos Wingmembrane;\r\nBoltscale;\r\nHeavy Astalos Crest+;\r\nAstalos Scissortailblade;\r\nAstalos Mantle;\r\nAstalos Wingripper;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Aurora Somnacanth",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изменен. Коготь;\r\nИзм. коготь+;\r\nИзм. Когтище;\r\nЛед. чеш. Аврор.;\r\nЛед. срд. Аврор.;\r\nПлавник Аврорак.;\r\nСвинц. кость монстра;\r\nКриожелеза;\r\nБольшой самоцвет вив.;\r\nЛед. коготь Аврор.;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Claw;\r\nAfflicted Claw+;\r\nAfflicted Hardclaw;\r\nAuroracanth Icescale;\r\nAuroracanth Icecortex;\r\nAuroracanth Fin;\r\nMonster Slogbone;\r\nCryo Sac;\r\nLarge Wyvern Gem;\r\nAuroracanth Iceclaw;\r\nWyvern Tear;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Barioth",
+        "lowRU": "Щиток Бариота;\r\nШкура Бариота;\r\nКоготь Бариота;\r\nШип Бариота;\r\nХвост Бариота;\r\nМорозная железа;\r\nЯнтарный клык;\r\nСлеза виверны;",
+        "highRU": "Панцирь Бариота;\r\nШкура Бариота+;\r\nКоготь Бариота+;\r\nШип Бариота;\r\nХвост Бариота;\r\nЛедяная железа;\r\nСамоцвет виверны;\r\nЯнтарный клык+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Бариота;\r\nГустой мех Бариота;\r\nКогтище Бариота;\r\nБольшой шип Бариота;\r\nПлеть Бариота;\r\nКриожелеза;\r\nБольшой самоцвет вив.;\r\nЯнтарный резец;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененный клык;\r\nИзм. клык+;\r\nИзм. проч.клык;",
+        "lowENG": "Barioth Shell;\r\nBarioth Pelt;\r\nBarioth Claw;\r\nBarioth Spike;\r\nBarioth Tail;\r\nFrost Sac;\r\nAmber Fang;\r\nWyvern Tear;",
+        "highENG": "Barioth Carapace;\r\nBarioth Pelt+;\r\nBarioth Claw+;\r\nBarioth Spike;\r\nBarioth Tail;\r\nFreezer Sac;\r\nWyvern Gem;\r\nAmber Fang+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Barioth Cortex;\r\nBarioth Thickfur;\r\nBarioth Hardclaw;\r\nBarioth Greatspike;\r\nBarioth Lash;\r\nCryo Sac;\r\nLarge Wyvern Gem;\r\nAmber Hardfang;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Fang;\r\nAfflicted Fang+;\r\nAfflicted Hardfang;"
+    },
+    {
+        "name": "Barroth",
+        "lowRU": "Шкура Баррота;\r\nХребет Баррота;\r\nКоготь Баррота;\r\nСкальп Баррота;\r\nХвост Баррота;\r\nПлодород. Грязь;\r\nСредняя кость м.;\r\nСлеза виверны;",
+        "highRU": "Панцирь Баррота;\r\nХребет Баррота+;\r\nКоготь Баррота+;\r\nСкальп Баррота;\r\nХвост Баррота;\r\nЖирная грязь;\r\nОстрая кость м.;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Баррота;\r\nКостяк Баррота;\r\nКогтище Баррота;\r\nКорона Баррота;\r\nПлеть Баррота;\r\nЖирная грязь;\r\nМощная кость монстра;\r\nБольшой самоцвет вив.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nКость изм. м-ра;\r\nИзм. тв. Кость;\r\nИзм. кость монс.;",
+        "lowENG": "Barroth Shell;\r\nBarroth Ridge;\r\nBarroth Claw;\r\nBarroth Scalp;\r\nBarroth Tail;\r\nFertile Mud;\r\nMonster Bone M;\r\nWyvern Tear;",
+        "highENG": "Barroth Carapace;\r\nBarroth Ridge+;\r\nBarroth Claw+;\r\nBarroth Scalp;\r\nBarroth Tail;\r\nRich Mud;\r\nMonster Keenbone;\r\nWyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Barroth Cortex;\r\nBarroth Chine;\r\nBarroth Hardclaw;\r\nBarroth Crown;\r\nBarroth Lash;\r\nRich Mud;\r\nMonster Toughbone;\r\nLarge Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Monster Bone;\r\nAfflicted Monster Hardbone;\r\nAfflicted Monster Slogbone;"
+    },
+    {
+        "name": "Basarios",
+        "lowRU": "Шкура Базар.;\r\nПлевра Базариоса;\r\nКрыло Базариоса;\r\nХвост Базариоса;\r\nЯдовитая железа;\r\nПламенная железа;\r\nМахалитовая руда;\r\nКристалл. Пыль;\r\nСлеза виверны;",
+        "highRU": "\r\nПанцирь Базар.;\r\nПлевра Базар.+;\r\nСлезы Базариоса;\r\nТоксичная железа;\r\nАдская железа;\r\nКарбалит. Руда;\r\nСамоцвет виверны;\r\nХвост Базариоса;\r\nДраконит. Руда;\r\nКрыло Базариоса;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Базариоса;\r\nРебра Базариоса+;\r\nЦельное крыло Базар.;\r\nПлеть Базариоса;\r\nСмертельно яд. железа;\r\nОгнеопасная железа;\r\nЭлталитовая руда;\r\nМантия Базариоса;\r\nБольшой самоцвет вив.;\r\nКарбалит. руда;\r\nСлезы Базариоса;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nКость изм. м-ра;\r\nИзм. тв. кость;\r\nИзм. кость монс.;",
+        "lowENG": "Basarios Shell;\r\nBasarios Pleura;\r\nBasarios Wing;\r\nBasarios Tail;\r\nPoison Sac;\r\nFlame Sac;\r\nMachalite Ore;\r\nEarth Crystal;\r\nWyvern Tear;",
+        "highENG": "Basarios Carapace;\r\nBasarios Pleura+;\r\nBasarios Tears;\r\nToxin Sac;\r\nInferno Sac;\r\nCarbalite Ore;\r\nWyvern Gem;\r\nBasarios Tail;\r\nDragonite Ore;\r\nBasarios Wing;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Basarios Cortex;\r\nBasarios Pectus+;\r\nBasarios Fellwing;\r\nBasarios Lash;\r\nDeadly Poison Sac;\r\nConflagrant Sac;\r\nEltalite Ore;\r\nBasarios Pallium;\r\nLarge Wyvern Gem;\r\nCarbalite Ore;\r\nBasarios Tears;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Monster Bone;\r\nAfflicted Monster Hardbone;\r\nAfflicted Monster Slogbone;"
+    },
+    {
+        "name": "Bazelgeuse",
+        "lowRU": null,
+        "highRU": "Чешуя Базельг.+;\r\nПанцирь Базельг.;\r\nКоготь Базель.;\r\nЗапал Базель.;\r\nКрыло Базель.;\r\nСамоцвет Базель.;\r\nХвост Базель.;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Базельгейса;\r\nСердечник Базельгейса;\r\nКогтище Базельгейса;\r\nСгусток желез Базель.;\r\nЦельное крыло Базель.;\r\nСамоцвет Базель.;\r\nПокров Базельгейса;\r\nБич Базельгейса;\r\nБ. слеза виверны;\r\nИзм. отч. панц.;\r\nИзм. отч.панцирь;\r\nИзм. отч. серд-к;",
+        "lowENG": null,
+        "highENG": "Bazelgeuse Scale+;\r\nBazelgeuse Carapace;\r\nBazelgeuse Talon;\r\nBazelgeuse Fuse;\r\nBazelgeuse Wing;\r\nBazelgeuse Gem;\r\nBazelgeuse Tail;\r\nLarge Wyvern Tear;",
+        "mrENG": "Bazelgeuse Shard;\r\nBazelgeuse Cortex;\r\nBazelgeuse Hardclaw;\r\nBazelgeuse Glandflux;\r\nBazelgeuse Fellwing;\r\nBazelgeuse Gem;\r\nBazelgeuse Mantle;\r\nBazelgeuse Flail;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Shell;\r\nAfflicted Dire Carapace;\r\nAfflicted Dire Cortex;"
+    },
+    {
+        "name": "Bishaten",
+        "lowRU": "Мех Бисятэна;\r\nПеро Бисятэна;\r\nКоготь Бисятэна;\r\nРог Бисятэна;\r\nГигантская кость;\r\nХвост. Бисятэна;\r\nСлеза зверя;\r\nОгромный фрукт;\r\nОтрав. Фрукт;\r\nОслеп. Фрукт;",
+        "highRU": "Мех Бисятэна+;\r\nПеро Бисятэна+;\r\nКоготь Бисятэна+;\r\nРог Бисятэна+;\r\nПрочная кость;\r\nСамоцвет зверя;\r\nХвост. Бисятэна+;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nОгромный фрукт;\r\nОтрав. Фрукт;\r\nПарафрукт;\r\nОслеп. Фрукт;",
+        "mrRU": "Отличный мех Бисят.;\r\nСкользящ. перо Бисят.;\r\nКогтище Бисятэна;\r\nТяжелый рог Бисятэна;\r\nОгромная кость;\r\nСамоцвет зверя;\r\nБол. самоцвет зверя;\r\nЖесткий хвост Бисят.;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nОгромный фрукт;\r\nОтрав. фрукт;\r\nПарафрукт;\r\nОслеп. фрукт;\r\nИзмененная кровь;\r\nИзм. кр. дракона;\r\nИзм.чист.кровь;",
+        "lowENG": "Bishaten Fur;\r\nBishaten Feather;\r\nBishaten Talon;\r\nBishaten Horn;\r\nJumbo Bone;\r\nBisha Tailcase;\r\nBeast Tear;\r\nJumbofruit;\r\nPoisonfruit;\r\nFlashfruit;",
+        "highENG": "Bishaten Fur+;\r\nBishaten Feather+;\r\nBishaten Talon+;\r\nBishaten Horn+;\r\nStoutbone;\r\nBeast Gem;\r\nBishaten Tailcase+;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nJumbofruit;\r\nPoisonfruit;\r\nParafruit;\r\nFlashfruit;",
+        "mrENG": "Bishaten Finefur;\r\nBishaten Glidefeather;\r\nBishaten Hardclaw;\r\nBishaten Heavyhorn;\r\nMassive Bone;\r\nBeast Gem;\r\nLarge Beast Gem;\r\nBishaten Hardtail;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nJumbofruit;\r\nPoisonfruit;\r\nParafruit;\r\nFlashfruit;\r\nAfflicted Blood;\r\nAfflicted Dragon Blood;\r\nAfflicted Pure Blood;"
+    },
+    {
+        "name": "Blood Orange Bishaten",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измен. Панцирь;\r\nИзм. Панцирь;\r\nИзм. Сердечник;\r\nМех Орангатена+;\r\nПеро Орангатена+;\r\nКоготь Оранг.;\r\nРог Орангатена+;\r\nОгромная кость;\r\nСамоцвет зверя;\r\nБол. самоцвет зверя;\r\nТвердая кость;\r\nХвостов. Оранг.+;\r\nСлеза зверя;\r\nБ. слеза зверя;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Shell;\r\nAfflicted Carapace;\r\nAfflicted Cortex;\r\nOrangaten Fur+;\r\nOrangaten Feather+;\r\nOrangaten Talon;\r\nOrangaten Horn+;\r\nMassive Bone;\r\nBeast Gem;\r\nLarge Beast Gem;\r\nSolid Bone;\r\nOrangaten Tailcase+;\r\nBeast Tear;\r\nLarge Beast Tear;"
+    },
+    {
+        "name": "Chameleos",
+        "lowRU": null,
+        "highRU": "Шкура Хамелеоса+;\r\nКоготь Хам.+;\r\nКрыло Хамелеоса;\r\nХвост Хамелеоса;\r\nСамоцвет Хам.;\r\nФуциевая руда;\r\nШип Хамелеоса;\r\nКровь древ. драк.;\r\nСокр. Дракона;",
+        "mrRU": "Тонкая шкура Хамел.;\r\nКогтище Хамелеоса;\r\nЦельное крыло Хамел.;\r\nПлеть Хамелеоса;\r\nСамоцвет Хам.;\r\nБ. самоц. Древ. драк.;\r\nКрепкий рог Хамелеоса;\r\nЧистая драконья кровь;\r\nУльтимас-руда;\r\nСокр. Дракона;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": "Chameleos Hide+;\r\nChameleos Claw+;\r\nChameleos Wing;\r\nChameleos Tail;\r\nChameleos Gem;\r\nFucium Ore;\r\nChameleos Spike;\r\nElder Dragon Blood;\r\nDragon Treasure;",
+        "mrENG": "Chameleos Finehide;\r\nChameleos Hardclaw;\r\nChameleos Fellwing;\r\nChameleos Lash;\r\nChameleos Gem;\r\nLarge Elder Dragon Gem;\r\nChameleos Hardhorn;\r\nPure Dragon Blood;\r\nUltimas Crystal;\r\nDragon Treasure;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Chaotic Gore Magala",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. кровь;\r\nИзм.отч.кр.драк.;\r\nИзм. отч. темная кровь;\r\nЧешуя Хаоса;\r\nСердечник кров. Маг.;\r\nПотрошитель кр. Маг.;\r\nПротивореч.крыло;\r\nКонтрастная чешуя;\r\nХвост кровавой Магалы;\r\nДиаметрал. рог;\r\nКрепкий рог Ш. Магалы;\r\nПокров Шагару Магалы;\r\nОчиститель Ш. Магалы;\r\nСердечник Ш. Магалы;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Blood;\r\nAfflicted Dire Dragon Blood;\r\nAfflicted Dire Darkblood;\r\nChaos Scale;\r\nGore Magala Cortex;\r\nGore Magala Shredder;\r\nAntinomic Wing;\r\nContrary Scale;\r\nGore Magala Tail;\r\nDiametrical Horn;\r\nS. Magala Hardhorn;\r\nS. Magala Mantle;\r\nS. Magala Purifier;\r\nS. Magala Cortex;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Crimson Glow Valstrax",
+        "lowRU": null,
+        "highRU": "Мерцающий щиток;\r\nПерелив. Чешуя;\r\nКоготь Валстр.+;\r\nСпин. панц. Валст.;\r\nХвост Валстракса;\r\nБагряная жид.;\r\nСф. Крас. драк.;\r\nКрасный шипокрыл;\r\nСокр. Дракона;",
+        "mrRU": "Сверкающий щиток;\r\nПерелив. Осколок;\r\nКоготь Валстракса;\r\nСпин. панцирь Валст.;\r\nВинтовой хвост Валст.;\r\nКипящая багряная жид.;\r\nСф. Крас. драк.;\r\nАлый Дракосфир;\r\nКрасный копьекрыл+;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": "Gleaming Shell;\r\nShimmering Scale;\r\nValstrax Claw+;\r\nValstrax Spineshell;\r\nValstrax Tail;\r\nCrimson Liquid;\r\nRed Dragon Orb;\r\nRouge Spikewing;\r\nDragon Treasure;",
+        "mrENG": "Glittering Shell;\r\nShimmering Shard;\r\nValstrax Talon;\r\nValstrax Spineshell+;\r\nValstrax Helixtail;\r\nSeething Crimson Liquid;\r\nRed Dragon Orb;\r\nRed Dragonsphire;\r\nRouge Lancewing+;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Daimyo Hermitaur",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измененная кровь;\r\nИзм. кр. Дракона;\r\nИзм.чист.кровь;\r\nСердечник Гермитавра;\r\nКлешня Гермитавра;\r\nТвердая кость м.;\r\nКрасивая черная жемч.;\r\nВетхий алый рог;\r\nКрабовая жемчужина+;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Blood;\r\nAfflicted Dragon Blood;\r\nAfflicted Pure Blood;\r\nHermitaur Cortex;\r\nHermitaur Hardclaw;\r\nMonster Hardbone;\r\nFine Black Pearl;\r\nTimeworn Crimson Horn;\r\nCrab Pearl+;"
+    },
+    {
+        "name": "Diablos",
+        "lowRU": "Шкура Диаблоса\r\nХребет Диаблоса\r\nКлык Диаблоса\r\nХвостовик Диаб.\r\nРывков. экстракт\r\nКост. мозг Диаб.\r\nВитой рог\r\nСлеза виверны",
+        "highRU": "Панцирь Диаблоса\r\nХребет Диаблоса+\r\nКлык Диаблоса\r\nХвостовик Диаб.\r\nРывков. экстракт\r\nКост. мозг Диаб.\r\nМозг. слой Диаб.\r\nСамоцвет виверны\r\nВеличест. рог\r\nСлеза виверны\r\nБ. слеза виверны",
+        "mrRU": "Сердечник Диаблоса\r\nКостяк Диаблоса\r\nХвостовик Диаблоса+\r\nРывков. экстракт\r\nМозг. слой Диаб.\r\nБольшой самоцвет вив.\r\nМощный витой рог\r\nБ. слеза виверны\r\nИзм. отч. рог\r\nИзм. отч. рог+\r\nИзм.отч.креп.рог",
+        "lowENG": "Diablos Shell;\r\nDiablos Ridge;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nDash Extract;\r\nDiablos Marrow;\r\nTwisted Horn;\r\nWyvern Tear;",
+        "highENG": "Diablos Carapace;\r\nDiablos Ridge+;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nDash Extract;\r\nDiablos Marrow;\r\nDiablos Medulla;\r\nWyvern Gem;\r\nMajestic Horn;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Diablos Cortex;\r\nDiablos Chine;\r\nDiablos Tailcase+;\r\nDash Extract;\r\nDiablos Medulla;\r\nLarge Wyvern Gem;\r\nTwisted Stouthorn;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Horn;\r\nAfflicted Dire Horn+;\r\nAfflicted Dire Hardhorn;"
+    },
+    {
+        "name": "Espinas",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. панц.;\r\nИзм. отч.панцирь;\r\nИзм. отч. серд-к;\r\nОсколок Эспиназа;\r\nСердечник Эспиназа;\r\nЯд. кровь Эспиназа;\r\nПлеть Эспиназа;\r\nЯдовитый шип Эспиназа;\r\nПокров Эспиназа;\r\nКрепкий рог Эспиназа;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Shell;\r\nAfflicted Dire Carapace;\r\nAfflicted Dire Cortex;\r\nEspinas Shard;\r\nEspinas Cortex;\r\nEspinas Toxic Blood;\r\nEspinas Lash;\r\nEspinas Surspike;\r\nEspinas Mantle;\r\nEspinas Hardhorn;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Flaming Espinas",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Кровь;\r\nИзм.отч.кр.драк.;\r\nИзм. отч. темная кровь;\r\nОсколок пыл. Эспиназа;\r\nСердечник пыл. Эспин.;\r\nСера пыл. Эспиназа;\r\nПлеть пыл. Эспиназа;\r\nЯд. шип пыл. Эспиназа;\r\nПокров пыл. Эспиназа;\r\nКреп. рог пыл. Эспин.;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Blood;\r\nAfflicted Dire Dragon Blood;\r\nAfflicted Dire Darkblood;\r\nFlaming Espinas Shard;\r\nFlaming Espinas Cortex;\r\nFlaming Espinas Sulfur;\r\nFlaming Espinas Lash;\r\nFlaming Espinas Surspike;\r\nFlaming Espinas Mantle;\r\nFlaming Espinas Hardhorn;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Furious Rajang",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Клык;\r\nИзм. отч. клык+;\r\nИзм. отч. пр. Клык;\r\nПаралич Раянга;\r\nКогтище Раянга;\r\nРезец Раянга;\r\nЗолотая шкура Раянга+;\r\nСердце Раянга;\r\nЖуткий золотой клин;\r\nБ. слеза зверя;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Fang;\r\nAfflicted Dire Fang+;\r\nAfflicted Dire Hardfang;\r\nRajang Apoplexy;\r\nRajang Hardclaw;\r\nRajang Hardfang;\r\nGold Rajang Pelt+;\r\nRajang Heart;\r\nGhoulish Gold Gorer;\r\nLarge Beast Tear;"
+    },
+    {
+        "name": "Gaismagorm",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Др. чеш. Шторма;\r\nСпин.рак. архид.;\r\nОстр. коготь шт.;\r\nКр. шпора шторма;\r\nЖадный паразит;\r\nХвостокр. архид.;\r\nДракосф. Шторма;\r\nЖутк. рог архид.;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Abyssal Dragonscale;\r\nArchdemon Backshell;\r\nArchdemon Piercetalon;\r\nArchdemon Wingtalon;\r\nConsumption Parasite;\r\nArchdemon Tailhook;\r\nAbyssal Dragonsphire;\r\nArchdemon Doomhorn;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Garangolm",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измененный клык;\r\nИзм. клык+;\r\nИзм. проч.клык;\r\nСердечник Гарангольма;\r\nОсколок Гаранг.;\r\nГуст. сок Гольма;\r\nРезец Гарангольма;\r\nХвост Гольма;\r\nБол. самоцвет зверя;\r\nКулак Гарангол.;\r\nСлеза зверя;\r\nБ. слеза зверя;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Fang;\r\nAfflicted Fang+;\r\nAfflicted Hardfang;\r\nGarangolm Cortex;\r\nGarangolm Shard;\r\nGolm Thick Juice;\r\nGarangolm Hardfang;\r\nGolm Ploughtail;\r\nLarge Beast Gem;\r\nGarangolm Fist;\r\nBeast Tear;\r\nLarge Beast Tear;"
+    },
+    {
+        "name": "Gold Rathian",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Крыло;\r\nИзм. отч. крыло+;\r\nИзм. отч. ц. Крыло;\r\nОсколок зол. Ратианы;\r\nСердечник з. Ратианы;\r\nПаутина з. Рат.;\r\nЯд. шип зол. Ратианы;\r\nБлеск Рат;\r\nРубин Ратианы;\r\nПокров Ратианы;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Wing;\r\nAfflicted Dire Wing+;\r\nAfflicted Dire Fellwing;\r\nGold Rathian Shard;\r\nGold Rathian Cortex;\r\nGold Rathian Weave;\r\nGold Rathian Surspike;\r\nRath Gleam;\r\nRathian Ruby;\r\nRathian Mantle;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Gore Magala",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. панц.;\r\nИзм. отч.панцирь;\r\nИзм. отч. серд-к;\r\nСердечник кров. Маг.;\r\nОсколок кров. Магалы;\r\nПотрошитель кр. Маг.;\r\nЗатмение кров. Магалы;\r\nХвост кровавой Магалы;\r\nПокров кров. Магалы;\r\nСенсор кров. Магалы;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Shell;\r\nAfflicted Dire Carapace;\r\nAfflicted Dire Cortex;\r\nGore Magala Cortex;\r\nGore Magala Shard;\r\nGore Magala Shredder;\r\nGore Magala Eclipse;\r\nGore Magala Tail;\r\nGore Magala Mantle;\r\nGore Magala Sensor;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Goss Harag",
+        "lowRU": "Мех Госс-Харага;\r\nШкура Г.-Харага;\r\nНаручи Г.-Харага;\r\nЛедяной блок;\r\nМорозная железа;\r\nМассивная кость;\r\nРог Госс-Харага;\r\nКоготь Г.-Харага;\r\nСлеза зверя;",
+        "highRU": "Мех Госс-Харага+;\r\nШкура Г.-Харага+;\r\nНар. Г.-Харага+;\r\nЛедяной блок+;\r\nЛедяная железа;\r\nСамоцвет зверя;\r\nЖелчь Г.-Харага;\r\nРог Госс-Харага+;\r\nКог. Г.-Харага+;\r\nСлеза зверя;\r\nБ. слеза зверя;",
+        "mrRU": "Мороз. мех Г.-Харага;\r\nТонк. шкура Г.-Х.;\r\nБраслет Г.-Харага;\r\nПлотная глыба льда;\r\nКриожелеза;\r\nБол. самоцвет зверя;\r\nЖелчь Госс-Харага+;\r\nКреп. рог Г.-Харага;\r\nКогтище Госс-Харага;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nИзменен. Коготь;\r\nИзм. коготь+;\r\nИзм. Когтище;",
+        "lowENG": "Goss Harag Fur;\r\nGoss Harag Hide;\r\nGoss Harag Brace;\r\nBlock of Ice;\r\nFrost Sac;\r\nColossal Bone;\r\nGoss Harag Horn;\r\nGoss Harag Claw;\r\nBeast Tear;",
+        "highENG": "Goss Harag Fur+;\r\nGoss Harag Hide+;\r\nGoss Harag Brace+;\r\nBlock of Ice+;\r\nFreezer Sac;\r\nBeast Gem;\r\nGoss Harag Bile;\r\nGoss Harag Horn+;\r\nGoss Harag Claw+;\r\nBeast Tear;\r\nLarge Beast Tear;",
+        "mrENG": "Goss Harag Frozen Fur;\r\nGoss Finehide;\r\nGoss Harag Allbrace;\r\nDense Block of Ice;\r\nCryo Sac;\r\nLarge Beast Gem;\r\nGoss Harag Bile+;\r\nGoss Harag Hardhorn;\r\nGoss Harag Hardclaw;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nAfflicted Claw;\r\nAfflicted Claw+;\r\nAfflicted Hardclaw;"
+    },
+    {
+        "name": "Great Baggi",
+        "lowRU": "Шкура Б. Багги;\r\nКоготь Б. Багги;\r\nКоролев. Гребень;\r\nСонная железа;\r\nСредняя кость м.;\r\nСлеза виверны;",
+        "highRU": "Шкура Б. Багги+;\r\nКоготь Б. Багги+;\r\nКоматоз. Железа;\r\nСамоцвет пер. в.;\r\nКость монстра+;\r\nКоролев. Гребень;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Толст. шкура б. Багги;\r\nКоготь Б. Багги+;\r\nТорпорная железа;\r\nТвердая кость м.;\r\nНеземной самоцв. вив.;\r\nСамоцвет пер. в.;\r\nСлавный гребень;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная шкура;\r\nИзмененная шкура+;\r\nИзм. толст.шкура;",
+        "lowENG": "Great Baggi Hide;\r\nGreat Baggi Claw;\r\nKing's Crest;\r\nSleep Sac;\r\nMonster Bone M;\r\nWyvern Tear;",
+        "highENG": "Great Baggi Hide+;\r\nGreat Baggi Claw+;\r\nComa Sac;\r\nBird Wyvern Gem;\r\nMonster Bone+;\r\nKing's Crest;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Great Baggi Thickhide;\r\nGreat Baggi Claw+;\r\nTorpor Sac;\r\nMonster Hardbone;\r\nFey Wyvern Gem;\r\nBird Wyvern Gem;\r\nGlorious Crest;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Pelt;\r\nAfflicted Hide+;\r\nAfflicted Thickhide;"
+    },
+    {
+        "name": "Great Izuchi",
+        "lowRU": "Шкура Б. Идзути;\r\nКожа Б. Идзути;\r\nХвост Б. Идзути;\r\nЖелеза крикуна;\r\nМалая кость м.;\r\nСлеза виверны;",
+        "highRU": "Шкура Б. Идзути+;\r\nКожа Б. Идзути+;\r\nХвост Б. Идзути+;\r\nЖелеза крикуна;\r\nКость монстра+;\r\nСамоцвет пер. в.;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Тол. шкура Б. Идзути;\r\nГустой мех Б. Идзути;\r\nОстр. хвост Б. Идзути;\r\nЖелеза крикуна;\r\nТвердая кость м.;\r\nНеземной самоцв. вив.;\r\nСамоцвет пер. в.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная шкура;\r\nИзмененная шкура+;\r\nИзм. толст.шкура;",
+        "lowENG": "Great Izuchi Hide;\r\nGreat Izuchi Pelt;\r\nGreat Izuchi Tail;\r\nScreamer Sac;\r\nMonster Bone S;\r\nWyvern Tear;",
+        "highENG": "Great Izuchi Hide+;\r\nGreat Izuchi Pelt+;\r\nGreat Izuchi Tail+;\r\nScreamer Sac;\r\nMonster Bone+;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Great Izuchi Thickhide;\r\nGreat Izuchi Thickfur;\r\nGreat Izuchi Grindtail;\r\nScreamer Sac;\r\nMonster Hardbone;\r\nFey Wyvern Gem;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Pelt;\r\nAfflicted Hide+;\r\nAfflicted Thickhide;"
+    },
+    {
+        "name": "Great Wroggi",
+        "lowRU": "\r\nШкура Б. Врогги;\r\nНаручи Б. Врогги;\r\nКоролевский клюв;\r\nЯдовитая железа;\r\nСредняя кость м.;\r\nСлеза виверны;",
+        "highRU": "\r\nШкура Б. Врогги+;\r\nНаручи Б. Врог.+;\r\nТоксичная железа;\r\nКость монстра+;\r\nСамоцвет пер. в.;\r\nКоролевский клюв;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "\r\nТол. шкура б. Врогги;\r\nНаручи Б. Врог.+;\r\nСмертельно яд. Железа;\r\nТвердая кость м.;\r\nНеземной самоцв. вив.;\r\nСамоцвет пер. в.;\r\nИмперский клюв;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная шкура;\r\nИзмененная шкура+;\r\nИзм. толст.шкура;",
+        "lowENG": "Great Wroggi Hide;\r\nGreat Wroggi Brace;\r\nKing's Beak;\r\nPoison Sac;\r\nMonster Bone M;\r\nWyvern Tear;",
+        "highENG": "Great Wroggi Hide+;\r\nGreat Wroggi Brace+;\r\nToxin Sac;\r\nMonster Bone+;\r\nBird Wyvern Gem;\r\nKing's Beak;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Great Wroggi Thickhide;\r\nGreat Wroggi Brace+;\r\nDeadly Poison Sac;\r\nMonster Hardbone;\r\nFey Wyvern Gem;\r\nBird Wyvern Gem;\r\nImperial Beak;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Pelt;\r\nAfflicted Hide+;\r\nAfflicted Thickhide;"
+    },
+    {
+        "name": "Jyuratodus",
+        "lowRU": null,
+        "highRU": "Панцирь Юратода;\r\nЧешуя Юратода+;\r\nКлык Юратода+;\r\nПлавник Юратода+;\r\nОстрая кость м.;\r\nЖелеза потока;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Юратода;\r\nОсколок Юратода;\r\nРезец Юратода;\r\nБольшой плавник Юрат.;\r\nМощная кость монстра;\r\nВодяной мешок;\r\nБольшой самоцвет вив.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмен. Панцирь;\r\nИзм. Панцирь;\r\nИзм. Сердечник;",
+        "lowENG": null,
+        "highENG": "Jyuratodus Carapace;\r\nJyuratodus Scale+;\r\nJyuratodus Fang+;\r\nJyuratodus Fin+;\r\nMonster Keenbone;\r\nTorrent Sac;\r\nWyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Jyuratodus Cortex;\r\nJyuratodus Shard;\r\nJyuratodus Hardfang;\r\nJyuratodus Grandfin;\r\nMonster Toughbone;\r\nFlood Sac;\r\nLarge Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Shell;\r\nAfflicted Carapace;\r\nAfflicted Cortex;"
+    },
+    {
+        "name": "Khezu",
+        "lowRU": "Обвислая шкура;\r\nПодозрит. Клык;\r\nБледный экстракт;\r\nБледная кость;\r\nЭлектр. Железа;\r\nСредняя кость м.;\r\nСлеза виверны;",
+        "highRU": "Жемчужная шкура;\r\nПодозрит. клык+;\r\nБледный экстракт;\r\nБледная кость;\r\nБледный стейк;\r\nГрозовая железа;\r\nОстрая кость м.;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Жемч. блестящая шкура;\r\nСтранный резец;\r\nБледный экстракт;\r\nОсобый кусок Кезу;\r\nГромовая железа;\r\nМощная кость монстра;\r\nБольшой самоцвет вив.;\r\nСамоцвет виверны;\r\nБледный стейк;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная кровь;\r\nИзм. кр. Дракона;\r\nИзм.чист.кровь;",
+        "lowENG": "Flabby Hide;\r\nSuspicious Fang;\r\nPale Extract;\r\nPale Bone;\r\nElectro Sac;\r\nMonster Bone M;\r\nWyvern Tear;",
+        "highENG": "Pearl Hide;\r\nSuspicious Fang+;\r\nPale Extract;\r\nPale Bone;\r\nPale Steak;\r\nThunder Sac;\r\nMonster Keenbone;\r\nWyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Pearl Glosshide;\r\nMystic Hardfang;\r\nPale Extract;\r\nKhezu Special Cut;\r\nLightning Sac;\r\nMonster Toughbone;\r\nLarge Wyvern Gem;\r\nWyvern Gem;\r\nPale Steak;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Blood;\r\nAfflicted Dragon Blood;\r\nAfflicted Pure Blood;"
+    },
+    {
+        "name": "Kulu-Ya-Ku",
+        "lowRU": "Чешуя Кулу-Йа-Ку;\r\nШкура Кулу-Йа-Ку;\r\nПеро Кулу-Йа-Ку;\r\nКлюв Кулу-Йа-Ку;\r\nСредняя кость м.;\r\nСлеза виверны;",
+        "highRU": "Чешуя Кулу+;\r\nШкура Кулу+;\r\nПеро Кулу-Йа-Ку+;\r\nКлюв Кулу-Йа-Ку+;\r\nКость монстра+;\r\nСамоцвет пер. в.;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Кулу-Йа-Ку;\r\nТол. шкура Кулу-Йа-Ку;\r\nБол. перо Кулу-Йа-Ку;\r\nБол. пробивной клюв;\r\nТвердая кость м.;\r\nНеземной самоцв. вив.;\r\nСамоцвет пер. в.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная шкура;\r\nИзмененная шкура+;\r\nИзм. толст.шкура;",
+        "lowENG": "Kulu-Ya-Ku Scale;\r\nKulu-Ya-Ku Hide;\r\nKulu-Ya-Ku Plume;\r\nKulu-Ya-Ku Beak;\r\nMonster Bone M;\r\nWyvern Tear;",
+        "highENG": "Kulu-Ya-Ku Scale+;\r\nKulu-Ya-Ku Hide+;\r\nKulu-Ya-Ku Plume+;\r\nKulu-Ya-Ku Beak+;\r\nMonster Bone+;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Kulu-Ya-Ku Shard;\r\nKulu-Ya-Ku Thickhide;\r\nLarge Kulu-Ya-Ku Plume;\r\nColossal Drill Beak;\r\nMonster Hardbone;\r\nFey Wyvern Gem;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Pelt;\r\nAfflicted Hide+;\r\nAfflicted Thickhide;"
+    },
+    {
+        "name": "Kushala Daora",
+        "lowRU": null,
+        "highRU": "Панцирь Даоры;\r\nЧешуя Даоры+;\r\nКоготь Даоры+;\r\nПерепонка Даоры;\r\nХвост Даоры;\r\nСамоцвет Даоры;\r\nРог Даоры+;\r\nКровь древ. драк.;\r\nСокр. Дракона;",
+        "mrRU": "Сердечник Даоры;\r\nОсколок Даоры;\r\nКогтище Даоры;\r\nЦельное крыло Даоры;\r\nПлеть Даоры;\r\nСамоцвет Даоры;\r\nБ. самоц. Древ. драк.;\r\nКрепкий рог Даоры;\r\nЧистая драконья кровь;\r\nСокр. Дракона;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": "Daora Carapace;\r\nDaora Dragon Scale+;\r\nDaora Claw+;\r\nDaora Webbing;\r\nDaora Tail;\r\nDaora Gem;\r\nDaora Horn+;\r\nElder Dragon Blood;\r\nDragon Treasure;",
+        "mrENG": "Daora Cortex;\r\nDaora Shard;\r\nDaora Hardclaw;\r\nDaora Fellwing;\r\nDaora Lash;\r\nDaora Gem;\r\nLarge Elder Dragon Gem;\r\nDaora Hardhorn;\r\nPure Dragon Blood;\r\nDragon Treasure;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Lagombi",
+        "lowRU": "Шкура Лагомби;\r\nДоспех Лагомби;\r\nХолод. ког. Лаг.;\r\nГигантская кость;\r\nУхо Лагомби;\r\nСлеза зверя;",
+        "highRU": "Шкура Лагомби+;\r\nДоспех Лагомби+;\r\nЛед. ког. Лагом.;\r\nПрочная кость;\r\nСамоцвет зверя;\r\nУхо Лагомби+;\r\nСлеза зверя;\r\nБ. слеза зверя;",
+        "mrRU": "Мех Лагомби;\r\nПанцирь Лагомби;\r\nМорозный коготь Лаг.;\r\nОгромная кость;\r\nБол. самоцвет зверя;\r\nСамоцвет зверя;\r\nУшная раковина Лагом.;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nИзмененная кость;\r\nИзм. проч. Кость;\r\nИзм. свинц.кость;",
+        "lowENG": "Lagombi Pelt;\r\nLagombi Plastron;\r\nLagombi Iceclaw;\r\nJumbo Bone;\r\nLagombi Ear;\r\nBeast Tear;",
+        "highENG": "Lagombi Pelt+;\r\nLagombi Plastron+;\r\nLagombi Frozenclaw;\r\nStoutbone;\r\nBeast Gem;\r\nLagombi Ear+;\r\nBeast Tear;\r\nLarge Beast Tear;",
+        "mrENG": "Lagombi Fur;\r\nLagombi Cuirass;\r\nLagombi Frigidclaw;\r\nMassive Bone;\r\nLarge Beast Gem;\r\nBeast Gem;\r\nLagombi Auricle;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nAfflicted Bone;\r\nAfflicted Hardbone;\r\nAfflicted Slogbone;"
+    },
+    {
+        "name": "Lucent Nargacuga",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Мех прозр. Нарг.;\r\nОсколок прозр. Нарг.;\r\nРезец прозр. Нарг.;\r\nЛез. прозр. Нар.;\r\nХвост. шип п. Нарг.;\r\nПлеть Наргакуги;\r\nТускл. лун. оск.;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Lucent Narga Dapple;\r\nLucent Narga Shard;\r\nLucent Narga Hardfang;\r\nLucent Narga Razor;\r\nLucent Narga Tailspear;\r\nNargacuga Lash;\r\nCloudy Moonshard;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Lunagaron",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Кость;\r\nИзм. отч. проч. Кость;\r\nИзм.отч.св.кость;\r\nСердечник Лунагарона;\r\nОсколок Лунаг-а;\r\nАлое кгтщ. Лун.;\r\nМорозный резец;\r\nСиняя сердцев. Лунаг.;\r\nЛед. самоцвет Лунаг.;\r\nОболочка хвоста Лун.;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Bone;\r\nAfflicted Dire Hardbone;\r\nAfflicted Dire Slogbone;\r\nLunagaron Cortex;\r\nLunagaron Shard;\r\nLuna Vermilion Hardclaw;\r\nFrostborn Hardfang;\r\nLunagaron Bluecore;\r\nLunagaron Frost Jewel;\r\nLunagaron Lash Shell;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Magma Almudron",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Кость;\r\nИзм. отч. проч. Кость;\r\nИзм.отч.св.кость;\r\nОскол. Магмадр.;\r\nСердеч. Магмадр.;\r\nБ. плав. Магмад.;\r\nЖест. ус Магмад.;\r\nХвост Магмадрона;\r\nАдская лавовая грязь;\r\nПокров Магмадр.;\r\nКгтщ. Магмадр.;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Bone;\r\nAfflicted Dire Hardbone;\r\nAfflicted Dire Slogbone;\r\nMagmadron Shard;\r\nMagmadron Cortex;\r\nLarge Magmadron Fin;\r\nMagmadron Hardwhisker;\r\nMagmadron Tail;\r\nInferno Lava Mud;\r\nMagmadron Mantle;\r\nMagmadron Hardclaw;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Magnamalo",
+        "lowRU": "Чешуя Магнамало;\r\nШкура Магнамало;\r\nКлинок Магнамало;\r\nЧешуйка Магнам.;\r\nХвост Магнамало;\r\nПризр. призм. М.;\r\nПластина Магнам.;\r\nРог Магнамало;\r\nСлеза виверны;",
+        "highRU": "Чешуя Магнамало+;\r\nШкура Магнамало+;\r\nКлинок Магна.+;\r\nЧешуйка Магнам.+;\r\nПриз. душ Магн.;\r\nПластина Магнам.;\r\nФиол. сф. Магн.;\r\nХвост Магнамало;\r\nРог Магнамало+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Магнамало;\r\nСердечник Магнамало;\r\nВознесен. клинок Маг.;\r\nНожны Магнамало;\r\nКопьехвост Магнамало;\r\nПризма душ Магнамало;\r\nФиол. сф. Магн.;\r\nСфера Магнамало;\r\nАдский рог Магнамало;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененный клык;\r\nИзм. клык+;\r\nИзм. проч.клык;",
+        "lowENG": "Magnamalo Scale;\r\nMagnamalo Shell;\r\nMagnamalo Blade;\r\nMagnamalo Scute;\r\nMagnamalo Tail;\r\nMagna Ghostprism;\r\nMagnamalo Plate;\r\nMagnamalo Horn;\r\nWyvern Tear;",
+        "highENG": "Magnamalo Scale+;\r\nMagnamalo Shell+;\r\nMagnamalo Blade+;\r\nMagnamalo Scute+;\r\nMagna Soulprism;\r\nMagnamalo Plate;\r\nPurple Magna Orb;\r\nMagnamalo Tail;\r\nMagnamalo Horn+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Magnamalo Shard;\r\nMagnamalo Cortex;\r\nMagna Ascended Blade;\r\nMagnamalo Bladeshell;\r\nMagnamalo Speartail;\r\nMagnamalo Soulprism+;\r\nPurple Magna Orb;\r\nMagnamalo Orb;\r\nMagnamalo Hellhorn;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Fang;\r\nAfflicted Fang+;\r\nAfflicted Hardfang;"
+    },
+    {
+        "name": "Malzeno",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник Малзено;\r\nОсколок Малзено;\r\nРезец Малзено;\r\nКровавый паразит;\r\nХвост Малзено;\r\nГелиотроп Малзено;\r\nЦельное крыло Малзено;\r\nКрепк. рог Малз.;\r\nСокр. Дракона;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Malzeno Cortex;\r\nMalzeno Shard;\r\nMalzeno Hardfang;\r\nBloody Parasite;\r\nMalzeno Tail;\r\nMalzeno Bloodstone;\r\nMalzeno Fellwing;\r\nMalzeno Hardhorn;\r\nDragon Treasure;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Mizutsune",
+        "lowRU": "Чешуя Мидзуц.;\r\nФиол. мех Мидзуц.;\r\nКоготь Мидзуцунэ;\r\nПена;\r\nХвост Мидзуцунэ;\r\nПластина Мидзуц.;\r\nПлавник Мидзуц.;\r\nСлеза виверны;",
+        "highRU": "Чешуя Мидзуцунэ+;\r\nФиол. мех Мидз.+;\r\nКоготь Мидзуц.+;\r\nПена+;\r\nХвост Мидзуцунэ;\r\nПластина Мидзуц.;\r\nВод. сфера Мидз.;\r\nПлавник Мидзуц.+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Мидзуцунэ;\r\nПурпур Мидзуцунэ;\r\nКогтище Мидзуцунэ;\r\nОчищенная пена;\r\nПурпур. хвост Мидзуц.;\r\nВод. сфера Мидз.;\r\nПокров Мидзуцунэ;\r\nШелк. плавник Мидзуц.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзм. отч. Чешуя;\r\nИзм. отч. чешуя+;\r\nИзм. отч.осколок;",
+        "lowENG": "\r\nMizutsune Scale;\r\nMizutsune Purplefur;\r\nMizutsune Claw;\r\nBubblefoam;\r\nMizutsune Tail;\r\nMizutsune Plate;\r\nMizutsune Fin;\r\nWyvern Tear;",
+        "highENG": "Mizutsune Scale+;\r\nMizutsune Purplefur+;\r\nMizutsune Claw+;\r\nBubblefoam+;\r\nMizutsune Tail;\r\nMizutsune Plate;\r\nMizutsune Water Orb;\r\nMizutsune Fin+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Mizutsune Shard;\r\nMizutsune Purplefell;\r\nMizutsune Hardclaw;\r\nDistilled Bubblefoam;\r\nPurple Mizutsune Tail;\r\nMizutsune Water Orb;\r\nMizutsune Mantle;\r\nMizutsune Silkfin;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Scale;\r\nAfflicted Dire Scale+;\r\nAfflicted Dire Shard;"
+    },
+    {
+        "name": "Nargacuga",
+        "lowRU": "Черн. мех Нарг.;\r\nЧешуя Наргакуги;\r\nКлык Наргакуги;\r\nКлин. крл. Нарг.;\r\nХвост. шип Нарг.;\r\nХвост Наргакуги;\r\nКост. мозг Нарг.;\r\nСлеза виверны;",
+        "highRU": "Шкура Наргакуги+;\r\nЧешуя Наргакуги+;\r\nКлык Наргакуги+;\r\nЛезвие Наргакуги;\r\nХвост. шип Нарг.;\r\nХвост Наргакуги;\r\nМозг. слой Нарг.;\r\nСамоцвет виверны;\r\nКост. мозг Нарг.;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Черный мех Наргакуги+;\r\nОсколок Наргакуги;\r\nРезец Наргакуги;\r\nКлинк. крыло Нарг.+;\r\nХвостовой шип Нарг.;\r\nПлеть Наргакуги;\r\nМозг. слой Нарг.;\r\nПокров Наргакуги;\r\nБольшой самоцвет вив.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененный клык;\r\nИзм. клык+;\r\nИзм. проч.клык;",
+        "lowENG": "Nargacuga Blackfur;\r\nNargacuga Scale;\r\nNargacuga Fang;\r\nNargacuga Cutwing;\r\nNarga Tailspike;\r\nNargacuga Tail;\r\nNargacuga Marrow;\r\nWyvern Tear;",
+        "highENG": "Nargacuga Pelt+;\r\nNargacuga Scale+;\r\nNargacuga Fang+;\r\nNarga Razor;\r\nNarga Tailspike;\r\nNargacuga Tail;\r\nNarga Medulla;\r\nWyvern Gem;\r\nNargacuga Marrow;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Nargacuga Blackfur+;\r\nNargacuga Shard;\r\nNargacuga Hardfang;\r\nNargacuga Cutwing+;\r\nNargacuga Tailspear;\r\nNargacuga Lash;\r\nNarga Medulla;\r\nNargacuga Mantle;\r\nLarge Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Fang;\r\nAfflicted Fang+;\r\nAfflicted Hardfang;"
+    },
+    {
+        "name": "Narwa the Allmother",
+        "lowRU": null,
+        "highRU": "Чешуя истока;\r\nШкура Нарвы+;\r\nРог истока;\r\nИскр. меш. Нарвы;\r\nЩупальце Нарвы;\r\nСфера истока;\r\nКоготь Нарвы+;\r\nСфера Змея грома;\r\nСфера Змея ветра;\r\nКровь древ. драк.;\r\nСокр. Дракона;",
+        "mrRU": "Чешуя истока+;\r\nТолстая шкура Нарвы;\r\nРог истока+;\r\nГрозовая железа Нарвы;\r\nЩупальце Нарвы+;\r\nСфера истока;\r\nПокров истока;\r\nКогтище Нарвы;\r\nСфера Змея грома;\r\nСфера Змея ветра;\r\nЧистая драконья кровь;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": "Scale of Origin;\r\nNarwa Hide+;\r\nHorn of Origin;\r\nNarwa Sparksac;\r\nNarwa Tentacle;\r\nOrb of Origin;\r\nNarwa Claw+;\r\nThunder Serpent Orb;\r\nWind Serpent Orb;\r\nElder Dragon Blood;\r\nDragon Treasure;",
+        "mrENG": "Scale of Origin+;\r\nNarwa Thickhide;\r\nHorn of Origin+;\r\nNarwa Lighting Sac;\r\nNarwa Tentacle+;\r\nOrb of Origin;\r\nMantle of Origin;\r\nNarwa Hardclaw;\r\nThunder Serpent Orb;\r\nWind Serpent Orb;\r\nPure Dragon Blood;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Primordial Malzeno",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Пластина Малзено;\r\nДревняя чешуя;\r\nКлык Малзено;\r\nПаразит безумия;\r\nДревний хвост;\r\nДревний камень;\r\nСияющее крыло;\r\nРог Малзено;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Malzeno Pureplate;\r\nPrimordial Scale;\r\nMalzeno Beautifang;\r\nMadness Parasite;\r\nPrimordial Tail;\r\nPrimordial Bloodstone;\r\nShining Shieldwing;\r\nMalzeno Silverhorn;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Pukei-Pukei",
+        "lowRU": "Чешуя Поки-Поки;\r\nШкура Поки-Поки;\r\nПерья Поки-Поки;\r\nХвост Поки-Поки;\r\nЖелеза Поки-Поки;\r\nЯдовитая железа;\r\nБоль. кость м.;\r\nСлеза виверны;",
+        "highRU": "Чешуя Поки-Поки+;\r\nПанц. Поки-Поки;\r\nКрыло Поки-Поки;\r\nЖелеза Поки+;\r\nТоксичная железа;\r\nОстрая кость м.;\r\nСамоцвет пер. в.;\r\nХвост Поки-Поки;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Поки-Поки;\r\nСердечник Поки-Поки;\r\nЦель. крыло Поки-Поки;\r\nБол. железа Поки-Поки;\r\nПлеть Поки-Поки;\r\nСмертельно яд. железа;\r\nМощная кость монстра;\r\nНеземной самоцв. вив.;\r\nСамоцвет пер. в.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная чешуя;\r\nИзм. чешуя+;\r\nИзмен. Осколок;",
+        "lowENG": "Pukei-Pukei Scale;\r\nPukei-Pukei Shell;\r\nPukei-Pukei Quill;\r\nPukei-Pukei Tail;\r\nPukei-Pukei Sac;\r\nPoison Sac;\r\nMonster Bone L;\r\nWyvern Tear;",
+        "highENG": "Pukei-Pukei Scale+;\r\nPukei-Pukei Carapace;\r\nPukei-Pukei Wing;\r\nPukei-Pukei Sac+;\r\nToxin Sac;\r\nMonster Keenbone;\r\nBird Wyvern Gem;\r\nPukei-Pukei Tail;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Pukei-Pukei Shard;\r\nPukei-Pukei Cortex;\r\nPukei-Pukei Fellwing;\r\nLarge Pukei-Pukei Sac;\r\nPukei-Pukei Lash;\r\nDeadly Poison Sac;\r\nMonster Toughbone;\r\nFey Wyvern Gem;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Scale;\r\nAfflicted Scale+;\r\nAfflicted Shard;"
+    },
+    {
+        "name": "Pyre Rakna-Kadaki",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Коготь;\r\nИзм. отч.коготь+;\r\nИзм. отч.когтище;\r\nСрд. плам. Кад.;\r\nШелк плам. Кадаки+;\r\nСветоор. п. Кад.;\r\nКгтщ. плам. Кад.;\r\nШип плам. Кад.+;\r\nЭссенция монстра;\r\nВещ. Королевы;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Claw;\r\nAfflicted Dire Claw+;\r\nAfflicted Dire Hardclaw;\r\nPyre-Kadaki Cortex;\r\nPyre-Kadaki Silk+;\r\nPyre-Kadaki Dull Glowgut;\r\nPyre-Kadaki Hardclaw;\r\nPyre-Kadaki Spike+;\r\nMonster Essence;\r\nQueen Substance;"
+    },
+    {
+        "name": "Rajang",
+        "lowRU": null,
+        "highRU": "Чер. мех Раянга;\r\nКоготь Раянга+;\r\nКлык Раянга+;\r\nХвост Раянга;\r\nЗол. шкур. Раянга;\r\nСамоцвет зверя;\r\nБ. прочная кость;\r\nРог Раянга+;\r\nБ. слеза зверя;",
+        "mrRU": "Шкура дикого Раянга;\r\nКогтище Раянга;\r\nРезец Раянга;\r\nЗолотая шкура Раянга+;\r\nБол. самоцвет зверя;\r\nТвердая кость;\r\nКрепкий рог Раянга;\r\nХвост Раянга;\r\nБ. слеза зверя;\r\nИзм. отч. Коготь;\r\nИзм. отч.коготь+;\r\nИзм. отч.когтище;",
+        "lowENG": null,
+        "highENG": "Rajang Blackfur;\r\nRajang Claw+;\r\nRajang Fang+;\r\nRajang Tail;\r\nGold Rajang Pelt;\r\nBeast Gem;\r\nGreat Stoutbone;\r\nRajang Horn+;\r\nLarge Beast Tear;",
+        "mrENG": "Rajang Wildpelt;\r\nRajang Hardclaw;\r\nRajang Hardfang;\r\nGold Rajang Pelt+;\r\nLarge Beast Gem;\r\nSolid Bone;\r\nRajang Hardhorn;\r\nRajang Tail;\r\nLarge Beast Tear;\r\nAfflicted Dire Claw;\r\nAfflicted Dire Claw+;\r\nAfflicted Dire Hardclaw;"
+    },
+    {
+        "name": "Rakna-Kadaki",
+        "lowRU": null,
+        "highRU": "Панцирь Р.-Кад.;\r\nШелк Р.-Кадаки;\r\nСветоорган Р.-К.;\r\nКоготь Р.-Кадаки;\r\nШип Р.-Кадаки;\r\nЧудов. Бульон;\r\nВещество трутня;\r\nВещ. Королевы;",
+        "mrRU": "\r\nСердечник Р.-Кадаки;\r\nШелк Ракна-Кадаки+;\r\nСветоорган Р.-Кадаки+;\r\nКогтище Ракна-Кадаки;\r\nШип Ракна-Кадаки;\r\nЭссенция монстра;\r\nВещество трутня;\r\nВещ. Королевы;\r\nИзменен. Коготь;\r\nИзм. коготь+;\r\nИзм. Когтище;",
+        "lowENG": null,
+        "highENG": "Rakna-Kadaki Carapace;\r\nRakna-Kadaki Silk;\r\nRakna-Kadaki Glowgut;\r\nRakna-Kadaki Sharpclaw;\r\nRakna-Kadaki Spike;\r\nMonster Broth;\r\nDrone Substance;\r\nQueen Substance;",
+        "mrENG": "Rakna-Kadaki Cortex;\r\nRakna-Kadaki Silk+;\r\nRakna-Kadaki Glowgut+;\r\nRakna-Kadaki Hardclaw;\r\nRakna-Kadaki Spike+;\r\nMonster Essence;\r\nDrone Substance;\r\nQueen Substance;\r\nAfflicted Claw;\r\nAfflicted Claw+;\r\nAfflicted Hardclaw;"
+    },
+    {
+        "name": "Rathalos",
+        "lowRU": "Чешуя Раталоса;\r\nШкура Раталоса;\r\nПереп. Раталоса;\r\nХвост Раталоса;\r\nПламенная железа;\r\nКост. мозг рат.;\r\nПласт. Раталоса;\r\nКр. шпора Рат;\r\nСлеза виверны;",
+        "highRU": "Чешуя Раталоса+;\r\nПанцирь Раталоса;\r\nКрыло Раталоса;\r\nАдская железа;\r\nКост. мозг рат.;\r\nМозг. слой Рат.;\r\nПласт. Раталоса;\r\nРубин Раталоса;\r\nХвост Раталоса;\r\nКр. шпора Рат+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Раталоса;\r\nСердечник Раталоса;\r\nЦельное крыло Ратал.;\r\nОгнеопасная железа;\r\nПлеть Раталоса;\r\nРубин Раталоса;\r\nПокров Раталоса;\r\nМозг. слой Рат.;\r\nПотрошитель Раты;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзм. отч. Чешуя;\r\nИзм. отч. чешуя+;\r\nИзм. отч.осколок;",
+        "lowENG": "Rathalos Scale;\r\nRathalos Shell;\r\nRathalos Webbing;\r\nRathalos Tail;\r\nFlame Sac;\r\nRath Marrow;\r\nRathalos Plate;\r\nRath Wingtalon;\r\nWyvern Tear;",
+        "highENG": "Rathalos Scale+;\r\nRathalos Carapace;\r\nRathalos Wing;\r\nInferno Sac;\r\nRath Marrow;\r\nRath Medulla;\r\nRathalos Plate;\r\nRathalos Ruby;\r\nRathalos Tail;\r\nRath Wingtalon+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Rathalos Shard;\r\nRathalos Cortex;\r\nRathalos Fellwing;\r\nConflagrant Sac;\r\nRathalos Lash;\r\nRathalos Ruby;\r\nRathalos Mantle;\r\nRath Medulla;\r\nRath Wingripper;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Scale;\r\nAfflicted Dire Scale+;\r\nAfflicted Dire Shard;"
+    },
+    {
+        "name": "Rathian",
+        "lowRU": "Чешуя Ратианы;\r\nШкура Ратианы;\r\nПерепон. Ратианы;\r\nШип Ратианы;\r\nПламенная железа;\r\nБоль. кость м.;\r\nПластина Ратианы;\r\nКост. мозг рат.;\r\nКр. шпора Рат;\r\nСлеза виверны;",
+        "highRU": "Чешуя Ратианы+;\r\nПанцирь Ратианы;\r\nПерепон. Ратианы;\r\nШип Ратианы+;\r\nАдская железа;\r\nОстрая кость м.;\r\nПластина Ратианы;\r\nРубин Ратианы;\r\nКост. мозг рат.;\r\nМозг. слой Рат.;\r\nКр. шпора Рат+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Ратианы;\r\nСердечник Ратианы;\r\nВолокно Ратианы;\r\nЯд. шип Ратианы;\r\nОгнеопасная железа;\r\nМощная кость монстра;\r\nРубин Ратианы;\r\nПокров Ратианы;\r\nМозг. слой Рат.;\r\nПотрошитель Раты;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная чешуя;\r\nИзм. чешуя+;\r\nИзмен. Осколок;",
+        "lowENG": "Rathian Scale;\r\nRathian Shell;\r\nRathian Webbing;\r\nRathian Spike;\r\nFlame Sac;\r\nMonster Bone L;\r\nRathian Plate;\r\nRath Marrow;\r\nRath Wingtalon;\r\nWyvern Tear;",
+        "highENG": "Rathian Scale+;\r\nRathian Carapace;\r\nRathian Webbing;\r\nRathian Spike+;\r\nInferno Sac;\r\nMonster Keenbone;\r\nRathian Plate;\r\nRathian Ruby;\r\nRath Marrow;\r\nRath Medulla;\r\nRath Wingtalon+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Rathian Shard;\r\nRathian Cortex;\r\nRathian Weave;\r\nRathian Surspike;\r\nConflagrant Sac;\r\nMonster Toughbone;\r\nRathian Ruby;\r\nRathian Mantle;\r\nRath Medulla;\r\nRath Wingripper\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Scale;\r\nAfflicted Scale+;\r\nAfflicted Shard;"
+    },
+    {
+        "name": "Risen Chameleos",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измен. Печать;\r\nИзмен. печать+;\r\nТонкая шкура Хамел.;\r\nКогтище Хамелеоса;\r\nЦельное крыло Хамел.;\r\nПлеть Хамелеоса;\r\nСамоцвет Хам.;\r\nБ. самоц. Древ. драк.;\r\nКрепкий рог Хамелеоса;\r\nЧистая драконья кровь;\r\nУльтимас-руда;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Risen Dragonbone;\r\nRisen Dragonbone+;\r\nChameleos Finehide;\r\nChameleos Hardclaw;\r\nChameleos Fellwing;\r\nChameleos Lash;\r\nChameleos Gem;\r\nLarge Elder Dragon Gem;\r\nChameleos Hardhorn;\r\nPure Dragon Blood;\r\nUltimas Crystal;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Risen Crimson Glow Valstrax",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сверкающий щиток;\r\nПерелив. Осколок;\r\nКоготь Валстракса;\r\nСпин. панцирь Валст.;\r\nВинтовой хвост Валст.;\r\nКипящая багряная жид.;\r\nСф. Крас. драк.;\r\nАлый Дракосфир;\r\nКрасный копьекрыл+;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Glittering Shell;\r\nShimmering Shard;\r\nValstrax Talon;\r\nValstrax Spineshell+;\r\nValstrax Helixtail;\r\nSeething Crimson Liquid;\r\nRed Dragon Orb;\r\nRed Dragonsphire;\r\nRouge Lancewing+;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Risen Kushala Daora",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измен. Печать;\r\nИзмен. печать+;\r\nСердечник Даоры;\r\nОсколок Даоры;\r\nКогтище Даоры;\r\nЦельное крыло Даоры;\r\nПлеть Даоры;\r\nСамоцвет Даоры;\r\nБ. самоц. Древ. драк.;\r\nКрепкий рог Даоры;\r\nЧистая драконья кровь;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Risen Dragonbone;\r\nRisen Dragonbone+;\r\nDaora Cortex;\r\nDaora Shard;\r\nDaora Hardclaw;\r\nDaora Fellwing;\r\nDaora Lash;\r\nDaora Gem;\r\nLarge Elder Dragon Gem;\r\nDaora Hardhorn;\r\nPure Dragon Blood;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Risen Teostra",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измен. Печать;\r\nИзмен. печать+;\r\nСердечник Теостры;\r\nОсколок ад. Пламени;\r\nКогтище Теостры;\r\nПлеть Теостры;\r\nСамоцвет Теостры;\r\nБ. самоц. Древ. драк.;\r\nЦельное крыло Теостры;\r\nКрепкий рог Теостры;\r\nЧистая драконья кровь;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Risen Dragonbone;\r\nRisen Dragonbone+;\r\nTeostra Cortex;\r\nHellfire Shard;\r\nFire Dragon Hardclaw;\r\nTeostra Lash;\r\nTeostra Gem;\r\nLarge Elder Dragon Gem;\r\nTeostra Fellwing;\r\nTeostra Hardhorn;\r\nPure Dragon Blood;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Royal Ludroth",
+        "lowRU": "Чешуя К. Лудрота;\r\nКоготь К. Луд.;\r\nУпругая шкура;\r\nГребень К. Луд.;\r\nХвост К. Лудрота;\r\nВодяная железа;\r\nРывков. Экстракт;\r\nСлеза виверны;",
+        "highRU": "Чешуя К. Луд.+;\r\nКоготь К. Луд.+;\r\nУпругая шкура+;\r\nГребень К. Луд.+;\r\nХвост К. Лудрота;\r\nЖелеза потока;\r\nРывков. Экстракт;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Кор. Лудрота;\r\nКоготь Кор. Лудрота;\r\nУпругая кожа;\r\nШикарный гребень;\r\nПлеть Кор. Лудрота;\r\nВодяной мешок;\r\nРывков. Экстракт;\r\nБольшой самоцвет вив.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nКость изм. м-ра;\r\nИзм. тв. Кость;\r\nИзм. кость монс.;",
+        "lowENG": "Royal Ludroth Scale;\r\nRoyal Ludroth Claw;\r\nSpongy Hide;\r\nRoyal Ludroth Crest;\r\nRoyal Ludroth Tail;\r\nAqua Sac;\r\nDash Extract;\r\nWyvern Tear;",
+        "highENG": "Royal Ludroth Scale+;\r\nRoyal Ludroth Claw+;\r\nSpongy Hide+;\r\nRoyal Ludroth Crest+;\r\nRoyal Ludroth Tail;\r\nTorrent Sac;\r\nDash Extract;\r\nWyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Royal Ludroth Shard;\r\nRoyal Ludroth Talon;\r\nSpongy Piel;\r\nChic Crest;\r\nRoyal Ludroth Lash;\r\nFlood Sac;\r\nDash Extract;\r\nLarge Wyvern Gem;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Monster Bone;\r\nAfflicted Monster Hardbone;\r\nAfflicted Monster Slogbone;"
+    },
+    {
+        "name": "Scorned Magnamalo",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Клык;\r\nИзм. отч. клык+;\r\nИзм. отч. пр. Клык;\r\nЧешуя жадн. драк.;\r\nБроневой сердеч. Маг.;\r\nНеотразим. Лаполезвие;\r\nСтонущие ножны;\r\nХвост Магнамало+;\r\nБарьерная призма Маг.;\r\nГлаз Магнамало;\r\nРог злобы;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Fang;\r\nAfflicted Dire Fang+;\r\nAfflicted Dire Hardfang;\r\nBegrudged Rancorscale;\r\nMagna Armored Cortex;\r\nSurging Armblade;\r\nMoaning Bladeshell;\r\nMagnamalo Tail+;\r\nMagna Barrierprism;\r\nMagna Glare Eye;\r\nHorn of Malice;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Seething Bazelgeuse",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Кровь;\r\nИзм.отч.кр.драк.;\r\nИзм. отч. темная кровь;\r\nМерц. сереб. Панцирь;\r\nОсколок Базельгейса;\r\nКогтище Базельгейса;\r\nОчищенная взрыв. жид.;\r\nЖгучее сереб. Крыло;\r\nСамоцвет Базель.;\r\nПокров Базельгейса;\r\nБич Базельгейса;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Blood;\r\nAfflicted Dire Dragon Blood;\r\nAfflicted Dire Darkblood;\r\nFlickering Silvershell;\r\nBazelgeuse Shard;\r\nBazelgeuse Hardclaw;\r\nDistilled Blast Fluid;\r\nScorching Silverwing;\r\nBazelgeuse Gem;\r\nBazelgeuse Mantle;\r\nBazelgeuse Flail;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Seregios",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Рог;\r\nИзм. отч. рог+;\r\nИзм.отч.креп.рог;\r\nОстрая чешуя Серег.+;\r\nВетронож Серегиоса+;\r\nРезак Серегиоса+;\r\nСкребок Серегиоса+;\r\nКаратель Серегиоса+;\r\nВзор Серегиоса;\r\nРазлом Серегиоса+;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Horn;\r\nAfflicted Dire Horn+;\r\nAfflicted Dire Hardhorn;\r\nSeregios Slavescale+;\r\nSeregios Airblade+;\r\nSeregios Carver+;\r\nSeregios Scraper+;\r\nSeregios Impaler+;\r\nSeregios Lens;\r\nSeregios Breacher+;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Shagaru Magala",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник Ш. Магалы;\r\nОсколок Шагару Магалы;\r\nОчиститель Ш. Магалы;\r\nПлеть Шагару Магалы;\r\nКрепкий рог Ш. Магалы;\r\nПокров Шагару Магалы;\r\nКрылосвет Ш. Магалы;\r\nСокр. Дракона;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "S. Magala Cortex;\r\nS. Magala Shard;\r\nS. Magala Purifier;\r\nS. Magala Lash;\r\nS. Magala Hardhorn;\r\nS. Magala Mantle;\r\nS. Magala Lightwing;\r\nDragon Treasure;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Shogun Ceanataur",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Измен. Панцирь;\r\nИзм. Панцирь;\r\nИзм. Сердечник;\r\nСердечник Цинатавра;\r\nМощная лапа Цинатавра;\r\nКлешня Цинатавра;\r\nСвинц. кость монстра;\r\nКрасивая черная жемч.;\r\nТяжелый скальп вивер.;\r\nТвердая кость;\r\nКрабовая жемчужина+;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Shell;\r\nAfflicted Carapace;\r\nAfflicted Cortex;\r\nCeanataur Cortex;\r\nHeavy Ceanataur Leg;\r\nCeanataur Hardclaw;\r\nMonster Slogbone;\r\nFine Black Pearl;\r\nHeavy Wyvern Scalp;\r\nSolid Bone;\r\nCrab Pearl+;"
+    },
+    {
+        "name": "Silver Rathalos",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Изм. отч. Крыло;\r\nИзм. отч. крыло+;\r\nИзм. отч. ц. Крыло;\r\nОскол. сер. Рат.;\r\nСерд. сер. Рат.;\r\nЦ. крыло сер. Ратал.;\r\nПлеть сереб. Раталоса;\r\nБлеск Рат;\r\nРубин Раталоса;\r\nПокров Раталоса;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Afflicted Dire Wing;\r\nAfflicted Dire Wing+;\r\nAfflicted Dire Fellwing;\r\nSilver Rathalos Shard;\r\nSilver Rathalos Cortex;\r\nSilver Rathalos Fellwing;\r\nSilver Rathalos Lash;\r\nRath Gleam;\r\nRathalos Ruby;\r\nRathalos Mantle;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Somnacanth",
+        "lowRU": "Чешуя Сомнаканта;\r\nШкура Сомнаканта;\r\nПлавник Сомнак.;\r\nПыль Сомнаканта;\r\nБоль. кость м.;\r\nКоготь Сомнак.;\r\nСлеза виверны;",
+        "highRU": "Чешуя Сомнак.+;\r\nПанцирь Сомнак.+;\r\nПлавник Сомнак.+;\r\nУспокоит. Сомнак.;\r\nТвердая кость м.;\r\nСамоцвет виверны;\r\nКоготь Сомнак.+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Осколок Сомнаканта;\r\nСердечник Сомнаканта;\r\nДикий плавник Сомнак.;\r\nСонный порошок Сомн.;\r\nМощная кость монстра;\r\nБольшой самоцвет вив.;\r\nСонный коготь Сомнак.;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмен. Панцирь;\r\nИзм. Панцирь;\r\nИзм. Сердечник;",
+        "lowENG": "Somnacanth Scale;\r\nSomnacanth Shell;\r\nSomnacanth Fin;\r\nSomnacanth Dust;\r\nMonster Bone L;\r\nSomnacanth Claw;\r\nWyvern Tear;",
+        "highENG": "Somnacanth Scale+;\r\nSomnacanth Shell+;\r\nSomnacanth Fin+;\r\nSomnacanth Sedative;\r\nMonster Hardbone;\r\nWyvern Gem;\r\nSomnacanth Claw+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Somnacanth Shard;\r\nSomnacanth Cortex;\r\nSomnacanth Wild Fin;\r\nSomna Dream Powder;\r\nMonster Toughbone;\r\nLarge Wyvern Gem;\r\nSomnacanth Dreamtalon;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Shell;\r\nAfflicted Carapace;\r\nAfflicted Cortex;"
+    },
+    {
+        "name": "Teostra",
+        "lowRU": null,
+        "highRU": "Панцирь Теостры;\r\nЧешуя огн. драк.+;\r\nГрива Теостры;\r\nКоготь Теостры+;\r\nПорошок Теостры;\r\nХвост Теостры;\r\nСамоцвет Теостры;\r\nПерепон. Теостры;\r\nРог Теостры+;\r\nКровь древ. драк.;\r\nСокр. Дракона;",
+        "mrRU": "Сердечник Теостры;\r\nОсколок ад. Пламени;\r\nГрива Теостры;\r\nКогтище Теостры;\r\nПлеть Теостры;\r\nСамоцвет Теостры;\r\nБ. самоц. Древ. драк.;\r\nЦельное крыло Теостры;\r\nКрепкий рог Теостры;\r\nПорошок Теостры;\r\nЧистая драконья кровь;\r\nСокр. Дракона;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": "Teostra Carapace;\r\nFire Dragon Scale+;\r\nTeostra Mane;\r\nTeostra Claw+;\r\nTeostra Powder;\r\nTeostra Tail;\r\nTeostra Gem;\r\nTeostra Webbing;\r\nTeostra Horn+;\r\nElder Dragon Blood;\r\nDragon Treasure;",
+        "mrENG": "Teostra Cortex;\r\nHellfire Shard;\r\nTeostra Mane;\r\nFire Dragon Hardclaw;\r\nTeostra Lash;\r\nTeostra Gem;\r\nLarge Elder Dragon Gem;\r\nTeostra Fellwing;\r\nTeostra Hardhorn;\r\nTeostra Powder;\r\nPure Dragon Blood;\r\nDragon Treasure;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Tetranadon",
+        "lowRU": "Шкура Тетран.;\r\nПанцирь Тетран.;\r\nКлюв Тетранадона;\r\nВодяная железа;\r\nГигантская кость;\r\nДиск Тетранадона;\r\nБлест. Перламутр;",
+        "highRU": "Шкура Тетран.+;\r\nПанцирь Тетран.+;\r\nКлюв Тетран.+;\r\nЖелеза потока;\r\nПрочная кость;\r\nДиск Тетран.+;\r\nБлест. Перламутр;\r\nМерц. Перламутр;",
+        "mrRU": "Толстая шкура Тетран.;\r\nТяж. панцирь Тетран.;\r\nБольшой клюв Тетран.;\r\nВодяной мешок;\r\nОгромная кость;\r\nИзящный диск Тетран.;\r\nМерц. Перламутр;\r\nПерелив. Перламутр;\r\nИзмененная кровь;\r\nИзм. кр. Дракона;\r\nИзм.чист.кровь;",
+        "lowENG": "Tetranadon Hide;\r\nTetra Carapace;\r\nTetranadon Beak;\r\nAqua Sac;\r\nJumbo Bone;\r\nTetranadon Disc;\r\nShiny Nacre;",
+        "highENG": "Tetranadon Hide+;\r\nTetra Carapace+;\r\nTetranadon Beak+;\r\nTorrent Sac;\r\nStoutbone;\r\nTetranadon Disc+;\r\nShiny Nacre;\r\nGlittering Nacre;",
+        "mrENG": "Tetranadon Thickhide;\r\nHeavy Tetra Carapace;\r\nTetranadon Greatbeak;\r\nFlood Sac;\r\nMassive Bone;\r\nTetranadon Finedisc;\r\nGlittering Nacre;\r\nShimmering Nacre;\r\nAfflicted Blood;\r\nAfflicted Dragon Blood;\r\nAfflicted Pure Blood;"
+    },
+    {
+        "name": "Thunder Serpent Narwa",
+        "lowRU": null,
+        "highRU": "Панцирь Нарвы;\r\nШкура Нарвы+;\r\nРог Нарвы+;\r\nИскр. меш. Нарвы;\r\nЩупальце Нарвы;\r\nСфера Змея грома;\r\nКоготь Нарвы+;\r\nСокр. Дракона;\r\nКровь древ. драк.;",
+        "mrRU": "Панцирь Нарвы;\r\nШкура Нарвы+;\r\nРог Нарвы+;\r\nИскр. меш. Нарвы;\r\nЩупальце Нарвы;\r\nСфера Змея грома;\r\nКоготь Нарвы+;\r\nСокр. Дракона;\r\nКровь древ. драк.;",
+        "lowENG": null,
+        "highENG": "Narwa Carapace;\r\nNarwa Hide+;\r\nNarwa Horn+;\r\nNarwa Sparksac;\r\nNarwa Tentacle;\r\nThunder Serpent Orb;\r\nNarwa Claw+;\r\nDragon Treasure;\r\nElder Dragon Blood;",
+        "mrENG": "Narwa Carapace;\r\nNarwa Hide+;\r\nNarwa Horn+;\r\nNarwa Sparksac;\r\nNarwa Tentacle;\r\nThunder Serpent Orb;\r\nNarwa Claw+;\r\nDragon Treasure;\r\nElder Dragon Blood;"
+    },
+    {
+        "name": "Tigrex",
+        "lowRU": "Шкура Тигрекса;\r\nЧешуя Тигрекса;\r\nКоготь Тигрекса;\r\nКлык Тигрекса;\r\nХвост Тигрекса;\r\nСкальп Тигрекса;\r\nСлеза виверны;",
+        "highRU": "Панцирь Тигрекса;\r\nЧешуя Тигрекса+;\r\nКоготь Тигрекса+;\r\nКлык Тигрекса+;\r\nСкальп Тигрекса;\r\nПасть Тигрекса;\r\nСамоцвет виверны;\r\nХвост Тигрекса;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Тигрекса;\r\nОсколок Тигрекса;\r\nКогтище Тигрекса;\r\nРезец Тигрекса;\r\nПлеть Тигрекса;\r\nБольшой самоцвет вив.;\r\nПокров Тигрекса;\r\nПасть Тигрекса;\r\nБ. слеза виверны;\r\nИзм. отч. Кость;\r\nИзм. отч. проч. Кость;\r\nИзм.отч.св.кость;",
+        "lowENG": "Tigrex Shell;\r\nTigrex Scale;\r\nTigrex Claw;\r\nTigrex Fang;\r\nTigrex Tail;\r\nTigrex Scalp;\r\nWyvern Tear;",
+        "highENG": "Tigrex Carapace;\r\nTigrex Scale+;\r\nTigrex Claw+;\r\nTigrex Fang+;\r\nTigrex Scalp;\r\nTigrex Maw;\r\nWyvern Gem;\r\nTigrex Tail;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Tigrex Cortex;\r\nTigrex Shard;\r\nTigrex Hardclaw;\r\nTigrex Hardfang;\r\nTigrex Lash;\r\nLarge Wyvern Gem;\r\nTigrex Mantle;\r\nTigrex Maw;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Bone;\r\nAfflicted Dire Hardbone;\r\nAfflicted Dire Slogbone;"
+    },
+    {
+        "name": "Tobi-Kadachi",
+        "lowRU": "Шкура Кадачи;\r\nЧешуя Кадачи;\r\nМембрана Кадачи;\r\nКоготь Кадачи;\r\nЭлектрод Кадачи;\r\nЭлектр. Железа;\r\nСлеза виверны;",
+        "highRU": "Шкура Кадачи+;\r\nЧешуя Кадачи+;\r\nКоготь Кадачи+;\r\nЭлектрод Кадачи+;\r\nГрозовая железа;\r\nСамоцвет виверны;\r\nМембрана Кадачи;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Густой мех Т.-Кадачи;\r\nОсколок Тоби-Кадачи;\r\nКогтище Тоби-Кадачи;\r\nКатод Тоби-Кадачи;\r\nГромовая железа;\r\nБольшой самоцвет вив.;\r\nМембрана Тоби-Кадачи+;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзмененная чешуя;\r\nИзм. чешуя+;\r\nИзмен. Осколок;",
+        "lowENG": "Tobi-Kadachi Pelt;\r\nTobi-Kadachi Scale;\r\nTobi-Kadachi Membrane;\r\nTobi-Kadachi Claw;\r\nTobi-Kadachi Electrode;\r\nElectro Sac;\r\nWyvern Tear;",
+        "highENG": "Tobi-Kadachi Pelt+;\r\nTobi-Kadachi Scale+;\r\nTobi-Kadachi Claw+;\r\nTobi-Kadachi Electrode+;\r\nThunder Sac;\r\nWyvern Gem;\r\nTobi-Kadachi Membrane;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Tobi-Kadachi Thickfur;\r\nTobi-Kadachi Shard;\r\nTobi-Kadachi Hardclaw;\r\nTobi-Kadachi Cathode;\r\nLightning Sac;\r\nLarge Wyvern Gem;\r\nTobi-Kadachi Membrane+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Scale;\r\nAfflicted Scale+;\r\nAfflicted Shard;"
+    },
+    {
+        "name": "Velkhana",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Оскол. Кристалла;\r\nСердеч. Велханы;\r\nКогтище велханы;\r\nЦельн. кр. Велханы;\r\nПлеть велханы;\r\nКристалл велханы;\r\nКорон. рог велх.;\r\nЧистая драконья кровь;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Crystal Shard;\r\nVelkhana Cortex;\r\nVelkhana Hardclaw;\r\nVelkhana Fellwing;\r\nVelkhana Lash;\r\nVelkhana Crystal;\r\nVelkhana Crownhorn;\r\nPure Dragon Blood;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Violet Mizutsune",
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Оск. лил. Мидз.;\r\nБел. лил. Мидз.;\r\nКгтщ. лил. Мидз.;\r\nБелая суставная жид.;\r\nХвост лил. Мидз.;\r\nПокр. лил. Мидз.;\r\nПлавник лил. Мидз.;\r\nБ. слеза виверны;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Violet Mizu Shard;\r\nViolet Mizu Whitefell;\r\nViolet Mizu Hardclaw;\r\nWhite Synovial Fluid;\r\nViolet Mizu Tail;\r\nViolet Mizu Mantle;\r\nViolet Mizu Fin;\r\nLarge Wyvern Tear;"
+    },
+    {
+        "name": "Volvidon",
+        "lowRU": "Шкура Вольвидона;\r\nКоготь Вольвид.;\r\nТесьма Вольвид.;\r\nПарал. Железа;\r\nГигантская кость;\r\nЧудов. Жидкость;\r\nСлеза зверя;",
+        "highRU": "Панцирь Вольвид.;\r\nКоготь Вольвид.+;\r\nТесьма Вольвид.;\r\nВсепораж. жел.;\r\nПрочная кость;\r\nЧудов. Бульон;\r\nСамоцвет зверя;\r\nСлеза зверя;\r\nБ. слеза зверя;",
+        "mrRU": "Сердечник Вольвидона;\r\nКоготь Вольвидона;\r\nБольшая тесьма Вольв.;\r\nСверхпоражающая жел.;\r\nОгромная кость;\r\nЭссенция монстра;\r\nБол. самоцвет зверя;\r\nСамоцвет зверя;\r\nСлеза зверя;\r\nБ. слеза зверя;\r\nИзмененная кость;\r\nИзм. проч. Кость;\r\nИзм. свинц.кость;",
+        "lowENG": "Volvidon Shell;\r\nVolvidon Claw;\r\nVolvidon Rickrack;\r\nParalysis Sac;\r\nJumbo Bone;\r\nMonster Fluid;\r\nBeast Tear;",
+        "highENG": "Volvidon Carapace;\r\nVolvidon Claw+;\r\nVolvidon Rickrack;\r\nOmniplegia Sac;\r\nStoutbone;\r\nMonster Broth;\r\nBeast Gem;\r\nBeast Tear;\r\nLarge Beast Tear;",
+        "mrENG": "Volvidon Cortex;\r\nVolvidon Talon;\r\nLarge Volvi Rickrack;\r\nUltraplegia Sac;\r\nMassive Bone;\r\nMonster Essence;\r\nLarge Beast Gem;\r\nBeast Gem;\r\nBeast Tear;\r\nLarge Beast Tear;\r\nAfflicted Bone;\r\nAfflicted Hardbone;\r\nAfflicted Slogbone;"
+    },
+    {
+        "name": "Wind Serpent Ibushi",
+        "lowRU": null,
+        "highRU": "Панцирь Ибуси;\r\nШкура Ибуси+;\r\nРог Ибуси+;\r\nВетр. меш. Ибуси;\r\nСиний шип Ибуси;\r\nСфера Змея ветра;\r\nКоготь Ибуси+;\r\nСокр. Дракона;",
+        "mrRU": "Сердечник Ибуси;\r\nТонкая шкура Ибуси;\r\nКрепкий рог Ибуси;\r\nВетровой мешок Ибуси+;\r\nСиний шип Ибуси+;\r\nСфера Змея ветра;\r\nВетряной Дракосфир;\r\nКогтище Ибуси;\r\nСокровище Древ. драк.;",
+        "lowENG": null,
+        "highENG": "Ibushi Carapace;\r\nIbushi Hide+;\r\nIbushi Horn+;\r\nIbushi Windsac;\r\nIbushi Bluespike;\r\nWind Serpent Orb;\r\nIbushi Claw+;\r\nDragon Treasure;",
+        "mrENG": "Ibushi Cortex;\r\nIbushi Finehide;\r\nIbushi Hardhorn;\r\nIbushi Windsac+;\r\nIbushi Bluespike+;\r\nWind Serpent Orb;\r\nWind Dragonsphire;\r\nIbushi Hardclaw;\r\nOld Dragon Treasure;"
+    },
+    {
+        "name": "Zinogre",
+        "lowRU": "Шкура Зиногра;\r\nЭлектрошерсть З.;\r\nРазряд. Зиногра;\r\nХвост Зиногра;\r\nГромовой жук;\r\nПластина Зиногра;\r\nКоготь Зиногра;\r\nРог Зиногра;\r\nСлеза виверны;",
+        "highRU": "Панцирь Зиногра;\r\nЭл-шерсть Зиног.;\r\nРазряд. Зиногра+;\r\nХвост Зиногра;\r\nГромовой жук;\r\nПластина Зиногра;\r\nЯшма Зиногра;\r\nКоготь Зиногра+;\r\nРог Зиногра+;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Зиногра;\r\nЭлектрошерсть Зиног.+;\r\nПарализатор Зиногра;\r\nПлеть Зиногра;\r\nГромовой жук;\r\nЯшма Зиногра;\r\nНебесный изумруд Зин.;\r\nКогтище Зиногра;\r\nКрепкий рог Зиногра;\r\nСлеза виверны;\r\nБ. слеза виверны;\r\nИзм. отч. Рог;\r\nИзм. отч. рог+;\r\nИзм.отч.креп.рог;",
+        "lowENG": "Zinogre Shell;\r\nZinogre Shockfur;\r\nZinogre Shocker;\r\nZinogre Tail;\r\nFulgurbug;\r\nZinogre Plate;\r\nZinogre Claw;\r\nZinogre Horn;\r\nWyvern Tear;",
+        "highENG": "Zinogre Carapace;\r\nZinogre Electrofur;\r\nZinogre Shocker+;\r\nZinogre Tail;\r\nFulgurbug;\r\nZinogre Plate;\r\nZinogre Jasper;\r\nZinogre Claw+;\r\nZinogre Horn+;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
+        "mrENG": "Zinogre Cortex;\r\nZinogre Electrofur+;\r\nZinogre Deathly Shocker;\r\nZinogre Lash;\r\nFulgurbug;\r\nZinogre Jasper;\r\nZinogre Skymerald;\r\nZinogre Hardclaw;\r\nZinogre Hardhorn;\r\nWyvern Tear;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Horn;\r\nAfflicted Dire Horn+;\r\nAfflicted Dire Hardhorn;"
+    }
+]}

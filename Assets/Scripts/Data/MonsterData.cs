@@ -10,6 +10,7 @@ namespace Data
         public bool mr;
         public bool tempered;
         public string weakness;
+        public string weaknessStatus;
         public string RUtranslate;
         public string monsterType;
     }

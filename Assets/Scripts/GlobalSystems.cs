@@ -12,23 +12,26 @@ public class GlobalSystems
     private GlobalSystems _instance;
     private LanguageProvider _languageProvider;
     private AssetProvider _assetProvider;
-    private PlayerData _playerData;
+    private PlayerDataParser playerDataParser;
     private ProgressSeeker _progressSeeker;
     private KillList _killList;
     private UIController _uiController;
+    private MonsterResourcesParser _monsterResourcesParser;
 
     public AssetProvider AssetProvider => _assetProvider;
+    public MonsterResourcesParser MosterResourcesParser => _monsterResourcesParser;
 
-    public void Initialize(AssetProvider assetProvider,PlayerData playerData,
+    public void Initialize(AssetProvider assetProvider,PlayerDataParser playerDataParser,
         LanguageProvider languageProvider,ProgressSeeker progressSeeker,
-        KillList killList,UIController uiController)
+        KillList killList,UIController uiController,MonsterResourcesParser monsterResourcesParser)
     {
         _progressSeeker = progressSeeker;
         _languageProvider = languageProvider;
         _assetProvider = assetProvider;
-        _playerData = playerData;
+        this.playerDataParser = playerDataParser;
         _killList = killList;
         _uiController = uiController;
+        _monsterResourcesParser = monsterResourcesParser;
     }
 
     public Sprite GetSprite(string imageName)
@@ -38,7 +41,7 @@ public class GlobalSystems
 
     public bool GetDefeated(MonsterModel model)
     {
-        return _playerData.GetDefeated(model);
+        return playerDataParser.GetDefeated(model);
     }
 
     public string GetName(string dataName)
@@ -68,7 +71,7 @@ public class GlobalSystems
 
     public void SetDefeatedState(MonsterModel model, bool isDefeated)
     {
-        _playerData.SetDefeated(model,isDefeated);
+        playerDataParser.SetDefeated(model,isDefeated);
         _progressSeeker.UpdateSlider();
     }
 
@@ -100,5 +103,15 @@ public class GlobalSystems
     public void CallDetail(MonsterModel model)
     {
         _uiController.FillDetailedList(model);
+    }
+
+    public Sprite GetSprite(WeaknessStatusType weaknessType, StyleType style)
+    {
+        return _assetProvider.GetWeaknessSprite(weaknessType, style);
+    }
+
+    public Lang GetLang()
+    {
+        return _languageProvider.GetLanguage();
     }
 }

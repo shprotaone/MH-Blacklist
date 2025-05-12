@@ -18,6 +18,17 @@ public class WeaknessView : MonoBehaviour
         }
     }
 
+    public void Fill(List<Sprite> weaknessSprites)
+    {
+        DisableSlots();
+        
+        for (int i = 0; i < weaknessSprites.Count; i++)
+        {
+            _slots[i].sprite = weaknessSprites[i];
+            _slots[i].gameObject.SetActive(true);
+        }
+    }
+
     private void DisableSlots()
     {
         foreach (var slotImage in _slots)

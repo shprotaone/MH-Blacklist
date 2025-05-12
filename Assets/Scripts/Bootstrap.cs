@@ -20,12 +20,13 @@ public class Bootstrap : MonoBehaviour
 
     private CurtainSystem _curtainSystem;
     private GlobalSystems _globalSystems;
-    private PlayerData _playerData;
+    private PlayerDataParser playerDataParser;
     private LanguageProvider _languageProvider;
     private SaveLoadSystem _saveLoadSystem;
     private MonsterTierList _monsterTierList;
     private KillList _killList;
     private SettingsController _settingsController;
+    private MonsterResourcesParser _monsterResourcesParser;
 
     private async void Start()
     {
@@ -36,11 +37,14 @@ public class Bootstrap : MonoBehaviour
         _killList = new KillList();
         _monsterTierList = new MonsterTierList(_languageProvider);
         _settingsController = new SettingsController();
+        _monsterResourcesParser = new MonsterResourcesParser();
+        playerDataParser = new PlayerDataParser(_saveLoadSystem);
 
+        _globalSystems.Initialize(_assetProvider, playerDataParser, _languageProvider, _progressSeeker,
+            _killList,_uiController,_monsterResourcesParser);
 
         _saveLoadSystem.Initialize(_assetProvider);
-        _playerData = new PlayerData(_saveLoadSystem);
-        await _uiController.Initialize(_assetProvider,_settingsController);
+        await _uiController.Initialize(_assetProvider,_settingsController,_globalSystems);
         _settingsController.Initialize(_uiController,_languageProvider,_saveLoadSystem,_monsterListChanger);
         _quickMonsterListController.Initialize(_killList,_assetProvider);
         _monsterListChanger.Initialize(_uiController, _cellFactory, _findSystem, _designChanger, _progressSeeker,
@@ -71,7 +75,8 @@ public class Bootstrap : MonoBehaviour
 
     private IEnumerator Loading()
     {
-        _globalSystems.Initialize(_assetProvider, _playerData, _languageProvider, _progressSeeker,_killList,_uiController);
+        _monsterResourcesParser.Initialize(_assetProvider);
+
         _globalSystems.SetLanguage(_language);
 
         var riseList = _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath, true);

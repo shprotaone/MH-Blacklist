@@ -205,4 +205,39 @@ public class AssetProvider : MonoBehaviour
         var handle = Addressables.LoadAssetAsync<GameObject>(name);
         return handle.WaitForCompletion();
     }
+
+    public Sprite GetWeaknessSprite(WeaknessStatusType weaknessType, StyleType style)
+    {
+        string loadingName = "";
+        if (weaknessType == WeaknessStatusType.PARA)
+        {
+            loadingName = "para";
+        }
+        else if (weaknessType == WeaknessStatusType.STUN)
+        {
+            loadingName = "stun";
+        }
+        else if (weaknessType == WeaknessStatusType.BLAST)
+        {
+            loadingName = "blast";
+        }
+        else if (weaknessType == WeaknessStatusType.SLEEP)
+        {
+            loadingName = "sleep";
+        }
+        else if (weaknessType == WeaknessStatusType.POISON)
+        {
+            loadingName = "poison";
+        }
+
+        if (style == StyleType.WORLD)
+        {
+            loadingName += "World";
+        }
+
+        var operationHandle = Addressables.LoadAssetAsync<Sprite>(loadingName);
+        Sprite result = operationHandle.WaitForCompletion();
+
+        return result;
+    }
 }

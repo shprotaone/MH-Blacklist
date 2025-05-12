@@ -1,11 +1,8 @@
-namespace Data
+public enum WeaknessType
 {
-    public enum WeaknessType
-    {
-        FIRE,
-        WATER,
-        THUNDER,
-        FROST,
-        DRAGON
-    }
+    FIRE,
+    WATER,
+    THUNDER,
+    FROST,
+    DRAGON
 }

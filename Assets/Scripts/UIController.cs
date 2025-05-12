@@ -17,16 +17,19 @@ public class UIController : MonoBehaviour
     private SettingsView _settingsView;
     private RectTransform _settingsPanel;
     private UIFactory _uiFactory;
+    private GlobalSystems _globalSystems;
     private bool _isPortrait;
+    [SerializeField] private GameObject _powerPrefab;
 
     public RankTabController RankTabController => _rankTabController;
     public Transform CurtainPanel => _curtainPanel;
     public SettingsView SettingsView => _settingsView;
     public UIFactory UIFactory => _uiFactory;
 
-    public async UniTask Initialize(AssetProvider assetProvider,SettingsController settingsController)
+    public async UniTask Initialize(AssetProvider assetProvider,SettingsController settingsController,GlobalSystems globalSystems)
     {
         _uiFactory = new UIFactory();
+        _globalSystems = globalSystems;
         await _uiFactory.Initialize(assetProvider);
         _rankTabController.Initialize(assetProvider);
         CreateSettingsWindow(settingsController);
@@ -38,8 +41,9 @@ public class UIController : MonoBehaviour
     private void CreateDetailWindow()
     {
         _detailedView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
-        var controller = new DetailedViewController(_detailedView);
-        _detailedView.Initialize(controller);
+        var controller = new DetailedViewController(_detailedView,_globalSystems);
+        _detailedView.Initialize(controller, _powerPrefab,_globalSystems);
+        _detailedView.Controller.Hide();
     }
 
     private void CreateSettingsWindow(SettingsController settingsController)
@@ -65,6 +69,7 @@ public class UIController : MonoBehaviour
 
     public void FillDetailedList(MonsterModel model)
     {
-        _detailedView.Controller.Fill(model);
+        _detailedView.Controller.Fill(model,_powerPrefab);
+        _detailedView.gameObject.SetActive(true);
     }
 }
