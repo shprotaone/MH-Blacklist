@@ -149,7 +149,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,dragon,water,thunder",
-        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun1",
+        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun,1",
         "RUtranslate": "Диаблос",
         "monsterType": "Flying wyverns"
     },
@@ -215,7 +215,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,thunder",
-        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun1",
+        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun,1",
         "RUtranslate": "Черная Диаблос",
         "monsterType": "Flying wyverns"
     },
@@ -237,7 +237,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost,dragon",
-        "weaknessStatus": "poison,3;stun,3;para,2;blast,2;stun,1",
+        "weaknessStatus": "poison,3;stun,3;para,2;blast,2;sleep,1",
         "RUtranslate": "Урагаан",
         "monsterType": "Brute wyverns"
     },
@@ -248,7 +248,7 @@
         "mr": 0,
         "tempered": 1,
         "weakness": "thunder,frost,dragon,water",
-        "weaknessStatus": "poison,2;sleep,2;para,2;blast,1;sleep,1",
+        "weaknessStatus": "poison,2;sleep,2;para,2;blast,1;stun,1",
         "RUtranslate": "Базельгейс",
         "monsterType": "Flying wyverns"
     },

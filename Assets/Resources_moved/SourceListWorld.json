@@ -1,641 +1,641 @@
 {"data":[
     {
         "name": "Acidic Glavenus",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок кислотного главенуса;\r\nСердечник кислотного главенуса;\r\nТвердый клык кисл. главенуса;\r\nСпин. панцирь кислотного главенуса;\r\nКончик хвоста кисл. главенуса;\r\nПокров главенуса;\r\nГладкий кислотный камень;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nГладкий хвостовой клинок;\r\nЗакаленный хвостовой клинок;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Acidic Glavenus Shard;\r\nAcidic Glavenus Cortex;\r\nAcidic Glavenus Hardfang;\r\nAcidic Glavenus Spineshell;\r\nAcidic Glavenus Tailedge;\r\nGlavenus Mantle;\r\nHoned Acidcryst;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nTempered Tailblade;\r\nSpiritvein Gem;\r\nSpiritvein Solidbone;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок кислотного главенуса;\r\nСердечник кислотного главенуса;\r\nТвердый клык кисл. главенуса;\r\nСпин. панцирь кислотного главенуса;\r\nКончик хвоста кисл. главенуса;\r\nПокров главенуса;\r\nГладкий кислотный камень;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nГладкий хвостовой клинок;\r\nЗакаленный хвостовой клинок;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Acidic Glavenus Shard;\r\nAcidic Glavenus Cortex;\r\nAcidic Glavenus Hardfang;\r\nAcidic Glavenus Spineshell;\r\nAcidic Glavenus Tailedge;\r\nGlavenus Mantle;\r\nHoned Acidcryst;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nTempered Tailblade;\r\nSpiritvein Gem;\r\nSpiritvein Solidbone;"
     },
     {
         "name": "Alatreon",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "\r\nПокров Алатреона;\r\nМантия Алатреона;\r\nОстрый коготь Алатреона;\r\nЧерное крыло Алатреона;\r\nЧерный хвост Алатреона;\r\nЛазурный драконий сапфир;\r\nСокровище древнего дракона;\r\nНебокол;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Alatreon Mantle\t;\r\nAlatreon Pallium;\r\nAlatreon Riptalon;\r\nAlatreon Direwing;\r\nAlatreon Diretail;\r\nAzure Dragonsphire;\r\nOld Dragon Treasure;\r\nSkyswayer;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "\r\nПокров Алатреона;\r\nМантия Алатреона;\r\nОстрый коготь Алатреона;\r\nЧерное крыло Алатреона;\r\nЧерный хвост Алатреона;\r\nЛазурный драконий сапфир;\r\nСокровище древнего дракона;\r\nНебокол;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Alatreon Mantle\t;\r\nAlatreon Pallium;\r\nAlatreon Riptalon;\r\nAlatreon Direwing;\r\nAlatreon Diretail;\r\nAzure Dragonsphire;\r\nOld Dragon Treasure;\r\nSkyswayer;"
     },
     {
         "name": "Ancient Leshen",
-        "low(RU)": null,
-        "high(RU)": "Коготь древнего лешего;\r\nДревняя проклятая кость;\r\nСмола лешего;\r\nМутаген;\r\nБольшая кость чудовища;",
-        "mr(RU)": null,
-        "low(ENG)": null,
-        "high(ENG)": "Ancient Leshen Claw;\r\nAncient Cursed Bone;\r\nLeshen Resin;\r\nMutagen;\r\nMonster Bone L;",
-        "mr(ENG)": null
+        "lowRU": null,
+        "highRU": "Коготь древнего лешего;\r\nДревняя проклятая кость;\r\nСмола лешего;\r\nМутаген;\r\nБольшая кость чудовища;",
+        "mrRU": null,
+        "lowENG": null,
+        "highENG": "Ancient Leshen Claw;\r\nAncient Cursed Bone;\r\nLeshen Resin;\r\nMutagen;\r\nMonster Bone L;",
+        "mrENG": null
     },
     {
         "name": "Anjanath",
-        "low(RU)": "Чешуя аньяната;\r\nШкура аньяната;\r\nПереносица аньяната;\r\nКлык аньяната;\r\nПластина аньяната;\r\nСлеза виверны;\r\nХвост аньяната;\r\nПламенная железа;",
-        "high(RU)": "Чешуя аньяната+;\r\nШкура аньяната+;\r\nПереносица аньяната+;\r\nКлык аньяната+;\r\nПластина аньяната;\r\nСамоцвет аньяната;\r\nХвост аньяната;\r\nСлеза виверны;\r\nАдская железа;",
-        "mr(RU)": "Осколок аньяната;\r\nМех аньяната;\r\nТяжелая переносица аньяната;\r\nРезец аньяната;\r\nСамоцвет аньяната;\r\nПокров аньяната;\r\nПлеть аньяната;\r\nОгнеопасная железа;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nМерцающая огненная шкура;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": "Anjanath Scale;\r\nAnjanath Pelt;\r\nAnjanath Nosebone;\r\nAnjanath Fang;\r\nAnjanath Plate;\r\nAnjanath Tail;\r\nWyvern Tear;\r\nFlame Sac;",
-        "high(ENG)": "Anjanath Scale+;\r\nAnjanath Pelt+;\r\nAnjanath Nosebone+;\r\nAnjanath Fang+;\r\nAnjanath Plate;\r\nAnjanath Gem;\r\nAnjanath Tail;\r\nWyvern Tear;\r\nInferno Sac;",
-        "mr(ENG)": "Anjanath Shard;\r\nAnjanath Fur;\r\nHeavy Anjanath Nosebone;\r\nAnjanath Hardfang;\r\nAnjanath Gem;\r\nAnjanath Mantle;\r\nConflagrant Sac;\r\nFierce Dragonvein Bone;\r\nFlickering Flamepelt;\r\nTempered Flamepelt;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nLarge Wyvern Tear;"
+        "lowRU": "Чешуя аньяната;\r\nШкура аньяната;\r\nПереносица аньяната;\r\nКлык аньяната;\r\nПластина аньяната;\r\nСлеза виверны;\r\nХвост аньяната;\r\nПламенная железа;",
+        "highRU": "Чешуя аньяната+;\r\nШкура аньяната+;\r\nПереносица аньяната+;\r\nКлык аньяната+;\r\nПластина аньяната;\r\nСамоцвет аньяната;\r\nХвост аньяната;\r\nСлеза виверны;\r\nАдская железа;",
+        "mrRU": "Осколок аньяната;\r\nМех аньяната;\r\nТяжелая переносица аньяната;\r\nРезец аньяната;\r\nСамоцвет аньяната;\r\nПокров аньяната;\r\nПлеть аньяната;\r\nОгнеопасная железа;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nМерцающая огненная шкура;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": "Anjanath Scale;\r\nAnjanath Pelt;\r\nAnjanath Nosebone;\r\nAnjanath Fang;\r\nAnjanath Plate;\r\nAnjanath Tail;\r\nWyvern Tear;\r\nFlame Sac;",
+        "highENG": "Anjanath Scale+;\r\nAnjanath Pelt+;\r\nAnjanath Nosebone+;\r\nAnjanath Fang+;\r\nAnjanath Plate;\r\nAnjanath Gem;\r\nAnjanath Tail;\r\nWyvern Tear;\r\nInferno Sac;",
+        "mrENG": "Anjanath Shard;\r\nAnjanath Fur;\r\nHeavy Anjanath Nosebone;\r\nAnjanath Hardfang;\r\nAnjanath Gem;\r\nAnjanath Mantle;\r\nConflagrant Sac;\r\nFierce Dragonvein Bone;\r\nFlickering Flamepelt;\r\nTempered Flamepelt;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nLarge Wyvern Tear;"
     },
     {
         "name": "Azure Rathalos",
-        "low(RU)": null,
-        "high(RU)": "Чешуя лазурного раталоса+;\r\nПанцирь лазурного раталоса;\r\nКрыло лазурного раталоса;\r\nМозговой слой раталоса;\r\nПластина раталоса;\r\nРубин раталоса;\r\nАдская железа;\r\nТвердая кость чудовища;\r\nХвост лазурного раталоса;\r\nКрыльная шпора раталоса;",
-        "mr(RU)": "Осколок лазурного раталоса;\r\nСердечник лазурного раталоса;\r\nЦельное крыло лазурн. раталоса;\r\nМозговой слой раталоса;\r\nРубин раталоса;\r\nПокров раталоса;\r\nКрыльная шпора раталоса+; \r\nОгнеопасная железа;\r\nПлеть лазурного раталоса;\r\nПлотная кость драконьей жилы;\r\nЗакаленная лазурная чешуя;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": "Azure Rathalos Scale+;\r\nAzure Rathalos Carapace;\r\nAzure Rathalos Wing;\r\nRathalos Medulla;\r\nRathalos Plate;\r\nRathalos Ruby;\r\nAzure Rathalos Tail;\r\nInferno Sac;\r\nMonster Hardbone; \r\nRath Wingtalon;",
-        "mr(ENG)": "Azure Rathalos Shard;\r\nAzure Rathalos Cortex;\r\nAzure Rathalos Fellwing;\r\nRathalos Medulla;\r\nRathalos Ruby;\r\nRathalos Mantle;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nAzure Scale;\r\nTempered Azure Scale;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nAzure Rathalos Lash;"
+        "lowRU": null,
+        "highRU": "Чешуя лазурного раталоса+;\r\nПанцирь лазурного раталоса;\r\nКрыло лазурного раталоса;\r\nМозговой слой раталоса;\r\nПластина раталоса;\r\nРубин раталоса;\r\nАдская железа;\r\nТвердая кость чудовища;\r\nХвост лазурного раталоса;\r\nКрыльная шпора раталоса;",
+        "mrRU": "Осколок лазурного раталоса;\r\nСердечник лазурного раталоса;\r\nЦельное крыло лазурн. раталоса;\r\nМозговой слой раталоса;\r\nРубин раталоса;\r\nПокров раталоса;\r\nКрыльная шпора раталоса+; \r\nОгнеопасная железа;\r\nПлеть лазурного раталоса;\r\nПлотная кость драконьей жилы;\r\nЗакаленная лазурная чешуя;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": "Azure Rathalos Scale+;\r\nAzure Rathalos Carapace;\r\nAzure Rathalos Wing;\r\nRathalos Medulla;\r\nRathalos Plate;\r\nRathalos Ruby;\r\nAzure Rathalos Tail;\r\nInferno Sac;\r\nMonster Hardbone; \r\nRath Wingtalon;",
+        "mrENG": "Azure Rathalos Shard;\r\nAzure Rathalos Cortex;\r\nAzure Rathalos Fellwing;\r\nRathalos Medulla;\r\nRathalos Ruby;\r\nRathalos Mantle;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nAzure Scale;\r\nTempered Azure Scale;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nAzure Rathalos Lash;"
     },
     {
         "name": "Banbaro",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Сердечник банбаро;\r\nКостяк банбаро;\r\nПлеть банбаро;\r\nБольшой рог банбаро;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nДревний большой рог;\r\nЗакаленный большой рог;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Banbaro Cortex;\r\nBanbaro Chine;\r\nBanbaro Lash;\r\nBanbaro Great Horn;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nAncient Great Horn;\r\nTempered Great Horn;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник банбаро;\r\nКостяк банбаро;\r\nПлеть банбаро;\r\nБольшой рог банбаро;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nДревний большой рог;\r\nЗакаленный большой рог;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Banbaro Cortex;\r\nBanbaro Chine;\r\nBanbaro Lash;\r\nBanbaro Great Horn;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nAncient Great Horn;\r\nTempered Great Horn;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Barioth",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Сердечник бариота;\r\nГустой мех бариота;\r\nКогтище бариота;\r\nБольшой шип бариота;\r\nПлеть бариота;\r\nБольшой самоцвет виверны;\r\nТяжелая кость драконьей жилы;\r\nЛедяной клык хладнокровного зверя;\r\nЗакаленный ледяной клык;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nЯнтарный резец;\r\nКриожелеза;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Barioth Cortex;\r\nBarioth Thickfur;\r\nBarioth Hardclaw;\r\nBarioth Greatspike;\r\nBarioth Lash;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nColdblooded Icefang;\r\nTempered Icefang;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nCryo Sac;\r\nAmber Hardfang;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник бариота;\r\nГустой мех бариота;\r\nКогтище бариота;\r\nБольшой шип бариота;\r\nПлеть бариота;\r\nБольшой самоцвет виверны;\r\nТяжелая кость драконьей жилы;\r\nЛедяной клык хладнокровного зверя;\r\nЗакаленный ледяной клык;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nЯнтарный резец;\r\nКриожелеза;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Barioth Cortex;\r\nBarioth Thickfur;\r\nBarioth Hardclaw;\r\nBarioth Greatspike;\r\nBarioth Lash;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nColdblooded Icefang;\r\nTempered Icefang;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nCryo Sac;\r\nAmber Hardfang;"
     },
     {
         "name": "Barroth",
-        "low(RU)": "Шкура баррота;\r\nХребет баррота;\r\nКоготь баррота;\r\nСкальп баррота;\r\nХвост баррота;\r\nСлеза виверны;\r\nПлодородная грязь;",
-        "high(RU)": "Панцирь баррота;\r\nХребет баррота+;\r\nКоготь баррота+;\r\nСкальп баррота;\r\nХвост баррота;\r\nСамоцвет виверны;\r\nПлодородная грязь;\r\nСлеза виверны;",
-        "mr(RU)": "Сердечник баррота;\r\nКостяк баррота;\r\nКогтище баррота;\r\nКорона баррота;\r\nПлеть баррота;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБогатая грязь;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nГрязная корона;\r\nЗакаленная корона;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": "Barroth Shell;\r\nBarroth Ridge;\r\nBarroth Claw;\r\nBarroth Scalp;\r\nBarroth Tail;\r\nWyvern Tear;\r\nFertile Mud;",
-        "high(ENG)": "Barroth Carapace;\r\nBarroth Ridge+;\r\nBarroth Claw+;\r\nBarroth Scalp;\r\nBarroth Tail;\r\nWyvern Gem;\r\nWyvern Tear;\r\nFertile Mud;",
-        "mr(ENG)": "Barroth Cortex;\r\nBarroth Chine;\r\nBarroth Hardclaw;\r\nBarroth Crown;\r\nBarroth Lash;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nRich Mud;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nMuddy Crown;\r\nTempered Crown;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": "Шкура баррота;\r\nХребет баррота;\r\nКоготь баррота;\r\nСкальп баррота;\r\nХвост баррота;\r\nСлеза виверны;\r\nПлодородная грязь;",
+        "highRU": "Панцирь баррота;\r\nХребет баррота+;\r\nКоготь баррота+;\r\nСкальп баррота;\r\nХвост баррота;\r\nСамоцвет виверны;\r\nПлодородная грязь;\r\nСлеза виверны;",
+        "mrRU": "Сердечник баррота;\r\nКостяк баррота;\r\nКогтище баррота;\r\nКорона баррота;\r\nПлеть баррота;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБогатая грязь;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nГрязная корона;\r\nЗакаленная корона;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": "Barroth Shell;\r\nBarroth Ridge;\r\nBarroth Claw;\r\nBarroth Scalp;\r\nBarroth Tail;\r\nWyvern Tear;\r\nFertile Mud;",
+        "highENG": "Barroth Carapace;\r\nBarroth Ridge+;\r\nBarroth Claw+;\r\nBarroth Scalp;\r\nBarroth Tail;\r\nWyvern Gem;\r\nWyvern Tear;\r\nFertile Mud;",
+        "mrENG": "Barroth Cortex;\r\nBarroth Chine;\r\nBarroth Hardclaw;\r\nBarroth Crown;\r\nBarroth Lash;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nRich Mud;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nMuddy Crown;\r\nTempered Crown;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Bazelgeuse",
-        "low(RU)": null,
-        "high(RU)": "Чешуя базельгейса+;\r\nПанцирь базельгейса;\r\nКоготь базельгейса;\r\nЗапал базельгейса;\r\nКрыло базельгейса;\r\nСамоцвет базельгейса;\r\nТвердая кость чудовища;\r\nХвост базельгейса;",
-        "mr(RU)": "Большая кость чудовища;",
-        "low(ENG)": null,
-        "high(ENG)": "Bazelgeuse Scale+;\r\nBazelgeuse Carapace;\r\nBazelgeuse Talon;\r\nBazelgeuse Fuse\t;\r\nBazelgeuse Wing;\r\nBazelgeuse Gem;\r\nLarge Wyvern Tear;\r\nMonster Hardbone;\r\nBazelgeuse Tail;",
-        "mr(ENG)": "Monster Bone L;"
+        "lowRU": null,
+        "highRU": "Чешуя базельгейса+;\r\nПанцирь базельгейса;\r\nКоготь базельгейса;\r\nЗапал базельгейса;\r\nКрыло базельгейса;\r\nСамоцвет базельгейса;\r\nТвердая кость чудовища;\r\nХвост базельгейса;",
+        "mrRU": "Большая кость чудовища;",
+        "lowENG": null,
+        "highENG": "Bazelgeuse Scale+;\r\nBazelgeuse Carapace;\r\nBazelgeuse Talon;\r\nBazelgeuse Fuse\t;\r\nBazelgeuse Wing;\r\nBazelgeuse Gem;\r\nLarge Wyvern Tear;\r\nMonster Hardbone;\r\nBazelgeuse Tail;",
+        "mrENG": "Monster Bone L;"
     },
     {
         "name": "Behemoth",
-        "low(RU)": null,
-        "high(RU)": "Грива бахамута;\r\nКость бахамута\t;\r\nКоготь бахамута;\r\nХвост бахамута\t;\r\nБольшой рог бахамута;\r\nСокровище дракона;\r\nОсколок эфирита;\r\nБольшая кость чудовища;",
-        "mr(RU)": "Большая кость чудовища;",
-        "low(ENG)": null,
-        "high(ENG)": "Behemoth Mane;\r\nBehemoth Bone\t;\r\nBehemoth Shearclaw;\r\nBehemoth Tail;\r\nBehemoth Great Horn;\r\nDragon Treasure;\r\nAetheryte Shard;\r\nMonster Bone L;",
-        "mr(ENG)": "Monster Bone L;"
+        "lowRU": null,
+        "highRU": "Грива бахамута;\r\nКость бахамута\t;\r\nКоготь бахамута;\r\nХвост бахамута\t;\r\nБольшой рог бахамута;\r\nСокровище дракона;\r\nОсколок эфирита;\r\nБольшая кость чудовища;",
+        "mrRU": "Большая кость чудовища;",
+        "lowENG": null,
+        "highENG": "Behemoth Mane;\r\nBehemoth Bone\t;\r\nBehemoth Shearclaw;\r\nBehemoth Tail;\r\nBehemoth Great Horn;\r\nDragon Treasure;\r\nAetheryte Shard;\r\nMonster Bone L;",
+        "mrENG": "Monster Bone L;"
     },
     {
         "name": "Beotodus",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок беотода;\r\nСердечник беотода;\r\nБольшой плавник беотода;\r\nКрепкий рог беотода;\r\nБольшой самоцвет виверны;\r\nКриожелеза;\r\nБольшая кость чудовища;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Beotodus Shard;\r\nBeotodus Cortex;\r\nBeotodus Grandfin;\r\nBeotodus Hardhorn;\r\nLarge Wyvern Gem;\r\nCryo Sac;\r\nMonster Bone L;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок беотода;\r\nСердечник беотода;\r\nБольшой плавник беотода;\r\nКрепкий рог беотода;\r\nБольшой самоцвет виверны;\r\nКриожелеза;\r\nБольшая кость чудовища;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Beotodus Shard;\r\nBeotodus Cortex;\r\nBeotodus Grandfin;\r\nBeotodus Hardhorn;\r\nLarge Wyvern Gem;\r\nCryo Sac;\r\nMonster Bone L;"
     },
     {
         "name": "Black Diablos",
-        "low(RU)": null,
-        "high(RU)": "Панцирь черной диаблы;\r\nХребет черной диаблы+;\r\nМозговой слой диаблоса;\r\nКлык диаблоса;\r\nХвостовик диаблоса;\r\nСамоцвет виверны;\r\nЧерный спиральный рог+;\r\nВитой рог;\r\nРывковый экстракт;\r\nТвердая кость чудовища;",
-        "mr(RU)": "Сердечник черной диаблос;\r\nКостяк черной диаблос;\r\nХвостовик диаблос+;\r\nМозговой слой диаблоса;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nЧерный витой рог;\r\nКрепкий рог диаблос;\r\nРывковый экстракт;\r\nПлотная кость драконьей жилы;\r\nЧерный кривой рог тирана;\r\nЧерный кривой закаленный рог;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": "Black Diablos Carapace;\r\nBlack Diablos Ridge+;\r\nBlos Medulla;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nWyvern Gem;\r\nBlack Spiral Horn+;\r\nTwisted Horn;\r\nDash Extract;\r\nMonster Hardbone;",
-        "mr(ENG)": "Black Diablos Cortex;\r\nBlack Diablos Chine;\r\nDiablos Tailcase+;\r\nBlos Medulla;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nDash Extract;\r\nBlackcurl Stout horn;\r\nDiablos Hard horn;\r\nDragonvein Solidbone;\r\nBlackcurl Tyrant horn;\r\nBlackcurl Temper horn;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": "Панцирь черной диаблы;\r\nХребет черной диаблы+;\r\nМозговой слой диаблоса;\r\nКлык диаблоса;\r\nХвостовик диаблоса;\r\nСамоцвет виверны;\r\nЧерный спиральный рог+;\r\nВитой рог;\r\nРывковый экстракт;\r\nТвердая кость чудовища;",
+        "mrRU": "Сердечник черной диаблос;\r\nКостяк черной диаблос;\r\nХвостовик диаблос+;\r\nМозговой слой диаблоса;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nЧерный витой рог;\r\nКрепкий рог диаблос;\r\nРывковый экстракт;\r\nПлотная кость драконьей жилы;\r\nЧерный кривой рог тирана;\r\nЧерный кривой закаленный рог;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": "Black Diablos Carapace;\r\nBlack Diablos Ridge+;\r\nBlos Medulla;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nWyvern Gem;\r\nBlack Spiral Horn+;\r\nTwisted Horn;\r\nDash Extract;\r\nMonster Hardbone;",
+        "mrENG": "Black Diablos Cortex;\r\nBlack Diablos Chine;\r\nDiablos Tailcase+;\r\nBlos Medulla;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nDash Extract;\r\nBlackcurl Stout horn;\r\nDiablos Hard horn;\r\nDragonvein Solidbone;\r\nBlackcurl Tyrant horn;\r\nBlackcurl Temper horn;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Blackveil Vaal Hazak",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок тленного ваал-хазака;\r\nСердечник ваал-хазака;\r\nКогтище ваал-хазака;\r\nКлык Пронзающего тень;\r\nЦельное крыло ваал-хазака;\r\nСамоцвет ваал-хазака;\r\nБольшой самоцв. Древн. Дракона;\r\nБич ваал-хазака;\r\nСокровище древнего дракона;\r\nМембрана Ткача смерти;\r\nДревняя кость драконьей жилы;\r\nСумеречный клык;\r\nЗакаленный сумеречный клык;\r\nБольшой самоцвет жилы духов;\r\nЧистая драконья кровь;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Deceased Shard;\r\nVaal Hazak Cortex;\r\nVaal Hazak Hardclaw;\r\nVaal Hazak Fellwing;\r\nVaal Hazak Flail;\r\nShadowpierce Fang;\r\nVaal Hazak Gem;\r\nLarge Elder Dragon Gem;\r\nDeathweaver Membrane;\r\nPure Dragon Blood;\r\nElder Dragonvein Bone;\r\nTwilight Fang;\r\nTempered Twilight Fang;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок тленного ваал-хазака;\r\nСердечник ваал-хазака;\r\nКогтище ваал-хазака;\r\nКлык Пронзающего тень;\r\nЦельное крыло ваал-хазака;\r\nСамоцвет ваал-хазака;\r\nБольшой самоцв. Древн. Дракона;\r\nБич ваал-хазака;\r\nСокровище древнего дракона;\r\nМембрана Ткача смерти;\r\nДревняя кость драконьей жилы;\r\nСумеречный клык;\r\nЗакаленный сумеречный клык;\r\nБольшой самоцвет жилы духов;\r\nЧистая драконья кровь;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Deceased Shard;\r\nVaal Hazak Cortex;\r\nVaal Hazak Hardclaw;\r\nVaal Hazak Fellwing;\r\nVaal Hazak Flail;\r\nShadowpierce Fang;\r\nVaal Hazak Gem;\r\nLarge Elder Dragon Gem;\r\nDeathweaver Membrane;\r\nPure Dragon Blood;\r\nElder Dragonvein Bone;\r\nTwilight Fang;\r\nTempered Twilight Fang;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
     },
     {
         "name": "Brachydios",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Сердечник брахидиоса;\r\nОтл. эбен. панцирь брахидиоса;\r\nУдарник брахидиоса+;\r\nКорона брахидиоса;\r\nПлеть брахидиоса;\r\nМантия брахидиоса;\r\nСветящаяся слизь;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nГлянцевый эбеновый панцирь;\r\nЗакаленная эбеновая оболочка;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Brachydios Cortex;\r\nFine Brachydios Ebonshell;\r\nBrachydios Pounder+;\r\nBrachydios Crown;\r\nBrachydios Lash;\r\nBrachydios Pallium;\r\nGlowing Slime;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nGlossy Ebonshell;\r\nTempered Ebonshell;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник брахидиоса;\r\nОтл. эбен. панцирь брахидиоса;\r\nУдарник брахидиоса+;\r\nКорона брахидиоса;\r\nПлеть брахидиоса;\r\nМантия брахидиоса;\r\nСветящаяся слизь;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nГлянцевый эбеновый панцирь;\r\nЗакаленная эбеновая оболочка;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Brachydios Cortex;\r\nFine Brachydios Ebonshell;\r\nBrachydios Pounder+;\r\nBrachydios Crown;\r\nBrachydios Lash;\r\nBrachydios Pallium;\r\nGlowing Slime;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nGlossy Ebonshell;\r\nTempered Ebonshell;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Brute Tigrex",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок свирепого тигрекса;\r\nСердечник свирепого тигрекса;\r\nКогтище свирепого тигрекса;\r\nРезец свирепого тигрекса;\r\nПокров тигрекса;\r\nПлеть тигрекса;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nДрожащая темная челюсть;\r\nЗакаленная эбеновая челюсть;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nПлотная кость монстра;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Brute Tigrex Shard;\r\nBrute Tigrex Cortex;\r\nBrute Tigrex Hardclaw;\r\nBrute Tigrex Hardfang;\r\nTigrex Mantle;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nShuddering Darkjaw;\r\nTempered Ebonjaw;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nMonster Solidbone;\r\nTigrex Lash;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок свирепого тигрекса;\r\nСердечник свирепого тигрекса;\r\nКогтище свирепого тигрекса;\r\nРезец свирепого тигрекса;\r\nПокров тигрекса;\r\nПлеть тигрекса;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nДрожащая темная челюсть;\r\nЗакаленная эбеновая челюсть;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nПлотная кость монстра;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Brute Tigrex Shard;\r\nBrute Tigrex Cortex;\r\nBrute Tigrex Hardclaw;\r\nBrute Tigrex Hardfang;\r\nTigrex Mantle;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nShuddering Darkjaw;\r\nTempered Ebonjaw;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nMonster Solidbone;\r\nTigrex Lash;"
     },
     {
         "name": "Coral Pukei-Pukei",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок кораллового поки-поки;\r\nСердечник коралл. поки-поки;\r\nЦельн. крыло коралл. поки-поки;\r\nБ. железа коралл. поки-поки;\r\nПлеть кораллового поки-поки;\r\nНеземной самоцвет виверн;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nВлажный мешок;\r\nЗакаленная железа потока;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nВодяной мешок;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Coral Pukei-Pukei Shard;\r\nCoral Pukei-Pukei Cortex;\r\nCoral Pukei-Pukei Fellwing;\r\nLarge Coral Pukei-Pukei Sac;\r\nCoral Pukei-Pukei Lash;\r\nFey Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nHydrated Sac;\r\nTempered Torrent Sac;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nFlood Sac;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок кораллового поки-поки;\r\nСердечник коралл. поки-поки;\r\nЦельн. крыло коралл. поки-поки;\r\nБ. железа коралл. поки-поки;\r\nПлеть кораллового поки-поки;\r\nНеземной самоцвет виверн;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nВлажный мешок;\r\nЗакаленная железа потока;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nВодяной мешок;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Coral Pukei-Pukei Shard;\r\nCoral Pukei-Pukei Cortex;\r\nCoral Pukei-Pukei Fellwing;\r\nLarge Coral Pukei-Pukei Sac;\r\nCoral Pukei-Pukei Lash;\r\nFey Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nHydrated Sac;\r\nTempered Torrent Sac;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nFlood Sac;"
     },
     {
         "name": "Deviljho",
-        "low(RU)": null,
-        "high(RU)": "Чешуя девильо;\r\nШкура девильо;\r\nКоготь девильо;\r\nДлинный клык девильо;\r\nСкальп девильо;\r\nХвост девильо;\r\nСамоцвет девильо;\r\nТвердая кость чудовища; \r\nСлюна девильо;",
-        "mr(RU)": "Чешуя девильо;\r\nШкура девильо;\r\nКоготь девильо;\r\nДлинный клык девильо;\r\nСкальп девильо;\r\nХвост девильо;\r\nСамоцвет девильо;\r\nТвердая кость чудовища \r\nСлюна девильо;\r\nБольшая слеза виверны;",
-        "low(ENG)": null,
-        "high(ENG)": "Deviljho Scale;\r\nDeviljho Hide;\r\nDeviljho Talon;\r\nDeviljho Tallfang;\r\nDeviljho Scalp;\r\nDeviljho Tail;\r\nDeviljho Gem;\r\nLarge Wyvern Tear;\r\nDeviljho Saliva;\r\nMonster Hardbone;",
-        "mr(ENG)": "Deviljho Scale;\r\nDeviljho Hide;\r\nDeviljho Talon;\r\nDeviljho Tallfang;\r\nDeviljho Scalp;\r\nDeviljho Tail;\r\nDeviljho Gem;\r\nDeviljho Saliva;\r\nLarge Wyvern Tear;\r\nMonster Hardbone;"
+        "lowRU": null,
+        "highRU": "Чешуя девильо;\r\nШкура девильо;\r\nКоготь девильо;\r\nДлинный клык девильо;\r\nСкальп девильо;\r\nХвост девильо;\r\nСамоцвет девильо;\r\nТвердая кость чудовища; \r\nСлюна девильо;",
+        "mrRU": "Чешуя девильо;\r\nШкура девильо;\r\nКоготь девильо;\r\nДлинный клык девильо;\r\nСкальп девильо;\r\nХвост девильо;\r\nСамоцвет девильо;\r\nТвердая кость чудовища \r\nСлюна девильо;\r\nБольшая слеза виверны;",
+        "lowENG": null,
+        "highENG": "Deviljho Scale;\r\nDeviljho Hide;\r\nDeviljho Talon;\r\nDeviljho Tallfang;\r\nDeviljho Scalp;\r\nDeviljho Tail;\r\nDeviljho Gem;\r\nLarge Wyvern Tear;\r\nDeviljho Saliva;\r\nMonster Hardbone;",
+        "mrENG": "Deviljho Scale;\r\nDeviljho Hide;\r\nDeviljho Talon;\r\nDeviljho Tallfang;\r\nDeviljho Scalp;\r\nDeviljho Tail;\r\nDeviljho Gem;\r\nDeviljho Saliva;\r\nLarge Wyvern Tear;\r\nMonster Hardbone;"
     },
     {
         "name": "Diablos",
-        "low(RU)": "Шкура диаблоса;\r\nХребет диаблоса;\r\nКлык диаблоса;\r\nКостный мозг диаблоса;\r\nХвостовик диаблоса;\r\nСлеза виверны;\r\nВитой рог;\r\nРывковый экстракт;\r\nКость чудовища+;",
-        "high(RU)": "Панцирь диаблоса;\r\nХребет диаблоса+;\r\nКлык диаблоса;\r\nМозговой слой диаблоса;\r\nХвостовик диаблоса;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nВеличественный рог;\r\nВитой рог;\r\nТвердая кость чудовища;\r\nРывковый экстракт;",
-        "mr(RU)": "Сердечник диаблос;\r\nКостяк диаблос;\r\nМозговой слой диаблоса;\r\nХвостовик диаблос+;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nВитой рог отваги;\r\nВитой закаленный рог;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nМощный витой рог;",
-        "low(ENG)": "Diablos Shell;\r\nDiablos Ridge;\r\nDiablos Fang;\r\nDiablos Marrow;\r\nDiablos Tailcase;\r\nWyvern Tear;\r\nMonster Bone+;\r\nTwisted Horn;\r\nDash Extract;",
-        "high(ENG)": "Diablos Carapace;\r\nDiablos Ridge+;\r\nDiablos Fang;\r\nBlos Medulla;\r\nDiablos Tailcase;\r\nWyvern Gem;\r\nMajestic Horn;\r\nTwisted Horn;\r\nMonster Hardbone;\r\nDash Extract;\r\nWyvern Tear;",
-        "mr(ENG)": "Diablos Cortex;\r\nDiablos Chine;\r\nBlos Medulla;\r\nDiablos Tailcase+;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nTwisted Bravehorn;\r\nTwisted Temperhorn;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nTwisted Stouthorn;"
+        "lowRU": "Шкура диаблоса;\r\nХребет диаблоса;\r\nКлык диаблоса;\r\nКостный мозг диаблоса;\r\nХвостовик диаблоса;\r\nСлеза виверны;\r\nВитой рог;\r\nРывковый экстракт;\r\nКость чудовища+;",
+        "highRU": "Панцирь диаблоса;\r\nХребет диаблоса+;\r\nКлык диаблоса;\r\nМозговой слой диаблоса;\r\nХвостовик диаблоса;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nВеличественный рог;\r\nВитой рог;\r\nТвердая кость чудовища;\r\nРывковый экстракт;",
+        "mrRU": "Сердечник диаблос;\r\nКостяк диаблос;\r\nМозговой слой диаблоса;\r\nХвостовик диаблос+;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nВитой рог отваги;\r\nВитой закаленный рог;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nМощный витой рог;",
+        "lowENG": "Diablos Shell;\r\nDiablos Ridge;\r\nDiablos Fang;\r\nDiablos Marrow;\r\nDiablos Tailcase;\r\nWyvern Tear;\r\nMonster Bone+;\r\nTwisted Horn;\r\nDash Extract;",
+        "highENG": "Diablos Carapace;\r\nDiablos Ridge+;\r\nDiablos Fang;\r\nBlos Medulla;\r\nDiablos Tailcase;\r\nWyvern Gem;\r\nMajestic Horn;\r\nTwisted Horn;\r\nMonster Hardbone;\r\nDash Extract;\r\nWyvern Tear;",
+        "mrENG": "Diablos Cortex;\r\nDiablos Chine;\r\nBlos Medulla;\r\nDiablos Tailcase+;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nTwisted Bravehorn;\r\nTwisted Temperhorn;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nTwisted Stouthorn;"
     },
     {
         "name": "Dodogama",
-        "low(RU)": null,
-        "high(RU)": "Чешуя додогамы+;\r\nШкура додогамы+;\r\nЧелюсть додогамы;\r\nКоготь додогамы;\r\nХвост додогамы;\r\nСлеза виверны;\r\nПитательный экстракт; \r\nОстрая кость чудовища;",
-        "mr(RU)": "Осколок додогамы;\r\nТолстая шкура додогамы;\r\nМандибула додогамы;\r\nКогтище додогамы;\r\nПлеть додогамы;\r\nОсколок додогамы;\r\nПитательный экстракт; \r\nЯростная кость драконьей жилы;\r\nТяжелая челюсть;",
-        "low(ENG)": null,
-        "high(ENG)": "Dodogama Scale+;\r\nDodogama Hide+;\r\nDodogama Jaw;\r\nDodogama Talon;\r\nDodogama Tail;\r\nNourishing Extract; \r\nMonster Keenbone;\r\nWyvern Tear;",
-        "mr(ENG)": "Dodogama Shard;\r\nDodogama Thickhide;\r\nDodogama Mandible;\r\nDodogama Hardclaw;\r\nDodogama Lash;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nHeavy Jaw;\r\nNourishing Extract; "
+        "lowRU": null,
+        "highRU": "Чешуя додогамы+;\r\nШкура додогамы+;\r\nЧелюсть додогамы;\r\nКоготь додогамы;\r\nХвост додогамы;\r\nСлеза виверны;\r\nПитательный экстракт; \r\nОстрая кость чудовища;",
+        "mrRU": "Осколок додогамы;\r\nТолстая шкура додогамы;\r\nМандибула додогамы;\r\nКогтище додогамы;\r\nПлеть додогамы;\r\nОсколок додогамы;\r\nПитательный экстракт; \r\nЯростная кость драконьей жилы;\r\nТяжелая челюсть;",
+        "lowENG": null,
+        "highENG": "Dodogama Scale+;\r\nDodogama Hide+;\r\nDodogama Jaw;\r\nDodogama Talon;\r\nDodogama Tail;\r\nNourishing Extract; \r\nMonster Keenbone;\r\nWyvern Tear;",
+        "mrENG": "Dodogama Shard;\r\nDodogama Thickhide;\r\nDodogama Mandible;\r\nDodogama Hardclaw;\r\nDodogama Lash;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nHeavy Jaw;\r\nNourishing Extract; "
     },
     {
         "name": "Ebony Odogaron",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок эбенового одогарона;\r\nТвердое сухожилие эбен. одогарона;\r\nКогтище эбенового одогарона;\r\nРезец эбенового одогарона;\r\nПокров эбенового одогарона;\t\r\nПлеть эбенового одогарона;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nКоготь раздирателя душ;\r\nЗакаленный коготь;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nПитательный экстракт;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Ebony Odogaron Shard;\r\nHard Ebony Odogaron Sinew;\r\nEbony Odogaron Hardclaw;\r\nEbony Odogaron Hardfang;\r\nEbony Odogaron Mantle;\r\nEbony Odogaron Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nSoulrender Talon;\r\nTempered Talon;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nNourishing Extract;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок эбенового одогарона;\r\nТвердое сухожилие эбен. одогарона;\r\nКогтище эбенового одогарона;\r\nРезец эбенового одогарона;\r\nПокров эбенового одогарона;\t\r\nПлеть эбенового одогарона;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nКоготь раздирателя душ;\r\nЗакаленный коготь;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nПитательный экстракт;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Ebony Odogaron Shard;\r\nHard Ebony Odogaron Sinew;\r\nEbony Odogaron Hardclaw;\r\nEbony Odogaron Hardfang;\r\nEbony Odogaron Mantle;\r\nEbony Odogaron Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nSoulrender Talon;\r\nTempered Talon;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nNourishing Extract;"
     },
     {
         "name": "Fatalis",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок Фаталиса;\r\nСердечник Фаталиса;\r\nГрудина Фаталиса;\r\nКрепкий рог Фаталиса;\r\nЦельное крыло Фаталиса;\r\nЗлое око Фаталиса;\r\nСокровище древнего дракона;\r\nБольшая кость чудовища;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Fatalis Shard;\r\nFatalis Cortex;\r\nFatalis Pectus;\r\nFatalis Fellwing;\r\nFatalis Hardhorn;\r\nFatalis Evil Eye;\r\nOld Dragon Treasure;\r\nMonster Bone L;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок Фаталиса;\r\nСердечник Фаталиса;\r\nГрудина Фаталиса;\r\nКрепкий рог Фаталиса;\r\nЦельное крыло Фаталиса;\r\nЗлое око Фаталиса;\r\nСокровище древнего дракона;\r\nБольшая кость чудовища;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Fatalis Shard;\r\nFatalis Cortex;\r\nFatalis Pectus;\r\nFatalis Fellwing;\r\nFatalis Hardhorn;\r\nFatalis Evil Eye;\r\nOld Dragon Treasure;\r\nMonster Bone L;"
     },
     {
         "name": "Frostfang Barioth",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Шкура Белоснега;\r\nКоготь Ледобура;\r\nПлеть бариота;\r\nМорозный клык Сребробела;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Silversnow Pelt;\r\nBergcrusher Claw;\r\nBarioth Lash;\r\nSilverwhite Frostfang;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Шкура Белоснега;\r\nКоготь Ледобура;\r\nПлеть бариота;\r\nМорозный клык Сребробела;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Silversnow Pelt;\r\nBergcrusher Claw;\r\nBarioth Lash;\r\nSilverwhite Frostfang;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;"
     },
     {
         "name": "Fulgur Anjanath",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок громового аньяната;\r\nГустой мех громового аньяната;\r\nТяжелая переносица гр.аньяната;\r\nРезец громового аньяната;\r\nПокров громового аньяната;\t\r\nПлеть громового аньяната;\r\nГромовая железа;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nПотрескивающая громовая шкура;\r\nЗакаленная громовая шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Fulgur Anjanath Shard;\r\nFulgur Anjanath Thickfur;\r\nHeavy Fulgur Anjanath Nosebone;\r\nFulgur Anjanath Hardfang;\r\nFulgur Anjanath Mantle;\r\nFulgur Anjanath Lash;\r\nLightning Sac;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nCrackling Thunderpelt;\r\nTempered Thunderpelt;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок громового аньяната;\r\nГустой мех громового аньяната;\r\nТяжелая переносица гр.аньяната;\r\nРезец громового аньяната;\r\nПокров громового аньяната;\t\r\nПлеть громового аньяната;\r\nГромовая железа;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nПотрескивающая громовая шкура;\r\nЗакаленная громовая шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Fulgur Anjanath Shard;\r\nFulgur Anjanath Thickfur;\r\nHeavy Fulgur Anjanath Nosebone;\r\nFulgur Anjanath Hardfang;\r\nFulgur Anjanath Mantle;\r\nFulgur Anjanath Lash;\r\nLightning Sac;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nCrackling Thunderpelt;\r\nTempered Thunderpelt;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Furious Rajang",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Грива бешеного раянга;\r\nКогтище раянга;\r\nЗолотая шкура раянга+;\r\nКрепкий рог раянга;\r\nСердце раянга;\r\nБольшая слеза зверя;\r\nПлотная кость драконьей жилы;\r\nХвост раянга;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Rajang Apoplexy;\r\nRajang Hardclaw;\r\nGold Rajang Pelt+;\r\nRajang Hardhorn;\r\nRajang Heart;\r\nLarge Beast Tear;\r\nRajang Tail;\r\nDragonvein Solidbone;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Грива бешеного раянга;\r\nКогтище раянга;\r\nЗолотая шкура раянга+;\r\nКрепкий рог раянга;\r\nСердце раянга;\r\nБольшая слеза зверя;\r\nПлотная кость драконьей жилы;\r\nХвост раянга;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Rajang Apoplexy;\r\nRajang Hardclaw;\r\nGold Rajang Pelt+;\r\nRajang Hardhorn;\r\nRajang Heart;\r\nLarge Beast Tear;\r\nRajang Tail;\r\nDragonvein Solidbone;"
     },
     {
         "name": "Glavenus",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок главенуса;\r\nСердечник главенуса;\r\nРезец главенуса;\r\nАдский панцирь главенуса;\r\nКончик хвоста главенуса;\r\nПокров главенуса;\r\nОплавленная бурса;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nТлеющий острый хвост;\r\nЗакаленный острый хвост;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Glavenus Shard;\r\nGlavenus Cortex\t;\r\nGlavenus Hardfang;\r\nGlavenus Hellshell;\r\nGlavenus Tailedge;\r\nGlavenus Mantle;\r\nMolten Bursa;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nSmoldering Tailedge;\r\nTempered Tailedge;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок главенуса;\r\nСердечник главенуса;\r\nРезец главенуса;\r\nАдский панцирь главенуса;\r\nКончик хвоста главенуса;\r\nПокров главенуса;\r\nОплавленная бурса;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nТлеющий острый хвост;\r\nЗакаленный острый хвост;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Glavenus Shard;\r\nGlavenus Cortex\t;\r\nGlavenus Hardfang;\r\nGlavenus Hellshell;\r\nGlavenus Tailedge;\r\nGlavenus Mantle;\r\nMolten Bursa;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nSmoldering Tailedge;\r\nTempered Tailedge;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Gold Rathian",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок золотой ратианы;\r\nСердечник золотой ратианы;\r\nВолокно ратианы;\r\nЯдовитый шип золотой ратианы;\r\nБлеск рат;\r\nПокров ратианы;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЛунная чешуя;\r\nЗакаленная золотая чешуя;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nКрыльная шпора раталоса+;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Gold Rathian Shard;\r\nGold Rathian Cortex;\r\nRathian Weave;\r\nGold Rathian Surspike;\r\nRath Gleam;\r\nRathian Mantle;\r\nLarge Wyvern Tear;\r\nRath Wingtalon+;\r\nMoonlight Scale;\r\nDragonvein Solidbone;\r\nTempered Gold Scale;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок золотой ратианы;\r\nСердечник золотой ратианы;\r\nВолокно ратианы;\r\nЯдовитый шип золотой ратианы;\r\nБлеск рат;\r\nПокров ратианы;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЛунная чешуя;\r\nЗакаленная золотая чешуя;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nКрыльная шпора раталоса+;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Gold Rathian Shard;\r\nGold Rathian Cortex;\r\nRathian Weave;\r\nGold Rathian Surspike;\r\nRath Gleam;\r\nRathian Mantle;\r\nLarge Wyvern Tear;\r\nRath Wingtalon+;\r\nMoonlight Scale;\r\nDragonvein Solidbone;\r\nTempered Gold Scale;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;"
     },
     {
         "name": "Great Girros",
-        "low(RU)": "Чешуя большого гирроса;\r\nШкура большого гирроса;\r\nКлык большого гирроса;\r\nКапюшон большого гирроса;\r\nХвост большого гирроса;\r\nСлеза виверны;\r\nПарализующая железа;\r\nБольшая кость чудовища;",
-        "high(RU)": "Чешуя большого гирроса+;\r\nШкура большого гирроса+;\r\nКлык большого гирроса+;\r\nКапюшон большого гирроса+;\r\nХвост большого гирроса;\r\nСлеза виверны;\r\nВсепоражающая железа;\r\nКость чудовища+;",
-        "mr(RU)": "Осколок большого гирроса;\r\nТолстая шкура большого гирроса;\r\nРезец большого гирроса;\r\nТвердый капюшон больш. гирроса;\r\nПлеть большого гирроса;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nНочной капюшон;\r\nСверхпоражающая железа",
-        "low(ENG)": "Great Girros Scale;\r\nGreat Girros Hide;\r\nGreat Girros Fang;\r\nGreat Girros Hood;\r\nGreat Girros Tail;\r\nWyvern Tear;\r\nParalysis Sac;\r\nMonster Bone L;",
-        "high(ENG)": "Great Girros Scale+;\r\nGreat Girros Hide+;\r\nGreat Girros Fang+;\r\nGreat Girros Hood+;\r\nGreat Girros Tail;\r\nOmniplegia Sac;\r\nMonster Bone+;\r\nWyvern Tear;",
-        "mr(ENG)": "Great Girros Shard;\r\nGreat Girros Thickhide;\r\nGreat Girros Hardfang;\r\nGreat Girros Hardhood;\r\nGreat Girros Lash;\r\nUltraplegia Sac;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nNight Hood;"
+        "lowRU": "Чешуя большого гирроса;\r\nШкура большого гирроса;\r\nКлык большого гирроса;\r\nКапюшон большого гирроса;\r\nХвост большого гирроса;\r\nСлеза виверны;\r\nПарализующая железа;\r\nБольшая кость чудовища;",
+        "highRU": "Чешуя большого гирроса+;\r\nШкура большого гирроса+;\r\nКлык большого гирроса+;\r\nКапюшон большого гирроса+;\r\nХвост большого гирроса;\r\nСлеза виверны;\r\nВсепоражающая железа;\r\nКость чудовища+;",
+        "mrRU": "Осколок большого гирроса;\r\nТолстая шкура большого гирроса;\r\nРезец большого гирроса;\r\nТвердый капюшон больш. гирроса;\r\nПлеть большого гирроса;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nНочной капюшон;\r\nСверхпоражающая железа",
+        "lowENG": "Great Girros Scale;\r\nGreat Girros Hide;\r\nGreat Girros Fang;\r\nGreat Girros Hood;\r\nGreat Girros Tail;\r\nWyvern Tear;\r\nParalysis Sac;\r\nMonster Bone L;",
+        "highENG": "Great Girros Scale+;\r\nGreat Girros Hide+;\r\nGreat Girros Fang+;\r\nGreat Girros Hood+;\r\nGreat Girros Tail;\r\nOmniplegia Sac;\r\nMonster Bone+;\r\nWyvern Tear;",
+        "mrENG": "Great Girros Shard;\r\nGreat Girros Thickhide;\r\nGreat Girros Hardfang;\r\nGreat Girros Hardhood;\r\nGreat Girros Lash;\r\nUltraplegia Sac;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nNight Hood;"
     },
     {
         "name": "Great Jagras",
-        "low(RU)": "Чешуя большого яграса;\r\nШкура большого яграса;\r\nКоготь большого яграса;\r\nГрива большого яграса;\r\nСлеза виверны;",
-        "high(RU)": "Чешуя большого яграса+;\r\nШкура большого яграса+;\r\nКоготь большого яграса+;\r\nГрива большого яграса;\r\nСлеза виверны;",
-        "mr(RU)": "Осколок большого яграса;\r\nТолстая шкура большого;\r\nКогтище большого яграса;\r\nГрива большого яграса+;\r\nЯростная кость драконьей жилы;\r\nГрубая грива;\r\nМощная кость чудовища;",
-        "low(ENG)": "Great Jagras Scale;\r\nGreat Jagras Hide;\r\nGreat Jagras Claw;\r\nGreat Jagras Mane;\r\nWyvern Tear;",
-        "high(ENG)": "Great Jagras Scale+;\r\nGreat Jagras Hide+;\r\nGreat Jagras Claw+;\r\nGreat Jagras Mane;\r\nWyvern Tear;",
-        "mr(ENG)": "Great Jagras Shard;\r\nGreat Jagras Thickhide;\r\nGreat Jagras Hardclaw;\r\nGreat Jagras Mane+;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nRugged Mane;"
+        "lowRU": "Чешуя большого яграса;\r\nШкура большого яграса;\r\nКоготь большого яграса;\r\nГрива большого яграса;\r\nСлеза виверны;",
+        "highRU": "Чешуя большого яграса+;\r\nШкура большого яграса+;\r\nКоготь большого яграса+;\r\nГрива большого яграса;\r\nСлеза виверны;",
+        "mrRU": "Осколок большого яграса;\r\nТолстая шкура большого;\r\nКогтище большого яграса;\r\nГрива большого яграса+;\r\nЯростная кость драконьей жилы;\r\nГрубая грива;\r\nМощная кость чудовища;",
+        "lowENG": "Great Jagras Scale;\r\nGreat Jagras Hide;\r\nGreat Jagras Claw;\r\nGreat Jagras Mane;\r\nWyvern Tear;",
+        "highENG": "Great Jagras Scale+;\r\nGreat Jagras Hide+;\r\nGreat Jagras Claw+;\r\nGreat Jagras Mane;\r\nWyvern Tear;",
+        "mrENG": "Great Jagras Shard;\r\nGreat Jagras Thickhide;\r\nGreat Jagras Hardclaw;\r\nGreat Jagras Mane+;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nRugged Mane;"
     },
     {
         "name": "Jyuratodus",
-        "low(RU)": "Чешуя юратода;\r\nШкура юратода;\r\nПлавник юратода;\r\nКлык юратода;\r\nВодяная железа;\r\nСредняя кость чудовища; ",
-        "high(RU)": "Чешуя юратода+;\r\nПанцирь юратода;\r\nПлавник юратода+;\r\nКлык юратода+;\r\nСамоцвет виверны;\r\nОстрая кость чудовища;\r\nЖелеза потока;",
-        "mr(RU)": "Осколок юратода;\r\nСердечник юратода;\r\nБольшой плавник юратода;\r\nРезец юратода;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nВодяной мешок;\r\nБольшая кость чудовища;",
-        "low(ENG)": "Jyuratodus Scale;\r\nJyuratodus Shell;\r\nJyuratodus Fin;\r\nJyuratodus Fang;\r\nMonster Bone M;\r\nAqua Sac;",
-        "high(ENG)": "Jyuratodus Scale+;\r\nJyuratodus Carapace;\r\nJyuratodus Fin+;\r\nJyuratodus Fang+;\r\nWyvern Gem;\r\nTorrent Sac;\r\nMonster Keenbone;",
-        "mr(ENG)": "Jyuratodus Shard;\r\nJyuratodus Cortex;\r\nJyuratodus Grandfin;\r\nJyuratodus Hardfang;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nFlood Sac;\r\nMonster Bone L;"
+        "lowRU": "Чешуя юратода;\r\nШкура юратода;\r\nПлавник юратода;\r\nКлык юратода;\r\nВодяная железа;\r\nСредняя кость чудовища; ",
+        "highRU": "Чешуя юратода+;\r\nПанцирь юратода;\r\nПлавник юратода+;\r\nКлык юратода+;\r\nСамоцвет виверны;\r\nОстрая кость чудовища;\r\nЖелеза потока;",
+        "mrRU": "Осколок юратода;\r\nСердечник юратода;\r\nБольшой плавник юратода;\r\nРезец юратода;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nВодяной мешок;\r\nБольшая кость чудовища;",
+        "lowENG": "Jyuratodus Scale;\r\nJyuratodus Shell;\r\nJyuratodus Fin;\r\nJyuratodus Fang;\r\nMonster Bone M;\r\nAqua Sac;",
+        "highENG": "Jyuratodus Scale+;\r\nJyuratodus Carapace;\r\nJyuratodus Fin+;\r\nJyuratodus Fang+;\r\nWyvern Gem;\r\nTorrent Sac;\r\nMonster Keenbone;",
+        "mrENG": "Jyuratodus Shard;\r\nJyuratodus Cortex;\r\nJyuratodus Grandfin;\r\nJyuratodus Hardfang;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nFlood Sac;\r\nMonster Bone L;"
     },
     {
         "name": "Kirin",
-        "low(RU)": "Шкура кирина;\r\nХвост кирина;\r\nГрива кирина;\r\nГрозовой рог кирина;\r\nКристалл света;\r\nСокровище дракона;",
-        "high(RU)": "Шкура кирина+;\r\nГрозовой хвост кирина;\r\nГрива кирина;\r\nРог лазурного кирина;\r\nКровь древнего дракона;\r\nКость древнего дракона;\r\nНовакристалл;\r\nГрозовой рог кирина;",
-        "mr(RU)": "Тонкая шкура кирина;\r\nГрозовой хвост кирина+;\r\nСеребряная грива кирина;\r\nРог лазурного кирина+;\r\nРог лазурного кирина;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;\r\nКристалл чистоты;\r\nТоржественный лазурный рог;\r\nЗакаленный лазурный рог;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": "Kirin Hide;\r\nKirin Tail;\r\nKirin Mane;\r\nKirin Thunderhorn;\r\nDragon Treasure;\r\nLightcrystal;",
-        "high(ENG)": "Kirin Hide+;\r\nKirin Thundertail;\r\nKirin Mane;\r\nKirin Azure Horn;\r\nKirin Thunderhorn;\r\nElder Dragon Blood;\r\nElder Dragon Bone;\r\nNovacrystal;",
-        "mr(ENG)": "Kirin Finehide;\r\nKirin Thundertail+;\r\nKirin Silvermane;\r\nKirin Azure Horn+;\r\nOld Dragon Treasure;\r\nPurecrystal;\r\nElder Dragonvein Bone;\r\nSolemn Azure Horn;\r\nTempered Azure Horn;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
+        "lowRU": "Шкура кирина;\r\nХвост кирина;\r\nГрива кирина;\r\nГрозовой рог кирина;\r\nКристалл света;\r\nСокровище дракона;",
+        "highRU": "Шкура кирина+;\r\nГрозовой хвост кирина;\r\nГрива кирина;\r\nРог лазурного кирина;\r\nКровь древнего дракона;\r\nКость древнего дракона;\r\nНовакристалл;\r\nГрозовой рог кирина;",
+        "mrRU": "Тонкая шкура кирина;\r\nГрозовой хвост кирина+;\r\nСеребряная грива кирина;\r\nРог лазурного кирина+;\r\nРог лазурного кирина;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;\r\nКристалл чистоты;\r\nТоржественный лазурный рог;\r\nЗакаленный лазурный рог;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": "Kirin Hide;\r\nKirin Tail;\r\nKirin Mane;\r\nKirin Thunderhorn;\r\nDragon Treasure;\r\nLightcrystal;",
+        "highENG": "Kirin Hide+;\r\nKirin Thundertail;\r\nKirin Mane;\r\nKirin Azure Horn;\r\nKirin Thunderhorn;\r\nElder Dragon Blood;\r\nElder Dragon Bone;\r\nNovacrystal;",
+        "mrENG": "Kirin Finehide;\r\nKirin Thundertail+;\r\nKirin Silvermane;\r\nKirin Azure Horn+;\r\nOld Dragon Treasure;\r\nPurecrystal;\r\nElder Dragonvein Bone;\r\nSolemn Azure Horn;\r\nTempered Azure Horn;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
     },
     {
         "name": "Kulu-Ya-Ku",
-        "low(RU)": "Чешуя кулу-йа-ку;\r\nШкура кулу-йа-ку;\r\nКлюв кулу-йа-ку;\r\nПеро кулу-йа-ку;\r\nСлеза виверны;",
-        "high(RU)": "Чешуя кулу-йа-ку+;\r\nШкура кулу-йа-ку+;\r\nКлюв кулу-йа-ку+;\r\nПеро кулу-йа-ку+;\r\nСамоцвет пернатой виверны;\r\nСлеза виверны;",
-        "mr(RU)": "Осколок кулу-йа-ку;\r\nТолстая шкура кулу-йа-ку;\r\nБольшой клюв кулу-йа-ку;\r\nБольшое перо кулу-йа-ку;\r\nНеземной самоцвет виверны;\r\nЯростная кость драконьей жилы;\r\nЦветастое перо;\r\nБольшая слеза виверны;",
-        "low(ENG)": "Kulu-Ya-Ku Scale;\r\nKulu-Ya-Ku Hide;\r\nKulu-Ya-Ku Beak\t;\r\nKulu-Ya-Ku Plume;\r\nWyvern Tear;",
-        "high(ENG)": "Kulu-Ya-Ku Scale+;\r\nKulu-Ya-Ku Hide+;\r\nKulu-Ya-Ku Beak+;\r\nKulu-Ya-Ku Plume+;\r\nBird Wyvern Gem;\r\nWyvern Tear;",
-        "mr(ENG)": "Kulu-Ya-Ku Shard;\r\nKulu-Ya-Ku Thickhide;\r\nLarge Kulu-Ya-Ku Beak;\r\nLarge Kulu-Ya-Ku Plume;\r\nFey Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nColorful Plume;"
+        "lowRU": "Чешуя кулу-йа-ку;\r\nШкура кулу-йа-ку;\r\nКлюв кулу-йа-ку;\r\nПеро кулу-йа-ку;\r\nСлеза виверны;",
+        "highRU": "Чешуя кулу-йа-ку+;\r\nШкура кулу-йа-ку+;\r\nКлюв кулу-йа-ку+;\r\nПеро кулу-йа-ку+;\r\nСамоцвет пернатой виверны;\r\nСлеза виверны;",
+        "mrRU": "Осколок кулу-йа-ку;\r\nТолстая шкура кулу-йа-ку;\r\nБольшой клюв кулу-йа-ку;\r\nБольшое перо кулу-йа-ку;\r\nНеземной самоцвет виверны;\r\nЯростная кость драконьей жилы;\r\nЦветастое перо;\r\nБольшая слеза виверны;",
+        "lowENG": "Kulu-Ya-Ku Scale;\r\nKulu-Ya-Ku Hide;\r\nKulu-Ya-Ku Beak\t;\r\nKulu-Ya-Ku Plume;\r\nWyvern Tear;",
+        "highENG": "Kulu-Ya-Ku Scale+;\r\nKulu-Ya-Ku Hide+;\r\nKulu-Ya-Ku Beak+;\r\nKulu-Ya-Ku Plume+;\r\nBird Wyvern Gem;\r\nWyvern Tear;",
+        "mrENG": "Kulu-Ya-Ku Shard;\r\nKulu-Ya-Ku Thickhide;\r\nLarge Kulu-Ya-Ku Beak;\r\nLarge Kulu-Ya-Ku Plume;\r\nFey Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nColorful Plume;"
     },
     {
         "name": "Kulve Taroth",
-        "low(RU)": null,
-        "high(RU)": "Золотой панцирь кулве тарот;\r\nЗолотой витой рог кулве тарот;\r\nСломанное оружие;\r\nЗолотой огневик кулве тарот;\r\nОплавленное оружие;\r\nОчищенное оружие;\r\nЗолотая крупица с кулве тарот;\r\nЗолотая чешуя кулве тарот;\r\nЗолотой огневик кулве тарот;\r\nСокровище дракона;\r\nЗолотой хвост кулве тарот;",
-        "mr(RU)": "Золотая чешуя кулве тарот+;\r\nЗолотой панцирь кулве тарот+;\r\nЗолотой хвост кулве тарот+;\r\nЗолотой драконий сапфир;\r\nЗолотой витой рог кулве тарот+;\r\nЗолотая крупица кулве тарот+;\r\nСокровище древнего дракона;",
-        "low(ENG)": null,
-        "high(ENG)": "Kulve Taroth Golden Shell;\r\nKulve Taroth Golden Spiralhorn;\r\nDissolved Weapon;\r\nKulve Taroth Golden Glimstone;\r\nMelded Weapon;\r\nSublimated Weapon;\r\nKulve Taroth Golden Scale;\r\nDragon Treasure;\r\nKulve Taroth Golden Nugget;\r\nKulve Taroth Golden Tailshell;",
-        "mr(ENG)": "Kulve Taroth Golden Scale+;\r\nKulve Taroth Golden Shell+;\r\nKulve Taroth Golden Tailshell+;\r\nGolden Dragonsphire;\r\nKulve Taroth Golden Spiralhorn+;\r\nKulve Taroth Golden Nugget+;\r\nOld Dragon Treasure;"
+        "lowRU": null,
+        "highRU": "Золотой панцирь кулве тарот;\r\nЗолотой витой рог кулве тарот;\r\nСломанное оружие;\r\nЗолотой огневик кулве тарот;\r\nОплавленное оружие;\r\nОчищенное оружие;\r\nЗолотая крупица с кулве тарот;\r\nЗолотая чешуя кулве тарот;\r\nЗолотой огневик кулве тарот;\r\nСокровище дракона;\r\nЗолотой хвост кулве тарот;",
+        "mrRU": "Золотая чешуя кулве тарот+;\r\nЗолотой панцирь кулве тарот+;\r\nЗолотой хвост кулве тарот+;\r\nЗолотой драконий сапфир;\r\nЗолотой витой рог кулве тарот+;\r\nЗолотая крупица кулве тарот+;\r\nСокровище древнего дракона;",
+        "lowENG": null,
+        "highENG": "Kulve Taroth Golden Shell;\r\nKulve Taroth Golden Spiralhorn;\r\nDissolved Weapon;\r\nKulve Taroth Golden Glimstone;\r\nMelded Weapon;\r\nSublimated Weapon;\r\nKulve Taroth Golden Scale;\r\nDragon Treasure;\r\nKulve Taroth Golden Nugget;\r\nKulve Taroth Golden Tailshell;",
+        "mrENG": "Kulve Taroth Golden Scale+;\r\nKulve Taroth Golden Shell+;\r\nKulve Taroth Golden Tailshell+;\r\nGolden Dragonsphire;\r\nKulve Taroth Golden Spiralhorn+;\r\nKulve Taroth Golden Nugget+;\r\nOld Dragon Treasure;"
     },
     {
         "name": "Kushala Daora",
-        "low(RU)": "Панцирь даоры;\r\nЧешуя даоры+;\r\nПерепонка даоры;\r\nРог даоры+;\r\nКровь древнего дракона;\r\nКоготь даоры+;\r\nСамоцвет даоры;",
-        "high(RU)": "Чешуя даоры+;\r\nПанцирь даоры;\r\nКоготь даоры+;\r\nПерепонка даоры;\r\nРог даоры+;\r\nСамоцвет даоры;\r\nКровь древнего дракона;\r\nКость древнего дракона;",
-        "mr(RU)": "Осколок даоры;\r\nСердечник даоры;\r\nКогтище даоры;\r\nЦельное крыло даоры;\r\nКрепкий рог даоры;\r\nСамоцвет даоры;\r\nБольшой самоцв. Древн. дракона;\r\nПлеть даоры;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;\r\nСтальное крыло бури;\r\nДревняя кость драконьей жилы;\r\nЗакаленное стальное крыло;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": "Daora Carapace;\r\nDaora Dragon Scale+;\r\nDaora Webbing;\r\nDaora Horn+;\r\nElder Dragon Blood;\r\nDaora Claw+;\r\nDaora Gem;",
-        "high(ENG)": "Daora Dragon Scale+;\r\nDaora Carapace;\r\nDaora Claw+;\r\nDaora Webbing;\r\nDaora Horn+;\r\nDaora Gem;\r\nElder Dragon Blood;\r\nElder Dragon Bone;",
-        "mr(ENG)": "Daora Shard;\r\nDaora Cortex;\r\nDaora Hardclaw;\r\nDaora Fellwing;\r\nDaora Hardhorn;\r\nDaora Gem;\r\nLarge Elder Dragon Gem;\r\nDaora Lash;\r\nLarge Elder Dragon Bone;\r\nDaora Gem;\r\nElder Dragonvein Bone;\r\nStormcall Steelwing;\r\nTempered Steelwing;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
+        "lowRU": "Панцирь даоры;\r\nЧешуя даоры+;\r\nПерепонка даоры;\r\nРог даоры+;\r\nКровь древнего дракона;\r\nКоготь даоры+;\r\nСамоцвет даоры;",
+        "highRU": "Чешуя даоры+;\r\nПанцирь даоры;\r\nКоготь даоры+;\r\nПерепонка даоры;\r\nРог даоры+;\r\nСамоцвет даоры;\r\nКровь древнего дракона;\r\nКость древнего дракона;",
+        "mrRU": "Осколок даоры;\r\nСердечник даоры;\r\nКогтище даоры;\r\nЦельное крыло даоры;\r\nКрепкий рог даоры;\r\nСамоцвет даоры;\r\nБольшой самоцв. Древн. дракона;\r\nПлеть даоры;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;\r\nСтальное крыло бури;\r\nДревняя кость драконьей жилы;\r\nЗакаленное стальное крыло;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": "Daora Carapace;\r\nDaora Dragon Scale+;\r\nDaora Webbing;\r\nDaora Horn+;\r\nElder Dragon Blood;\r\nDaora Claw+;\r\nDaora Gem;",
+        "highENG": "Daora Dragon Scale+;\r\nDaora Carapace;\r\nDaora Claw+;\r\nDaora Webbing;\r\nDaora Horn+;\r\nDaora Gem;\r\nElder Dragon Blood;\r\nElder Dragon Bone;",
+        "mrENG": "Daora Shard;\r\nDaora Cortex;\r\nDaora Hardclaw;\r\nDaora Fellwing;\r\nDaora Hardhorn;\r\nDaora Gem;\r\nLarge Elder Dragon Gem;\r\nDaora Lash;\r\nLarge Elder Dragon Bone;\r\nDaora Gem;\r\nElder Dragonvein Bone;\r\nStormcall Steelwing;\r\nTempered Steelwing;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
     },
     {
         "name": "Lavasioth",
-        "low(RU)": null,
-        "high(RU)": "Чешуя лавасиота+;\r\nПанцирь лавасиота;\r\nПлавник лавасиота+;\r\nКлык лавасиота+;\r\nСамоцвет виверны;\r\nАдская железа;\r\nТвердая кость чудовища; ",
-        "mr(RU)": "Осколок лавасиота;\r\nСердечник лавасиота;\r\nБольшой плавник лавасиота;\r\nРезец лавасиота;\r\nБольшой самоцвет виверны;\t\r\nОгнеопасная железа;\r\nТяжелая кость драконьей жилы;\r\nРаскаленный магмовый плавник;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nЗакаленный магмовый плавник;",
-        "low(ENG)": null,
-        "high(ENG)": "Lavasioth Scale+;\r\nLavasioth Carapace;\r\nLavasioth Fin+;\r\nLavasioth Fang+;\r\nWyvern Gem;\r\nInferno Sac;\r\nMonster Hardbone; ",
-        "mr(ENG)": "Lavasioth Shard;\r\nLavasioth Cortex;\r\nLavasioth Grandfin;\r\nLavasioth Hardfang;\r\nLarge Wyvern Gem;\r\nConflagrant Sac;\r\nHeavy Dragonvein Bone;\r\nIncandescent Magmafin;\r\nTempered Magmafin;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": "Чешуя лавасиота+;\r\nПанцирь лавасиота;\r\nПлавник лавасиота+;\r\nКлык лавасиота+;\r\nСамоцвет виверны;\r\nАдская железа;\r\nТвердая кость чудовища; ",
+        "mrRU": "Осколок лавасиота;\r\nСердечник лавасиота;\r\nБольшой плавник лавасиота;\r\nРезец лавасиота;\r\nБольшой самоцвет виверны;\t\r\nОгнеопасная железа;\r\nТяжелая кость драконьей жилы;\r\nРаскаленный магмовый плавник;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nЗакаленный магмовый плавник;",
+        "lowENG": null,
+        "highENG": "Lavasioth Scale+;\r\nLavasioth Carapace;\r\nLavasioth Fin+;\r\nLavasioth Fang+;\r\nWyvern Gem;\r\nInferno Sac;\r\nMonster Hardbone; ",
+        "mrENG": "Lavasioth Shard;\r\nLavasioth Cortex;\r\nLavasioth Grandfin;\r\nLavasioth Hardfang;\r\nLarge Wyvern Gem;\r\nConflagrant Sac;\r\nHeavy Dragonvein Bone;\r\nIncandescent Magmafin;\r\nTempered Magmafin;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Legiana",
-        "low(RU)": "Чешуя легианы;\r\nШкура легианы;\r\nКоготь легианы;\r\nПерепонка легианы;\r\nПластина легианы;\r\nСлеза виверны;\r\nМорозная железа;\r\nХвостовая перепонка легианы;",
-        "high(RU)": "Чешуя легианы+;\r\nШкура легианы+;\r\nКоготь легианы+;\r\nКрыло легианы;\r\nПластина легианы;\r\nСамоцвет легианы;\r\nСлеза виверны;\r\nХвостовая перепонка легианы;\r\nЛедяная железа;\r\nТвердая кость чудовища;",
-        "mr(RU)": "Осколок легианы;\r\nТолстая шкура легианы;\r\nКогтище легианы;\r\nЦельное крыло легианы;\r\nСамоцвет легианы;\r\nПокров легианы;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nГладкая ледяная шкура;\r\nЗакаленная ледяная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nХвостовая перепонка легианы+;\r\nКриожелеза;",
-        "low(ENG)": "Legiana Scale;\r\nLegiana Hide;\r\nLegiana Claw;\r\nLegiana Webbing;\r\nLegiana Plate;\r\nWyvern Tear;\r\nLegiana Tail Webbing;\r\nFrost Sac;",
-        "high(ENG)": "Legiana Scale+;\r\nLegiana Hide+;\r\nLegiana Claw+;\r\nLegiana Wing;\r\nLegiana Plate;\r\nLegiana Gem;\r\nWyvern Tear;\r\nLegiana Tail Webbing;\r\nFreezer Sac;\r\nMonster Hardbone;",
-        "mr(ENG)": "Legiana Shard;\r\nLegiana Thickhide;\r\nLegiana Hardclaw;\r\nLegiana Fellwing\t;\r\nLegiana Gem;\r\nLegiana Mantle;\r\nLegiana Tail Webbing+;\r\nCryo Sac;\r\nHeavy Dragonvein Bone;\r\nSmooth Icehide;\r\nTempered Icehide;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nLarge Wyvern Tear;"
+        "lowRU": "Чешуя легианы;\r\nШкура легианы;\r\nКоготь легианы;\r\nПерепонка легианы;\r\nПластина легианы;\r\nСлеза виверны;\r\nМорозная железа;\r\nХвостовая перепонка легианы;",
+        "highRU": "Чешуя легианы+;\r\nШкура легианы+;\r\nКоготь легианы+;\r\nКрыло легианы;\r\nПластина легианы;\r\nСамоцвет легианы;\r\nСлеза виверны;\r\nХвостовая перепонка легианы;\r\nЛедяная железа;\r\nТвердая кость чудовища;",
+        "mrRU": "Осколок легианы;\r\nТолстая шкура легианы;\r\nКогтище легианы;\r\nЦельное крыло легианы;\r\nСамоцвет легианы;\r\nПокров легианы;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nГладкая ледяная шкура;\r\nЗакаленная ледяная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nХвостовая перепонка легианы+;\r\nКриожелеза;",
+        "lowENG": "Legiana Scale;\r\nLegiana Hide;\r\nLegiana Claw;\r\nLegiana Webbing;\r\nLegiana Plate;\r\nWyvern Tear;\r\nLegiana Tail Webbing;\r\nFrost Sac;",
+        "highENG": "Legiana Scale+;\r\nLegiana Hide+;\r\nLegiana Claw+;\r\nLegiana Wing;\r\nLegiana Plate;\r\nLegiana Gem;\r\nWyvern Tear;\r\nLegiana Tail Webbing;\r\nFreezer Sac;\r\nMonster Hardbone;",
+        "mrENG": "Legiana Shard;\r\nLegiana Thickhide;\r\nLegiana Hardclaw;\r\nLegiana Fellwing\t;\r\nLegiana Gem;\r\nLegiana Mantle;\r\nLegiana Tail Webbing+;\r\nCryo Sac;\r\nHeavy Dragonvein Bone;\r\nSmooth Icehide;\r\nTempered Icehide;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nLarge Wyvern Tear;"
     },
     {
         "name": "Leshen",
-        "low(RU)": null,
-        "high(RU)": "Череп лешего\r\nБольшая кость чудовища\r\nРога лешего\r\nСмола лешего",
-        "mr(RU)": null,
-        "low(ENG)": null,
-        "high(ENG)": "Leshen Skull\r\nLeshen Antlers\r\nLeshen Resin\r\nMonster Bone L",
-        "mr(ENG)": null
+        "lowRU": null,
+        "highRU": "Череп лешего\r\nБольшая кость чудовища\r\nРога лешего\r\nСмола лешего",
+        "mrRU": null,
+        "lowENG": null,
+        "highENG": "Leshen Skull\r\nLeshen Antlers\r\nLeshen Resin\r\nMonster Bone L",
+        "mrENG": null
     },
     {
         "name": "Lunsatra",
-        "low(RU)": null,
-        "high(RU)": "Чешуя лунастры+;\r\nПанцирь лунастры;\r\nГрива лунастры;\r\nХвост лунастры;\r\nКрыло лунастры;\r\nСамоцвет лунастры;\r\nРог лунастры;\r\nКровь древнего дракона; \r\nКость древнего дракона; ",
-        "mr(RU)": "Осколок лунастры;\r\nСердечник лунастры;\r\nГрива лунастры+;\r\nЦельное крыло лунастры;\r\nКрепкий рог лунастры;\r\nСамоцвет лунастры;\r\nБольшой самоцв. Древн. дракона;\r\nЧистая драконья кровь;\r\nПлеть лунастры;\r\nБольшая кость Древнего дракона;\r\nДревняя кость драконьей жилы;\r\nЛазурная грива;\r\nЗакаленная лазурная грива;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": "Lunastra Scale+;\r\nLunastra Carapace;\r\nLunastra Mane;\r\nLunastra Tail;\r\nLunastra Wing;\r\nLunastra Gem;\r\nDragon Treasure;\r\nLunastra Horn;\r\nElder Dragon Blood; \r\nElder Dragon Bone;",
-        "mr(ENG)": "Lunastra Shard;\r\nLunastra Cortex;\r\nLunastra Mane+;\r\nLunastra Fellwing;\r\nLunastra Hardhorn;\r\nLunastra Gem;\r\nLarge Elder Dragon Gem;\r\nLunastra Lash;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nAzure Mane;\r\nTempered Azure Mane;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
+        "lowRU": null,
+        "highRU": "Чешуя лунастры+;\r\nПанцирь лунастры;\r\nГрива лунастры;\r\nХвост лунастры;\r\nКрыло лунастры;\r\nСамоцвет лунастры;\r\nРог лунастры;\r\nКровь древнего дракона; \r\nКость древнего дракона; ",
+        "mrRU": "Осколок лунастры;\r\nСердечник лунастры;\r\nГрива лунастры+;\r\nЦельное крыло лунастры;\r\nКрепкий рог лунастры;\r\nСамоцвет лунастры;\r\nБольшой самоцв. Древн. дракона;\r\nЧистая драконья кровь;\r\nПлеть лунастры;\r\nБольшая кость Древнего дракона;\r\nДревняя кость драконьей жилы;\r\nЛазурная грива;\r\nЗакаленная лазурная грива;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": "Lunastra Scale+;\r\nLunastra Carapace;\r\nLunastra Mane;\r\nLunastra Tail;\r\nLunastra Wing;\r\nLunastra Gem;\r\nDragon Treasure;\r\nLunastra Horn;\r\nElder Dragon Blood; \r\nElder Dragon Bone;",
+        "mrENG": "Lunastra Shard;\r\nLunastra Cortex;\r\nLunastra Mane+;\r\nLunastra Fellwing;\r\nLunastra Hardhorn;\r\nLunastra Gem;\r\nLarge Elder Dragon Gem;\r\nLunastra Lash;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nAzure Mane;\r\nTempered Azure Mane;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
     },
     {
         "name": "Namielle",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Тонкая шкура намиэля;\r\nКогтище намиэля;\r\nЦельное крыло намиэля;\r\nУс намиэля;\r\nБольшой самоцв. Древн. Дракона;\r\nПлеть намиэля;\r\nСокровище древнего дракона;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;\r\nЧарующая тонкая шкура;\r\nЗакаленная шкура транса;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Namielle Finehide;\r\nNamielle Hardclaw;\r\nNamielle Fellwing;\r\nNamielle Whisker;\r\nLarge Elder Dragon Gem;\r\nNamielle Lash;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nEnchanting Finehide;\r\nTempered Trancehide;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Тонкая шкура намиэля;\r\nКогтище намиэля;\r\nЦельное крыло намиэля;\r\nУс намиэля;\r\nБольшой самоцв. Древн. Дракона;\r\nПлеть намиэля;\r\nСокровище древнего дракона;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;\r\nЧарующая тонкая шкура;\r\nЗакаленная шкура транса;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Namielle Finehide;\r\nNamielle Hardclaw;\r\nNamielle Fellwing;\r\nNamielle Whisker;\r\nLarge Elder Dragon Gem;\r\nNamielle Lash;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nEnchanting Finehide;\r\nTempered Trancehide;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
     },
     {
         "name": "Nargacuga",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок наргакуги;\r\nЧерный мех наргакуги+;\r\nРезец наргакуги;\r\nХвостовой шип наргакуги;\r\nПлеть наргакуги;\r\nПокров наргакуги;\r\nБольшая слеза виверны;\r\nКлинковое крыло наргакуги+;\r\nКлинковое крыло ассасина;\r\nТяжелая кость драконьей жилы;\r\nЗакаленное клинковое крыло;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Nargacuga Shard;\r\nNargacuga Blackfur+;\r\nNargacuga Hardfang;\r\nNargacuga Tailspear;\r\nNargacuga Lash;\r\nNargacuga Mantle;\r\nLarge Wyvern Tear;\r\nNargacuga Cutwing+;\r\nAssassin Cutwing;\r\nHeavy Dragonvein Bone;\r\nTempered Cutwing;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок наргакуги;\r\nЧерный мех наргакуги+;\r\nРезец наргакуги;\r\nХвостовой шип наргакуги;\r\nПлеть наргакуги;\r\nПокров наргакуги;\r\nБольшая слеза виверны;\r\nКлинковое крыло наргакуги+;\r\nКлинковое крыло ассасина;\r\nТяжелая кость драконьей жилы;\r\nЗакаленное клинковое крыло;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Nargacuga Shard;\r\nNargacuga Blackfur+;\r\nNargacuga Hardfang;\r\nNargacuga Tailspear;\r\nNargacuga Lash;\r\nNargacuga Mantle;\r\nLarge Wyvern Tear;\r\nNargacuga Cutwing+;\r\nAssassin Cutwing;\r\nHeavy Dragonvein Bone;\r\nTempered Cutwing;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Nergigante",
-        "low(RU)": "Бессмертная драконья чешуя;",
-        "high(RU)": "Бессмертная драконья чешуя;\r\nПанцирь нергиганта;\r\nКоготь нергиганта;\r\nВторичная пластина нергиганта;\r\nРог нергиганта+;\r\nСамоцвет нергиганта;\r\nКость древнего дракона;\r\nКровь древнего дракона;",
-        "mr(RU)": "Большая кость чудовища;",
-        "low(ENG)": "Immortal Dragonscale",
-        "high(ENG)": "Immortal Dragonscale;\r\nNergigante Carapace;\r\nNergigante Talon;\r\nNergigante Regrowth Plate;\r\nNergigante Horn+;\r\nNergigante Gem;\r\nElder Dragon Blood;\r\nElder Dragon Bone;",
-        "mr(ENG)": "Monster Bone L"
+        "lowRU": "Бессмертная драконья чешуя;",
+        "highRU": "Бессмертная драконья чешуя;\r\nПанцирь нергиганта;\r\nКоготь нергиганта;\r\nВторичная пластина нергиганта;\r\nРог нергиганта+;\r\nСамоцвет нергиганта;\r\nКость древнего дракона;\r\nКровь древнего дракона;",
+        "mrRU": "Большая кость чудовища;",
+        "lowENG": "Immortal Dragonscale",
+        "highENG": "Immortal Dragonscale;\r\nNergigante Carapace;\r\nNergigante Talon;\r\nNergigante Regrowth Plate;\r\nNergigante Horn+;\r\nNergigante Gem;\r\nElder Dragon Blood;\r\nElder Dragon Bone;",
+        "mrENG": "Monster Bone L"
     },
     {
         "name": "Nightshade Paolumu",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок ночного паолуму;\r\nГустой мех ночного паолуму;\r\nЦельное крыло ночного паолуму;\r\nСердечник паолуму;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nСлеза виверны;\r\nТорпорная железа;\r\nЯростная кость драконьей жилы;\r\nОбсидиановый мех;\r\nЗакаленная шкура;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Nightshade Paolumu Shard;\r\nNightshade Paolumu Thickfur;\r\nNightshade Paolumu Fellwing;\r\nPaolumu Cortex;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nTorpor Sac;\r\nObsidian Fur;\r\nFierce Dragonvein Bone;\r\nTempered Hide;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nWyvern Tear;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок ночного паолуму;\r\nГустой мех ночного паолуму;\r\nЦельное крыло ночного паолуму;\r\nСердечник паолуму;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nСлеза виверны;\r\nТорпорная железа;\r\nЯростная кость драконьей жилы;\r\nОбсидиановый мех;\r\nЗакаленная шкура;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Nightshade Paolumu Shard;\r\nNightshade Paolumu Thickfur;\r\nNightshade Paolumu Fellwing;\r\nPaolumu Cortex;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nTorpor Sac;\r\nObsidian Fur;\r\nFierce Dragonvein Bone;\r\nTempered Hide;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nWyvern Tear;"
     },
     {
         "name": "Odogaron",
-        "low(RU)": "Хвост одогарона;\r\nЧешуя одогарона;\r\nСухожилие одогарона;\r\nКоготь одогарона;\r\nКлык одогарона;\r\nПластина одогарона;\r\nСлеза виверны;\r\nПитательный экстракт;",
-        "high(RU)": "Хвост одогарона;\r\nЧешуя одогарона+;\r\nСухожилие одогарона+;\r\nКоготь одогарона+;\r\nКлык одогарона+;\r\nПластина одогарона;\r\nСамоцвет одогарона;\r\nСлеза виверны;\r\nПитательный экстракт",
-        "mr(RU)": "Осколок одогарона;\r\nТвердое сухожилие одогарона;\r\nКогтище одогарона;\r\nРезец одогарона;\r\nСамоцвет одогарона;\r\nПокров одогарона;\r\nПлеть одогарона;\r\nБольшая слеза виверны;\r\nСмертельный коготь раскола;\r\nТяжелая кость драконьей жилы;\r\nЗакаленный коготь раскола;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": "Odogaron Scale;\r\nOdogaron Sinew;\r\nOdogaron Claw;\r\nOdogaron Fang;\r\nOdogaron Plate;\r\nOdogaron Tail;\r\nWyvern Tear;\r\nNourishing Extract;",
-        "high(ENG)": "Odogaron Scale+;\r\nOdogaron Sinew+;\r\nOdogaron Claw+;\r\nOdogaron Fang+;\r\nOdogaron Plate;\r\nOdogaron Gem;\r\nOdogaron Tail;\r\nWyvern Tear;\r\nNourishing Extract;",
-        "mr(ENG)": "Odogaron Shard;\r\nHard Odogaron Sinew;\r\nOdogaron Hardclaw;\r\nOdogaron Hardfang;\r\nOdogaron Gem;\r\nOdogaron Mantle;\r\nOdogaron Lash;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nFatal Rendclaw;\r\nTempered Rendclaw;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": "Хвост одогарона;\r\nЧешуя одогарона;\r\nСухожилие одогарона;\r\nКоготь одогарона;\r\nКлык одогарона;\r\nПластина одогарона;\r\nСлеза виверны;\r\nПитательный экстракт;",
+        "highRU": "Хвост одогарона;\r\nЧешуя одогарона+;\r\nСухожилие одогарона+;\r\nКоготь одогарона+;\r\nКлык одогарона+;\r\nПластина одогарона;\r\nСамоцвет одогарона;\r\nСлеза виверны;\r\nПитательный экстракт",
+        "mrRU": "Осколок одогарона;\r\nТвердое сухожилие одогарона;\r\nКогтище одогарона;\r\nРезец одогарона;\r\nСамоцвет одогарона;\r\nПокров одогарона;\r\nПлеть одогарона;\r\nБольшая слеза виверны;\r\nСмертельный коготь раскола;\r\nТяжелая кость драконьей жилы;\r\nЗакаленный коготь раскола;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": "Odogaron Scale;\r\nOdogaron Sinew;\r\nOdogaron Claw;\r\nOdogaron Fang;\r\nOdogaron Plate;\r\nOdogaron Tail;\r\nWyvern Tear;\r\nNourishing Extract;",
+        "highENG": "Odogaron Scale+;\r\nOdogaron Sinew+;\r\nOdogaron Claw+;\r\nOdogaron Fang+;\r\nOdogaron Plate;\r\nOdogaron Gem;\r\nOdogaron Tail;\r\nWyvern Tear;\r\nNourishing Extract;",
+        "mrENG": "Odogaron Shard;\r\nHard Odogaron Sinew;\r\nOdogaron Hardclaw;\r\nOdogaron Hardfang;\r\nOdogaron Gem;\r\nOdogaron Mantle;\r\nOdogaron Lash;\r\nLarge Wyvern Tear;\r\nHeavy Dragonvein Bone;\r\nFatal Rendclaw;\r\nTempered Rendclaw;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Paolumu",
-        "low(RU)": "Чешуя паолуму;\r\nШкура паолуму;\r\nПерепонки паолуму;\r\nОболочка паолуму;\r\nСлеза виверны;\r\nПитательный экстракт;",
-        "high(RU)": "Чешуя паолуму+;\r\nШкура паолуму+;\r\nКрыло паолуму;\r\nПанцирь паолуму+;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nОстрая кость чудовища\r\nПитательный экстракт",
-        "mr(RU)": "Осколок паолуму;\r\nГустой мех паолуму;\r\nЦельное крыло паолуму;\r\nСердечник паолуму;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nУпругая оболочка;\r\nЗакаленная упругая оболочка;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": "Paolumu Scale;\r\nPaolumu Pelt;\r\nPaolumu Webbing;\r\nPaolumu Shell;\r\nWyvern Tear;\r\nNourishing Extract;",
-        "high(ENG)": "Paolumu Scale+;\r\nPaolumu Pelt+;\r\nPaolumu Wing;\r\nPaolumu Carapace+;\r\nWyvern Gem;\r\nMonster Keenbone;\r\nNourishing Extract ;\r\nWyvern Tear;",
-        "mr(ENG)": "Paolumu Shard;\r\nPaolumu Thickfur;\r\nPaolumu Fellwing;\r\nPaolumu Cortex;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nRubbery Shell;\r\nTempered Rubbery Shell;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": "Чешуя паолуму;\r\nШкура паолуму;\r\nПерепонки паолуму;\r\nОболочка паолуму;\r\nСлеза виверны;\r\nПитательный экстракт;",
+        "highRU": "Чешуя паолуму+;\r\nШкура паолуму+;\r\nКрыло паолуму;\r\nПанцирь паолуму+;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nОстрая кость чудовища\r\nПитательный экстракт",
+        "mrRU": "Осколок паолуму;\r\nГустой мех паолуму;\r\nЦельное крыло паолуму;\r\nСердечник паолуму;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nУпругая оболочка;\r\nЗакаленная упругая оболочка;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": "Paolumu Scale;\r\nPaolumu Pelt;\r\nPaolumu Webbing;\r\nPaolumu Shell;\r\nWyvern Tear;\r\nNourishing Extract;",
+        "highENG": "Paolumu Scale+;\r\nPaolumu Pelt+;\r\nPaolumu Wing;\r\nPaolumu Carapace+;\r\nWyvern Gem;\r\nMonster Keenbone;\r\nNourishing Extract ;\r\nWyvern Tear;",
+        "mrENG": "Paolumu Shard;\r\nPaolumu Thickfur;\r\nPaolumu Fellwing;\r\nPaolumu Cortex;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nRubbery Shell;\r\nTempered Rubbery Shell;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Pink Rathian",
-        "low(RU)": null,
-        "high(RU)": "Чешуя розовой ратианы+;\r\nПанцирь розовой ратианы;\r\nКрыльная шпора раталоса;\r\nПерепонки ратианы;\r\nПластина ратианы;\r\nРубин ратианы;\r\nШип ратианы+;\r\nАдская железа;\r\nТвердая кость чудовища;\r\nБольшая слеза виверны;",
-        "mr(RU)": "Осколок розовой ратианы;\r\nСердечник розовой ратианы;\r\nВолокно ратианы;\r\nЯдовитый шип ратианы;\r\nРубин ратианы;\r\nПокров ратианы;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;\r\nЯростная кость драконьей жилы;\r\nРозовая чешуя;\r\nЗакаленная розовая чешуя;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": "Pink Rathian Scale+;\r\nPink Rathian Carapace;\r\nRath Wingtalon;\r\nRathian Webbing;\r\nRathian Plate;\r\nRathian Ruby;\r\nLarge Wyvern Tear;\r\nInferno Sac;\r\nMonster Hardbone;",
-        "mr(ENG)": "Pink Rathian Shard;\r\nPink Rathian Cortex;\r\nRathian Weave;\r\nRathian Surspike;\r\nRathian Ruby;\r\nRathian Mantle;\r\nRath Wingtalon+;\r\nConflagrant Sac;\r\nFierce Dragonvein Bone;\r\nPink Scale;\r\nTempered Pink Scale;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": null,
+        "highRU": "Чешуя розовой ратианы+;\r\nПанцирь розовой ратианы;\r\nКрыльная шпора раталоса;\r\nПерепонки ратианы;\r\nПластина ратианы;\r\nРубин ратианы;\r\nШип ратианы+;\r\nАдская железа;\r\nТвердая кость чудовища;\r\nБольшая слеза виверны;",
+        "mrRU": "Осколок розовой ратианы;\r\nСердечник розовой ратианы;\r\nВолокно ратианы;\r\nЯдовитый шип ратианы;\r\nРубин ратианы;\r\nПокров ратианы;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;\r\nЯростная кость драконьей жилы;\r\nРозовая чешуя;\r\nЗакаленная розовая чешуя;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": null,
+        "highENG": "Pink Rathian Scale+;\r\nPink Rathian Carapace;\r\nRath Wingtalon;\r\nRathian Webbing;\r\nRathian Plate;\r\nRathian Ruby;\r\nLarge Wyvern Tear;\r\nInferno Sac;\r\nMonster Hardbone;",
+        "mrENG": "Pink Rathian Shard;\r\nPink Rathian Cortex;\r\nRathian Weave;\r\nRathian Surspike;\r\nRathian Ruby;\r\nRathian Mantle;\r\nRath Wingtalon+;\r\nConflagrant Sac;\r\nFierce Dragonvein Bone;\r\nPink Scale;\r\nTempered Pink Scale;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Pukei-Pukei",
-        "low(RU)": "Чешуя поки-поки;\r\nШкура поки-поки;\r\nПерья поки-поки;\r\nЖелеза поки-поки;\r\nХвост поки-поки;\r\nСлеза виверны;\r\nЯдовитая железа;\r\nСредняя кость чудовища;",
-        "high(RU)": "Чешуя поки-поки+;\r\nПанцирь поки-поки;\r\nКрыло поки-поки;\r\nЖелеза поки-поки+;\r\nХвост поки-поки;\r\nСамоцвет пернатой виверны;\r\nТоксичная железа;\r\nОстрая кость чудовища;",
-        "mr(RU)": "Осколок поки-поки;\r\nСердечник поки-поки;\r\nЦельное крыло поки-поки;\r\nБольшая железа поки-поки;\r\nПлеть поки-поки;\r\nНеземной самоцвет виверны;\r\nЯростная кость драконьей жилы;\r\nПахучая ядовитая железа;\r\nЗакаленная ядовитая железа;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nСмертоносная ядовитая железа;",
-        "low(ENG)": "Pukei-Pukei Scale;\r\nPukei-Pukei Shell;\r\nPukei-Pukei Quill;\r\nPukei-Pukei Sac;\r\nPukei-Pukei Tail;\r\nWyvern Tear;\r\nPoison Sac;\r\nMonster Bone M; ",
-        "high(ENG)": "Pukei-Pukei Scale+;\r\nPukei-Pukei Carapace;\r\nPukei-Pukei Wing;\r\nPukei-Pukei Sac+;\r\nPukei-Pukei Tail;\r\nBird Wyvern Gem;\r\nToxin Sac;\r\nMonster Keenbone;",
-        "mr(ENG)": "Pukei-Pukei Shard;\r\nPukei-Pukei Cortex;\r\nPukei-Pukei Fellwing;\r\nLarge Pukei-Pukei Sac;\r\nPukei-Pukei Lash;\r\nFey Wyvern Gem;\r\nDeadly Poison Sac;\r\nFierce Dragonvein Bone;\r\nFragrant Poison Sac;\r\nTempered Poison Sac;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": "Чешуя поки-поки;\r\nШкура поки-поки;\r\nПерья поки-поки;\r\nЖелеза поки-поки;\r\nХвост поки-поки;\r\nСлеза виверны;\r\nЯдовитая железа;\r\nСредняя кость чудовища;",
+        "highRU": "Чешуя поки-поки+;\r\nПанцирь поки-поки;\r\nКрыло поки-поки;\r\nЖелеза поки-поки+;\r\nХвост поки-поки;\r\nСамоцвет пернатой виверны;\r\nТоксичная железа;\r\nОстрая кость чудовища;",
+        "mrRU": "Осколок поки-поки;\r\nСердечник поки-поки;\r\nЦельное крыло поки-поки;\r\nБольшая железа поки-поки;\r\nПлеть поки-поки;\r\nНеземной самоцвет виверны;\r\nЯростная кость драконьей жилы;\r\nПахучая ядовитая железа;\r\nЗакаленная ядовитая железа;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nСмертоносная ядовитая железа;",
+        "lowENG": "Pukei-Pukei Scale;\r\nPukei-Pukei Shell;\r\nPukei-Pukei Quill;\r\nPukei-Pukei Sac;\r\nPukei-Pukei Tail;\r\nWyvern Tear;\r\nPoison Sac;\r\nMonster Bone M; ",
+        "highENG": "Pukei-Pukei Scale+;\r\nPukei-Pukei Carapace;\r\nPukei-Pukei Wing;\r\nPukei-Pukei Sac+;\r\nPukei-Pukei Tail;\r\nBird Wyvern Gem;\r\nToxin Sac;\r\nMonster Keenbone;",
+        "mrENG": "Pukei-Pukei Shard;\r\nPukei-Pukei Cortex;\r\nPukei-Pukei Fellwing;\r\nLarge Pukei-Pukei Sac;\r\nPukei-Pukei Lash;\r\nFey Wyvern Gem;\r\nDeadly Poison Sac;\r\nFierce Dragonvein Bone;\r\nFragrant Poison Sac;\r\nTempered Poison Sac;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Radobaan",
-        "low(RU)": "Чешуя радобаана;\r\nШкура радобаана;\r\nМаслянистая шкура радобаана;\r\nКостный мозг радобаана;\r\nСлеза виверны;\r\nКости виверны;\r\nСонная железа;\r\nБольшая кость чудовища;",
-        "high(RU)": "Чешуя радобаана+;\r\nПанцирь радобаана;\r\nМаслянистая шкура радобаана;\r\nМозговой слой радобаана;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nКости виверны;\r\nКоматозная железа;\r\nОстрая кость чудовища;",
-        "mr(RU)": "Осколок радобаана;\r\nСердечник радобаана;\r\nМаслянистая шкура радобаана+;\r\nМозговой слой радобаана;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nЧернильная масляная раковина+;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nТорпорная железа;\r\nКости виверны;",
-        "low(ENG)": "Radobaan Scale;\r\nRadobaan Shell;\r\nRadobaan Oilshell;\r\nRadobaan Marrow;\r\nWyvern Tear;\r\nSleep Sac;\r\nMonster Bone L;\r\nWyvern Bonemass;",
-        "high(ENG)": "Radobaan Scale+;\r\nRadobaan Carapace;\r\nRadobaan Oilshell;\r\nRadobaan Medulla;\r\nWyvern Gem;\r\nWyvern Tear;\r\nComa Sac;\r\nMonster Keenbone;\r\nWyvern Bonemass;",
-        "mr(ENG)": "Radobaan Shard\t;\r\nRadobaan Cortex;\r\nRadobaan Oilshell+;\r\nRadobaan Medulla;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Bonemass;\r\nTorpor Sac;\r\nFierce Dragonvein Bone;\r\nInkstained Oilshell+;\r\nTempered Oilshell+;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": "Чешуя радобаана;\r\nШкура радобаана;\r\nМаслянистая шкура радобаана;\r\nКостный мозг радобаана;\r\nСлеза виверны;\r\nКости виверны;\r\nСонная железа;\r\nБольшая кость чудовища;",
+        "highRU": "Чешуя радобаана+;\r\nПанцирь радобаана;\r\nМаслянистая шкура радобаана;\r\nМозговой слой радобаана;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nКости виверны;\r\nКоматозная железа;\r\nОстрая кость чудовища;",
+        "mrRU": "Осколок радобаана;\r\nСердечник радобаана;\r\nМаслянистая шкура радобаана+;\r\nМозговой слой радобаана;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nЧернильная масляная раковина+;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nТорпорная железа;\r\nКости виверны;",
+        "lowENG": "Radobaan Scale;\r\nRadobaan Shell;\r\nRadobaan Oilshell;\r\nRadobaan Marrow;\r\nWyvern Tear;\r\nSleep Sac;\r\nMonster Bone L;\r\nWyvern Bonemass;",
+        "highENG": "Radobaan Scale+;\r\nRadobaan Carapace;\r\nRadobaan Oilshell;\r\nRadobaan Medulla;\r\nWyvern Gem;\r\nWyvern Tear;\r\nComa Sac;\r\nMonster Keenbone;\r\nWyvern Bonemass;",
+        "mrENG": "Radobaan Shard\t;\r\nRadobaan Cortex;\r\nRadobaan Oilshell+;\r\nRadobaan Medulla;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Bonemass;\r\nTorpor Sac;\r\nFierce Dragonvein Bone;\r\nInkstained Oilshell+;\r\nTempered Oilshell+;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Raging Brachydios",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Несокрушимая эбеновая оболочка;\r\nГорячая слизь;\r\nОпустошитель брахидиоса;\r\nНарост брахи;\r\nБессмертный реактор;\r\nПлеть брахидиоса;\r\nГорячая слизь;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nМантия брахидиоса;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Indestructible Ebonshell;\r\nFlashpoint Slime;\r\nBrach Obliterator;\r\nBrach Warhead;\r\nImmortal Reactor;\r\nBrachydios Lash;\r\nFlashpoint Slime;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nBrachydios Pallium;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Несокрушимая эбеновая оболочка;\r\nГорячая слизь;\r\nОпустошитель брахидиоса;\r\nНарост брахи;\r\nБессмертный реактор;\r\nПлеть брахидиоса;\r\nГорячая слизь;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nМантия брахидиоса;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Indestructible Ebonshell;\r\nFlashpoint Slime;\r\nBrach Obliterator;\r\nBrach Warhead;\r\nImmortal Reactor;\r\nBrachydios Lash;\r\nFlashpoint Slime;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nBrachydios Pallium;"
     },
     {
         "name": "Rajang",
-        "low(RU)": "Резец раянга;\r\nШкура дикого раянга;\r\nКогтище раянга;\r\nЗолотая шкура раянга+;\r\nБольшая слеза зверя;\r\nПлотная кость драконьей жилы;\r\nКровожадная блестящая шкура;\r\nЗакаленная блестящая шкура;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nХвост раянга;\r\nКрепкий рог раянга;",
-        "high(RU)": null,
-        "mr(RU)": null,
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Rajang Hardfang;\r\nRajang Wildpelt;\r\nRajang Hardclaw;\r\nGold Rajang Pelt+;\r\nLarge Beast Tear;\r\nDragonvein Solidbone;\r\nBloodthirsty Glimmerpelt;\r\nTempered Glimmerpelt;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nRajang Tail;\r\nRajang Hardhorn;"
+        "lowRU": "Резец раянга;\r\nШкура дикого раянга;\r\nКогтище раянга;\r\nЗолотая шкура раянга+;\r\nБольшая слеза зверя;\r\nПлотная кость драконьей жилы;\r\nКровожадная блестящая шкура;\r\nЗакаленная блестящая шкура;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nХвост раянга;\r\nКрепкий рог раянга;",
+        "highRU": null,
+        "mrRU": null,
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Rajang Hardfang;\r\nRajang Wildpelt;\r\nRajang Hardclaw;\r\nGold Rajang Pelt+;\r\nLarge Beast Tear;\r\nDragonvein Solidbone;\r\nBloodthirsty Glimmerpelt;\r\nTempered Glimmerpelt;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nRajang Tail;\r\nRajang Hardhorn;"
     },
     {
         "name": "Rathalos",
-        "low(RU)": "Чешуя раталоса;\r\nШкура раталоса;\r\nПерепонка раталоса;\r\nКостный мозг раталоса;\r\nПластина раталоса;\r\nХвост раталоса;\r\nСлеза виверны;\r\nПламенная железа;\r\nКость чудовища+;",
-        "high(RU)": "Чешуя раталоса+;\r\nПанцирь раталоса;\r\nКрыло раталоса;\r\nМозговой слой раталоса;\r\nПластина раталоса;\r\nРубин раталоса;\r\nХвост раталоса;\r\nСлеза виверны;\r\nАдская железа;\r\nТвердая кость чудовища;",
-        "mr(RU)": "Осколок раталоса;\r\nСердечник раталоса;\r\nЦельное крыло раталоса;\r\nМозговой слой раталоса;\r\nРубин раталоса;\r\nПокров раталоса;\r\nПлеть раталоса;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nЧешуя короля;\r\nЗакаленная красная чешуя;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;",
-        "low(ENG)": "Rathalos Scale;\r\nRathalos Shell;\r\nRathalos Webbing;\r\nRathalos Marrow;\r\nRathalos Plate;\r\nRathalos Tail;\r\nWyvern Tear;\r\nFlame Sac;\r\nMonster Bone+; ",
-        "high(ENG)": "Rathalos Scale+;\r\nRathalos Carapace;\r\nRathalos Wing;\r\nRathalos Medulla;\r\nRathalos Plate;\r\nRathalos Ruby;\r\nRathalos Tail;\r\nWyvern Tear;\r\nInferno Sac;\r\nMonster Hardbone;",
-        "mr(ENG)": "Rathalos Shard;\r\nRathalos Cortex;\r\nRathalos Fellwing;\r\nRathalos Medulla;\r\nRathalos Ruby;\r\nRathalos Mantle;\r\nRathalos Lash;\r\nRath Wingtalon+; \r\nConflagrant Sac;\r\nHeavy Dragonvein Bone;\r\nKing's Scale;\r\nTempered Red Scale;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nLarge Wyvern Tear;"
+        "lowRU": "Чешуя раталоса;\r\nШкура раталоса;\r\nПерепонка раталоса;\r\nКостный мозг раталоса;\r\nПластина раталоса;\r\nХвост раталоса;\r\nСлеза виверны;\r\nПламенная железа;\r\nКость чудовища+;",
+        "highRU": "Чешуя раталоса+;\r\nПанцирь раталоса;\r\nКрыло раталоса;\r\nМозговой слой раталоса;\r\nПластина раталоса;\r\nРубин раталоса;\r\nХвост раталоса;\r\nСлеза виверны;\r\nАдская железа;\r\nТвердая кость чудовища;",
+        "mrRU": "Осколок раталоса;\r\nСердечник раталоса;\r\nЦельное крыло раталоса;\r\nМозговой слой раталоса;\r\nРубин раталоса;\r\nПокров раталоса;\r\nПлеть раталоса;\r\nБольшая слеза виверны;\r\nТяжелая кость драконьей жилы;\r\nЧешуя короля;\r\nЗакаленная красная чешуя;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;",
+        "lowENG": "Rathalos Scale;\r\nRathalos Shell;\r\nRathalos Webbing;\r\nRathalos Marrow;\r\nRathalos Plate;\r\nRathalos Tail;\r\nWyvern Tear;\r\nFlame Sac;\r\nMonster Bone+; ",
+        "highENG": "Rathalos Scale+;\r\nRathalos Carapace;\r\nRathalos Wing;\r\nRathalos Medulla;\r\nRathalos Plate;\r\nRathalos Ruby;\r\nRathalos Tail;\r\nWyvern Tear;\r\nInferno Sac;\r\nMonster Hardbone;",
+        "mrENG": "Rathalos Shard;\r\nRathalos Cortex;\r\nRathalos Fellwing;\r\nRathalos Medulla;\r\nRathalos Ruby;\r\nRathalos Mantle;\r\nRathalos Lash;\r\nRath Wingtalon+; \r\nConflagrant Sac;\r\nHeavy Dragonvein Bone;\r\nKing's Scale;\r\nTempered Red Scale;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nLarge Wyvern Tear;"
     },
     {
         "name": "Rathian",
-        "low(RU)": "Чешуя ратианы;\r\nШкура ратианы;\r\nПерепонки ратианы;\r\nКрыльная шпора раталоса;\r\nШип ратианы;\r\nПластина ратианы;\r\nСлеза виверны;\r\nПламенная железа;\r\nБольшая кость чудовища;",
-        "high(RU)": "Чешуя ратианы+;\r\nПанцирь ратианы;\r\nПерепонки ратианы;\r\nШип ратианы+;\r\nПластина ратианы;\r\nРубин ратианы;\r\nСлеза виверны;\r\nАдская железа;\r\nКрыльная шпора раталоса;\r\nОстрая кость чудовища;",
-        "mr(RU)": "Осколок ратианы;\r\nСердечник ратианы;\r\nВолокно ратианы;\r\nЯдовитый шип ратианы;\r\nРубин ратианы;\r\nПокров ратианы;\r\nБольшая слеза виверны;\r\nЧешуя королевы;\r\nЯростная кость драконьей жилы;\r\nЗакаленная зеленая чешуя;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;",
-        "low(ENG)": "Rathian Scale;\r\nRathian Shell;\r\nRathian Webbing;\r\nRath Wingtalon;\r\nRathian Spike;\r\nRathian Plate;\r\nWyvern Tear;\r\nFlame Sac;\r\nMonster Bone L;",
-        "high(ENG)": "Rathian Scale+;\r\nRathian Carapace;\r\nRathian Webbing;\r\nRathian Spike+;\r\nRathian Plate;\r\nRathian Ruby;\r\nInferno Sac;\r\nMonster Keenbone;\r\nRath Wingtalon;\r\nWyvern Tear;",
-        "mr(ENG)": "Rathian Shard;\r\nRathian Cortex;\r\nRathian Weave;\r\nRathian Surspike;\r\nRathian Ruby;\r\nRathian Mantle;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nQueen's Scale;\r\nTempered Green Scale;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nConflagrant Sac;\r\nRath Wingtalon+;"
+        "lowRU": "Чешуя ратианы;\r\nШкура ратианы;\r\nПерепонки ратианы;\r\nКрыльная шпора раталоса;\r\nШип ратианы;\r\nПластина ратианы;\r\nСлеза виверны;\r\nПламенная железа;\r\nБольшая кость чудовища;",
+        "highRU": "Чешуя ратианы+;\r\nПанцирь ратианы;\r\nПерепонки ратианы;\r\nШип ратианы+;\r\nПластина ратианы;\r\nРубин ратианы;\r\nСлеза виверны;\r\nАдская железа;\r\nКрыльная шпора раталоса;\r\nОстрая кость чудовища;",
+        "mrRU": "Осколок ратианы;\r\nСердечник ратианы;\r\nВолокно ратианы;\r\nЯдовитый шип ратианы;\r\nРубин ратианы;\r\nПокров ратианы;\r\nБольшая слеза виверны;\r\nЧешуя королевы;\r\nЯростная кость драконьей жилы;\r\nЗакаленная зеленая чешуя;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;",
+        "lowENG": "Rathian Scale;\r\nRathian Shell;\r\nRathian Webbing;\r\nRath Wingtalon;\r\nRathian Spike;\r\nRathian Plate;\r\nWyvern Tear;\r\nFlame Sac;\r\nMonster Bone L;",
+        "highENG": "Rathian Scale+;\r\nRathian Carapace;\r\nRathian Webbing;\r\nRathian Spike+;\r\nRathian Plate;\r\nRathian Ruby;\r\nInferno Sac;\r\nMonster Keenbone;\r\nRath Wingtalon;\r\nWyvern Tear;",
+        "mrENG": "Rathian Shard;\r\nRathian Cortex;\r\nRathian Weave;\r\nRathian Surspike;\r\nRathian Ruby;\r\nRathian Mantle;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nQueen's Scale;\r\nTempered Green Scale;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nConflagrant Sac;\r\nRath Wingtalon+;"
     },
     {
         "name": "Ruiner Nergigante",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок нергиганта;\r\nСердечник нергиганта;\r\nКогтище нергиганта;\r\nВторичная пластина нергиганта;\r\nБольшой рог нергиганта;\r\nСамоцвет нергиганта;\r\nБольшой самоцв. Древн. Дракона;\r\nБич нергиганта;\r\nСокровище древнего дракона;\r\nДревняя кость драконьей жилы;\r\nБольшой рог вымирания;\r\nБольшой рог нергиганта;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nЧистая драконья кровь;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Immortal Shard;\r\nNergigante Cortex;\r\nNergigante Hardclaw;\r\nEternal Regrowth Plate;\r\nAnnihilating Greathorn;\r\nNergigante Gem\t;\r\nLarge Elder Dragon Gem;\r\nNergigante Flail;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nExtinction Greathorn;\r\nAnnihilating Temperhorn;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок нергиганта;\r\nСердечник нергиганта;\r\nКогтище нергиганта;\r\nВторичная пластина нергиганта;\r\nБольшой рог нергиганта;\r\nСамоцвет нергиганта;\r\nБольшой самоцв. Древн. Дракона;\r\nБич нергиганта;\r\nСокровище древнего дракона;\r\nДревняя кость драконьей жилы;\r\nБольшой рог вымирания;\r\nБольшой рог нергиганта;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nЧистая драконья кровь;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Immortal Shard;\r\nNergigante Cortex;\r\nNergigante Hardclaw;\r\nEternal Regrowth Plate;\r\nAnnihilating Greathorn;\r\nNergigante Gem\t;\r\nLarge Elder Dragon Gem;\r\nNergigante Flail;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nExtinction Greathorn;\r\nAnnihilating Temperhorn;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;\r\nPure Dragon Blood;"
     },
     {
         "name": "Safi`jiva",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок сафи'джиивы;\r\nСердечник сафи'джиивы;\r\nПульсирующая оболочка дракона;\r\nПлеть сафи'джиивы;\r\nКогтище сафи'джиивы;\r\nЦельное крыло сафи'джиивы;\r\nКристалл сиония;\r\nСокровище древнего дракона;\r\nБольшая кость чудовища;\r\nОсколок драколита;\r\nДраколит;\r\nБольшая кость Древнего дракона;\r\nЧистая драконья кровь;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Safi'jiiva Shard;\r\nSafi'jiiva Cortex;\r\nPulsing Dragonshell;\r\nSafi'jiiva Lash;\r\nSafi'jiiva Hardclaw;\r\nSafi'jiiva Fellwing;\r\nZionium Crystal;\r\nOld Dragon Treasure;\r\nMonster Bone L;\r\nDracolite Shard;\r\nDracolite;\r\nLarge Elder Dragon Bone;\r\nPure Dragon Blood;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок сафи'джиивы;\r\nСердечник сафи'джиивы;\r\nПульсирующая оболочка дракона;\r\nПлеть сафи'джиивы;\r\nКогтище сафи'джиивы;\r\nЦельное крыло сафи'джиивы;\r\nКристалл сиония;\r\nСокровище древнего дракона;\r\nБольшая кость чудовища;\r\nОсколок драколита;\r\nДраколит;\r\nБольшая кость Древнего дракона;\r\nЧистая драконья кровь;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Safi'jiiva Shard;\r\nSafi'jiiva Cortex;\r\nPulsing Dragonshell;\r\nSafi'jiiva Lash;\r\nSafi'jiiva Hardclaw;\r\nSafi'jiiva Fellwing;\r\nZionium Crystal;\r\nOld Dragon Treasure;\r\nMonster Bone L;\r\nDracolite Shard;\r\nDracolite;\r\nLarge Elder Dragon Bone;\r\nPure Dragon Blood;"
     },
     {
         "name": "Savage Deviljho",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Черная скорлупа девильо;\r\nОсколок девильо;\r\nПотрошитель девильо;\r\nЗлобный клык;\r\nЧерная кровь;\r\nСамоцвет девильо;\r\nКрюк девильо;\r\nБич девильо;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nОкровавленная эбеновая шкура;\r\nПятнистая шкура;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Deviljho Blackpiel;\r\nDeviljho Shard;\r\nDeviljho Ripper;\r\nVile Fang;\r\nBlack Blood;\r\nDeviljho Gem;\r\nDeviljho Crook;\r\nDeviljho Flail;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nBloodstained Ebonhide;\r\nSpattered Hide;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Черная скорлупа девильо;\r\nОсколок девильо;\r\nПотрошитель девильо;\r\nЗлобный клык;\r\nЧерная кровь;\r\nСамоцвет девильо;\r\nКрюк девильо;\r\nБич девильо;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nОкровавленная эбеновая шкура;\r\nПятнистая шкура;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Deviljho Blackpiel;\r\nDeviljho Shard;\r\nDeviljho Ripper;\r\nVile Fang;\r\nBlack Blood;\r\nDeviljho Gem;\r\nDeviljho Crook;\r\nDeviljho Flail;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nBloodstained Ebonhide;\r\nSpattered Hide;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;"
     },
     {
         "name": "Scarred Yian Garuga",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок гаруги;\r\nСердечник гаруги;\r\nСеребряная шкура гаруги;\r\nЦельное крыло гаруги;\r\nКрасивый клюв;\r\nНеземной самоцвет виверны;\r\nПлеть гаруги;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЖуткая серебряная шкура;\r\nЗакаленная серебряная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Garuga Shard;\r\nGaruga Cortex;\r\nGaruga Silverpelt;\r\nGaruga Fellwing;\r\nFancy Beak;\r\nFey Wyvern Gem;\r\nGaruga Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nSinister Silverpelt;\r\nTempered Silverpelt;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок гаруги;\r\nСердечник гаруги;\r\nСеребряная шкура гаруги;\r\nЦельное крыло гаруги;\r\nКрасивый клюв;\r\nНеземной самоцвет виверны;\r\nПлеть гаруги;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЖуткая серебряная шкура;\r\nЗакаленная серебряная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Garuga Shard;\r\nGaruga Cortex;\r\nGaruga Silverpelt;\r\nGaruga Fellwing;\r\nFancy Beak;\r\nFey Wyvern Gem;\r\nGaruga Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nSinister Silverpelt;\r\nTempered Silverpelt;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Seething Bazelgeuse",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок базельгейса;\r\nМерцающий серебряный панцирь;\r\nКогтище базельгейса;\r\nОчищенная взрывная жидкость;\r\nОпаляющее серебряное крыло;\r\nСамоцвет базельгейса;\r\nПокров базельгейса;\r\nБич базельгейса;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nБагровая взрывная чешуя;\r\nЗакаленная взрывная чешуя;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Bazelgeuse Shard;\r\nFlickering Silvershell;\r\nBazelgeuse Hardclaw;\r\nDistilled Blast Fluid;\r\nScorching Silverwing;\r\nBazelgeuse Gem\t;\r\nBazelgeuse Mantle;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nCrimson Blastscale;\r\nTempered Blastscale;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nBazelgeuse Flail;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок базельгейса;\r\nМерцающий серебряный панцирь;\r\nКогтище базельгейса;\r\nОчищенная взрывная жидкость;\r\nОпаляющее серебряное крыло;\r\nСамоцвет базельгейса;\r\nПокров базельгейса;\r\nБич базельгейса;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nБагровая взрывная чешуя;\r\nЗакаленная взрывная чешуя;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Bazelgeuse Shard;\r\nFlickering Silvershell;\r\nBazelgeuse Hardclaw;\r\nDistilled Blast Fluid;\r\nScorching Silverwing;\r\nBazelgeuse Gem\t;\r\nBazelgeuse Mantle;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nCrimson Blastscale;\r\nTempered Blastscale;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nBazelgeuse Flail;"
     },
     {
         "name": "Shara Ishvalda",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Нежная чешуя шара-ишвалды;\r\nКаменная пластина шара-ишвалды;\r\nКамень-лепесток шара-ишвалды;\r\nНежный коготь шара-ишвалды\t;\r\nСамоцвет шара-ишвалды;\r\nНежная пластина шара-ишвалды;\r\nСокровище древнего дракона;\r\nБольшая кость чудовища;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Shara Ishvalda Tenderscale;\r\nShara Ishvalda Boulderplate;\r\nShara Ishvalda Petalstone;\r\nShara Ishvalda Tenderclaw;\r\nShara Ishvalda Gem;\r\nOld Dragon Treasure;\r\nShara Ishvalda Tenderplate;\r\nMonster Bone L;\r\nPure Dragon Blood; \r\nLarge Elder Dragon Bone;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Нежная чешуя шара-ишвалды;\r\nКаменная пластина шара-ишвалды;\r\nКамень-лепесток шара-ишвалды;\r\nНежный коготь шара-ишвалды\t;\r\nСамоцвет шара-ишвалды;\r\nНежная пластина шара-ишвалды;\r\nСокровище древнего дракона;\r\nБольшая кость чудовища;\r\nЧистая драконья кровь;\r\nБольшая кость Древнего дракона;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Shara Ishvalda Tenderscale;\r\nShara Ishvalda Boulderplate;\r\nShara Ishvalda Petalstone;\r\nShara Ishvalda Tenderclaw;\r\nShara Ishvalda Gem;\r\nOld Dragon Treasure;\r\nShara Ishvalda Tenderplate;\r\nMonster Bone L;\r\nPure Dragon Blood; \r\nLarge Elder Dragon Bone;"
     },
     {
         "name": "Shrieking Legiana",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок легианы;\r\nИнеистая шкура;\r\nОбсидиановый ледяной коготь;\r\nХладное крыло;\r\nПокров легианы;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nКристальная морозная шкура;\r\nЗакаленная морозная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nХвостовая перепонка легианы+;\r\nКриожелеза;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Legiana Shard;\r\nRimed Hide;\r\nObsidian Icetalon;\r\nStark Wing;\r\nLegiana Mantle;\r\nLarge Wyvern Tear;\r\nCrystal Frozenhide;\r\nDragonvein Solidbone;\r\nTempered Frosthide;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nCryo Sac;\r\nLegiana Tail Webbing+;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок легианы;\r\nИнеистая шкура;\r\nОбсидиановый ледяной коготь;\r\nХладное крыло;\r\nПокров легианы;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nКристальная морозная шкура;\r\nЗакаленная морозная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nХвостовая перепонка легианы+;\r\nКриожелеза;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Legiana Shard;\r\nRimed Hide;\r\nObsidian Icetalon;\r\nStark Wing;\r\nLegiana Mantle;\r\nLarge Wyvern Tear;\r\nCrystal Frozenhide;\r\nDragonvein Solidbone;\r\nTempered Frosthide;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nCryo Sac;\r\nLegiana Tail Webbing+;"
     },
     {
         "name": "Silver Rathalos",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок серебристого раталоса;\r\nСердечник серебрист. раталоса;\r\nЦельн. крыло серебр. раталоса;\r\nБлеск рат;\r\nПокров раталоса;\r\nПлеть серебристого раталоса;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЖгучая чешуя;\r\nЗакаленная серебряная чешуя;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Silver Rathalos Shard;\r\nSilver Rathalos Cortex;\r\nSilver Rathalos Fellwing;\r\nRath Gleam;\r\nRathalos Mantle;\r\nSilver Rathalos Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nScorching Scale;\r\nTempered Silver Scale;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nConflagrant Sac;\r\nRath Wingtalon+; "
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок серебристого раталоса;\r\nСердечник серебрист. раталоса;\r\nЦельн. крыло серебр. раталоса;\r\nБлеск рат;\r\nПокров раталоса;\r\nПлеть серебристого раталоса;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЖгучая чешуя;\r\nЗакаленная серебряная чешуя;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nОгнеопасная железа;\r\nКрыльная шпора раталоса+;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Silver Rathalos Shard;\r\nSilver Rathalos Cortex;\r\nSilver Rathalos Fellwing;\r\nRath Gleam;\r\nRathalos Mantle;\r\nSilver Rathalos Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nScorching Scale;\r\nTempered Silver Scale;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nConflagrant Sac;\r\nRath Wingtalon+; "
     },
     {
         "name": "Stygian Zinogre",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Сердечник стигийского зиногра;\r\nДракогрива стигийского зиногра;\r\nДраконья хватка стигийск. зиногра;\r\nКогтище стигийского зиногра;\r\nПлеть стигийского зиногра;\r\nНебесный изумруд стиг. зиногра;\r\nЖук-дракофаг;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nБурлящая драконья хватка;\r\nЗакаленная драконья хватка;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nКристалл чистоты;\r\nКрепкий рог стигийского зиногра;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Stygian Zinogre Cortex;\r\nStygian Zinogre Dragonlocks;\r\nStygian Zinogre Dragonhold;\r\nStygian Zinogre Hardclaw;\r\nStygian Zinogre Lash;\r\nStygian Zinogre Skymerald;\r\nDracophage Bug;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nGushing Dragonhold;\r\nTempered Dragonhold;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nPurecrystal;\r\nStygian Zinogre Hardhorn;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник стигийского зиногра;\r\nДракогрива стигийского зиногра;\r\nДраконья хватка стигийск. зиногра;\r\nКогтище стигийского зиногра;\r\nПлеть стигийского зиногра;\r\nНебесный изумруд стиг. зиногра;\r\nЖук-дракофаг;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nБурлящая драконья хватка;\r\nЗакаленная драконья хватка;\r\nПлотная кость жилы духов;\r\nБольшой самоцвет жилы духов;\r\nКристалл чистоты;\r\nКрепкий рог стигийского зиногра;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Stygian Zinogre Cortex;\r\nStygian Zinogre Dragonlocks;\r\nStygian Zinogre Dragonhold;\r\nStygian Zinogre Hardclaw;\r\nStygian Zinogre Lash;\r\nStygian Zinogre Skymerald;\r\nDracophage Bug;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nGushing Dragonhold;\r\nTempered Dragonhold;\r\nSpiritvein Solidbone;\r\nGreat Spiritvein Gem;\r\nPurecrystal;\r\nStygian Zinogre Hardhorn;"
     },
     {
         "name": "Teostra",
-        "low(RU)": "Панцирь теостры;\r\nЧешуя огненного дракона+;\r\nКоготь теостры;\r\nГрива теостры;\r\nПерепонка теостры;\r\nСамоцвет теостры;\r\nРог теостры+;",
-        "high(RU)": "Чешуя огненного дракона+;\r\nПанцирь теостры;\r\nКоготь теостры;\r\nГрива теостры;\r\nРог теостры+;\r\nСамоцвет теостры;\r\nПерепонка теостры;\r\nПорошок теостры;\r\nКость древнего дракона;\r\nКровь древнего дракона;",
-        "mr(RU)": "Осколок адского пламени;\r\nСердечник теостры;\r\nКогтище огненного дракона;\r\nГрива теостры+;\r\nКрепкий рог теостры;\r\nСамоцвет теостры;\r\nБольшой самоцв. Древн. дракона;\r\nЦельное крыло теостры;\r\nПлеть теостры;\r\nБольшая кость Древнего дракона;\r\nЧистая драконья кровь;\r\nГрива адского пламени;\r\nДревняя кость драконьей жилы;\r\nЗакаленная алая грива;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": "Teostra Carapace;\r\nFire Dragon Scale+;\r\nTeostra Claw+;\r\nTeostra Mane;\r\nTeostra Webbing;\r\nTeostra Gem;\r\nTeostra Horn+;",
-        "high(ENG)": "Fire Dragon Scale+;\r\nTeostra Carapace;\r\nTeostra Claw+;\r\nTeostra Mane;\r\nTeostra Horn+;\r\nTeostra Gem;\r\nTeostra Powder; \r\nElder Dragon Bone;\r\nElder Dragon Blood;\r\nTeostra Webbing;",
-        "mr(ENG)": "Hellfire Shard;\r\nTeostra Cortex;\r\nFire Dragon Hardclaw;\r\nTeostra Mane+;\r\nTeostra Hardhorn;\r\nTeostra Gem;\r\nLarge Elder Dragon Gem;\r\nTeostra Fellwing;\r\nTeostra Lash;\r\nLarge Elder Dragon Bone;\r\nPure Dragon Blood;\r\nElder Dragonvein Bone;\r\nHellfire Mane;\r\nTempered Crimson Mane;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
+        "lowRU": "Панцирь теостры;\r\nЧешуя огненного дракона+;\r\nКоготь теостры;\r\nГрива теостры;\r\nПерепонка теостры;\r\nСамоцвет теостры;\r\nРог теостры+;",
+        "highRU": "Чешуя огненного дракона+;\r\nПанцирь теостры;\r\nКоготь теостры;\r\nГрива теостры;\r\nРог теостры+;\r\nСамоцвет теостры;\r\nПерепонка теостры;\r\nПорошок теостры;\r\nКость древнего дракона;\r\nКровь древнего дракона;",
+        "mrRU": "Осколок адского пламени;\r\nСердечник теостры;\r\nКогтище огненного дракона;\r\nГрива теостры+;\r\nКрепкий рог теостры;\r\nСамоцвет теостры;\r\nБольшой самоцв. Древн. дракона;\r\nЦельное крыло теостры;\r\nПлеть теостры;\r\nБольшая кость Древнего дракона;\r\nЧистая драконья кровь;\r\nГрива адского пламени;\r\nДревняя кость драконьей жилы;\r\nЗакаленная алая грива;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": "Teostra Carapace;\r\nFire Dragon Scale+;\r\nTeostra Claw+;\r\nTeostra Mane;\r\nTeostra Webbing;\r\nTeostra Gem;\r\nTeostra Horn+;",
+        "highENG": "Fire Dragon Scale+;\r\nTeostra Carapace;\r\nTeostra Claw+;\r\nTeostra Mane;\r\nTeostra Horn+;\r\nTeostra Gem;\r\nTeostra Powder; \r\nElder Dragon Bone;\r\nElder Dragon Blood;\r\nTeostra Webbing;",
+        "mrENG": "Hellfire Shard;\r\nTeostra Cortex;\r\nFire Dragon Hardclaw;\r\nTeostra Mane+;\r\nTeostra Hardhorn;\r\nTeostra Gem;\r\nLarge Elder Dragon Gem;\r\nTeostra Fellwing;\r\nTeostra Lash;\r\nLarge Elder Dragon Bone;\r\nPure Dragon Blood;\r\nElder Dragonvein Bone;\r\nHellfire Mane;\r\nTempered Crimson Mane;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
     },
     {
         "name": "Tigrex",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок тигрекса;\r\nСердечник тигрекса;\r\nКогтище тигрекса;\r\nРезец тигрекса;\r\nПокров тигрекса;\r\nПлеть тигрекса;\r\nБольшая слеза виверны;\r\nЧелюсть силача;\r\nТяжелая кость драконьей жилы;\r\nЗакаленная челюсть;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Tigrex Shard;\r\nTigrex Cortex;\r\nTigrex Hardclaw;\r\nTigrex Hardfang;\r\nTigrex Mantle;\r\nTigrex Lash;\r\nLarge Wyvern Tear;\r\nStrongman's Jaw;\r\nHeavy Dragonvein Bone;\r\nTempered Jaw;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок тигрекса;\r\nСердечник тигрекса;\r\nКогтище тигрекса;\r\nРезец тигрекса;\r\nПокров тигрекса;\r\nПлеть тигрекса;\r\nБольшая слеза виверны;\r\nЧелюсть силача;\r\nТяжелая кость драконьей жилы;\r\nЗакаленная челюсть;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Tigrex Shard;\r\nTigrex Cortex;\r\nTigrex Hardclaw;\r\nTigrex Hardfang;\r\nTigrex Mantle;\r\nTigrex Lash;\r\nLarge Wyvern Tear;\r\nStrongman's Jaw;\r\nHeavy Dragonvein Bone;\r\nTempered Jaw;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Tobi-Kadachi",
-        "low(RU)": "Чешуя тоби-кадачи;\r\nШкура тоби-кадачи;\r\nМембрана тоби-кадачи;\r\nЭлектрод тоби-кадачи;\r\nКоготь тоби-кадачи;\r\nСлеза виверны;\r\nЭлектрическая железа;\r\nСредняя кость чудовища;",
-        "high(RU)": "Чешуя тоби-кадачи+;\r\nШкура тоби-кадачи+;\r\nМембрана тоби-кадачи;\r\nКоготь тоби-кадачи+;\r\nЭлектрод тоби-кадачи+;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nГрозовая железа;\r\nОстрая кость чудовища;",
-        "mr(RU)": "Осколок тоби-кадачи;\r\nГустой мех тоби-кадачи;\r\nМембрана тоби-кадачи+;\r\nЭлектрод тоби-кадачи;\r\nКогтище тоби-кадачи;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nГромовая железа;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nОслепляющий электрод;\r\nЗакаленный электрод;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
-        "low(ENG)": "Tobi-Kadachi Scale;\r\nTobi-Kadachi Pelt;\r\nTobi-Kadachi Membrane;\r\nTobi-Kadachi Electrode;\r\nTobi-Kadachi Claw;\r\nWyvern Tear;\r\nElectro Sac;\r\nMonster Bone M;",
-        "high(ENG)": "Tobi-Kadachi Scale+;\r\nTobi-Kadachi Pelt+;\r\nTobi-Kadachi Membrane;\r\nTobi-Kadachi Claw+;\r\nTobi-Kadachi Electrode+;\r\nWyvern Gem;\r\nThunder Sac;\r\nMonster Keenbone;\r\nWyvern Tear;",
-        "mr(ENG)": "Tobi-Kadachi Shard;\r\nTobi-Kadachi Thickfur;\r\nTobi-Kadachi Membrane+;\r\nTobi-Kadachi Cathode;\r\nTobi-Kadachi Hardclaw;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLightning Sac;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nBlinding Cathode;\r\nTempered Cathode;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
+        "lowRU": "Чешуя тоби-кадачи;\r\nШкура тоби-кадачи;\r\nМембрана тоби-кадачи;\r\nЭлектрод тоби-кадачи;\r\nКоготь тоби-кадачи;\r\nСлеза виверны;\r\nЭлектрическая железа;\r\nСредняя кость чудовища;",
+        "highRU": "Чешуя тоби-кадачи+;\r\nШкура тоби-кадачи+;\r\nМембрана тоби-кадачи;\r\nКоготь тоби-кадачи+;\r\nЭлектрод тоби-кадачи+;\r\nСамоцвет виверны;\r\nСлеза виверны;\r\nГрозовая железа;\r\nОстрая кость чудовища;",
+        "mrRU": "Осколок тоби-кадачи;\r\nГустой мех тоби-кадачи;\r\nМембрана тоби-кадачи+;\r\nЭлектрод тоби-кадачи;\r\nКогтище тоби-кадачи;\r\nСамоцвет виверны;\r\nБольшой самоцвет виверны;\r\nГромовая железа;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nОслепляющий электрод;\r\nЗакаленный электрод;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;",
+        "lowENG": "Tobi-Kadachi Scale;\r\nTobi-Kadachi Pelt;\r\nTobi-Kadachi Membrane;\r\nTobi-Kadachi Electrode;\r\nTobi-Kadachi Claw;\r\nWyvern Tear;\r\nElectro Sac;\r\nMonster Bone M;",
+        "highENG": "Tobi-Kadachi Scale+;\r\nTobi-Kadachi Pelt+;\r\nTobi-Kadachi Membrane;\r\nTobi-Kadachi Claw+;\r\nTobi-Kadachi Electrode+;\r\nWyvern Gem;\r\nThunder Sac;\r\nMonster Keenbone;\r\nWyvern Tear;",
+        "mrENG": "Tobi-Kadachi Shard;\r\nTobi-Kadachi Thickfur;\r\nTobi-Kadachi Membrane+;\r\nTobi-Kadachi Cathode;\r\nTobi-Kadachi Hardclaw;\r\nWyvern Gem;\r\nLarge Wyvern Gem;\r\nLightning Sac;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nBlinding Cathode;\r\nTempered Cathode;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;"
     },
     {
         "name": "Tzitzi-Ya-Ku",
-        "low(RU)": "Чешуя цици-йа-ку;\r\nШкура цици-йа-ку;\r\nФотофора цици-йа-ку;\r\nКоготь цици-йа-ку;\r\nСлеза виверны;\r\nБольшая кость чудовища;\r\nРывковый экстракт;",
-        "high(RU)": "Чешуя цици-йа-ку+;\r\nШкура цици-йа-ку+;\r\nФотофора цици-йа-ку+;\r\nКоготь цици-йа-ку+;\r\nСамоцвет пернатой виверны;\t\r\nСлеза виверны;\r\nКость чудовища+;\r\nРывковый экстракт;",
-        "mr(RU)": "Осколок цици-йа-ку;\r\nТолстая шкура цици-йа-ку;\r\nФотомембрана цици-йа-ку;\r\nКогтище цици-йа-ку;\r\nНеземной самоцвет виверны;\r\nЯростная кость драконьей жилы;\r\nОслепляющая фотофора+;\r\nРывковый экстракт;\r\nБольшая слеза виверны;",
-        "low(ENG)": "Tzitzi-Ya-Ku Scale;\r\nTzitzi-Ya-Ku Hide;\r\nTzitzi-Ya-Ku Photophore;\r\nTzitzi-Ya-Ku Claw;\r\nWyvern Tear;\r\nMonster Bone L;\r\nDash Extract;",
-        "high(ENG)": "Tzitzi-Ya-Ku Scale+;\r\nTzitzi-Ya-Ku Hide+;\r\nTzitzi-Ya-Ku Photophore+;\r\nTzitzi-Ya-Ku Claw+;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nMonster Bone+;\r\nDash Extract ;",
-        "mr(ENG)": "Tzitzi-Ya-Ku Shard;\r\nTzitzi-Ya-Ku Thickhide;\r\nTzitzi-Ya-Ku Photomembrane;\r\nTzitzi-Ya-Ku Hardclaw;\r\nFey Wyvern Gem;\r\nDash Extract;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nDazzling Photophore+;"
+        "lowRU": "Чешуя цици-йа-ку;\r\nШкура цици-йа-ку;\r\nФотофора цици-йа-ку;\r\nКоготь цици-йа-ку;\r\nСлеза виверны;\r\nБольшая кость чудовища;\r\nРывковый экстракт;",
+        "highRU": "Чешуя цици-йа-ку+;\r\nШкура цици-йа-ку+;\r\nФотофора цици-йа-ку+;\r\nКоготь цици-йа-ку+;\r\nСамоцвет пернатой виверны;\t\r\nСлеза виверны;\r\nКость чудовища+;\r\nРывковый экстракт;",
+        "mrRU": "Осколок цици-йа-ку;\r\nТолстая шкура цици-йа-ку;\r\nФотомембрана цици-йа-ку;\r\nКогтище цици-йа-ку;\r\nНеземной самоцвет виверны;\r\nЯростная кость драконьей жилы;\r\nОслепляющая фотофора+;\r\nРывковый экстракт;\r\nБольшая слеза виверны;",
+        "lowENG": "Tzitzi-Ya-Ku Scale;\r\nTzitzi-Ya-Ku Hide;\r\nTzitzi-Ya-Ku Photophore;\r\nTzitzi-Ya-Ku Claw;\r\nWyvern Tear;\r\nMonster Bone L;\r\nDash Extract;",
+        "highENG": "Tzitzi-Ya-Ku Scale+;\r\nTzitzi-Ya-Ku Hide+;\r\nTzitzi-Ya-Ku Photophore+;\r\nTzitzi-Ya-Ku Claw+;\r\nBird Wyvern Gem;\r\nWyvern Tear;\r\nMonster Bone+;\r\nDash Extract ;",
+        "mrENG": "Tzitzi-Ya-Ku Shard;\r\nTzitzi-Ya-Ku Thickhide;\r\nTzitzi-Ya-Ku Photomembrane;\r\nTzitzi-Ya-Ku Hardclaw;\r\nFey Wyvern Gem;\r\nDash Extract;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nDazzling Photophore+;"
     },
     {
         "name": "Uragaan",
-        "low(RU)": null,
-        "high(RU)": "Чешуя урагаана+;\r\nПанцирь урагаана;\r\nЩиток урагаана;\r\nКостный мозг урагаана;\r\nРубин урагаана;\r\nПылающий камень;\r\nАдская железа;\r\nТвердая кость чудовища;\r\nБольшая слеза виверны;",
-        "mr(RU)": "Осколок урагаана;\r\nСердечник урагаана;\r\nЩиток урагаана+;\r\nКостный мозг урагаана;\r\nРубин урагаана;\r\nМантия урагаана;\r\nЧелюсть урагаана+;\r\nОгнеопасная железа;\r\nТяжелая кость драконьей жилы;\r\nМеталлическая роговая пластина;\r\nЗакаленная роговая пластина;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": "Uragaan Scale+;\r\nUragaan Carapace;\r\nUragaan Scute;\r\nUragaan Marrow;\r\nUragaan Ruby;\r\nLava Nugget;\r\nLarge Wyvern Tear;\r\nMonster Hardbone;\r\nFirecell Stone;",
-        "mr(ENG)": "Uragaan Shard;\r\nUragaan Cortex;\r\nUragaan Scute+;\r\nUragaan Marrow;\r\nUragaan Ruby;\r\nUragaan Pallium;\r\nConflagrant Sac;\r\nUragaan Jaw+;\r\nHeavy Dragonvein Bone;\r\nMetallic Scute;\r\nTempered Scute;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
+        "lowRU": null,
+        "highRU": "Чешуя урагаана+;\r\nПанцирь урагаана;\r\nЩиток урагаана;\r\nКостный мозг урагаана;\r\nРубин урагаана;\r\nПылающий камень;\r\nАдская железа;\r\nТвердая кость чудовища;\r\nБольшая слеза виверны;",
+        "mrRU": "Осколок урагаана;\r\nСердечник урагаана;\r\nЩиток урагаана+;\r\nКостный мозг урагаана;\r\nРубин урагаана;\r\nМантия урагаана;\r\nЧелюсть урагаана+;\r\nОгнеопасная железа;\r\nТяжелая кость драконьей жилы;\r\nМеталлическая роговая пластина;\r\nЗакаленная роговая пластина;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": "Uragaan Scale+;\r\nUragaan Carapace;\r\nUragaan Scute;\r\nUragaan Marrow;\r\nUragaan Ruby;\r\nLava Nugget;\r\nLarge Wyvern Tear;\r\nMonster Hardbone;\r\nFirecell Stone;",
+        "mrENG": "Uragaan Shard;\r\nUragaan Cortex;\r\nUragaan Scute+;\r\nUragaan Marrow;\r\nUragaan Ruby;\r\nUragaan Pallium;\r\nConflagrant Sac;\r\nUragaan Jaw+;\r\nHeavy Dragonvein Bone;\r\nMetallic Scute;\r\nTempered Scute;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;"
     },
     {
         "name": "Vaal Hazak",
-        "low(RU)": null,
-        "high(RU)": "Мертвая чешуя;\r\nПанцирь ваал-хазака;\r\nКоготь ваал-хазака;\r\nКрыло ваал-хазака;\r\nХвост ваал-хазака;\r\nКлык ваал-хазака+;\r\nСамоцвет ваал-хазака;\r\nМембрана ваал-хазака;\r\nКость древнего дракона;\r\nКровь древнего дракона;\r\nСокровище дракона;",
-        "mr(RU)": "Большая кость чудовища;",
-        "low(ENG)": null,
-        "high(ENG)": "Deceased Scale;\r\nVaal Hazak Carapace;\r\nVaal Hazak Talon;\r\nVaal Hazak Wing;\r\nVaal Hazak Tail;\r\nVaal Hazak Fang+;\r\nVaal Hazak Gem;\r\nDragon Treasure;\r\nElder Dragon Blood;\r\nVaal Hazak Membrane;\r\nElder Dragon Bone;",
-        "mr(ENG)": "Monster Bone L;"
+        "lowRU": null,
+        "highRU": "Мертвая чешуя;\r\nПанцирь ваал-хазака;\r\nКоготь ваал-хазака;\r\nКрыло ваал-хазака;\r\nХвост ваал-хазака;\r\nКлык ваал-хазака+;\r\nСамоцвет ваал-хазака;\r\nМембрана ваал-хазака;\r\nКость древнего дракона;\r\nКровь древнего дракона;\r\nСокровище дракона;",
+        "mrRU": "Большая кость чудовища;",
+        "lowENG": null,
+        "highENG": "Deceased Scale;\r\nVaal Hazak Carapace;\r\nVaal Hazak Talon;\r\nVaal Hazak Wing;\r\nVaal Hazak Tail;\r\nVaal Hazak Fang+;\r\nVaal Hazak Gem;\r\nDragon Treasure;\r\nElder Dragon Blood;\r\nVaal Hazak Membrane;\r\nElder Dragon Bone;",
+        "mrENG": "Monster Bone L;"
     },
     {
         "name": "Velkhana",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок кристалла;\r\nСердечник велханы;\r\nКогтище велханы;\r\nЦельное крыло велханы;\r\nКоронный рог велханы;\r\nКристалл велханы;\r\nПлеть велханы;\r\nСокровище древнего дракона;\r\nДревняя кость драконьей жилы;\r\nКоронный рог авроры;\r\nЗакаленный коронный рог;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Crystal Shard;\r\nVelkhana Cortex;\r\nVelkhana Hardclaw;\r\nVelkhana Fellwing;\r\nVelkhana Crownhorn;\r\nVelkhana Crystal;\r\nVelkhana Lash;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nAurora Crownhorn;\r\nTempered Crownhorn;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок кристалла;\r\nСердечник велханы;\r\nКогтище велханы;\r\nЦельное крыло велханы;\r\nКоронный рог велханы;\r\nКристалл велханы;\r\nПлеть велханы;\r\nСокровище древнего дракона;\r\nДревняя кость драконьей жилы;\r\nКоронный рог авроры;\r\nЗакаленный коронный рог;\r\nДревняя кость жилы духов;\r\nБольшой самоцвет жилы духов;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Crystal Shard;\r\nVelkhana Cortex;\r\nVelkhana Hardclaw;\r\nVelkhana Fellwing;\r\nVelkhana Crownhorn;\r\nVelkhana Crystal;\r\nVelkhana Lash;\r\nOld Dragon Treasure;\r\nElder Dragonvein Bone;\r\nAurora Crownhorn;\r\nTempered Crownhorn;\r\nElder Spiritvein Bone;\r\nGreat Spiritvein Gem;"
     },
     {
         "name": "Viper Tobi-Kadachi",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок аспидового тоби-кадачи;\r\nГустой мех аспид. тоби-кадачи;\r\nМембрана аспид. тоби-кадачи+;\r\nИгла аспидового тоби-кадачи;\r\nКогтище аспидового тоби-кадачи;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nМанящая ядоигла;\r\nЗакаленная ядоигла;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nСмертоносная ядовитая железа;\r\nСверхпоражающая железа;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Viper Tobi-Kadachi Shard;\r\nViper Tobi-Kadachi Thickfur;\r\nViper Tobi-Kadachi Membrane+;\r\nViper Tobi-Kadachi Thorn;\r\nViper Tobi-Kadachi Hardclaw;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nEnticing Viperthorn;\r\nTempered Viperthorn;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nDeadly Poison Sac;\r\nUltraplegia Sac;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок аспидового тоби-кадачи;\r\nГустой мех аспид. тоби-кадачи;\r\nМембрана аспид. тоби-кадачи+;\r\nИгла аспидового тоби-кадачи;\r\nКогтище аспидового тоби-кадачи;\r\nБольшой самоцвет виверны;\r\nБольшая слеза виверны;\r\nЯростная кость драконьей жилы;\r\nМанящая ядоигла;\r\nЗакаленная ядоигла;\r\nУдарная кость жилы духов;\r\nОсколок самоцвета жилы духов;\r\nСмертоносная ядовитая железа;\r\nСверхпоражающая железа;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Viper Tobi-Kadachi Shard;\r\nViper Tobi-Kadachi Thickfur;\r\nViper Tobi-Kadachi Membrane+;\r\nViper Tobi-Kadachi Thorn;\r\nViper Tobi-Kadachi Hardclaw;\r\nLarge Wyvern Gem;\r\nLarge Wyvern Tear;\r\nFierce Dragonvein Bone;\r\nEnticing Viperthorn;\r\nTempered Viperthorn;\r\nSpiritvein Slogbone;\r\nSpiritvein Gem Shard;\r\nDeadly Poison Sac;\r\nUltraplegia Sac;"
     },
     {
         "name": "Xeno`jiiva",
-        "low(RU)": null,
-        "high(RU)": "Панцирь ксено'джиивы;\r\nЧешуйка души ксено'джиивы;\r\nКоготь ксено'джиивы;\r\nКрыло ксено'джиивы;\r\nХвост ксено'джиивы;\r\nРог ксено'джиивы;\r\nСамоцвет ксено'джиивы;\r\nЗоб ксено'джиивы;\r\nКость древнего дракона; \r\nКровь древнего дракона;\r\nСокровище дракона;",
-        "mr(RU)": "Большая кость чудовища;",
-        "low(ENG)": null,
-        "high(ENG)": "Xeno'jiiva Shell;\r\nXeno'jiiva Soulscale;\r\nXeno'jiiva Claw;\r\nXeno'jiiva Wing;\r\nXeno'jiiva Tail;\r\nXeno'jiiva Horn;\r\nXeno'jiiva Gem;\r\nXeno'jiiva Veil;\r\nDragon Treasure;\r\nElder Dragon Bone;\r\nElder Dragon Blood;",
-        "mr(ENG)": "Monster Bone L;"
+        "lowRU": null,
+        "highRU": "Панцирь ксено'джиивы;\r\nЧешуйка души ксено'джиивы;\r\nКоготь ксено'джиивы;\r\nКрыло ксено'джиивы;\r\nХвост ксено'джиивы;\r\nРог ксено'джиивы;\r\nСамоцвет ксено'джиивы;\r\nЗоб ксено'джиивы;\r\nКость древнего дракона; \r\nКровь древнего дракона;\r\nСокровище дракона;",
+        "mrRU": "Большая кость чудовища;",
+        "lowENG": null,
+        "highENG": "Xeno'jiiva Shell;\r\nXeno'jiiva Soulscale;\r\nXeno'jiiva Claw;\r\nXeno'jiiva Wing;\r\nXeno'jiiva Tail;\r\nXeno'jiiva Horn;\r\nXeno'jiiva Gem;\r\nXeno'jiiva Veil;\r\nDragon Treasure;\r\nElder Dragon Bone;\r\nElder Dragon Blood;",
+        "mrENG": "Monster Bone L;"
     },
     {
         "name": "Yian Garuga",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Осколок гаруги;\r\nСердечник гаруги;\r\nСеребряная шкура гаруги;\r\nЦельное крыло гаруги;\r\nКрасивый клюв;\r\nНеземной самоцвет виверны;\r\nПлеть гаруги;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЖуткая серебряная шкура;\r\nЗакаленная серебряная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nОгнеопасная железа;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Garuga Shard;\r\nGaruga Cortex;\r\nGaruga Silverpelt;\r\nGaruga Fellwing;\r\nFancy Beak;\r\nFey Wyvern Gem;\r\nGaruga Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nSinister Silverpelt;\r\nTempered Silverpelt;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nConflagrant Sac;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Осколок гаруги;\r\nСердечник гаруги;\r\nСеребряная шкура гаруги;\r\nЦельное крыло гаруги;\r\nКрасивый клюв;\r\nНеземной самоцвет виверны;\r\nПлеть гаруги;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЖуткая серебряная шкура;\r\nЗакаленная серебряная шкура;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nОгнеопасная железа;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Garuga Shard;\r\nGaruga Cortex;\r\nGaruga Silverpelt;\r\nGaruga Fellwing;\r\nFancy Beak;\r\nFey Wyvern Gem;\r\nGaruga Lash;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nSinister Silverpelt;\r\nTempered Silverpelt;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nConflagrant Sac;"
     },
     {
         "name": "Zinogre",
-        "low(RU)": null,
-        "high(RU)": null,
-        "mr(RU)": "Сердечник зиногра;\r\nЭлектрошерсть зиногра+;\r\nПарализатор зиногра;\r\nКогтище зиногра;\r\nПлеть зиногра;\r\nНебесный изумруд зиногра;\r\nГромовой жук;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЗаряженный смертельный парализатор;\r\nЗакаленный разрядник;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nУголь из драконьей жилы;\r\nСеребряное яйцо;\r\nКусок угля из драконьей жилы;\r\nЗолотое яйцо;\r\nГромовая железа;",
-        "low(ENG)": null,
-        "high(ENG)": null,
-        "mr(ENG)": "Zinogre Cortex;\r\nZinogre Electrofur+;\r\nZinogre Deathly Shocker;\r\nZinogre Hardclaw;\r\nZinogre Lash;\r\nZinogre Skymerald;\r\nFulgurbug;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nCharged Deathly Shocker;\r\nTempered Shocker;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nDragonvein Coal;\r\nSilver Egg;\r\nDragonvein Coal Chunk;\r\nGolden Egg;\r\nLightning Sac;"
+        "lowRU": null,
+        "highRU": null,
+        "mrRU": "Сердечник зиногра;\r\nЭлектрошерсть зиногра+;\r\nПарализатор зиногра;\r\nКогтище зиногра;\r\nПлеть зиногра;\r\nНебесный изумруд зиногра;\r\nГромовой жук;\r\nБольшая слеза виверны;\r\nПлотная кость драконьей жилы;\r\nЗаряженный смертельный парализатор;\r\nЗакаленный разрядник;\r\nПлотная кость жилы духов;\r\nСамоцвет жилы духов;\r\nУголь из драконьей жилы;\r\nСеребряное яйцо;\r\nКусок угля из драконьей жилы;\r\nЗолотое яйцо;\r\nГромовая железа;",
+        "lowENG": null,
+        "highENG": null,
+        "mrENG": "Zinogre Cortex;\r\nZinogre Electrofur+;\r\nZinogre Deathly Shocker;\r\nZinogre Hardclaw;\r\nZinogre Lash;\r\nZinogre Skymerald;\r\nFulgurbug;\r\nLarge Wyvern Tear;\r\nDragonvein Solidbone;\r\nCharged Deathly Shocker;\r\nTempered Shocker;\r\nSpiritvein Solidbone;\r\nSpiritvein Gem;\r\nDragonvein Coal;\r\nSilver Egg;\r\nDragonvein Coal Chunk;\r\nGolden Egg;\r\nLightning Sac;"
     },
     {
         "name": "Zorah Magdaros",
-        "low(RU)": "Панцирь Дзоры Магдароса;\r\nГорячая чешуя Дзоры Магдароса;\r\nХребет Дзоры Магдароса;\r\nМагма Дзоры Магдароса;\r\nКристалл света;\r\nДраконитовая руда;\r\nПлевра Дзоры Магдароса;",
-        "high(RU)": "Панцирь Дзоры Магдароса;\r\nГорячая чешуя Дзоры Магдароса;\r\nХребет Дзоры Магдароса;\r\nМагма Дзоры Магдароса;\r\nСамоцвет Дзоры Магдароса;\r\nДраконитовая руда;\r\nКристалл света;\r\nПлевра Дзоры Магдароса;",
-        "mr(RU)": "Большая кость чудовища;",
-        "low(ENG)": "Zorah Magdaros Carapace;\r\nZorah Magdaros Heat Scale;\r\nZorah Magdaros Ridge;\r\nZorah Magdaros Magma;\r\nLightcrystal;\r\nDragonite Ore;\r\nZorah Magdaros Pleura;",
-        "high(ENG)": "Zorah Magdaros Carapace;\r\nZorah Magdaros Heat Scale;\r\nZorah Magdaros Ridge;\r\nZorah Magdaros Magma;\r\nZorah Magdaros Gem;\r\nDragonite Ore;\r\nZorah Magdaros Pleura;\r\nLightcrystal;",
-        "mr(ENG)": "Monster Bone L;"
+        "lowRU": "Панцирь Дзоры Магдароса;\r\nГорячая чешуя Дзоры Магдароса;\r\nХребет Дзоры Магдароса;\r\nМагма Дзоры Магдароса;\r\nКристалл света;\r\nДраконитовая руда;\r\nПлевра Дзоры Магдароса;",
+        "highRU": "Панцирь Дзоры Магдароса;\r\nГорячая чешуя Дзоры Магдароса;\r\nХребет Дзоры Магдароса;\r\nМагма Дзоры Магдароса;\r\nСамоцвет Дзоры Магдароса;\r\nДраконитовая руда;\r\nКристалл света;\r\nПлевра Дзоры Магдароса;",
+        "mrRU": "Большая кость чудовища;",
+        "lowENG": "Zorah Magdaros Carapace;\r\nZorah Magdaros Heat Scale;\r\nZorah Magdaros Ridge;\r\nZorah Magdaros Magma;\r\nLightcrystal;\r\nDragonite Ore;\r\nZorah Magdaros Pleura;",
+        "highENG": "Zorah Magdaros Carapace;\r\nZorah Magdaros Heat Scale;\r\nZorah Magdaros Ridge;\r\nZorah Magdaros Magma;\r\nZorah Magdaros Gem;\r\nDragonite Ore;\r\nZorah Magdaros Pleura;\r\nLightcrystal;",
+        "mrENG": "Monster Bone L;"
     }
 ]}
