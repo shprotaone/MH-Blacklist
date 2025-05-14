@@ -1,6 +1,7 @@
 using System;
+using Cell;
 using Cysharp.Threading.Tasks;
-using Data;
+using Enums;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;

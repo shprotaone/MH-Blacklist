@@ -1,20 +1,23 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class AddToListClickHandler : MonoBehaviour,IPointerClickHandler
+namespace Cell
 {
-    private MonsterCell _cell;
-
-    public void Initialize(MonsterCell cell)
+    public class AddToListClickHandler : MonoBehaviour,IPointerClickHandler
     {
-        _cell = cell;
-    }
+        private MonsterCell _cell;
 
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (eventData.clickCount == 2)
+        public void Initialize(MonsterCell cell)
         {
-            _cell.AddToKillList();
+            _cell = cell;
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            if (eventData.clickCount == 2)
+            {
+                _cell.AddToKillList();
+            }
         }
     }
 }

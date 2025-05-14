@@ -1,81 +1,84 @@
-using System;
 using Data;
-using Systems;
+using Enums;
+using View.Settings;
 
-public class SettingsController
+namespace Systems
 {
-    private MonsterListChanger _monsterListChanger;
-    private LanguageProvider _languageProvider;
-    private SettingsView _settingsView;
-    private SaveLoadSystem _saveLoadSystem;
-
-    public void Initialize(UIController uiController,LanguageProvider languageProvider
-    ,SaveLoadSystem saveLoadSystem,MonsterListChanger monsterListChanger)
+    public class SettingsController
     {
-        _settingsView = uiController.SettingsView;
-        _monsterListChanger = monsterListChanger;
-        _languageProvider = languageProvider;
-        _saveLoadSystem = saveLoadSystem;
+        private MonsterListChanger _monsterListChanger;
+        private LanguageProvider _languageProvider;
+        private SettingsView _settingsView;
+        private SaveLoadSystem _saveLoadSystem;
 
-        _settingsView.EngButton.onClick.AddListener(SetEng);
-        _settingsView.RusButton.onClick.AddListener(SetRus);
-        _settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
-        _settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
-        _settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
-
-        _settingsView.WorldButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
-        _settingsView.RiseButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
-
-        _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
-    }
-
-    public void SetScaledButton(StyleType styleType)
-    {
-        if (styleType == StyleType.RISE)
+        public void Initialize(UIController uiController,LanguageProvider languageProvider
+            ,SaveLoadSystem saveLoadSystem,MonsterListChanger monsterListChanger)
         {
-            _settingsView.WorldButton.SetMainScaled(false);
-            _settingsView.WorldButton.SetScaled(false);
-            _settingsView.RiseButton.SetMainScaled(true);
-            _settingsView.RiseButton.SetScaled(true);
+            _settingsView = uiController.SettingsView;
+            _monsterListChanger = monsterListChanger;
+            _languageProvider = languageProvider;
+            _saveLoadSystem = saveLoadSystem;
+
+            _settingsView.EngButton.onClick.AddListener(SetEng);
+            _settingsView.RusButton.onClick.AddListener(SetRus);
+            _settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
+            _settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
+            _settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
+
+            _settingsView.WorldGameButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
+            _settingsView.RiseGameButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
+
+            _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
         }
-        else if (styleType == StyleType.WORLD)
+
+        public void SetScaledButton(StyleType styleType)
         {
-            _settingsView.WorldButton.SetMainScaled(true);
-            _settingsView.WorldButton.SetScaled(true);
-            _settingsView.RiseButton.SetMainScaled(false);
-            _settingsView.RiseButton.SetScaled(false);
+            if (styleType == StyleType.RISE)
+            {
+                _settingsView.WorldGameButton.SetMainScaled(false);
+                _settingsView.WorldGameButton.SetScaled(false);
+                _settingsView.RiseGameButton.SetMainScaled(true);
+                _settingsView.RiseGameButton.SetScaled(true);
+            }
+            else if (styleType == StyleType.WORLD)
+            {
+                _settingsView.WorldGameButton.SetMainScaled(true);
+                _settingsView.WorldGameButton.SetScaled(true);
+                _settingsView.RiseGameButton.SetMainScaled(false);
+                _settingsView.RiseGameButton.SetScaled(false);
+            }
         }
-    }
 
-    private void ChangeValueText(string valText)
-    {
-        _settingsView.SizeField.text = valText;
-    }
+        private void ChangeValueText(string valText)
+        {
+            _settingsView.SizeField.text = valText;
+        }
 
-    private void DecreaseSizeCell()
-    {
-        _monsterListChanger.DecreaseCellSize();
-        ChangeValueText(_monsterListChanger.CellSize.ToString());
-    }
+        private void DecreaseSizeCell()
+        {
+            _monsterListChanger.DecreaseCellSize();
+            ChangeValueText(_monsterListChanger.CellSize.ToString());
+        }
 
-    private void IncreaseSizeCell()
-    {
-        _monsterListChanger.IncreaseCellSize();
-        ChangeValueText(_monsterListChanger.CellSize.ToString());
-    }
+        private void IncreaseSizeCell()
+        {
+            _monsterListChanger.IncreaseCellSize();
+            ChangeValueText(_monsterListChanger.CellSize.ToString());
+        }
 
-    private void ResetProgress()
-    {
-        _saveLoadSystem.Delete(StaticData.PlayerSettingPath);
-    }
+        private void ResetProgress()
+        {
+            _saveLoadSystem.Delete(StaticData.PlayerSettingPath);
+        }
 
-    private void SetRus()
-    {
-        _languageProvider.SetLanguage(StaticData.RUSLanguageName);
-    }
+        private void SetRus()
+        {
+            _languageProvider.SetLanguage(StaticData.RUSLanguageName);
+        }
 
-    private void SetEng()
-    {
-        _languageProvider.SetLanguage(StaticData.ENGLanguageName);
+        private void SetEng()
+        {
+            _languageProvider.SetLanguage(StaticData.ENGLanguageName);
+        }
     }
 }

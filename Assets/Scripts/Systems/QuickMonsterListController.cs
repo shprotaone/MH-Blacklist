@@ -1,89 +1,95 @@
 using System.Collections.Generic;
+using Cell;
+using Data;
+using Data.JSON;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuickMonsterListController : MonoBehaviour
+namespace Systems
 {
-    [SerializeField] private Transform _container;
-    [SerializeField] private Button _openListButton;
-    [SerializeField] private Button _closeButton;
-
-    private List<QuickCell> _cells;
-    private KillList _killList;
-    private QuickCell _quickCell;
-
-    public void Initialize(KillList killList,AssetProvider assetProvider)
+    public class QuickMonsterListController : MonoBehaviour
     {
-        _killList = killList;
-        _quickCell = assetProvider.GetQuickCell();
-        _cells = new List<QuickCell>();
+        [SerializeField] private Transform _container;
+        [SerializeField] private Button _openListButton;
+        [SerializeField] private Button _closeButton;
 
-        _killList.OnMonsterCountChange += CheckShowButton;
-        _openListButton.onClick.AddListener(OpenList);
-        _closeButton.onClick.AddListener(CloseList);
-        CheckShowButton();
-    }
+        private List<QuickCell> _cells;
+        private KillList _killList;
+        private QuickCell _quickCell;
 
-    private void CloseList()
-    {
-        CheckShowButton();
-        gameObject.SetActive(false);
-    }
-
-    private void OpenList()
-    {
-        _openListButton.gameObject.SetActive(false);
-        gameObject.SetActive(true);
-        CreateCells(true);
-    }
-
-    public void CreateCells(bool flag)
-    {
-        if (flag)
+        public void Initialize(KillList killList,AssetProvider assetProvider)
         {
-            Clear();
+            _killList = killList;
+            _quickCell = assetProvider.GetQuickCell();
+            _cells = new List<QuickCell>();
 
-            foreach (var model in _killList.CellList)
+            _killList.OnMonsterCountChange += CheckShowButton;
+            _openListButton.onClick.AddListener(OpenList);
+            _closeButton.onClick.AddListener(CloseList);
+            CheckShowButton();
+        }
+
+        private void CloseList()
+        {
+            CheckShowButton();
+            gameObject.SetActive(false);
+        }
+
+        private void OpenList()
+        {
+            _openListButton.gameObject.SetActive(false);
+            gameObject.SetActive(true);
+            CreateCells(true);
+        }
+
+        public void CreateCells(bool flag)
+        {
+            if (flag)
             {
-                var cell = Instantiate(_quickCell, _container, false);
-                cell.Initialize(this,model);
-                _cells.Add(cell);
-            }
+                Clear();
+
+                foreach (var model in _killList.CellList)
+                {
+                    var cell = Instantiate(_quickCell, _container, false);
+                    cell.Initialize(this,model);
+                    _cells.Add(cell);
+                }
             
+            }
         }
-    }
 
-    private void Clear()
-    {
-        for (int i = 0; i < _container.childCount; i++)
+        private void Clear()
         {
-            _cells[i].Disable();
+            for (int i = 0; i < _container.childCount; i++)
+            {
+                _cells[i].Disable();
+            }
+
+            _cells.Clear();
         }
 
-        _cells.Clear();
-    }
-
-    private void ShowButton(bool flag)
-    {
-        _openListButton.gameObject.SetActive(flag);
-    }
-
-    private void CheckShowButton()
-    {
-        if (_killList.CellList.Count > 0)
+        private void ShowButton(bool flag)
         {
-            if(!_openListButton.isActiveAndEnabled)
-                ShowButton(true);
+            _openListButton.gameObject.SetActive(flag);
         }
-        else
-        {
-            ShowButton(false);
-        }
-    }
 
-    public void DeleteMonster(MonsterModel model)
-    {
-        _killList.CellList.Remove(model);
-        CreateCells(true);
+        private void CheckShowButton()
+        {
+            if (_killList.CellList.Count > 0)
+            {
+                if(!_openListButton.isActiveAndEnabled)
+                    ShowButton(true);
+            }
+            else
+            {
+                ShowButton(false);
+            }
+        }
+
+        public void DeleteMonster(MonsterModel model)
+        {
+            _killList.CellList.Remove(model);
+            CreateCells(true);
+        }
     }
 }

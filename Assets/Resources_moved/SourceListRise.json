@@ -208,9 +208,9 @@
     },
     {
         "name": "Diablos",
-        "lowRU": "Шкура Диаблоса\r\nХребет Диаблоса\r\nКлык Диаблоса\r\nХвостовик Диаб.\r\nРывков. экстракт\r\nКост. мозг Диаб.\r\nВитой рог\r\nСлеза виверны",
-        "highRU": "Панцирь Диаблоса\r\nХребет Диаблоса+\r\nКлык Диаблоса\r\nХвостовик Диаб.\r\nРывков. экстракт\r\nКост. мозг Диаб.\r\nМозг. слой Диаб.\r\nСамоцвет виверны\r\nВеличест. рог\r\nСлеза виверны\r\nБ. слеза виверны",
-        "mrRU": "Сердечник Диаблоса\r\nКостяк Диаблоса\r\nХвостовик Диаблоса+\r\nРывков. экстракт\r\nМозг. слой Диаб.\r\nБольшой самоцвет вив.\r\nМощный витой рог\r\nБ. слеза виверны\r\nИзм. отч. рог\r\nИзм. отч. рог+\r\nИзм.отч.креп.рог",
+        "lowRU": "Шкура Диаблоса;\r\nХребет Диаблоса;\r\nКлык Диаблоса;\r\nХвостовик Диаб.;\r\nРывков. экстракт;\r\nКост. мозг Диаб.;\r\nВитой рог;\r\nСлеза виверны;",
+        "highRU": "Панцирь Диаблоса;\r\nХребет Диаблоса+;\r\nКлык Диаблоса;\r\nХвостовик Диаб.;\r\nРывков. экстракт;\r\nКост. мозг Диаб.;\r\nМозг. слой Диаб.;\r\nСамоцвет виверны;\r\nВеличест. рог;\r\nСлеза виверны;\r\nБ. слеза виверны;",
+        "mrRU": "Сердечник Диаблоса;\r\nКостяк Диаблоса;\r\nХвостовик Диаблоса+;\r\nРывков. экстракт;\r\nМозг. слой Диаб.;\r\nБольшой самоцвет вив.;\r\nМощный витой рог;\r\nБ. слеза виверны;\r\nИзм. отч. рог;\r\nИзм. отч. рог+;\r\nИзм.отч.креп.рог;",
         "lowENG": "Diablos Shell;\r\nDiablos Ridge;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nDash Extract;\r\nDiablos Marrow;\r\nTwisted Horn;\r\nWyvern Tear;",
         "highENG": "Diablos Carapace;\r\nDiablos Ridge+;\r\nDiablos Fang;\r\nDiablos Tailcase;\r\nDash Extract;\r\nDiablos Marrow;\r\nDiablos Medulla;\r\nWyvern Gem;\r\nMajestic Horn;\r\nWyvern Tear;\r\nLarge Wyvern Tear;",
         "mrENG": "Diablos Cortex;\r\nDiablos Chine;\r\nDiablos Tailcase+;\r\nDash Extract;\r\nDiablos Medulla;\r\nLarge Wyvern Gem;\r\nTwisted Stouthorn;\r\nLarge Wyvern Tear;\r\nAfflicted Dire Horn;\r\nAfflicted Dire Horn+;\r\nAfflicted Dire Hardhorn;"

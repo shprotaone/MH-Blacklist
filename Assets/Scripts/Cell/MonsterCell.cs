@@ -1,0 +1,79 @@
+using Data.JSON;
+using Systems;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Pool;
+using UnityEngine.UI;
+
+namespace Cell
+{
+    public class MonsterCell : MonoBehaviour
+    {
+        [SerializeField] private TMP_Text _name;
+        [SerializeField] private TMP_Text _type;
+
+        [SerializeField] private Image _monsterImage;
+        [SerializeField] private Image _defeatedImage;
+        [SerializeField] private Image _rankImage;
+        [SerializeField] private Image _backGround;
+        [SerializeField] private Button _detailButton;
+
+        [SerializeField] private MonsterCellClickHandler _handler;
+        [SerializeField] private AddToListClickHandler _addToListHandler;
+
+        private GlobalSystems _globalSystems;
+        private IObjectPool<MonsterCell> _pool;
+        private MonsterModel _model;
+        private bool _isDefeated;
+
+        public bool IsDefeated => _isDefeated;
+        public MonsterModel Model => _model;
+        public string Name => _name.text;
+
+        public void Initialize(GlobalSystems globalSystems, MonsterModel model)
+        {
+            _globalSystems = globalSystems;
+            _model = model;
+            _name.text = globalSystems.GetName(model.name);
+            _type.text = globalSystems.GetMonsterTypeName(model.type);
+
+            string imageName = model.imageName + " " + globalSystems.GetStyle(model.style);
+            _monsterImage.sprite = globalSystems.GetSprite(imageName);
+            _rankImage.sprite = globalSystems.GetSprite(model.rank,model.style);
+            _detailButton.onClick.AddListener(() => globalSystems.CallDetail(_model));
+            _isDefeated = globalSystems.GetDefeated(model);
+            _defeatedImage.gameObject.SetActive(_isDefeated);
+
+            _handler.Initialize(this);
+            _addToListHandler.Initialize(this);
+        }
+
+        public void ChangeState()
+        {
+            _isDefeated = !_isDefeated;
+            _defeatedImage.gameObject.SetActive(_isDefeated);
+            _globalSystems.SetDefeatedState(_model, _isDefeated);
+        }
+
+        public void SetBackground(Sprite background)
+        {
+            _backGround.sprite = background;
+        }
+
+        public void Disable()
+        {
+            Destroy(this.gameObject);
+        }
+
+        public void AddToKillList()
+        {
+            _globalSystems.AddToKillList(this);
+        }
+
+        public void CallDetailInfo()
+        {
+            Debug.Log("Call detail info");
+
+        }
+    }
+}

@@ -2,9 +2,15 @@ using System;
 using System.Collections;
 using Cysharp.Threading.Tasks;
 using Data;
-using DefaultNamespace;
+using Data.JSON;
+using Enums;
+using Parser;
+using Storages;
 using Systems;
+using Systems.Factory;
+using Systems.UI;
 using UnityEngine;
+using View.Curtain;
 
 public class Bootstrap : MonoBehaviour
 {
@@ -23,7 +29,7 @@ public class Bootstrap : MonoBehaviour
     private PlayerDataParser playerDataParser;
     private LanguageProvider _languageProvider;
     private SaveLoadSystem _saveLoadSystem;
-    private MonsterTierList _monsterTierList;
+    private MonsterTierListStorage monsterTierListStorage;
     private KillList _killList;
     private SettingsController _settingsController;
     private MonsterResourcesParser _monsterResourcesParser;
@@ -35,7 +41,7 @@ public class Bootstrap : MonoBehaviour
         _languageProvider = new LanguageProvider();
         _saveLoadSystem = new SaveLoadSystem();
         _killList = new KillList();
-        _monsterTierList = new MonsterTierList(_languageProvider);
+        monsterTierListStorage = new MonsterTierListStorage(_languageProvider);
         _settingsController = new SettingsController();
         _monsterResourcesParser = new MonsterResourcesParser();
         playerDataParser = new PlayerDataParser(_saveLoadSystem);
@@ -48,7 +54,7 @@ public class Bootstrap : MonoBehaviour
         _settingsController.Initialize(_uiController,_languageProvider,_saveLoadSystem,_monsterListChanger);
         _quickMonsterListController.Initialize(_killList,_assetProvider);
         _monsterListChanger.Initialize(_uiController, _cellFactory, _findSystem, _designChanger, _progressSeeker,
-            _curtainSystem,_globalSystems, _monsterTierList);
+            _curtainSystem,_globalSystems, monsterTierListStorage);
         await _cellFactory.Initialize(_globalSystems, _assetProvider, _uiController);
 
         StartCoroutine(Loading());

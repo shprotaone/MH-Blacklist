@@ -1,8 +1,12 @@
 using Cysharp.Threading.Tasks;
-using Data;
-using DefaultNamespace.View;
+using Data.JSON;
 using DG.Tweening;
+using Systems;
+using Systems.Factory;
 using UnityEngine;
+using View.DetailPanel;
+using View.Settings;
+using View.UI;
 
 public class UIController : MonoBehaviour
 {
@@ -13,7 +17,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private RectTransform _openVerticalPos;
     [SerializeField] private RectTransform _closePosition;
 
-    private DetailedView _detailedView;
+    private DetailPanelView detailPanelView;
     private SettingsView _settingsView;
     private RectTransform _settingsPanel;
     private UIFactory _uiFactory;
@@ -40,10 +44,9 @@ public class UIController : MonoBehaviour
 
     private void CreateDetailWindow()
     {
-        _detailedView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
-        var controller = new DetailedViewController(_detailedView,_globalSystems);
-        _detailedView.Initialize(controller, _powerPrefab,_globalSystems);
-        _detailedView.Controller.Hide();
+        detailPanelView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
+        detailPanelView.Initialize(_powerPrefab,_globalSystems);
+        detailPanelView.Hide();
     }
 
     private void CreateSettingsWindow(SettingsController settingsController)
@@ -69,7 +72,7 @@ public class UIController : MonoBehaviour
 
     public void FillDetailedList(MonsterModel model)
     {
-        _detailedView.Controller.Fill(model,_powerPrefab);
-        _detailedView.gameObject.SetActive(true);
+        detailPanelView.Fill(model,_powerPrefab);
+        detailPanelView.gameObject.SetActive(true);
     }
 }

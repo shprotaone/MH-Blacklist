@@ -13,27 +13,25 @@ MonoBehaviour:
   m_Name: WorldMonsters
   m_EditorClassIdentifier: 
   m_GroupName: WorldMonsters
-  m_Data:
-    m_SerializedData: []
   m_GUID: 0280c7df16fb22746ab4849d62c49653
   m_SerializeEntries:
-  - m_GUID: ebf6a5663dce8af48abe56eb83087fe2
-    m_Address: Pukei-Pukei WORLD
+  - m_GUID: 017c2b5d1d5dd414db74b835ea2dce9f
+    m_Address: Diablos WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c20c2864df90b1d46a36380201c92875
-    m_Address: Jyuratodus WORLD
+  - m_GUID: 0aa39d5c78a4add41bf73622a0f21b66
+    m_Address: Black Diablos WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8b86640b47f247541a58dfba47ed3ea4
-    m_Address: Uragaan WORLD
+  - m_GUID: 0f1f398d1a4b4b044bf5dee4dc6a8883
+    m_Address: Deviljho WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: db92f88cd3ebe5f4abe26c5bfe4e4e27
-    m_Address: Legiana WORLD
+  - m_GUID: 14254a0fdbfca3b4bbc543df5eb48ee4
+    m_Address: Anjanath WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -42,18 +40,33 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 58a43b98bcce3784f91c766b04fffd01
-    m_Address: Radobaan WORLD
+  - m_GUID: 1709a7ce3e6ad7e49bbd0668f4be9a7a
+    m_Address: Beotodus WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7fea3bec22d29ed47ace767aafb50f83
-    m_Address: Stygian Zinogre WORLD
+  - m_GUID: 17499447bdfccef42a1b22e8108e2940
+    m_Address: Kulve Taroth WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d49fb1e769cf4ed499ef0896111d2e1d
-    m_Address: Vaal Hazak WORLD
+  - m_GUID: 2271805896d4e9648813e83fcb2a9cf3
+    m_Address: Rathalos WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 243a6c56def04e545831d468e7cdbce9
+    m_Address: Xeno`jiiva WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 250b3e1b3375eea40b0af15c7226f59a
+    m_Address: Scarred Yian Garuga WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27f0d4dfbe36e7440a2d375cf96520f9
+    m_Address: Pink Rathian WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -62,23 +75,78 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: eafc5ee8c833fa141b41acbebec42960
-    m_Address: Savage Deviljho WORLD
+  - m_GUID: 2f43c84a61cd02f46acb44161f62ab6d
+    m_Address: Zorah Magdaros WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5ca01b18a0b4fa14f88aa166bbb2a06e
-    m_Address: Odogaron WORLD
+  - m_GUID: 2fd45613bcea1f043882ea8b4efd58a7
+    m_Address: Ancient Leshen WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6365ae63b42634743b4fbffb94fdd880
-    m_Address: Namielle WORLD
+  - m_GUID: 318828bbb61e66d4eb39dbbf4726aad2
+    m_Address: Kirin WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: da34de87316e1d44c9404a6a1056da9e
-    m_Address: Nergigante WORLD
+  - m_GUID: 32be34c893c76ad41b7ace6479f1eb42
+    m_Address: Tobi-Kadachi WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33b8b299ce9455a41b0f81aec436e943
+    m_Address: Lavasioth WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34f886c6c587521428e38de6cc95929d
+    m_Address: Shrieking Legiana WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35ea5a349ec27864288334b5ad0cd1e7
+    m_Address: Ebony Odogaron WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be565ab19ba7ab4286aae8b3c0fe3f2
+    m_Address: Teostra WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 413b3444689d4424e85ac6237d722147
+    m_Address: Acidic Glavenus WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 415a224837c8c574a963299db0496bf8
+    m_Address: Rajang WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4341f8f1306d44142befa5a142f89380
+    m_Address: Furious Rajang WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48d03dcd38f577f4fab6f6f427c2a908
+    m_Address: Kulu-Ya-Ku WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4abd5d151613c5c4f87871ae6a239312
+    m_Address: Paolumu WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b3aa169fd7e4f44997ce5c3b68f539e
+    m_Address: Glavenus WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58a43b98bcce3784f91c766b04fffd01
+    m_Address: Radobaan WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -87,13 +155,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fd604c7b083cf4a4e846e5f7d1cb8602
-    m_Address: Rathian WORLD
+  - m_GUID: 5ca01b18a0b4fa14f88aa166bbb2a06e
+    m_Address: Odogaron WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dbb55a09a18fde54ea642c66df4ca4f4
-    m_Address: Great Girros WORLD
+  - m_GUID: 5fcfff51b9916f6448385eb412907bfb
+    m_Address: Yian Garuga WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 623f0405f50484d4bafc7c79ba0c937d
+    m_Address: Tigrex WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6365ae63b42634743b4fbffb94fdd880
+    m_Address: Namielle WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63699c24a84c4bf439f32f3b9da90af3
+    m_Address: Dodogama WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72496564495259c4fb353b5130f72719
+    m_Address: Raging Brachydios WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73ae427b7216a3f4fa7f0354c34ac886
+    m_Address: Blackveil Vaal Hazak WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a7bb13ca0875d74eae030fa79c026b0
+    m_Address: Bazelgeuse WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -102,8 +200,73 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 48d03dcd38f577f4fab6f6f427c2a908
-    m_Address: Kulu-Ya-Ku WORLD
+  - m_GUID: 7e797c9dc8b8a2e4d88bc28ad4aa5364
+    m_Address: Leshen WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fea3bec22d29ed47ace767aafb50f83
+    m_Address: Stygian Zinogre WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85acece5755c10643a26f20aab80896e
+    m_Address: Fulgur Anjanath WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 881e62ded47f0f14f8e55a3c983efadf
+    m_Address: Seething Bazelgeuse WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a7df370a0cfd4645a67f7a1f3608c7f
+    m_Address: Brute Tigrex WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b86640b47f247541a58dfba47ed3ea4
+    m_Address: Uragaan WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d01955b79c6b7f4c91c7141f0a05607
+    m_Address: Nargacuga WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d9d9066e88622b4699633628ff59162
+    m_Address: Silver Rathalos WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 915d9bde7e95d8746aa37cf115d43dcc
+    m_Address: Banbaro WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 925da05b2729caa45b5a90bc93b25d69
+    m_Address: Azure Rathalos WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ce9401d22b6e8d489204eb338d523c8
+    m_Address: Zinogre WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2617e5a3f2d0b24c8b1303c82f7e425
+    m_Address: Fatalis WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7d9f0d4836c2804db3abd47f088677b
+    m_Address: Ruiner Nergigante WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abe93fbec68a9544ebf65a97ba96f5ff
+    m_Address: Kushala Daora WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -117,243 +280,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b71bbec3a6a248448b0944d9d19437fb
-    m_Address: Coral Pukei-Pukei WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f26a170178a317f438fc1bcd07c736e2
-    m_Address: Frostfang Barioth WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 413b3444689d4424e85ac6237d722147
-    m_Address: Acidic Glavenus WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 33b8b299ce9455a41b0f81aec436e943
-    m_Address: Lavasioth WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3be565ab19ba7ab4286aae8b3c0fe3f2
-    m_Address: Teostra WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 17499447bdfccef42a1b22e8108e2940
-    m_Address: Kulve Taroth WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f01156c084f536b43971c25c029d7eb8
-    m_Address: Brachydios WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 250b3e1b3375eea40b0af15c7226f59a
-    m_Address: Scarred Yian Garuga WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0aa39d5c78a4add41bf73622a0f21b66
-    m_Address: Black Diablos WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8d9d9066e88622b4699633628ff59162
-    m_Address: Silver Rathalos WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 35ea5a349ec27864288334b5ad0cd1e7
-    m_Address: Ebony Odogaron WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0f1f398d1a4b4b044bf5dee4dc6a8883
-    m_Address: Deviljho WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ee2f62a918aa58643b4358ffca5ffe0f
-    m_Address: Barroth WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 63699c24a84c4bf439f32f3b9da90af3
-    m_Address: Dodogama WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 27f0d4dfbe36e7440a2d375cf96520f9
-    m_Address: Pink Rathian WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7a7bb13ca0875d74eae030fa79c026b0
-    m_Address: Bazelgeuse WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9ce9401d22b6e8d489204eb338d523c8
-    m_Address: Zinogre WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 623f0405f50484d4bafc7c79ba0c937d
-    m_Address: Tigrex WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bc345c21c994f764c90df1e26e4e5784
-    m_Address: Great Jagras WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4abd5d151613c5c4f87871ae6a239312
-    m_Address: Paolumu WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d875156459bd30d41a5b32158934fcf6
-    m_Address: Nightshade Paolumu WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4341f8f1306d44142befa5a142f89380
-    m_Address: Furious Rajang WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 415a224837c8c574a963299db0496bf8
-    m_Address: Rajang WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8d01955b79c6b7f4c91c7141f0a05607
-    m_Address: Nargacuga WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 881e62ded47f0f14f8e55a3c983efadf
-    m_Address: Seething Bazelgeuse WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1709a7ce3e6ad7e49bbd0668f4be9a7a
-    m_Address: Beotodus WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d8c4492631b7edb4da5af77b2a015716
-    m_Address: Behemoth WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4b3aa169fd7e4f44997ce5c3b68f539e
-    m_Address: Glavenus WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a7d9f0d4836c2804db3abd47f088677b
-    m_Address: Ruiner Nergigante WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5fcfff51b9916f6448385eb412907bfb
-    m_Address: Yian Garuga WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 017c2b5d1d5dd414db74b835ea2dce9f
-    m_Address: Diablos WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b18c98544c6c49a4e9c11b3a2bb9bf21
-    m_Address: Lunsatra WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 915d9bde7e95d8746aa37cf115d43dcc
-    m_Address: Banbaro WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 73ae427b7216a3f4fa7f0354c34ac886
-    m_Address: Blackveil Vaal Hazak WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 925da05b2729caa45b5a90bc93b25d69
-    m_Address: Azure Rathalos WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8a7df370a0cfd4645a67f7a1f3608c7f
-    m_Address: Brute Tigrex WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: abe93fbec68a9544ebf65a97ba96f5ff
-    m_Address: Kushala Daora WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7e797c9dc8b8a2e4d88bc28ad4aa5364
-    m_Address: Leshen WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14254a0fdbfca3b4bbc543df5eb48ee4
-    m_Address: Anjanath WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2fd45613bcea1f043882ea8b4efd58a7
-    m_Address: Ancient Leshen WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 34f886c6c587521428e38de6cc95929d
-    m_Address: Shrieking Legiana WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 243a6c56def04e545831d468e7cdbce9
-    m_Address: Xeno`jiiva WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 85acece5755c10643a26f20aab80896e
-    m_Address: Fulgur Anjanath WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b061add39930f3c4ba15868b39bed119
     m_Address: Viper Tobi-Kadachi WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 32be34c893c76ad41b7ace6479f1eb42
-    m_Address: Tobi-Kadachi WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2271805896d4e9648813e83fcb2a9cf3
-    m_Address: Rathalos WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 72496564495259c4fb353b5130f72719
-    m_Address: Raging Brachydios WORLD
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a2617e5a3f2d0b24c8b1303c82f7e425
-    m_Address: Fatalis WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -362,13 +290,83 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 318828bbb61e66d4eb39dbbf4726aad2
-    m_Address: Kirin WORLD
+  - m_GUID: b18c98544c6c49a4e9c11b3a2bb9bf21
+    m_Address: Lunastra WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2f43c84a61cd02f46acb44161f62ab6d
-    m_Address: Zorah Magdaros WORLD
+  - m_GUID: b71bbec3a6a248448b0944d9d19437fb
+    m_Address: Coral Pukei-Pukei WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc345c21c994f764c90df1e26e4e5784
+    m_Address: Great Jagras WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c20c2864df90b1d46a36380201c92875
+    m_Address: Jyuratodus WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d49fb1e769cf4ed499ef0896111d2e1d
+    m_Address: Vaal Hazak WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d875156459bd30d41a5b32158934fcf6
+    m_Address: Nightshade Paolumu WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8c4492631b7edb4da5af77b2a015716
+    m_Address: Behemoth WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da34de87316e1d44c9404a6a1056da9e
+    m_Address: Nergigante WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db92f88cd3ebe5f4abe26c5bfe4e4e27
+    m_Address: Legiana WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbb55a09a18fde54ea642c66df4ca4f4
+    m_Address: Great Girros WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eafc5ee8c833fa141b41acbebec42960
+    m_Address: Savage Deviljho WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebf6a5663dce8af48abe56eb83087fe2
+    m_Address: Pukei-Pukei WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee2f62a918aa58643b4358ffca5ffe0f
+    m_Address: Barroth WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f01156c084f536b43971c25c029d7eb8
+    m_Address: Brachydios WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f26a170178a317f438fc1bcd07c736e2
+    m_Address: Frostfang Barioth WORLD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd604c7b083cf4a4e846e5f7d1cb8602
+    m_Address: Rathian WORLD
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
