@@ -1,23 +1,29 @@
+using Systems;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace Cell
 {
-    public class AddToListClickHandler : MonoBehaviour,IPointerClickHandler
+    public class AddToListClickHandler : MonoBehaviour,IPointerEnterHandler
     {
         private MonsterCell _cell;
-
-        public void Initialize(MonsterCell cell)
+        private InputSystemHandler _inputHandler;
+        
+        public void Initialize(MonsterCell cell,InputSystemHandler inputHandler)
         {
             _cell = cell;
+            _inputHandler = inputHandler;
         }
 
-        public void OnPointerClick(PointerEventData eventData)
+        private void AddToKillList()
         {
-            if (eventData.clickCount == 2)
-            {
-                _cell.AddToKillList();
-            }
+            _cell.AddToKillList();
+        }
+
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            if(_inputHandler == null) return;
+            _inputHandler.SetDoubleClickAction(AddToKillList);
         }
     }
 }

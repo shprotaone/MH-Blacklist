@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WildsMonsters
+  m_EditorClassIdentifier: 
+  m_GroupName: WildsMonsters
+  m_GUID: 28f4e0fa74ef85244a11947de10aee73
+  m_SerializeEntries:
+  - m_GUID: 075bcfc461b1e9a46a593793f022adbd
+    m_Address: Gypceros WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 119dfa043b712cd4fac594b1145272b7
+    m_Address: Rey Dau WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13319bd2eb9237247958f8ae171903d5
+    m_Address: Blangonga WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18f0e5f966414c74f85d1f9d71e96b48
+    m_Address: Quematrice WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3144d90df7b3bd640ad0fd0e6f7ce1ee
+    m_Address: Guardian Rathalos WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 317a746fbd9eed14ab5053b36dea3334
+    m_Address: Zoh Shia WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a4f438fe2c13314ea7b60f35f774de5
+    m_Address: Doshaguma WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4907956ec4960e842abe87dd9e9cb6f5
+    m_Address: Rathian WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b4435f64ea766c458526305a0c083e8
+    m_Address: Xu Wu WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bda989e6bf9de442a5d6ca236e6f883
+    m_Address: Rompopolo WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c102214d78c6044596170ade302fb94
+    m_Address: Nu Udra WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f74f770f5669664a9329721bc1c845c
+    m_Address: Rathalos WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 845cbd72f3bf91a4b9b300d290255c77
+    m_Address: Nerscylla WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86993473560923244abf0cf22eb89342
+    m_Address: Mizutsune WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d6eff1a76294694bb6d950e74839f0b
+    m_Address: Gore Magala WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91338e3a9dac0164397a94144bbc3c93
+    m_Address: Guardian Arkveld WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95886634e3976f64497580f09a451b9c
+    m_Address: Chatacabra WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a050e7895ff6a1641a2275ae88754a20
+    m_Address: Guardian Ebony Odogaron WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5b95fbc2f651444a86a9de2536642fb
+    m_Address: Hirabami WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad031609bfabc254d83c8ed46baf66a1
+    m_Address: Arkveld WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b54c0d0201c65ab46a5685fd2a229cd7
+    m_Address: Ajarakan WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3b211f6e728df74499df249125348bc
+    m_Address: Balahara WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d124cb77778138a43b2d7d67904cea9c
+    m_Address: Congalala WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: debaa9c1bd44b2846ac27d1efa115d94
+    m_Address: Lala Barina WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea1bcbcc25801b64f90bdbbfa4360cae
+    m_Address: Gravios WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecd5780e6befd9f4ca06a0e89b3c7e78
+    m_Address: Guardian Doshaguma WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f03c3aedbe2245d458b352cf59f3c7eb
+    m_Address: Jin Dahaad WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f22c2dc3e937ad1479eb4db42ff0870b
+    m_Address: Yian Kut Ku WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4c348a01d5c8b848a5b3073a1e7239f
+    m_Address: Uth Duna WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff9da23e92f7ca2468cb549a2ad6a7c5
+    m_Address: Guardian Fulgur Anjanath WILDS
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d191a0b6dc37b464ead84ebbf9e32cd6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ae67d11316b3de049acc23de054e87a8, type: 2}
+    - {fileID: 11400000, guid: 9b070c2c7ca70a84cb0fa9928234c73e, type: 2}

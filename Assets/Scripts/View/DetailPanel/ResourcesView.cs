@@ -11,11 +11,14 @@ namespace View.DetailPanel
         public void Fill(List<string> resourcesList)
         {
             string result = "";
-
-            foreach (var resource in resourcesList)
+            if (resourcesList != null)
             {
-                result += resource;
+                foreach (var resource in resourcesList)
+                {
+                    result += resource;
+                }                
             }
+            
             _text.text = result;
         }
 

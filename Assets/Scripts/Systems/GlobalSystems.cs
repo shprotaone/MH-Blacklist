@@ -15,14 +15,18 @@ namespace Systems
         private GlobalSystems _instance;
         private LanguageProvider _languageProvider;
         private AssetProvider _assetProvider;
-        private PlayerDataParser playerDataParser;
+        private PlayerDataParser _playerDataParser;
         private ProgressSeeker _progressSeeker;
         private KillList _killList;
         private UIController _uiController;
         private MonsterResourcesParser _monsterResourcesParser;
+        private InputSystemHandler _inputSystemHandler;
 
-        public AssetProvider AssetProvider => _assetProvider;
+        public LanguageProvider LanguageProvider => _languageProvider;
         public MonsterResourcesParser MosterResourcesParser => _monsterResourcesParser;
+        public InputSystemHandler InputSystemHandler => _inputSystemHandler;
+        public PlayerDataParser PlayerDataParser => _playerDataParser;
+        public StyleType CurrentStyle { get; set; }
 
         public void Initialize(AssetProvider assetProvider,PlayerDataParser playerDataParser,
             LanguageProvider languageProvider,ProgressSeeker progressSeeker,
@@ -31,10 +35,11 @@ namespace Systems
             _progressSeeker = progressSeeker;
             _languageProvider = languageProvider;
             _assetProvider = assetProvider;
-            this.playerDataParser = playerDataParser;
+            this._playerDataParser = playerDataParser;
             _killList = killList;
             _uiController = uiController;
             _monsterResourcesParser = monsterResourcesParser;
+            _inputSystemHandler = new InputSystemHandler();
         }
 
         public Sprite GetSprite(string imageName)
@@ -44,7 +49,7 @@ namespace Systems
 
         public bool GetDefeated(MonsterModel model)
         {
-            return playerDataParser.GetDefeated(model);
+            return _playerDataParser.GetDefeated(model);
         }
 
         public string GetName(string dataName)
@@ -74,7 +79,7 @@ namespace Systems
 
         public void SetDefeatedState(MonsterModel model, bool isDefeated)
         {
-            playerDataParser.SetDefeated(model,isDefeated);
+            _playerDataParser.SetDefeated(model,isDefeated);
             _progressSeeker.UpdateSlider();
         }
 
@@ -90,12 +95,18 @@ namespace Systems
                 return "WORLD";
             }
 
+            if (modelStyle == StyleType.WILDS)
+            {
+                return "WILDS";
+            }
+
             return " ";
         }
 
         public void ChangeStyle()
         {
             OnChangeStyle?.Invoke();
+            _playerDataParser.SaveAppData(_languageProvider.GetLanguageString(),CurrentStyle);
         }
 
         public void AddToKillList(MonsterCell monsterCell)

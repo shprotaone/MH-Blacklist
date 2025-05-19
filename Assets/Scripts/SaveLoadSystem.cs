@@ -53,9 +53,21 @@ public class SaveLoadSystem
             Debug.LogWarning(ex);
             using (FileStream fileStream = new FileStream(path,FileMode.OpenOrCreate))
             {
-                var data = new ProgressData();
+                string empty = "";
+                Type type = typeof(T);
+                if (type == typeof(ProgressData))
+                {
+                    var data = new ProgressData();   
+                    empty = JsonUtility.ToJson(data);
+                }
+                else if (type == typeof(AppData))
+                {
+                    var data = new AppData();   
+                    empty = JsonUtility.ToJson(data);
+                }
+                
 
-                var empty = JsonUtility.ToJson(data);
+                
                 fileStream.Write(Encoding.Default.GetBytes(empty));
                 return JsonUtility.FromJson<T>(empty);
             }

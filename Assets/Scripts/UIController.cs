@@ -16,14 +16,14 @@ public class UIController : MonoBehaviour
 
     [SerializeField] private RectTransform _openVerticalPos;
     [SerializeField] private RectTransform _closePosition;
+    [SerializeField] private GameObject _powerPrefab;
 
-    private DetailPanelView detailPanelView;
+    private DetailPanelView _detailPanelView;
     private SettingsView _settingsView;
     private RectTransform _settingsPanel;
     private UIFactory _uiFactory;
     private GlobalSystems _globalSystems;
     private bool _isPortrait;
-    [SerializeField] private GameObject _powerPrefab;
 
     public RankTabController RankTabController => _rankTabController;
     public Transform CurtainPanel => _curtainPanel;
@@ -44,9 +44,10 @@ public class UIController : MonoBehaviour
 
     private void CreateDetailWindow()
     {
-        detailPanelView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
-        detailPanelView.Initialize(_powerPrefab,_globalSystems);
-        detailPanelView.Hide();
+        _detailPanelView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
+        _detailPanelView.Initialize(_powerPrefab,_globalSystems);
+        _detailPanelView.Hide();
+        _globalSystems.LanguageProvider.Add(_detailPanelView.GetComponentsInChildren<TranslateObj>());
     }
 
     private void CreateSettingsWindow(SettingsController settingsController)
@@ -54,6 +55,7 @@ public class UIController : MonoBehaviour
         _settingsView = Instantiate(_uiFactory.GetSettingsView(), _portraitPanel.transform, false);
         _settingsView.Initialize(settingsController);
         _settingsPanel = _settingsView.GetComponent<RectTransform>();
+        _globalSystems.LanguageProvider.Add(_settingsView.GetComponentsInChildren<TranslateObj>());
     }
 
     public void CallSettings(bool isOpen)
@@ -72,7 +74,7 @@ public class UIController : MonoBehaviour
 
     public void FillDetailedList(MonsterModel model)
     {
-        detailPanelView.Fill(model,_powerPrefab);
-        detailPanelView.gameObject.SetActive(true);
+        _detailPanelView.Fill(model,_powerPrefab);
+        _detailPanelView.gameObject.SetActive(true);
     }
 }

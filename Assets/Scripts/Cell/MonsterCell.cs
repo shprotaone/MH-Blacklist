@@ -45,7 +45,7 @@ namespace Cell
             _defeatedImage.gameObject.SetActive(_isDefeated);
 
             _handler.Initialize(this);
-            _addToListHandler.Initialize(this);
+            _addToListHandler.Initialize(this,_globalSystems.InputSystemHandler);
         }
 
         public void ChangeState()

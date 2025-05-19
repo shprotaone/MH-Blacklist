@@ -684,7 +684,7 @@
     {
         "name": "Ancient Leshen",
         "low": 0,
-        "high": 0,
+        "high": 1,
         "mr": 0,
         "tempered": 0,
         "weakness": "fire,thunder,dragon,frost",
@@ -694,8 +694,8 @@
     },
     {
         "name": "Leshen",
-        "low": 1,
-        "high": 0,
+        "low": 0,
+        "high": 1,
         "mr": 0,
         "tempered": 0,
         "weakness": "fire,thunder,dragon",

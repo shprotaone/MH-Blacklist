@@ -23,6 +23,7 @@ namespace Storages
 
         public void CreateLists(Monsters monsters,StyleType style)
         {
+            _lowRankList.Clear();
             _highRankList.Clear();
             _masterRankList.Clear();
             _temperedRankList.Clear();
@@ -42,6 +43,20 @@ namespace Storages
                     model.imageName = monsterData.name;
                     model.style = style;
                     model.rank = RankType.LOW;
+                    model.type = GetMonsterType(monsterData.monsterType);
+                    _lowRankList.Add(model);
+                }
+                
+                if (monsterData.high)
+                {
+                    MonsterModel model = new MonsterModel();
+
+                    model.name = monsterData.name;
+                    model.weaknessTypes = CreateWeakness(monsterData);
+                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
+                    model.imageName = monsterData.name;
+                    model.style = style;
+                    model.rank = RankType.HIGH;
                     model.type = GetMonsterType(monsterData.monsterType);
                     _highRankList.Add(model);
                 }
@@ -135,6 +150,8 @@ namespace Storages
                 if (monsterType == "Hermitaur") return MonsterType.HERMITAUR;
                 if (monsterType == "Fanged wyverns") return MonsterType.FANGEDWYVERNS;
                 if (monsterType == "Relict") return MonsterType.RELICT;
+                if (monsterType == "Construct") return MonsterType.CONSTRUCT;
+                if (monsterType == "Cephalopods") return MonsterType.CEPHALOPODS;
 
                 return MonsterType.NONE;
         }
@@ -157,6 +174,11 @@ namespace Storages
         }
 
         public List<MonsterModel> GetLowRankList()
+        {
+            return _lowRankList;
+        }
+
+        public List<MonsterModel> GetHighRankList()
         {
             return _highRankList;
         }

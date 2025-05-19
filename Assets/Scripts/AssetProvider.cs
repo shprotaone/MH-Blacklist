@@ -35,6 +35,10 @@ public class AssetProvider : MonoBehaviour
 
         if (rankType == RankType.LOW)
         {
+            loadingName = "low";
+        }
+        else if (rankType == RankType.HIGH)
+        {
             loadingName = "standart";
         }
         else if (rankType == RankType.MASTER)
@@ -98,7 +102,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("BACKGROUNDWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("BACKGROUNDRise");
         }
@@ -112,7 +116,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("ProgressBorderWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("ProgressBorderRise");
         }
@@ -126,7 +130,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("ProgressFillerWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("ProgressFillerRise");
         }
@@ -140,7 +144,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("BorderUpWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("BorderUpRise");
         }
@@ -154,7 +158,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("BorderDownWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("BorderDownRise");
         }
@@ -168,7 +172,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("SettingsBackgroundWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("SettingsBackgroundRise");
         }
@@ -182,7 +186,7 @@ public class AssetProvider : MonoBehaviour
         {
             return GetSprite("OptionButtonWorld");
         }
-        else if (style == StyleType.RISE)
+        else if (style == StyleType.RISE || style == StyleType.WILDS)
         {
             return GetSprite("OptionButtonRise");
         }
@@ -231,7 +235,7 @@ public class AssetProvider : MonoBehaviour
             loadingName = "poison";
         }
 
-        if (style == StyleType.WORLD)
+        if (style == StyleType.WORLD || style == StyleType.WILDS)
         {
             loadingName += "World";
         }

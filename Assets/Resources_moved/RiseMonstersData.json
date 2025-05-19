@@ -1,4 +1,4 @@
-{"data":[
+{ "data": [
     {
         "name": "Aknosom",
         "low": 1,
@@ -380,7 +380,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,dragon,frost,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,2;sleep,1;para,1;blast,0;stun,0",
         "RUtranslate": "Базельгейс",
         "monsterType": "Flying wyverns"
     },
@@ -391,7 +391,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,fire,water,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,1;stun,1",
         "RUtranslate": "Змей ветра Ибуси",
         "monsterType": "Elder dragon"
     },
@@ -402,7 +402,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "fire,water,thunder,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Алый Валстракс",
         "monsterType": "Elder dragon"
     },
@@ -413,7 +413,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost,thunder,dragon",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Теостра",
         "monsterType": "Elder dragon"
     },
@@ -424,7 +424,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "fire,dragon,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Хамелеос",
         "monsterType": "Elder dragon"
     },
@@ -435,7 +435,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "fire,thunder,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Высший Арзурос",
         "monsterType": "Fanged beasts"
     },
@@ -446,7 +446,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "frost,dragon,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Высший Диаблос",
         "monsterType": "Flying wyverns"
     },
@@ -457,7 +457,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "thunder,dragon,frost,fire",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Высший Мидзуцунэ",
         "monsterType": "Leviathans"
     },
@@ -468,7 +468,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,0;stun,1",
         "RUtranslate": "Высший Раталос",
         "monsterType": "Flying wyverns"
     },
@@ -479,7 +479,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,0;stun,1",
         "RUtranslate": "Высшая Ратиана",
         "monsterType": "Flying wyverns"
     },
@@ -490,7 +490,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "ice,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Высший Зиногр",
         "monsterType": "Fanged wyverns"
     },
@@ -501,7 +501,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,fire,frost,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,3;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Гермитавр Даймё",
         "monsterType": "Hermitaur"
     },
@@ -512,7 +512,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,thunder,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Кровавый Бисятэн",
         "monsterType": "Fanged beasts"
     },
@@ -523,7 +523,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,fire,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Гарангольм",
         "monsterType": "Fanged beasts"
     },
@@ -534,7 +534,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,frost,fire,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Цинатавр Сёгун",
         "monsterType": "Hermitaur"
     },
@@ -545,7 +545,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,fire",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,1;blast,2;stun,1",
         "RUtranslate": "Сомнакант Авроры",
         "monsterType": "Leviathans"
     },
@@ -556,7 +556,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "fire,thunder,dragon,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Кровавая Магала",
         "monsterType": "Elder dragon"
     },
@@ -567,7 +567,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,1;para,1;blast,0;stun,2",
         "RUtranslate": "Пламенный Ракна-Кадаки",
         "monsterType": "Temnocerans"
     },
@@ -578,7 +578,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "fire,thunder,dragon",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Лунагарон",
         "monsterType": "Fanged beasts"
     },
@@ -589,7 +589,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,frost,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,0;blast,2;stun,1",
         "RUtranslate": "Серегиос",
         "monsterType": "Flying wyverns"
     },
@@ -600,7 +600,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,0;stun,1",
         "RUtranslate": "Лавовый Алмудрон",
         "monsterType": "Leviathans"
     },
@@ -611,7 +611,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,fire,dragon",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Асталос",
         "monsterType": "Flying wyverns"
     },
@@ -622,7 +622,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,dragon,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Эспиназ",
         "monsterType": "Flying wyverns"
     },
@@ -633,7 +633,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "dragon,fire,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,3;sleep,0;para,0;blast,0;stun,1",
         "RUtranslate": "Шагару Магала",
         "monsterType": "Elder dragon"
     },
@@ -644,7 +644,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,fire,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Малзено",
         "monsterType": "Elder dragon"
     },
@@ -655,7 +655,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,thunder,fragon,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,3;para,1;blast,0;stun,1",
         "RUtranslate": "Вспыльчивый Базельгейс",
         "monsterType": "Flying wyverns"
     },
@@ -666,7 +666,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "thunder,water,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,1;para,1;blast,0;stun,0",
         "RUtranslate": "Золотая Ратиана",
         "monsterType": "Flying wyverns"
     },
@@ -677,7 +677,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,thunder,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,1;para,1;blast,0;stun,0",
         "RUtranslate": "Серебристый Раталос",
         "monsterType": "Flying wyverns"
     },
@@ -688,7 +688,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "frost,dragon,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Прозрачная Наргакуга",
         "monsterType": "Flying wyverns"
     },
@@ -699,7 +699,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "frost,thunder,water,dragon",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Лиловый Мидзуцунэ",
         "monsterType": "Leviathans"
     },
@@ -710,7 +710,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "dragon,fire,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Хотичная Кровавая Магала",
         "monsterType": "Elder dragon"
     },
@@ -721,7 +721,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,fire,thunder,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,3;stun,0",
         "RUtranslate": "Велхана",
         "monsterType": "Elder dragon"
     },
@@ -732,7 +732,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,thunder,fire",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Гайсамгорм",
         "monsterType": "Elder dragon"
     },
@@ -743,7 +743,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Взбешенный Раянг",
         "monsterType": "Fanged beasts"
     },
@@ -754,7 +754,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Нарва Всемать",
         "monsterType": "Elder dragon"
     },
@@ -765,7 +765,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon,fire,frost,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Амацу",
         "monsterType": "Elder dragon"
     },
@@ -776,7 +776,7 @@
         "mr": 1,
         "tempered": 0,
         "weakness": "dragon",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,3;sleep,3;para,3;blast,3;stun,3",
         "RUtranslate": "Древний Малзено",
         "monsterType": "Elder dragon"
     },
@@ -787,7 +787,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "fire",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,3;sleep,3;para,3;blast,3;stun,3",
         "RUtranslate": "Восставший Хамелеос",
         "monsterType": "Elder dragon"
     },
@@ -798,7 +798,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "fire,water,thunder,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,0;sleep,0;para,0;blast,2;stun,0",
         "RUtranslate": "Восставший Алый Валстракс",
         "monsterType": "Elder dragon"
     },
@@ -809,7 +809,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "dragon,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,3;stun,1",
         "RUtranslate": "Восставшая Кушала Даора",
         "monsterType": "Elder dragon"
     },
@@ -820,7 +820,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,0;para,0;blast,2;stun,1",
         "RUtranslate": "Восставший Теостра",
         "monsterType": "Elder dragon"
     },
@@ -831,7 +831,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,thunder",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,0;stun,2",
         "RUtranslate": "Презренный Магнамало",
         "monsterType": "Fanged beasts"
     },
@@ -842,7 +842,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,thunder,dragon,frost",
-        "weaknessStatus": null,
+        "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Пылающий Эспиназ",
         "monsterType": "Flying wyverns"
     }

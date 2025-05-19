@@ -317,10 +317,10 @@
     {
         "name": "Leshen",
         "lowRU": null,
-        "highRU": "Череп лешего\r\nБольшая кость чудовища\r\nРога лешего\r\nСмола лешего",
+        "highRU": "Череп лешего;\r\nБольшая кость чудовища;\r\nРога лешего;\r\nСмола лешего;",
         "mrRU": null,
         "lowENG": null,
-        "highENG": "Leshen Skull\r\nLeshen Antlers\r\nLeshen Resin\r\nMonster Bone L",
+        "highENG": "Leshen Skull;\r\nLeshen Antlers;\r\nLeshen Resin;\r\nMonster Bone L;",
         "mrENG": null
     },
     {
@@ -355,9 +355,9 @@
         "lowRU": "Бессмертная драконья чешуя;",
         "highRU": "Бессмертная драконья чешуя;\r\nПанцирь нергиганта;\r\nКоготь нергиганта;\r\nВторичная пластина нергиганта;\r\nРог нергиганта+;\r\nСамоцвет нергиганта;\r\nКость древнего дракона;\r\nКровь древнего дракона;",
         "mrRU": "Большая кость чудовища;",
-        "lowENG": "Immortal Dragonscale",
+        "lowENG": "Immortal Dragonscale;",
         "highENG": "Immortal Dragonscale;\r\nNergigante Carapace;\r\nNergigante Talon;\r\nNergigante Regrowth Plate;\r\nNergigante Horn+;\r\nNergigante Gem;\r\nElder Dragon Blood;\r\nElder Dragon Bone;",
-        "mrENG": "Monster Bone L"
+        "mrENG": "Monster Bone L;"
     },
     {
         "name": "Nightshade Paolumu",

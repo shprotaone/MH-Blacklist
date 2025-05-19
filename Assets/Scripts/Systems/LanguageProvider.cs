@@ -12,12 +12,11 @@ namespace Systems
         public event Action OnLanguageChange;
         private string _currentLanguage;
         private List<LanguagePair> _languageDict;
-        private List<TranslateObj> _translateObjects;
+        private List<TranslateObj> _translateObjects = new ();
 
         public LanguageProvider()
         {
             _languageDict = new List<LanguagePair>();
-            _translateObjects = GameObject.FindObjectsOfType<TranslateObj>().ToList();  //TODO: WEAK
             CreateLangs();
         }
 
@@ -29,8 +28,15 @@ namespace Systems
 
         public string GetName(string dataName)
         {
-            return _languageDict.First(x => x.name == dataName &&
-                                     x.lang == _currentLanguage).translate;
+            foreach (var languagePair in _languageDict)
+            {
+                if (languagePair.name == dataName && languagePair.lang == _currentLanguage)
+                {
+                    return languagePair.translate;
+                }
+            }
+
+            return "NotFound"; 
         }
 
         public string GetTypeName(MonsterType dataType)
@@ -74,6 +80,12 @@ namespace Systems
                             break;
                         case MonsterType.RELICT:
                             result = GetName("RELICT");
+                            break;
+                        case MonsterType.CEPHALOPODS:
+                            result = GetName("CEPHALOPODS");
+                            break;
+                        case MonsterType.CONSTRUCT:
+                            result = GetName("CONSTRUCT");
                             break;
                         case MonsterType.NONE:
                             result = GetName("???");;
@@ -120,6 +132,10 @@ namespace Systems
             AddPair("HERMITAUR", "RUS", "Панцирный");
             AddPair("RELICT","ENG","RELICT");
             AddPair("RELICT","RUS","Реликт");
+            AddPair("CEPHALOPODS","ENG","Cephalopods");
+            AddPair("CEPHALOPODS","RUS","Молюск");
+            AddPair("CONSTRUCT","ENG","Construct");
+            AddPair("CONSTRUCT","RUS","Конструкт");
             AddPair("NONE", "ENG", "???");
             AddPair("NONE", "RUS", "???");
 
@@ -144,6 +160,16 @@ namespace Systems
             if (_currentLanguage == "RUS") return Lang.RU;
             
             return Lang.ENG;
+        }
+
+        public string GetLanguageString()
+        {
+            return _currentLanguage;
+        }
+
+        public void Add(TranslateObj[] translateObjs)
+        {
+            _translateObjects.AddRange(translateObjs);
         }
     }
 }

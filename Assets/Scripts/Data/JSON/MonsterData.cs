@@ -7,6 +7,7 @@ namespace Data.JSON
     {
         public string name;
         public bool low;
+        public bool high;
         public bool mr;
         public bool tempered;
         public string weakness;

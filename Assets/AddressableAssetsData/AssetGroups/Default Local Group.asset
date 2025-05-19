@@ -15,11 +15,6 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: e7bf14d88bf45a240968518fd9187e2f
   m_SerializeEntries:
-  - m_GUID: 10b4beb25b6e3ee479eefc1295190b23
-    m_Address: RiseMonstersData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 223c14d76f622fc4fb008c99c1334d36
     m_Address: Thunder
     m_ReadOnly: 0
@@ -27,6 +22,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 304211caa95f06d4390f7d142448fb18
     m_Address: master
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 379df05920e586b4dbf74c82478a5cd7
+    m_Address: low
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -67,11 +67,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 696f836e567e60a438a86b8f0a05efcd
     m_Address: QuickCell
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 795fd02404137804b95dbdf6b0ae281f
-    m_Address: SourceListRise
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -135,11 +130,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aa59ef6be80676d4682cdb745d61af28
-    m_Address: WorldMonstersData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ab5e6cc6cf6e827409a3f55077a62648
     m_Address: ThunderWorld
     m_ReadOnly: 0
@@ -150,6 +140,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb0b6f65f4faf0349b1e521225fd0082
+    m_Address: lowWorld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c43b981bafbca0846970436edbd354ba
     m_Address: MonsterScrollView
     m_ReadOnly: 0
@@ -157,11 +152,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c8d0e1eeacb930342978af24c741dbe6
     m_Address: Fire
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ccd6b2a3eb23ada4babcca9eea56fe6b
-    m_Address: SourceListWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

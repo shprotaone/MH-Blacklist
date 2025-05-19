@@ -76,7 +76,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 25.002495}
-  m_SizeDelta: {x: -40, y: -50.005005}
+  m_SizeDelta: {x: 0, y: -50.005005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1814236797613121562
 CanvasRenderer:
@@ -158,6 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2de93a29369f84c9429eda41e4cc36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _scrollRect: {fileID: 2642242272815675686}
   _gridLayoutGroup: {fileID: 1999701764106134143}
   _contentContainer: {fileID: 2100092424433238533}
 --- !u!1 &1442972251425855473
@@ -684,7 +685,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 300, y: 400}
+  m_CellSize: {x: 280, y: 380}
   m_Spacing: {x: 25, y: 25}
   m_Constraint: 0
   m_ConstraintCount: 3
@@ -721,7 +722,7 @@ RectTransform:
   m_Father: {fileID: 3662198305651620337}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}

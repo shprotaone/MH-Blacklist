@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using Cysharp.Threading.Tasks;
 using Data;
@@ -14,7 +13,6 @@ using View.Curtain;
 
 public class Bootstrap : MonoBehaviour
 {
-    [SerializeField] private string _language;
     [SerializeField] private AssetProvider _assetProvider;
     [SerializeField] private FindSystem _findSystem;
     [SerializeField] private UIController _uiController;
@@ -22,17 +20,18 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private DesignChanger _designChanger;
     [SerializeField] private CellFactory _cellFactory;
     [SerializeField] private MonsterListChanger _monsterListChanger;
-    [SerializeField] private QuickMonsterListController _quickMonsterListController;
+    [SerializeField] private QuickMonsterListView quickMonsterListView;
 
     private CurtainSystem _curtainSystem;
     private GlobalSystems _globalSystems;
-    private PlayerDataParser playerDataParser;
+    private PlayerDataParser _playerDataParser;
     private LanguageProvider _languageProvider;
     private SaveLoadSystem _saveLoadSystem;
     private MonsterTierListStorage monsterTierListStorage;
     private KillList _killList;
     private SettingsController _settingsController;
     private MonsterResourcesParser _monsterResourcesParser;
+    private AppData _appData;
 
     private async void Start()
     {
@@ -44,15 +43,15 @@ public class Bootstrap : MonoBehaviour
         monsterTierListStorage = new MonsterTierListStorage(_languageProvider);
         _settingsController = new SettingsController();
         _monsterResourcesParser = new MonsterResourcesParser();
-        playerDataParser = new PlayerDataParser(_saveLoadSystem);
+        _playerDataParser = new PlayerDataParser(_saveLoadSystem);
 
-        _globalSystems.Initialize(_assetProvider, playerDataParser, _languageProvider, _progressSeeker,
+        _globalSystems.Initialize(_assetProvider, _playerDataParser, _languageProvider, _progressSeeker,
             _killList,_uiController,_monsterResourcesParser);
 
         _saveLoadSystem.Initialize(_assetProvider);
         await _uiController.Initialize(_assetProvider,_settingsController,_globalSystems);
         _settingsController.Initialize(_uiController,_languageProvider,_saveLoadSystem,_monsterListChanger);
-        _quickMonsterListController.Initialize(_killList,_assetProvider);
+        quickMonsterListView.Initialize(_killList,_assetProvider,_globalSystems);
         _monsterListChanger.Initialize(_uiController, _cellFactory, _findSystem, _designChanger, _progressSeeker,
             _curtainSystem,_globalSystems, monsterTierListStorage);
         await _cellFactory.Initialize(_globalSystems, _assetProvider, _uiController);
@@ -61,6 +60,7 @@ public class Bootstrap : MonoBehaviour
         _languageProvider.OnLanguageChange += ChangeLanguage;
 
         _designChanger.Initialize(_assetProvider);
+        _languageProvider.ChangeLanguageText();
         Application.targetFrameRate = 60;
     }
 
@@ -75,26 +75,41 @@ public class Bootstrap : MonoBehaviour
 
     private void ChangeLanguage()
     {
+        //TODO: Как будто должно находится не тут
+        
         _languageProvider.ChangeLanguageText();
         _monsterListChanger.LoadMonsters();
+        _playerDataParser.SaveAppData(_languageProvider.GetLanguageString(), _globalSystems.CurrentStyle);
     }
 
     private IEnumerator Loading()
     {
         _monsterResourcesParser.Initialize(_assetProvider);
-
-        _globalSystems.SetLanguage(_language);
+        _globalSystems.SetLanguage(_playerDataParser.AppData.lastLang);
 
         var riseList = _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath, true);
         _monsterListChanger.SetMonsterList(riseList, StyleType.RISE);
         var worldList = _saveLoadSystem.Load<Monsters>(StaticData.worldFilePath, true);
         _monsterListChanger.SetMonsterList(worldList, StyleType.WORLD);
+        var wildsList = _saveLoadSystem.Load<Monsters>(StaticData.wildsFilePath, true);
+        _monsterListChanger.SetMonsterList(wildsList,StyleType.WILDS);
+        
         _findSystem.Initialize(_globalSystems, _uiController);
 
-        _monsterListChanger.SetCurrentMonsterList(StyleType.RISE);
-        _curtainSystem.Show();
-        _settingsController.SetScaledButton(StyleType.RISE);
+        SetMonsterList();
 
         yield break;
+    }
+
+    private void SetMonsterList()
+    {
+        if (_playerDataParser.AppData.lastStyle == "RISE") _globalSystems.CurrentStyle = StyleType.RISE;
+        else if (_playerDataParser.AppData.lastStyle == "WORLD") _globalSystems.CurrentStyle = StyleType.WORLD;
+        else if (_playerDataParser.AppData.lastLang == "WILDS") _globalSystems.CurrentStyle = StyleType.WILDS;
+        
+        _monsterListChanger.SetCurrentMonsterList(_globalSystems.CurrentStyle);
+        _settingsController.SetScaledButton(_globalSystems.CurrentStyle);
+        _curtainSystem.Show();
+        
     }
 }

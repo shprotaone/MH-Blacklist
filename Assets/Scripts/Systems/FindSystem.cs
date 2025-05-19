@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using Cell;
+using Enums;
+using Storages;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -11,7 +13,7 @@ namespace Systems
     public class FindSystem : MonoBehaviour
     {
         [SerializeField] private TMP_InputField _verticalInputField;
-        [FormerlySerializedAs("_changeTypeOfFind")] [SerializeField] private ChangeSearchTypeButton changeSearchTypeOfFind;
+        [SerializeField] private ChangeSearchTypeButton changeSearchTypeOfFind;
 
         private GlobalSystems _globalSystems;
         private List<MonsterCell> _cells = new();
@@ -68,11 +70,28 @@ namespace Systems
                     Debug.Log("Empty find");
                     return;
                 }
-            
-                foreach (var resourceName in _globalSystems.MosterResourcesParser.CommonResourceList)
+
+                List<MonsterResourceList> resourceList = new List<MonsterResourceList>();
+
+                if (_globalSystems.CurrentStyle == StyleType.RISE)
                 {
-                    if(resourceName.Value.Contains(val))
-                        dictNames.Add(resourceName.Key);
+                    resourceList = _globalSystems.MosterResourcesParser.RiseList;
+                }
+                else if (_globalSystems.CurrentStyle == StyleType.WORLD)
+                {
+                    resourceList = _globalSystems.MosterResourcesParser.WorldList;
+                }
+                
+                foreach (var resourceName in resourceList)
+                {
+                    foreach (var nameResource in resourceName.Resources)
+                    {
+                        if (nameResource.Contains(val))
+                        {
+                            dictNames.Add(resourceName.Key);
+                            break;
+                        }
+                    }
                 }
 
                 var cellListToOpen = new List<MonsterCell>();

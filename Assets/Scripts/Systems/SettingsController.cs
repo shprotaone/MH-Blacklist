@@ -27,6 +27,7 @@ namespace Systems
 
             _settingsView.WorldGameButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
             _settingsView.RiseGameButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
+            _settingsView.WildsGameButton.Button.onClick.AddListener(monsterListChanger.CreateWildsList);
 
             _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
         }
@@ -35,17 +36,21 @@ namespace Systems
         {
             if (styleType == StyleType.RISE)
             {
-                _settingsView.WorldGameButton.SetMainScaled(false);
+                _settingsView.WildsGameButton.SetScaled(false);
                 _settingsView.WorldGameButton.SetScaled(false);
-                _settingsView.RiseGameButton.SetMainScaled(true);
                 _settingsView.RiseGameButton.SetScaled(true);
             }
             else if (styleType == StyleType.WORLD)
             {
-                _settingsView.WorldGameButton.SetMainScaled(true);
-                _settingsView.WorldGameButton.SetScaled(true);
-                _settingsView.RiseGameButton.SetMainScaled(false);
                 _settingsView.RiseGameButton.SetScaled(false);
+                _settingsView.WildsGameButton.SetScaled(false);
+                _settingsView.WorldGameButton.SetScaled(true);
+            }
+            else if (styleType == StyleType.WILDS)
+            {
+                _settingsView.WorldGameButton.SetScaled(false);
+                _settingsView.RiseGameButton.SetScaled(false);
+                _settingsView.WildsGameButton.SetScaled(true);
             }
         }
 

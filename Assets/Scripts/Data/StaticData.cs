@@ -7,5 +7,6 @@ namespace Data
       public static readonly string RUSLanguageName = "RUS";
       public static readonly string riseFilePath = "RiseMonstersData";
       public static readonly string worldFilePath = "WorldMonstersData";
+      public static readonly string wildsFilePath = "WildsMonstersData";
    }
 }

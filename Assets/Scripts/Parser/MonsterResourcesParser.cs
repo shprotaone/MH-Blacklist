@@ -18,13 +18,9 @@ namespace Parser
 
         public List<MonsterResourceList> RiseList => _riseLists;
         public List<MonsterResourceList> WorldList => _worldList;
-        public Dictionary<string,string> RiseResourceList { get; set; }
-        public Dictionary<string,string> CommonResourceList { get; set; }
 
         public void Initialize(AssetProvider assetProvider)
         {
-            RiseResourceList = new Dictionary<string, string>();
-            CommonResourceList = new Dictionary<string, string>();
             InitRiseResources(assetProvider);
             InitWorldResources(assetProvider);
         }
@@ -77,12 +73,12 @@ namespace Parser
 
         private void AddToFlatResourceList(StyleType style, MonsterResourceList resourceList)
         {
-            foreach (var resource in resourceList.Resources)
-            { 
-                CommonResourceList.TryAdd(resourceList.Key,resource);
-            }
-        
-            Debug.Log("Count " + CommonResourceList.Count);
+            // foreach (var resource in resourceList.Resources)
+            // { 
+            //     CommonResourceList.TryAdd(resourceList.Key,resource);
+            // }
+            //
+            // Debug.Log("Count " + CommonResourceList.Count);
         }
 
         private void InitRiseResources(AssetProvider assetProvider)

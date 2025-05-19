@@ -14,6 +14,8 @@ namespace Enums
         ELDERDRAGONS,
         HERMITAUR,
         RELICT,
-        NONE
+        NONE,
+        CEPHALOPODS,
+        CONSTRUCT
     }
 }

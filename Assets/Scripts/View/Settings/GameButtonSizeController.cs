@@ -13,13 +13,9 @@ namespace View.Settings
 
         public Button Button => _button;
 
-        public void SetMainScaled(bool b)
-        {
-            _isMain = b;
-        }
-
         public void SetScaled(bool flag)
         {
+            _isMain = flag;
             if (flag) SetBig();
             else SetSmall();
         }

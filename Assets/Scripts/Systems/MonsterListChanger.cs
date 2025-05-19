@@ -29,11 +29,10 @@ namespace Systems
         private CurtainSystem _curtainSystem;
         private GlobalSystems _globalSystems;
 
-        private StyleType _currentStyle;
-
         private Monsters _currentMonsterList;
         private Monsters _riseMonsters;
         private Monsters _worldMonsters;
+        private Monsters _wildsMonsters;
         private List<MonsterCell> _allCells = new ();
 
         public int CellSize { get; private set; }
@@ -58,7 +57,7 @@ namespace Systems
 
         public void CreateRiseList()
         {
-            _currentStyle = StyleType.RISE;
+            _globalSystems.CurrentStyle = StyleType.RISE;
             _currentMonsterList = _riseMonsters;
             _uiController.SettingsView.Controller.SetScaledButton(StyleType.RISE);
             _curtainSystem.Show();
@@ -66,10 +65,19 @@ namespace Systems
 
         public void CreateWorldList()
         {
-            _currentStyle = StyleType.WORLD;
+            _globalSystems.CurrentStyle = StyleType.WORLD;
             _currentMonsterList = _worldMonsters;
 
             _uiController.SettingsView.Controller.SetScaledButton(StyleType.WORLD);
+            _curtainSystem.Show();
+        }
+
+        public void CreateWildsList()
+        {
+            _globalSystems.CurrentStyle = StyleType.WILDS;
+            _currentMonsterList = _wildsMonsters;
+            
+            _uiController.SettingsView.Controller.SetScaledButton(StyleType.WILDS);
             _curtainSystem.Show();
         }
     
@@ -98,10 +106,21 @@ namespace Systems
             if (tierListStorage.GetLowRankList().Count > 0)
             {
                 var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
-                scrollView.Initialize(1);
+                scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(tierListStorage.GetLowRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.LOW,_currentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.LOW,_globalSystems.CurrentStyle,scrollView);
+                _scrolls.Add(scrollView);
+                scrollView.Hide();
+            }
+
+            if (tierListStorage.GetHighRankList().Count > 0)
+            {
+                var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
+                scrollView.Initialize(1,_globalSystems.InputSystemHandler);
+                await _cellFactory.CreateCells(tierListStorage.GetHighRankList(),scrollView);
+                _allCells.AddRange(scrollView.Cells);
+                _rankTabController.CreateTab(RankType.HIGH,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
@@ -109,10 +128,10 @@ namespace Systems
             if (tierListStorage.GetMasterRankList().Count > 0)
             {
                 var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
-                scrollView.Initialize(1);
+                scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(tierListStorage.GetMasterRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.MASTER,_currentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.MASTER,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
@@ -120,10 +139,10 @@ namespace Systems
             if (tierListStorage.GetTemperedlist().Count > 0)
             {
                 var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
-                scrollView.Initialize(1);
+                scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(tierListStorage.GetTemperedlist(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.TEMPERED,_currentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.TEMPERED,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
@@ -148,16 +167,17 @@ namespace Systems
 
         private async void ShowMonsters()
         {
-            await ShowMonstersRoutine(_currentMonsterList, _currentStyle);
+            await ShowMonstersRoutine(_currentMonsterList, _globalSystems.CurrentStyle);
         }
 
         public void SetCurrentMonsterList(StyleType styleType)
         {
-            _currentStyle = styleType;
             if (styleType == StyleType.RISE) 
                 _currentMonsterList = _riseMonsters;
             else if (styleType == StyleType.WORLD) 
                 _currentMonsterList = _worldMonsters;
+            else if (styleType == StyleType.WILDS)
+                _currentMonsterList = _wildsMonsters;
         }
 
         public void SetMonsterList(Monsters monsters, StyleType type)
@@ -174,7 +194,7 @@ namespace Systems
 
             if (type == StyleType.WILDS)
             {
-            
+                _wildsMonsters = monsters;
             }
         }
 
