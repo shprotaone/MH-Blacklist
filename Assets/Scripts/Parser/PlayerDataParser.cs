@@ -23,7 +23,7 @@ namespace Parser
             _saveLoadSystem = saveLoadSystem;
             _monsterProgressData = _saveLoadSystem.Load<ProgressData>(path,false);
             _appData = _saveLoadSystem.Load<AppData>(appDataPath, false);
-            
+
             if (_appData == null || _appData.lastLang == String.Empty || _appData.lastStyle == String.Empty)
             {
                 _appData = new AppData("RUS", "RISE");
@@ -72,10 +72,8 @@ namespace Parser
             return progressData.isDefeated;
         }
 
-        public void SaveAppData(string language, StyleType style)
+        public void SaveAppData(StyleType style)
         {
-            _appData.lastLang = language;
-
             if (style == StyleType.RISE)
             {
                 _appData.lastStyle = "RISE";
@@ -90,6 +88,12 @@ namespace Parser
             }
             
             _saveLoadSystem.Save(appDataPath,_appData);
+        }
+
+        public void SaveAppData(string lang)
+        {
+            _appData.lastLang = lang;
+            _saveLoadSystem.Save(appDataPath, _appData);
         }
     }
 }

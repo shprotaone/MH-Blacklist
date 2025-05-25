@@ -6,15 +6,13 @@ namespace Systems
 {
     public class InputSystemHandler
     {
+        public readonly float dragTime = 0.4f;
         private readonly float dragDeltaThreshold = 20;
-        
+
         private Action _currentAction;
         private CustomInputActions _actions;
         private float _dragDelta;
-
-        public InputSystemHandler()
-        {
-        }
+        private float _lastPosition;
 
         public void SetDoubleClickAction(Action action)
         {
@@ -27,21 +25,37 @@ namespace Systems
             _currentAction = action;
             Debug.Log("SetAction");
         }
+        
+        
 
         public void StartDragging(float positionSqrMagnitude)
         {
             _dragDelta = positionSqrMagnitude;
+            _lastPosition = positionSqrMagnitude;
         }
 
         public void EndDragging(float positionMagnitude, float time)
         {
             _dragDelta -= positionMagnitude;
-            if (time > 0.4f && Mathf.Abs(_dragDelta) < dragDeltaThreshold)
+            if (time > dragTime && Mathf.Abs(_dragDelta) < dragDeltaThreshold)
             {
                 _currentAction?.Invoke();
             }
+        }
+        
+        public void EndDragging()
+        {
+            _dragDelta -= _lastPosition;
+            if (Mathf.Abs(_dragDelta) < dragDeltaThreshold)
+            {
+                Handheld.Vibrate();
+                _currentAction?.Invoke();    
+            }
+        }
 
-            Debug.Log("Drag delta " + Mathf.Abs(_dragDelta));
+        public void SetLastPoint(float positionMagnitude)
+        {
+            _lastPosition = positionMagnitude;
         }
     }
 }

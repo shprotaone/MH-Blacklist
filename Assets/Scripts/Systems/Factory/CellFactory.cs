@@ -15,13 +15,15 @@ namespace Systems.Factory
 
         private GlobalSystems _globalSystems;
 
-        public async UniTask Initialize(GlobalSystems globalSystems,AssetProvider assetProvider,UIController uiController)
+        public async UniTask Initialize(AssetProvider assetProvider,GlobalSystems globalSystems, UIController uiController)
         {
             _cellSprites = new List<Sprite>();
             _cellSprites.Add(assetProvider.GetSprite("CardBackGround1"));
             _cellSprites.Add(assetProvider.GetSprite("CardBackGround2"));
             _cellSprites.Add(assetProvider.GetSprite("CardBackGround3"));
             _monsterCellPrefab = await assetProvider.LoadMonsterCell();
+            _monsterCellPrefab.transform.SetParent(_poolContainer);
+            _monsterCellPrefab.gameObject.SetActive(false);
             _globalSystems = globalSystems;
         }
 

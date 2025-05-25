@@ -10,26 +10,32 @@ namespace Systems
         private LanguageProvider _languageProvider;
         private SettingsView _settingsView;
         private SaveLoadSystem _saveLoadSystem;
+        private GlobalSystems _globalSystems;
+        private UIController _uiController;
 
-        public void Initialize(UIController uiController,LanguageProvider languageProvider
-            ,SaveLoadSystem saveLoadSystem,MonsterListChanger monsterListChanger)
+        public void Initialize(GlobalSystems globalSystems,UIController uiController)
         {
-            _settingsView = uiController.SettingsView;
-            _monsterListChanger = monsterListChanger;
-            _languageProvider = languageProvider;
-            _saveLoadSystem = saveLoadSystem;
+            _monsterListChanger = globalSystems.MonsterListChanger;
+            _languageProvider = globalSystems.LanguageProvider;
+            _saveLoadSystem = globalSystems.SaveLoadSystem;
+            _uiController = uiController;
+            _globalSystems = globalSystems;
+        }
 
+        public void BindButtons()
+        {
+            _settingsView = _uiController.SettingsView;
             _settingsView.EngButton.onClick.AddListener(SetEng);
             _settingsView.RusButton.onClick.AddListener(SetRus);
             _settingsView.ResetProgressButton.onClick.AddListener(ResetProgress);
             _settingsView.IncreaseCellSizeButton.onClick.AddListener(IncreaseSizeCell);
             _settingsView.DecreaseCellSizeButton.onClick.AddListener(DecreaseSizeCell);
 
-            _settingsView.WorldGameButton.Button.onClick.AddListener(monsterListChanger.CreateWorldList);
-            _settingsView.RiseGameButton.Button.onClick.AddListener(monsterListChanger.CreateRiseList);
-            _settingsView.WildsGameButton.Button.onClick.AddListener(monsterListChanger.CreateWildsList);
+            _settingsView.WorldGameButton.Button.onClick.AddListener(_monsterListChanger.CreateWorldList);
+            _settingsView.RiseGameButton.Button.onClick.AddListener(_monsterListChanger.CreateRiseList);
+            _settingsView.WildsGameButton.Button.onClick.AddListener(_monsterListChanger.CreateWildsList);
 
-            _settingsView.CloseButton.onClick.AddListener(() => uiController.CallSettings(false));
+            _settingsView.CloseButton.onClick.AddListener(() => _uiController.CallSettings(false));
         }
 
         public void SetScaledButton(StyleType styleType)
@@ -79,11 +85,15 @@ namespace Systems
         private void SetRus()
         {
             _languageProvider.SetLanguage(StaticData.RUSLanguageName);
+            _globalSystems.PlayerDataParser.SaveAppData(_languageProvider.GetLanguageString());
+            _globalSystems.CurtainSystem.Show();
         }
 
         private void SetEng()
         {
             _languageProvider.SetLanguage(StaticData.ENGLanguageName);
+            _globalSystems.PlayerDataParser.SaveAppData(_languageProvider.GetLanguageString());
+            _globalSystems.CurtainSystem.Show();
         }
     }
 }

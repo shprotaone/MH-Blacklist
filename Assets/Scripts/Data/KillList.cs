@@ -30,5 +30,10 @@ namespace Data
             //OnMonsterCountChange?.Invoke();
             return false;
         }
+
+        public void ResetList()
+        {
+            _cells.Clear();
+        }
     }
 }

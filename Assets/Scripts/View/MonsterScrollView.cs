@@ -9,7 +9,7 @@ using UnityEngine.UI;
 
 namespace View
 {
-    public class MonsterScrollView : MonoBehaviour,IPointerDownHandler,IPointerUpHandler
+    public class MonsterScrollView : MonoBehaviour
     {
         public event Action<string> OnChangeSize;
 
@@ -21,10 +21,8 @@ namespace View
         private List<Vector2> _sizesHorizontal;
 
         private List<MonsterCell> _cells;
-        private InputSystemHandler _inputSystemHandler;
         private int _currentIndex = 1;
-        private bool _isStart;
-        private float _dragTime;
+
 
         public List<MonsterCell> Cells => _cells;
         public Transform ContentContainer => _contentContainer;
@@ -32,7 +30,6 @@ namespace View
         public void Initialize(int savedIndexSize,InputSystemHandler handler)
         {
             _currentIndex = savedIndexSize;
-            _inputSystemHandler = handler;
             _cells = new List<MonsterCell>();
             CreateSizes();
             ChangeSize();
@@ -101,33 +98,6 @@ namespace View
         public void Hide()
         {
             gameObject.SetActive(false);
-        }
-
-        public void OnPointerDown(PointerEventData eventData)
-        {
-            Debug.Log("Start " + eventData.position.magnitude);
-            _inputSystemHandler.StartDragging(eventData.position.magnitude);
-            StartCoroutine(StartTimer());
-        }
-
-        private IEnumerator StartTimer()
-        {
-            _isStart = true;
-            _dragTime = 0;
-            
-            while (_isStart)
-            {
-                _dragTime += 0.1f;
-                yield return new WaitForSeconds(0.1f);
-            }
-            yield break;
-        }
-
-        public void OnPointerUp(PointerEventData eventData)
-        {
-            Debug.Log("End " + eventData.position.magnitude);
-            _isStart = false;
-            _inputSystemHandler.EndDragging(eventData.position.magnitude,_dragTime);
         }
     }
 }

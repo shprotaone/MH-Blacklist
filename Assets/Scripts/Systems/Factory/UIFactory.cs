@@ -1,12 +1,15 @@
 using Cysharp.Threading.Tasks;
+using UnityEngine;
 using View;
 using View.DetailPanel;
 using View.Settings;
 
 namespace Systems.Factory
 {
-    public class UIFactory
+    public class UIFactory : MonoBehaviour
     {
+        [SerializeField] private Transform _listViewContainer;
+        
         private AssetProvider _assetProvider;
         private MonsterScrollView _monsterScrollView;
         private DetailPanelView detailPanelView;
@@ -37,7 +40,7 @@ namespace Systems.Factory
 
         public MonsterScrollView GetScrollView()
         {
-            return _monsterScrollView;
+            return Instantiate(_monsterScrollView,_listViewContainer,false);
         }
     }
 }

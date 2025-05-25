@@ -32,6 +32,7 @@ namespace Cell
 
         public void Initialize(GlobalSystems globalSystems, MonsterModel model)
         {
+            gameObject.SetActive(true);
             _globalSystems = globalSystems;
             _model = model;
             _name.text = globalSystems.GetName(model.name);

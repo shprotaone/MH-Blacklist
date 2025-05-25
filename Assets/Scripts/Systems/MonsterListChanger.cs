@@ -1,33 +1,33 @@
 ﻿using System.Collections.Generic;
 using Cell;
 using Cysharp.Threading.Tasks;
+using Data;
 using Data.JSON;
 using Enums;
 using Storages;
 using Systems.Factory;
 using Systems.UI;
-using UnityEngine;
 using View;
 
 namespace Systems
 {
-    public class MonsterListChanger : MonoBehaviour
+    public class MonsterListChanger
     {
-        [SerializeField] private Transform _listViewContainer;
-
         private List<MonsterScrollView> _scrolls;
 
+        private GlobalSystems _globalSystems;
+        
         private MonsterScrollView _currentScroll;
         private UIFactory _factory;
         private UIController _uiController;
         private RankTabController _rankTabController;
-        private MonsterTierListStorage tierListStorage;
+        private MonsterTierListStorage _tierListStorage;
         private CellFactory _cellFactory;
         private FindSystem _findSystem;
         private DesignChanger _designChanger;
-        private ProgressSeeker _progressSeeker;
+        private ProgressSeekerView _progressSeekerView;
         private CurtainSystem _curtainSystem;
-        private GlobalSystems _globalSystems;
+        private SaveLoadSystem _saveLoadSystem;
 
         private Monsters _currentMonsterList;
         private Monsters _riseMonsters;
@@ -38,19 +38,19 @@ namespace Systems
         public int CellSize { get; private set; }
 
         public void Initialize(UIController uiController,CellFactory cellFactory,FindSystem findSystem,
-            DesignChanger designChanger,ProgressSeeker progressSeeker,CurtainSystem curtainSystem
-            ,GlobalSystems globalSystems,MonsterTierListStorage monsterTierListStorage)
+            DesignChanger designChanger,GlobalSystems globalSystems)
         {
             _uiController = uiController;
-            tierListStorage = monsterTierListStorage;
+            _tierListStorage = globalSystems.TierListStorage;
             _cellFactory = cellFactory;
             _findSystem = findSystem;
             _designChanger = designChanger;
-            _progressSeeker = progressSeeker;
-            _curtainSystem = curtainSystem;
+            _curtainSystem = globalSystems.CurtainSystem;
             _globalSystems = globalSystems;
             _factory = uiController.UIFactory;
             _rankTabController = uiController.RankTabController;
+            _saveLoadSystem = _globalSystems.SaveLoadSystem;
+            _progressSeekerView = _uiController.ProgressSeeker;
             _scrolls = new();
             _curtainSystem.OnFullCurtain += ShowMonsters;
         }
@@ -61,6 +61,8 @@ namespace Systems
             _currentMonsterList = _riseMonsters;
             _uiController.SettingsView.Controller.SetScaledButton(StyleType.RISE);
             _curtainSystem.Show();
+            
+            _globalSystems.PlayerDataParser.SaveAppData(_globalSystems.CurrentStyle);
         }
 
         public void CreateWorldList()
@@ -70,6 +72,7 @@ namespace Systems
 
             _uiController.SettingsView.Controller.SetScaledButton(StyleType.WORLD);
             _curtainSystem.Show();
+            _globalSystems.PlayerDataParser.SaveAppData(_globalSystems.CurrentStyle);
         }
 
         public void CreateWildsList()
@@ -79,20 +82,22 @@ namespace Systems
             
             _uiController.SettingsView.Controller.SetScaledButton(StyleType.WILDS);
             _curtainSystem.Show();
+            _globalSystems.PlayerDataParser.SaveAppData(_globalSystems.CurrentStyle);
         }
     
         private async UniTask ShowMonstersRoutine(Monsters monsters,StyleType style)
         {
             ClearScrollList();
-            tierListStorage.CreateLists(monsters,style);
+            _uiController.QuickListMonsters.ResetList();
+            
+            _tierListStorage.CreateLists(monsters,style);
             _uiController.CallSettings(false);
-
+            
             await CreateTabsAndScrolls();
 
-            _progressSeeker.Initialize(_allCells);
-            _progressSeeker.UpdateSlider();
+            _progressSeekerView.Initialize(_allCells);
+            _progressSeekerView.UpdateSlider();
             _findSystem.SetList(_allCells);
-            _globalSystems.ChangeStyle();
             _designChanger.ChangeStyle(style);
 
             _curtainSystem.Hide();
@@ -103,44 +108,44 @@ namespace Systems
             _rankTabController.Clear();
             _allCells.Clear();
 
-            if (tierListStorage.GetLowRankList().Count > 0)
+            if (_tierListStorage.GetLowRankList().Count > 0)
             {
-                var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
+                var scrollView = _factory.GetScrollView();
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
-                await _cellFactory.CreateCells(tierListStorage.GetLowRankList(),scrollView);
+                await _cellFactory.CreateCells(_tierListStorage.GetLowRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
                 _rankTabController.CreateTab(RankType.LOW,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
 
-            if (tierListStorage.GetHighRankList().Count > 0)
+            if (_tierListStorage.GetHighRankList().Count > 0)
             {
-                var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
+                var scrollView = _factory.GetScrollView();
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
-                await _cellFactory.CreateCells(tierListStorage.GetHighRankList(),scrollView);
+                await _cellFactory.CreateCells(_tierListStorage.GetHighRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
                 _rankTabController.CreateTab(RankType.HIGH,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
 
-            if (tierListStorage.GetMasterRankList().Count > 0)
+            if (_tierListStorage.GetMasterRankList().Count > 0)
             {
-                var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
+                var scrollView = _factory.GetScrollView();
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
-                await _cellFactory.CreateCells(tierListStorage.GetMasterRankList(),scrollView);
+                await _cellFactory.CreateCells(_tierListStorage.GetMasterRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
                 _rankTabController.CreateTab(RankType.MASTER,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
 
-            if (tierListStorage.GetTemperedlist().Count > 0)
+            if (_tierListStorage.GetTemperedlist().Count > 0)
             {
-                var scrollView = Instantiate(_factory.GetScrollView(), _listViewContainer, false);
+                var scrollView = _factory.GetScrollView();
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
-                await _cellFactory.CreateCells(tierListStorage.GetTemperedlist(),scrollView);
+                await _cellFactory.CreateCells(_tierListStorage.GetTemperedlist(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
                 _rankTabController.CreateTab(RankType.TEMPERED,_globalSystems.CurrentStyle,scrollView);
                 _scrolls.Add(scrollView);
@@ -159,13 +164,7 @@ namespace Systems
             _scrolls.Clear();
         }
 
-        public void LoadMonsters()
-        {
-            _curtainSystem.Show();
-            Debug.Log("Try Load monsters");
-        }
-
-        private async void ShowMonsters()
+        public async void ShowMonsters()
         {
             await ShowMonstersRoutine(_currentMonsterList, _globalSystems.CurrentStyle);
         }
@@ -180,22 +179,11 @@ namespace Systems
                 _currentMonsterList = _wildsMonsters;
         }
 
-        public void SetMonsterList(Monsters monsters, StyleType type)
+        public void SetMonsterList()
         {
-            if (type == StyleType.RISE)
-            {
-                _riseMonsters = monsters;
-            }
-
-            if (type == StyleType.WORLD)
-            {
-                _worldMonsters = monsters;
-            }
-
-            if (type == StyleType.WILDS)
-            {
-                _wildsMonsters = monsters;
-            }
+            _riseMonsters = _saveLoadSystem.Load<Monsters>(StaticData.riseFilePath, true);
+            _worldMonsters = _saveLoadSystem.Load<Monsters>(StaticData.worldFilePath, true);
+            _wildsMonsters = _saveLoadSystem.Load<Monsters>(StaticData.wildsFilePath, true);
         }
 
         public void DecreaseCellSize()

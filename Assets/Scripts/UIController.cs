@@ -13,15 +13,16 @@ public class UIController : MonoBehaviour
     [SerializeField] private Transform _curtainPanel;
     [SerializeField] private MainPanelView _portraitPanel;
     [SerializeField] private RankTabController _rankTabController;
-
+    [SerializeField] private ProgressSeekerView _progressSeekerView;
+    [SerializeField] private QuickMonsterListView _quickMonsterListView;
+    [SerializeField] private UIFactory _uiFactory;
     [SerializeField] private RectTransform _openVerticalPos;
     [SerializeField] private RectTransform _closePosition;
     [SerializeField] private GameObject _powerPrefab;
 
-    private DetailPanelView _detailPanelView;
     private SettingsView _settingsView;
+    private DetailPanelView _detailPanelView;
     private RectTransform _settingsPanel;
-    private UIFactory _uiFactory;
     private GlobalSystems _globalSystems;
     private bool _isPortrait;
 
@@ -29,17 +30,19 @@ public class UIController : MonoBehaviour
     public Transform CurtainPanel => _curtainPanel;
     public SettingsView SettingsView => _settingsView;
     public UIFactory UIFactory => _uiFactory;
+    public ProgressSeekerView ProgressSeeker => _progressSeekerView;
+    public QuickMonsterListView QuickListMonsters => _quickMonsterListView;
 
-    public async UniTask Initialize(AssetProvider assetProvider,SettingsController settingsController,GlobalSystems globalSystems)
+    public async UniTask Initialize(AssetProvider assetProvider,GlobalSystems globalSystems)
     {
-        _uiFactory = new UIFactory();
         _globalSystems = globalSystems;
         await _uiFactory.Initialize(assetProvider);
         _rankTabController.Initialize(assetProvider);
-        CreateSettingsWindow(settingsController);
+        CreateSettingsWindow(globalSystems.SettingsController);
         CreateDetailWindow();
 
         _portraitPanel.SettingsButton.onClick.AddListener(() => CallSettings(true));
+        _quickMonsterListView.Initialize(assetProvider, _globalSystems);
     }
 
     private void CreateDetailWindow()

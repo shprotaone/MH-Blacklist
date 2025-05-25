@@ -4,6 +4,9 @@ using Data;
 using Data.JSON;
 using Enums;
 using Parser;
+using Storages;
+using Systems.Factory;
+using Systems.UI;
 using UnityEngine;
 
 namespace Systems
@@ -16,30 +19,58 @@ namespace Systems
         private LanguageProvider _languageProvider;
         private AssetProvider _assetProvider;
         private PlayerDataParser _playerDataParser;
-        private ProgressSeeker _progressSeeker;
+        private ProgressSeekerView _progressSeekerView;
         private KillList _killList;
         private UIController _uiController;
         private MonsterResourcesParser _monsterResourcesParser;
         private InputSystemHandler _inputSystemHandler;
+        private CurtainSystem _curtainSystem;
+        private SaveLoadSystem _saveLoadSystem;
+        private MonsterTierListStorage _monsterTierListStorage;
+        private MonsterListChanger _monsterListChanger;
+        private SettingsController _settingsController;
+        private AppData _appData;
+        private CellFactory _cellFactory;
+        private FindSystem _findSystem;
+        private DesignChanger _designChanger;
 
         public LanguageProvider LanguageProvider => _languageProvider;
         public MonsterResourcesParser MosterResourcesParser => _monsterResourcesParser;
         public InputSystemHandler InputSystemHandler => _inputSystemHandler;
         public PlayerDataParser PlayerDataParser => _playerDataParser;
         public StyleType CurrentStyle { get; set; }
+        public SettingsController SettingsController => _settingsController;
+        public KillList KillList => _killList;
+        public MonsterTierListStorage TierListStorage => _monsterTierListStorage;
+        public CurtainSystem CurtainSystem => _curtainSystem;
+        public SaveLoadSystem SaveLoadSystem => _saveLoadSystem;
+        public MonsterListChanger MonsterListChanger => _monsterListChanger;
 
-        public void Initialize(AssetProvider assetProvider,PlayerDataParser playerDataParser,
-            LanguageProvider languageProvider,ProgressSeeker progressSeeker,
-            KillList killList,UIController uiController,MonsterResourcesParser monsterResourcesParser)
+        public GlobalSystems(CellFactory cellFactory, FindSystem findSystem, DesignChanger designChanger)
         {
-            _progressSeeker = progressSeeker;
-            _languageProvider = languageProvider;
-            _assetProvider = assetProvider;
-            this._playerDataParser = playerDataParser;
-            _killList = killList;
-            _uiController = uiController;
-            _monsterResourcesParser = monsterResourcesParser;
+            _languageProvider = new LanguageProvider();
+            _saveLoadSystem = new SaveLoadSystem();
+            _killList = new KillList();
+            _monsterTierListStorage = new MonsterTierListStorage(_languageProvider);
+            _settingsController = new SettingsController();
+            _monsterResourcesParser = new MonsterResourcesParser();
+            _playerDataParser = new PlayerDataParser(_saveLoadSystem);
             _inputSystemHandler = new InputSystemHandler();
+            _monsterListChanger = new MonsterListChanger();
+            _curtainSystem = new CurtainSystem();
+            _cellFactory = cellFactory;
+            _findSystem = findSystem;
+            _designChanger = designChanger;
+        }
+        public void Initialize(AssetProvider assetProvider,UIController uiController)
+        {
+            _progressSeekerView = uiController.ProgressSeeker;
+            _uiController = uiController;
+            _assetProvider = assetProvider;
+            _saveLoadSystem.Initialize(assetProvider);
+            _settingsController.Initialize(this,_uiController);
+            _monsterListChanger.Initialize(_uiController,_cellFactory,_findSystem,_designChanger,this);
+            _languageProvider.OnLanguageChange += ChangeLanguage;
         }
 
         public Sprite GetSprite(string imageName)
@@ -80,7 +111,7 @@ namespace Systems
         public void SetDefeatedState(MonsterModel model, bool isDefeated)
         {
             _playerDataParser.SetDefeated(model,isDefeated);
-            _progressSeeker.UpdateSlider();
+            _progressSeekerView.UpdateSlider();
         }
 
         public string GetStyle(StyleType modelStyle)
@@ -103,12 +134,6 @@ namespace Systems
             return " ";
         }
 
-        public void ChangeStyle()
-        {
-            OnChangeStyle?.Invoke();
-            _playerDataParser.SaveAppData(_languageProvider.GetLanguageString(),CurrentStyle);
-        }
-
         public void AddToKillList(MonsterCell monsterCell)
         {
             _killList.TryAddToList(monsterCell.Model);
@@ -127,6 +152,20 @@ namespace Systems
         public Lang GetLang()
         {
             return _languageProvider.GetLanguage();
+        }
+        
+        private void ChangeLanguage()
+        {
+            _languageProvider.ChangeLanguageText();
+        }
+        public void SetMonsterList()
+        {
+            if (_playerDataParser.AppData.lastStyle == "RISE") CurrentStyle = StyleType.RISE;
+            else if (_playerDataParser.AppData.lastStyle == "WORLD") CurrentStyle = StyleType.WORLD;
+            else if (_playerDataParser.AppData.lastStyle == "WILDS") CurrentStyle = StyleType.WILDS;
+        
+            _monsterListChanger.SetCurrentMonsterList(CurrentStyle);
+            OnChangeStyle?.Invoke();
         }
     }
 }

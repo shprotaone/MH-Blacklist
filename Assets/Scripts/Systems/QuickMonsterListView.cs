@@ -17,9 +17,9 @@ namespace Systems
         private KillList _killList;
         private QuickCell _quickCell;
 
-        public void Initialize(KillList killList,AssetProvider assetProvider,GlobalSystems globalSystems)
+        public void Initialize(AssetProvider assetProvider,GlobalSystems globalSystems)
         {
-            _killList = killList;
+            _killList = globalSystems.KillList;
             _quickCell = assetProvider.GetQuickCell();
             _globalSystems = globalSystems;
             _cells = new List<QuickCell>();
@@ -55,7 +55,7 @@ namespace Systems
             }
         }
 
-        private void Clear()
+        public void Clear()
         {
             for (int i = 0; i < _cells.Count; i++) 
                 Destroy(_cells[i].gameObject);
@@ -93,6 +93,12 @@ namespace Systems
         {
             _cells.Remove(cell);
             Destroy(cell.gameObject);
+        }
+
+        public void ResetList()
+        {
+            _killList.ResetList();
+            CheckShowButton();
         }
     }
 }
