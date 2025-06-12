@@ -48,7 +48,9 @@ namespace Systems
             _dragDelta -= _lastPosition;
             if (Mathf.Abs(_dragDelta) < dragDeltaThreshold)
             {
-                Handheld.Vibrate();
+    #if UNITY_ANDROID
+            Handheld.Vibrate();
+    #endif
                 _currentAction?.Invoke();    
             }
         }

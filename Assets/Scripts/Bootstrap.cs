@@ -1,8 +1,5 @@
 using System.Collections;
 using Cysharp.Threading.Tasks;
-using Data;
-using Data.JSON;
-using Enums;
 using Parser;
 using Systems;
 using Systems.Factory;
@@ -19,28 +16,24 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private DesignChanger _designChanger;
     [SerializeField] private CellFactory _cellFactory;
 
-    private GlobalSystems _globalSystems;
     private CurtainSystem _curtainSystem;
     private MonsterResourcesParser _monsterResourcesParser;
     private PlayerDataParser _playerDataParser;
-    private SaveLoadSystem _saveLoadSystem;
     private MonsterListChanger _monsterListChanger;
 
     private async void Start()
     {
-        _globalSystems = new GlobalSystems(_cellFactory, _findSystem, _designChanger);
-        _globalSystems.Initialize(_assetProvider, _uiController);
-        _curtainSystem = _globalSystems.CurtainSystem;
+        GlobalSystems.Instance.Initialize(_cellFactory, _findSystem, _designChanger,_assetProvider, _uiController);
+        _curtainSystem = GlobalSystems.Instance.CurtainSystem;
         await InitCurtain();
-        _monsterResourcesParser = _globalSystems.MosterResourcesParser;
-        _playerDataParser = _globalSystems.PlayerDataParser;
-        _saveLoadSystem = _globalSystems.SaveLoadSystem;
-        _monsterListChanger = _globalSystems.MonsterListChanger;
+        _monsterResourcesParser = GlobalSystems.Instance.MosterResourcesParser;
+        _playerDataParser = GlobalSystems.Instance.PlayerDataParser;
+        _monsterListChanger = GlobalSystems.Instance.MonsterListChanger;
 
-        await _uiController.Initialize(_assetProvider, _globalSystems);
-        _globalSystems.SettingsController.BindButtons();
+        await _uiController.Initialize(_assetProvider, GlobalSystems.Instance);
+        GlobalSystems.Instance.SettingsController.BindButtons();
         
-        await _cellFactory.Initialize(_assetProvider, _globalSystems, _uiController);
+        await _cellFactory.Initialize(_assetProvider, GlobalSystems.Instance, _uiController);
         await Loading();
         _designChanger.Initialize(_assetProvider);
         Application.targetFrameRate = 60;
@@ -56,12 +49,12 @@ public class Bootstrap : MonoBehaviour
     private IEnumerator Loading()
     {
         _monsterResourcesParser.Initialize(_assetProvider);
-        _globalSystems.SetLanguage(_playerDataParser.AppData.lastLang);
+        GlobalSystems.Instance.SetLanguage(_playerDataParser.AppData.lastLang);
         
         _monsterListChanger.SetMonsterList();
 
-        _findSystem.Initialize(_globalSystems, _uiController);
-        _globalSystems.SetMonsterList();
+        _findSystem.Initialize(GlobalSystems.Instance);
+        GlobalSystems.Instance.SetMonsterList();
         _monsterListChanger.ShowMonsters();
         yield break;
 

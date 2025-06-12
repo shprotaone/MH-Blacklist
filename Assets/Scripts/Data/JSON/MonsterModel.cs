@@ -11,6 +11,8 @@ namespace Data.JSON
         public string imageName;
         public MonsterType type;
         public WeaknessType[] weaknessTypes;
+        public AttackType[] attackTypes;
+        public LocationType[] locations;
         public Dictionary<WeaknessStatusType,int> weaknessStatusTypes;
         public RankType rank;
         public StyleType style;

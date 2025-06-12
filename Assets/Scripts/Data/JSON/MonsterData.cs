@@ -14,5 +14,7 @@ namespace Data.JSON
         public string weaknessStatus;
         public string RUtranslate;
         public string monsterType;
+        public string attackType;
+        public string location;
     }
 }

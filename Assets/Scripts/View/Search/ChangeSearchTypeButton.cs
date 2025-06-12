@@ -9,8 +9,8 @@ namespace View.Search
         [SerializeField] private Button _changeButton;
     
         private TMP_Text _text;
-        private bool _isMonsterFind;
-        public bool IsMonsterFind => _isMonsterFind;
+        private FindType _findType;
+        public FindType FindType => _findType;
 
         public void Initialize()
         {
@@ -21,15 +21,19 @@ namespace View.Search
 
         private void Change()
         {
-            if (_isMonsterFind)
+            _findType++;
+
+            if (_findType == FindType.MATERIAL)
             {
-                _isMonsterFind = false;
                 _text.text = "MAT";
             }
-            else
+            else if (_findType == FindType.MONSTER)
             {
-                _isMonsterFind = true;
                 _text.text = "MON";
+            }
+            else if (_findType == FindType.MONSTER_TYPE)
+            {
+                _text.text = "TYP";
             }
         }
     }

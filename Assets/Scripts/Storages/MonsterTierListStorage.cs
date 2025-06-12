@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Data.JSON;
 using Enums;
+using NUnit.Framework;
 using Systems;
 using UnityEngine;
 
@@ -35,63 +37,176 @@ namespace Storages
 
                 if (monsterData.low)
                 {
-                    MonsterModel model = new MonsterModel();
-
-                    model.name = monsterData.name;
-                    model.weaknessTypes = CreateWeakness(monsterData);
-                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
-                    model.imageName = monsterData.name;
-                    model.style = style;
-                    model.rank = RankType.LOW;
-                    model.type = GetMonsterType(monsterData.monsterType);
+                    var model = ParseToModel(style, monsterData,RankType.LOW);
                     _lowRankList.Add(model);
                 }
                 
                 if (monsterData.high)
                 {
-                    MonsterModel model = new MonsterModel();
-
-                    model.name = monsterData.name;
-                    model.weaknessTypes = CreateWeakness(monsterData);
-                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
-                    model.imageName = monsterData.name;
-                    model.style = style;
-                    model.rank = RankType.HIGH;
-                    model.type = GetMonsterType(monsterData.monsterType);
+                    var model = ParseToModel(style, monsterData,RankType.HIGH);
                     _highRankList.Add(model);
                 }
 
                 if (monsterData.mr)
                 {
-                    MonsterModel model = new MonsterModel();
-
-                    model.name = monsterData.name;
-                    model.weaknessTypes = CreateWeakness(monsterData);
-                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
-                    model.imageName = monsterData.name;
-                    model.style = style;
-                    model.rank = RankType.MASTER;
-                    model.type = GetMonsterType(monsterData.monsterType);
+                    var model = ParseToModel(style, monsterData,RankType.MASTER);
                     _masterRankList.Add(model);
                 }
 
                 if (monsterData.tempered)
                 {
-                    MonsterModel model = new MonsterModel();
-
-                    model.name = monsterData.name;
-                    model.weaknessTypes = CreateWeakness(monsterData);
-                    model.weaknessStatusTypes = CreateWeaknessStatusType(monsterData);
-                    model.imageName = monsterData.name;
-                    model.style = style;
-                    model.rank = RankType.TEMPERED;
-                    model.type = GetMonsterType(monsterData.monsterType);
+                    var model = ParseToModel(style, monsterData,RankType.TEMPERED);
                     _temperedRankList.Add(model);
                 }
             }
         }
 
-        private Dictionary<WeaknessStatusType,int> CreateWeaknessStatusType(MonsterData monsterData)
+        private MonsterModel ParseToModel(StyleType style, MonsterData monsterData,RankType rank)
+        {
+            MonsterModel model = new MonsterModel();
+
+            model.name = monsterData.name;
+            model.weaknessTypes = ParseWeakness(monsterData);
+            model.weaknessStatusTypes = ParseWeaknessStatusType(monsterData);
+            model.imageName = monsterData.name;
+            model.style = style;
+            model.rank = rank;
+            model.type = ParseMonsterType(monsterData.monsterType);
+            model.attackTypes = ParseAttackTypes(monsterData);
+            model.locations = ParseLocations(monsterData);
+            return model;
+        }
+
+        private LocationType[] ParseLocations(MonsterData monsterData)
+        {
+            List<LocationType> locationTypes = new();
+            var locationList = monsterData.location.Split(',');
+
+            foreach (var locName in locationList)
+            {
+                switch (locName)
+                {
+                    case "af":
+                        locationTypes.Add(LocationType.ANCIENT_FOREST);
+                        break;
+                    case "ww":
+                        locationTypes.Add(LocationType.WILDSPIRE_WASTE);
+                        break;
+                    case "ch":
+                        locationTypes.Add(LocationType.CORAL_HIGHLANDS);
+                        break;
+                    case "rv":
+                        locationTypes.Add(LocationType.ROTTEN_VALE);
+                        break;
+                    case "hr":
+                        locationTypes.Add(LocationType.HOARFROST_REACH);
+                        break;
+                    case "gl":
+                        locationTypes.Add(LocationType.THE_GUILDING_LANDS);
+                        break;
+                    case "er":
+                        locationTypes.Add(LocationType.ELDERS_RECESS);
+                        break;
+                    case "sv":
+                        locationTypes.Add(LocationType.SECLUDED_VALLEY);
+                        break;
+                    case "cs":
+                        locationTypes.Add(LocationType.CASTLE_SCHRADE);
+                        break;
+                    case "ced":
+                        locationTypes.Add(LocationType.CAVERNS_OF_EL_DORADO);
+                        break;
+                    case "oi":
+                        locationTypes.Add(LocationType.ORIGIN_ISLE);
+                        break;
+                    case "sr":
+                        locationTypes.Add(LocationType.SHRINE_RUINS);
+                        break;
+                    case "fi":
+                        locationTypes.Add(LocationType.FROST_ISLANDS);
+                        break;
+                    case "sp":
+                        locationTypes.Add(LocationType.SANDY_PLAINS);
+                        break;
+                    case "ff":
+                        locationTypes.Add(LocationType.FLOODED_FOREST);
+                        break;
+                    case "lc":
+                        locationTypes.Add(LocationType.LAVA_CAVERNS);
+                        break;
+                    case "c":
+                        locationTypes.Add(LocationType.THE_CITADEL);
+                        break;
+                    case "j":
+                        locationTypes.Add(LocationType.THE_JUNGLE);
+                        break;
+                    case "rs":
+                        locationTypes.Add(LocationType.RED_STRONGHOLD);
+                        break;
+                    case "is":
+                        locationTypes.Add(LocationType.INFERNAL_SPRINGS);
+                        break;
+                    case "fa":
+                        locationTypes.Add(LocationType.FORFLORN_ARENA);
+                        break;
+                    case "cp":
+                        locationTypes.Add(LocationType.CORAL_PALACE);
+                        break;
+                    case "r":
+                        locationTypes.Add(LocationType.RAMPAGE);
+                        break;
+                    case "s":
+                        locationTypes.Add(LocationType.SPECIAL);
+                        break;
+                    case "wp":
+                        locationTypes.Add(LocationType.WINDWARD_PLAINS);
+                        break;
+                    case "sf":
+                        locationTypes.Add(LocationType.SCARLET_FOREST);
+                        break;
+                    case "ob":
+                        locationTypes.Add(LocationType.OILWELL_BASIN);
+                        break;
+                    case "ic":
+                        locationTypes.Add(LocationType.ICESHARD_CLIFFS);
+                        break;
+                    case "rw":
+                        locationTypes.Add(LocationType.RUINS_OF_WYVERIA);
+                        break;
+                    default:
+                        Debug.Log(locName + " not found");
+                        break;
+                }
+            }
+
+            return locationTypes.ToArray();
+        }
+
+        private AttackType[] ParseAttackTypes(MonsterData monsterData)
+        {
+            List<AttackType> attackTypes = new();
+            var attackList = monsterData.attackType.Split(',');
+
+            foreach (var attack in attackList)
+            {
+                if (attack == "water") attackTypes.Add(AttackType.WATER);
+                else if (attack == "thunder") attackTypes.Add(AttackType.THUNDER);
+                else if (attack == "frost") attackTypes.Add(AttackType.FROST);
+                else if (attack == "fire") attackTypes.Add(AttackType.FIRE);
+                else if (attack == "dragon") attackTypes.Add(AttackType.DRAGON);
+                else if (attack == "poison") attackTypes.Add(AttackType.POISON);
+                else if (attack == "sleep") attackTypes.Add(AttackType.SLEEP);
+                else if (attack == "para") attackTypes.Add(AttackType.PARA);
+                else if (attack == "blast") attackTypes.Add(AttackType.BLAST);
+                else if (attack == "stun") attackTypes.Add(AttackType.STUN);
+                else Debug.Log("Add " + attack);
+
+            }
+
+            return attackTypes.ToArray();
+        }
+
+        private Dictionary<WeaknessStatusType,int> ParseWeaknessStatusType(MonsterData monsterData)
         {
             Dictionary<WeaknessStatusType,int> weaknessTypes = new();
             var weaknessList = monsterData.weaknessStatus.Split(';',StringSplitOptions.RemoveEmptyEntries);
@@ -107,7 +222,7 @@ namespace Storages
             }
             catch (Exception e)
             {
-                Debug.Log(monsterData.name);
+                Debug.Log("Add weakness status exception " + monsterData.name);
             }
             
             foreach (var weakness in weaknessDict)
@@ -136,7 +251,7 @@ namespace Storages
             
         }
 
-        private MonsterType GetMonsterType(string monsterType)
+        private MonsterType ParseMonsterType(string monsterType)
         {
                 if (monsterType == "Amphibians") return MonsterType.AMPHIBIANS;
                 if (monsterType == "Bird wyverns") return MonsterType.BIRDWYVERNS;
@@ -156,7 +271,7 @@ namespace Storages
                 return MonsterType.NONE;
         }
 
-        private WeaknessType[] CreateWeakness(MonsterData monsterData)
+        private WeaknessType[] ParseWeakness(MonsterData monsterData)
         {
             List<WeaknessType> weaknessTypes = new();
             var weaknessList = monsterData.weakness.Split(',');

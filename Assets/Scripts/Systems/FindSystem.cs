@@ -5,7 +5,6 @@ using Enums;
 using Storages;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using View.Search;
 
 namespace Systems
@@ -18,7 +17,7 @@ namespace Systems
         private GlobalSystems _globalSystems;
         private List<MonsterCell> _cells = new();
 
-        public void Initialize(GlobalSystems globalSystems, UIController uiController)
+        public void Initialize(GlobalSystems globalSystems)
         {
             _globalSystems = globalSystems;
             _globalSystems.OnChangeStyle += FindCells;
@@ -42,81 +41,110 @@ namespace Systems
 
         private void FindCells(string val)
         {
-            if (changeSearchTypeOfFind.IsMonsterFind)
+            if (changeSearchTypeOfFind.FindType == FindType.MONSTER)
             {
-                foreach (var cell in _cells)
-                {
-                    if (cell.Name.Contains(val, StringComparison.OrdinalIgnoreCase))
-                    {
-                        cell.gameObject.SetActive(true);
-                    }
-                    else
-                    {
-                        cell.gameObject.SetActive(false);
-                    }
-                }    
+                FindMonsterByName(val);
             }
-            else
+            else if (changeSearchTypeOfFind.FindType == FindType.MATERIAL)
             {
-                List<string> dictNames = new List<string>();
-            
-                if (val == String.Empty)
-                {
-                    foreach (var cell in _cells)
-                    {
-                        cell.gameObject.SetActive(true);
-                    }
-                
-                    Debug.Log("Empty find");
-                    return;
-                }
+                FindMonsterByMaterial(val);
+            }
+            else if (changeSearchTypeOfFind.FindType == FindType.MONSTER_TYPE)
+            {
+                FindMonsterByType(val);
+            }
+        
+        }
 
-                List<MonsterResourceList> resourceList = new List<MonsterResourceList>();
-
-                if (_globalSystems.CurrentStyle == StyleType.RISE)
-                {
-                    resourceList = _globalSystems.MosterResourcesParser.RiseList;
-                }
-                else if (_globalSystems.CurrentStyle == StyleType.WORLD)
-                {
-                    resourceList = _globalSystems.MosterResourcesParser.WorldList;
-                }
-                
-                foreach (var resourceName in resourceList)
-                {
-                    foreach (var nameResource in resourceName.Resources)
-                    {
-                        if (nameResource.Contains(val))
-                        {
-                            dictNames.Add(resourceName.Key);
-                            break;
-                        }
-                    }
-                }
-
-                var cellListToOpen = new List<MonsterCell>();
-            
-                foreach (var dictName in dictNames)
-                {
-                    foreach (var cell in _cells)
-                    {
-                        if (cell.Model.name.Contains(dictName, StringComparison.OrdinalIgnoreCase))
-                        {
-                            if(!cellListToOpen.Contains(cell)) cellListToOpen.Add(cell);
-                        }
-                    
-                        cell.gameObject.SetActive(false);
-                    }
-                }
-
-                foreach (MonsterCell cell in cellListToOpen)
+        private void FindMonsterByType(string val)
+        {
+            foreach (var cell in _cells)
+            {
+                if (cell.Type.Contains(val,StringComparison.OrdinalIgnoreCase))
                 {
                     cell.gameObject.SetActive(true);
                 }
-            
-                Debug.Log("Found " + dictNames.Count);
+                else
+                {
+                    cell.gameObject.SetActive(false);
+                }
             }
-        
+        }
+
+        private void FindMonsterByName(string val)
+        {
+            foreach (var cell in _cells)
+            {
+                if (cell.Name.Contains(val, StringComparison.OrdinalIgnoreCase))
+                {
+                    cell.gameObject.SetActive(true);
+                }
+                else
+                {
+                    cell.gameObject.SetActive(false);
+                }
+            }
+        }
+
+        private void FindMonsterByMaterial(string val)
+        {
+            var dictNames = new List<string>();
+
+            if (val == String.Empty)
+            {
+                foreach (var cell in _cells)
+                {
+                    cell.gameObject.SetActive(true);
+                }
+
+                Debug.Log("Empty find");
+                return;
+            }
+
+            var resourceList = new List<MonsterResourceList>();
+
+            if (_globalSystems.CurrentStyle == StyleType.RISE)
+            {
+                resourceList = _globalSystems.MosterResourcesParser.RiseList;
+            }
+            else if (_globalSystems.CurrentStyle == StyleType.WORLD)
+            {
+                resourceList = _globalSystems.MosterResourcesParser.WorldList;
+            }
+
+            foreach (var resourceName in resourceList)
+            {
+                foreach (var nameResource in resourceName.Resources)
+                {
+                    if (nameResource.Contains(val))
+                    {
+                        dictNames.Add(resourceName.Key);
+                        break;
+                    }
+                }
+            }
+
+            var cellListToOpen = new List<MonsterCell>();
+
+            foreach (var dictName in dictNames)
+            {
+                foreach (var cell in _cells)
+                {
+                    if (cell.Model.name.Contains(dictName, StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (!cellListToOpen.Contains(cell)) cellListToOpen.Add(cell);
+                    }
+
+                    cell.gameObject.SetActive(false);
+                }
+            }
+
+            foreach (MonsterCell cell in cellListToOpen)
+            {
+                cell.gameObject.SetActive(true);
+            }
+
+            Debug.Log("Found " + dictNames.Count);
         }
 
         private void OnDestroy()

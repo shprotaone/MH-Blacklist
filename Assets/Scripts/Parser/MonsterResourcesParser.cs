@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Data.JSON;
 using Enums;
 using Storages;
+using Systems;
 using UnityEngine;
 
 namespace Parser
@@ -125,8 +126,10 @@ namespace Parser
             }
         }
 
-        public List<string> GetResources(MonsterModel model, Lang lang)
+        public List<string> GetResources(MonsterModel model)
         {
+            Lang lang = GlobalSystems.Instance.GetLang();
+
             if (model.style == StyleType.RISE)
             {
                 var monsterList = RiseList.FindAll(x => x.Key == model.name);

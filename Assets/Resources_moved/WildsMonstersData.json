@@ -8,7 +8,9 @@
         "weakness": "frost,thunder",
         "weaknessStatus": "poison,3;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Чатакабра",
-        "monsterType": "Amphibians"
+        "monsterType": "Amphibians",
+        "attackType": "none",
+        "location": "wp"
     },
     {
         "name": "Quematrice",
@@ -19,7 +21,9 @@
         "weakness": "water",
         "weaknessStatus": "poison,3;sleep,2;para,3;blast,2;stun,2",
         "RUtranslate": "Кематрис",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "fire",
+        "location": "wp,rw"
     },
     {
         "name": "Lala Barina",
@@ -30,7 +34,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,2;sleep,2;para,1;blast,2;stun,3",
         "RUtranslate": "Лала Барина",
-        "monsterType": "Temnocerans"
+        "monsterType": "Temnocerans",
+        "attackType": "para",
+        "location": "sf,rw"
     },
     {
         "name": "Congalala",
@@ -41,7 +47,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Конгалала",
-        "monsterType": "Fanged beasts"
+        "monsterType": "Fanged Beasts",
+        "attackType": "blast,poison",
+        "location": "sf,rw"
     },
     {
         "name": "Balahara",
@@ -52,7 +60,9 @@
         "weakness": "thunder",
         "weaknessStatus": "poison,2;sleep,2;para,3;blast,2;stun,2",
         "RUtranslate": "Балахара",
-        "monsterType": "Leviathans"
+        "monsterType": "Leviathans",
+        "attackType": "water",
+        "location": "wp"
     },
     {
         "name": "Doshaguma",
@@ -63,7 +73,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Вожак дошагум",
-        "monsterType": "Fanged beasts"
+        "monsterType": "Fanged Beasts",
+        "attackType": "blast",
+        "location": "wp,sf,rw"
     },
     {
         "name": "Uth Duna",
@@ -74,7 +86,9 @@
         "weakness": "thunder",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,1",
         "RUtranslate": "Ут дуна",
-        "monsterType": "Leviathans"
+        "monsterType": "Leviathans",
+        "attackType": "water",
+        "location": "sf"
     },
     {
         "name": "Rompopolo",
@@ -85,7 +99,9 @@
         "weakness": "water",
         "weaknessStatus": "poison,1;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Ромпополо",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "poison",
+        "location": "ob"
     },
     {
         "name": "Rey Dau",
@@ -96,7 +112,9 @@
         "weakness": "frost",
         "weaknessStatus": "poison,2;sleep,2;para,1;blast,2;stun,1",
         "RUtranslate": "Рей дау",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "thunder",
+        "location": "wp"
     },
     {
         "name": "Nerscylla",
@@ -107,7 +125,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,2;sleep,1;para,3;blast,2;stun,2",
         "RUtranslate": "Нерскилла",
-        "monsterType": "Temnocerans"
+        "monsterType": "Temnocerans",
+        "attackType": "poison,sleep",
+        "location": "ob,ic,rw"
     },
     {
         "name": "Hirabami",
@@ -118,7 +138,9 @@
         "weakness": "fire,thunder",
         "weaknessStatus": "poison,3;sleep,3;para,2;blast,2;stun,2",
         "RUtranslate": "Хирабами",
-        "monsterType": "Leviathans"
+        "monsterType": "Leviathans",
+        "attackType": "frost",
+        "location": "ic,rw"
     },
     {
         "name": "Ajarakan",
@@ -129,7 +151,9 @@
         "weakness": "water,frost",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Ажаракан",
-        "monsterType": "Fanged beasts"
+        "monsterType": "Fanged Beasts",
+        "attackType": "fire",
+        "location": "ob,rw"
     },
     {
         "name": "Nu Udra",
@@ -140,7 +164,9 @@
         "weakness": "water",
         "weaknessStatus": "poison,2;sleep,2;para,1;blast,1;stun,2",
         "RUtranslate": "Ну удра",
-        "monsterType": "Cephalopods"
+        "monsterType": "Cephalopods",
+        "attackType": "fire",
+        "location": "ob"
     },
     {
         "name": "Guardian Doshaguma",
@@ -151,7 +177,9 @@
         "weakness": "frost",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Дошагума-страж",
-        "monsterType": "Construct"
+        "monsterType": "Construct",
+        "attackType": "none",
+        "location": "rw"
     },
     {
         "name": "Guardian Rathalos",
@@ -162,7 +190,9 @@
         "weakness": "thunder,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Раталос-страж",
-        "monsterType": "Construct"
+        "monsterType": "Construct",
+        "attackType": "fire,poison",
+        "location": "rw"
     },
     {
         "name": "Guardian Arkveld",
@@ -173,7 +203,9 @@
         "weakness": "dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Арквельд-страж",
-        "monsterType": "Construct"
+        "monsterType": "Construct",
+        "attackType": "dragon",
+        "location": "rw"
     },
     {
         "name": "Zoh Shia",
@@ -184,10 +216,12 @@
         "weakness": "dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,1",
         "RUtranslate": "Страж Зо Шиа",
-        "monsterType": "Construct"
+        "monsterType": "Construct",
+        "attackType": "fire,thunder",
+        "location": "rw"
     },
     {
-        "name": "Yian Kut Ku",
+        "name": "Yian Kut-Ku",
         "low": 1,
         "high": 1,
         "mr": null,
@@ -195,7 +229,9 @@
         "weakness": "thunder,frost",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Йан-кут-ку",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "fire",
+        "location": "sf,ic"
     },
     {
         "name": "Guardian Fulgur Anjanath",
@@ -206,7 +242,9 @@
         "weakness": "frost,water,dragon",
         "weaknessStatus": "poison,1;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Аньянат",
-        "monsterType": "Construct"
+        "monsterType": "Construct",
+        "attackType": "thunder",
+        "location": "rw"
     },
     {
         "name": "Jin Dahaad",
@@ -217,7 +255,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Джин Дахаад",
-        "monsterType": "Leviathans"
+        "monsterType": "Leviathans",
+        "attackType": "frost",
+        "location": "ic"
     },
     {
         "name": "Guardian Ebony Odogaron",
@@ -228,7 +268,9 @@
         "weakness": "water",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Эбеновый одогарон-страж",
-        "monsterType": "Construct"
+        "monsterType": "Construct",
+        "attackType": "bleed",
+        "location": "rw"
     },
     {
         "name": "Xu Wu",
@@ -239,7 +281,9 @@
         "weakness": "frost",
         "weaknessStatus": "poison,3;sleep,1;para,2;blast,2;stun,2",
         "RUtranslate": "Сю ву",
-        "monsterType": "Cephalopods"
+        "monsterType": "Cephalopods",
+        "attackType": "dragon",
+        "location": "rw"
     },
     {
         "name": "Gore Magala",
@@ -250,7 +294,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,1;sleep,1;para,1;blast,2;stun,1",
         "RUtranslate": "Кровавая Магала",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder Dragon",
+        "attackType": "\trabies",
+        "location": "ic"
     },
     {
         "name": "Blangonga",
@@ -261,7 +307,9 @@
         "weakness": "fire,thunder",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Блангога",
-        "monsterType": "Fanged beasts"
+        "monsterType": "Fanged Beasts",
+        "attackType": "frost",
+        "location": "ic"
     },
     {
         "name": "Arkveld",
@@ -272,7 +320,9 @@
         "weakness": "dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Арквельд",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "dragon",
+        "location": "wp,sf,ob,ic,rw"
     },
     {
         "name": "Rathalos",
@@ -283,7 +333,9 @@
         "weakness": "dragon",
         "weaknessStatus": "poison,1;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Раталос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison",
+        "location": "sf,ob,rw"
     },
     {
         "name": "Rathian",
@@ -294,7 +346,9 @@
         "weakness": "dragon",
         "weaknessStatus": "poison,1;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Ратиана",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison",
+        "location": "wp,sf,ob"
     },
     {
         "name": "Gypceros",
@@ -305,7 +359,9 @@
         "weakness": "fire",
         "weaknessStatus": "poison,1;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Гипцерос",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "poison",
+        "location": "wp,ob,ic,rw"
     },
     {
         "name": "Mizutsune",
@@ -316,7 +372,9 @@
         "weakness": "thunder,dragon,frost",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Мидзутцуне",
-        "monsterType": "Leviathans"
+        "monsterType": "Leviathans",
+        "attackType": "water,buble",
+        "location": "sf,rw"
     },
     {
         "name": "Gravios",
@@ -327,7 +385,8 @@
         "weakness": "water,frost,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Гравиос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire",
+        "location": "ob,rw"
     }
-]
-}
+]}

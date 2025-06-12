@@ -29,6 +29,7 @@ namespace Cell
         public bool IsDefeated => _isDefeated;
         public MonsterModel Model => _model;
         public string Name => _name.text;
+        public string Type => _type.text;
 
         public void Initialize(GlobalSystems globalSystems, MonsterModel model)
         {

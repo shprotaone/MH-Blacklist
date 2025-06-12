@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Data.JSON;
 using Enums;
 using Systems;
 using UnityEngine;
@@ -10,26 +11,29 @@ namespace View.DetailPanel
     {
         [SerializeField] private List<Image> _slots;
 
-        public void Fill(GlobalSystems globalSystems, WeaknessType[] dataWeaknessTypes,StyleType type)
+        public void Fill(MonsterModel model)
         {
             DisableSlots();
 
-            for (int i = 0; i < dataWeaknessTypes.Length; i++)
-            {
-                _slots[i].sprite = globalSystems.GetSprite(dataWeaknessTypes[i],type);
-                _slots[i].gameObject.SetActive(true);
-            }
-        }
+            var weaknessSprites = CollectWeaknessSprites(model);
 
-        public void Fill(List<Sprite> weaknessSprites)
-        {
-            DisableSlots();
-        
             for (int i = 0; i < weaknessSprites.Count; i++)
             {
                 _slots[i].sprite = weaknessSprites[i];
                 _slots[i].gameObject.SetActive(true);
             }
+        }
+
+        private List<Sprite> CollectWeaknessSprites(MonsterModel model)
+        {
+            List<Sprite> _weaknessSprites = new List<Sprite>();
+
+            foreach (WeaknessType type in model.weaknessTypes)
+            {
+                _weaknessSprites.Add(GlobalSystems.Instance.GetSprite(type, model.style));
+            }
+
+            return _weaknessSprites;
         }
 
         private void DisableSlots()

@@ -1,4 +1,5 @@
-using System.Collections.Generic;
+using Data.JSON;
+using Systems;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,21 +14,20 @@ namespace View.DetailPanel
 
         [SerializeField] private WeaknessView _weaknessView;
         [SerializeField] private WeaknessStatusView _weaknessStatusView;
+        [SerializeField] private AttackFieldView _attackFieldView;
+        [SerializeField] private LocationFieldView _locationFieldView;
 
-        private GameObject _powerPrefab;
-    
-        public void Initialize(GameObject powerPrefab)
+        public void Fill(MonsterModel model)
         {
-            _powerPrefab = powerPrefab;
-        }
+            string spriteName = model.imageName + " " + model.style;
 
-        public void Fill(string monsterName, string monsterTypeName, Sprite iconSprite, List<Sprite> weaknessSprites, Dictionary<Sprite,int> weaknessStatusSprites)
-        {
-            _monsterIcon.sprite = iconSprite;
-            _nameText.text = monsterName;
-            _typeText.text = monsterTypeName;
-            _weaknessView.Fill(weaknessSprites);
-            _weaknessStatusView.Fill(_powerPrefab,weaknessStatusSprites);
+            _monsterIcon.sprite = GlobalSystems.Instance.GetSprite(spriteName);
+            _nameText.text = GlobalSystems.Instance.GetName(model.name);
+            _typeText.text = GlobalSystems.Instance.GetMonsterTypeName(model.type);
+            _weaknessView.Fill(model);
+            _weaknessStatusView.Fill(model);
+            _attackFieldView.Fill(model);
+            _locationFieldView.Fill(model);
         }
 
         public void Show()

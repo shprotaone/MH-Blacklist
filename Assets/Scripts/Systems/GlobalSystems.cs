@@ -15,7 +15,7 @@ namespace Systems
     {
         public event Action OnChangeStyle;
 
-        private GlobalSystems _instance;
+        private static GlobalSystems _instance;
         private LanguageProvider _languageProvider;
         private AssetProvider _assetProvider;
         private PlayerDataParser _playerDataParser;
@@ -34,6 +34,20 @@ namespace Systems
         private FindSystem _findSystem;
         private DesignChanger _designChanger;
 
+        private GlobalSystems(){ }
+
+        public static GlobalSystems Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new GlobalSystems();
+                }
+
+                return _instance;
+            }
+        }
         public LanguageProvider LanguageProvider => _languageProvider;
         public MonsterResourcesParser MosterResourcesParser => _monsterResourcesParser;
         public InputSystemHandler InputSystemHandler => _inputSystemHandler;
@@ -45,8 +59,9 @@ namespace Systems
         public CurtainSystem CurtainSystem => _curtainSystem;
         public SaveLoadSystem SaveLoadSystem => _saveLoadSystem;
         public MonsterListChanger MonsterListChanger => _monsterListChanger;
+        public AssetProvider AssetProvider => _assetProvider;
 
-        public GlobalSystems(CellFactory cellFactory, FindSystem findSystem, DesignChanger designChanger)
+        public void Initialize(CellFactory cellFactory, FindSystem findSystem, DesignChanger designChanger, AssetProvider assetProvider, UIController uiController)
         {
             _languageProvider = new LanguageProvider();
             _saveLoadSystem = new SaveLoadSystem();
@@ -61,9 +76,6 @@ namespace Systems
             _cellFactory = cellFactory;
             _findSystem = findSystem;
             _designChanger = designChanger;
-        }
-        public void Initialize(AssetProvider assetProvider,UIController uiController)
-        {
             _progressSeekerView = uiController.ProgressSeeker;
             _uiController = uiController;
             _assetProvider = assetProvider;
@@ -153,11 +165,12 @@ namespace Systems
         {
             return _languageProvider.GetLanguage();
         }
-        
+
         private void ChangeLanguage()
         {
             _languageProvider.ChangeLanguageText();
         }
+
         public void SetMonsterList()
         {
             if (_playerDataParser.AppData.lastStyle == "RISE") CurrentStyle = StyleType.RISE;

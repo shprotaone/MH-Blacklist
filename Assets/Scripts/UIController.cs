@@ -17,13 +17,13 @@ public class UIController : MonoBehaviour
     [SerializeField] private QuickMonsterListView _quickMonsterListView;
     [SerializeField] private UIFactory _uiFactory;
     [SerializeField] private RectTransform _openVerticalPos;
-    [SerializeField] private RectTransform _closePosition;
     [SerializeField] private GameObject _powerPrefab;
 
     private SettingsView _settingsView;
     private DetailPanelView _detailPanelView;
     private RectTransform _settingsPanel;
     private GlobalSystems _globalSystems;
+    private Vector2 _closePosition;
     private bool _isPortrait;
 
     public RankTabController RankTabController => _rankTabController;
@@ -48,7 +48,7 @@ public class UIController : MonoBehaviour
     private void CreateDetailWindow()
     {
         _detailPanelView = Instantiate(_uiFactory.GetDetailedView(), _portraitPanel.transform, false);
-        _detailPanelView.Initialize(_powerPrefab,_globalSystems);
+        _detailPanelView.Initialize();
         _detailPanelView.Hide();
         _globalSystems.LanguageProvider.Add(_detailPanelView.GetComponentsInChildren<TranslateObj>());
     }
@@ -58,6 +58,9 @@ public class UIController : MonoBehaviour
         _settingsView = Instantiate(_uiFactory.GetSettingsView(), _portraitPanel.transform, false);
         _settingsView.Initialize(settingsController);
         _settingsPanel = _settingsView.GetComponent<RectTransform>();
+        _closePosition = new Vector2(_settingsPanel.rect.width, 0);
+
+        Debug.Log("Close position " + _closePosition);
         _globalSystems.LanguageProvider.Add(_settingsView.GetComponentsInChildren<TranslateObj>());
     }
 
@@ -71,7 +74,7 @@ public class UIController : MonoBehaviour
         else
         {
             _portraitPanel.SettingsButton.transform.DORotate(new Vector3(0, 0, 0), 0.5f).SetEase(Ease.InOutCubic);
-            _settingsPanel.DOAnchorPos(_closePosition.anchoredPosition, 0.5f).SetEase(Ease.InOutCubic);
+            _settingsPanel.DOAnchorPos(_closePosition, 0.5f).SetEase(Ease.InOutCubic);
         }
     }
 

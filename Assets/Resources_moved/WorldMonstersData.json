@@ -1,4 +1,4 @@
-{"data":[
+{"data": [
     {
         "name": "Great Jagras",
         "low": 1,
@@ -8,7 +8,9 @@
         "weakness": "fire,frost,thunder,dragon",
         "weaknessStatus": "poison,3;sleep,3;para,3;blast,3;stun,3",
         "RUtranslate": "Большой Яграс",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "none",
+        "location": "af"
     },
     {
         "name": "Kulu-Ya-Ku",
@@ -19,7 +21,9 @@
         "weakness": "water,thunder,frost,fire,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Кулу-Йа-Ку",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "stun",
+        "location": "af,ww"
     },
     {
         "name": "Pukei-Pukei",
@@ -30,7 +34,9 @@
         "weakness": "dragon,thunder,water,frost",
         "weaknessStatus": "sleep,3;para,3;blast,2;stun,2;poison,1",
         "RUtranslate": "Поки-Поки",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "poison",
+        "location": "af,ww"
     },
     {
         "name": "Tobi-Kadachi",
@@ -41,7 +47,9 @@
         "weakness": "water,frost,fire,dragon",
         "weaknessStatus": "poison,3;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Тоби-кадачи",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "thunder",
+        "location": "af"
     },
     {
         "name": "Barroth",
@@ -52,7 +60,9 @@
         "weakness": "fire,frost,dragon",
         "weaknessStatus": "poison,3;para,3;blast,3;sleep,2;stun,1",
         "RUtranslate": "Баррот",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "none",
+        "location": "ww"
     },
     {
         "name": "Anjanath",
@@ -63,7 +73,9 @@
         "weakness": "water,frost,thunder,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;stun,2;blast,1",
         "RUtranslate": "Аньянат",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "fire",
+        "location": "af,ww"
     },
     {
         "name": "Paolumu",
@@ -74,7 +86,9 @@
         "weakness": "fire,thunder,frost,dragon",
         "weaknessStatus": "blast,3;stun,3;poison,2;sleep,2;para,2",
         "RUtranslate": "Паолуму",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "none",
+        "location": "ch"
     },
     {
         "name": "Tzitzi-Ya-Ku",
@@ -85,7 +99,9 @@
         "weakness": "thunder,frost,water,dragon,fire",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Цици-йа-ку",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "stun",
+        "location": "ch"
     },
     {
         "name": "Great Girros",
@@ -96,7 +112,9 @@
         "weakness": "water,frost,fire,fire,dragon",
         "weaknessStatus": "sleep,3;blast,2;poison,2;stun,2;para,1",
         "RUtranslate": "Большой Гиррос",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "para",
+        "location": "rv"
     },
     {
         "name": "Rathian",
@@ -107,7 +125,9 @@
         "weakness": "dragon,thunder,frost,water",
         "weaknessStatus": "stun,3;sleep,2;para,2;poison,1;blast,1",
         "RUtranslate": "Ратиана",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison",
+        "location": "af,ww"
     },
     {
         "name": "Radobaan",
@@ -118,7 +138,9 @@
         "weakness": "dragon,frost,fire,thunder,water",
         "weaknessStatus": "blast,3;poison,2;para,2;stun,2;sleep,1",
         "RUtranslate": "Радобаан",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "sleep",
+        "location": "rv"
     },
     {
         "name": "Legiana",
@@ -129,7 +151,9 @@
         "weakness": "thunder,fire,dragon,water",
         "weaknessStatus": "poison,3;sleep,2;paralisys,2;blast,2;stun,2",
         "RUtranslate": "Легиана",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "frost",
+        "location": "ch,rv,hr,gl"
     },
     {
         "name": "Rathalos",
@@ -140,7 +164,9 @@
         "weakness": "dragon,thunder,water,frost",
         "weaknessStatus": "sleep,2;para,2;stun,2;poison,1;blast,1",
         "RUtranslate": "Раталос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison",
+        "location": "af, er"
     },
     {
         "name": "Diablos",
@@ -148,10 +174,12 @@
         "high": 1,
         "mr": 1,
         "tempered": 1,
-        "weakness": "frost,water,dragon,water,thunder",
-        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun,1",
+        "weakness": "frost,water,dragon,fire,thunder",
+        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun1",
         "RUtranslate": "Диаблос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "none",
+        "location": "ww"
     },
     {
         "name": "Odogaron",
@@ -162,7 +190,9 @@
         "weakness": "frost,thunder,water,fire",
         "weaknessStatus": "para,3;sleep,2;blast,2;stun,2;poison,1",
         "RUtranslate": "Одогарон",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "bleed",
+        "location": "ch,rv"
     },
     {
         "name": "Jyuratodus",
@@ -173,7 +203,9 @@
         "weakness": "thunder,water,dragon,fire",
         "weaknessStatus": "stun,3;poison,2;para,2;blast,1;sleep,1",
         "RUtranslate": "Юратод",
-        "monsterType": "Piscine wyverns"
+        "monsterType": "Piscine wyverns",
+        "attackType": "water",
+        "location": "ww"
     },
     {
         "name": "Dodogama",
@@ -184,7 +216,9 @@
         "weakness": "thunder,water,dragon,frost",
         "weaknessStatus": "poison,3;sleep,2;paralisys,2;stun,2;blast,1",
         "RUtranslate": "Додогама",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "fire,blast",
+        "location": "er"
     },
     {
         "name": "Azure Rathalos",
@@ -195,7 +229,9 @@
         "weakness": "dragon,frost,thunder,water",
         "weaknessStatus": "sleep,2;para,2;stun,2;poison,1;blast,1",
         "RUtranslate": "Лазурный Раталос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison",
+        "location": "af,er"
     },
     {
         "name": "Pink Rathian",
@@ -206,7 +242,9 @@
         "weakness": "dragon,thunder,frost,water",
         "weaknessStatus": "stun,3;sleep,2;para,2;poison,1;blast,1",
         "RUtranslate": "Розовая Ратиана",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "poison,noxPoison",
+        "location": "ww,ch"
     },
     {
         "name": "Black Diablos",
@@ -215,9 +253,11 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,thunder",
-        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun,1",
+        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun1",
         "RUtranslate": "Черная Диаблос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "none",
+        "location": "ww"
     },
     {
         "name": "Lavasioth",
@@ -228,7 +268,9 @@
         "weakness": "frost,dragon,water,thunder",
         "weaknessStatus": "poison,3;para,2;stun,2;sleep,1;blast,1",
         "RUtranslate": "Лавасиот",
-        "monsterType": "Piscine wyverns"
+        "monsterType": "Piscine wyverns",
+        "attackType": "fire",
+        "location": "er"
     },
     {
         "name": "Uragaan",
@@ -237,9 +279,11 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost,dragon",
-        "weaknessStatus": "poison,3;stun,3;para,2;blast,2;sleep,1",
+        "weaknessStatus": "poison,3;stun,3;para,2;blast,2;stun,1",
         "RUtranslate": "Урагаан",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "fire,sleep",
+        "location": "er"
     },
     {
         "name": "Bazelgeuse",
@@ -248,9 +292,11 @@
         "mr": 0,
         "tempered": 1,
         "weakness": "thunder,frost,dragon,water",
-        "weaknessStatus": "poison,2;sleep,2;para,2;blast,1;stun,1",
+        "weaknessStatus": "poison,2;sleep,2;para,2;blast,1;sleep,1",
         "RUtranslate": "Базельгейс",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire",
+        "location": "af,ch,rv,ww,er"
     },
     {
         "name": "Deviljho",
@@ -261,7 +307,9 @@
         "weakness": "thunder,dragon,water,fire,frost",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Девильо",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "dragon,defence down",
+        "location": "all"
     },
     {
         "name": "Vaal Hazak",
@@ -272,7 +320,9 @@
         "weakness": "dragon,fire,frost,thunder",
         "weaknessStatus": "stun,2;blast,2;poison,1;sleep,1;para,1",
         "RUtranslate": "Ваал-Хазак",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "Effluvial Buildup",
+        "location": "rv"
     },
     {
         "name": "Teostra",
@@ -283,7 +333,9 @@
         "weakness": "frost,water,thunder,dragon",
         "weaknessStatus": "poison,2;stun,2;sleep,1;para,1;blast,1",
         "RUtranslate": "Теостра",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire,blast",
+        "location": "ww,er, gl"
     },
     {
         "name": "Lunastra",
@@ -294,7 +346,9 @@
         "weakness": "frost,dragon",
         "weaknessStatus": "blast,2;stun,2;poison,1;sleep,1;para,1",
         "RUtranslate": "Лунастра",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire",
+        "location": "ww,er,gl"
     },
     {
         "name": "Kirin",
@@ -305,7 +359,9 @@
         "weakness": "fire,frost,water,dragon",
         "weaknessStatus": "sleep,2;blast,2;poison,1;stun,1",
         "RUtranslate": "Кирин",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "thunder,para",
+        "location": "ch,gl"
     },
     {
         "name": "Nergigante",
@@ -316,7 +372,9 @@
         "weakness": "thunder,dragon,fire,frost,water",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Нергигант",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "none",
+        "location": "er"
     },
     {
         "name": "Xeno`jiiva",
@@ -327,7 +385,9 @@
         "weakness": "dragon,fire,frost,thunder,water",
         "weaknessStatus": "poison,3;blast,2;para,1;stun,1",
         "RUtranslate": "Ксено`джиива",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire, dragon",
+        "location": "er"
     },
     {
         "name": "Kushala Daora",
@@ -338,7 +398,9 @@
         "weakness": "thunder,dragon",
         "weaknessStatus": "poison,3;blast,3;stun,2;sleep,1;para,1",
         "RUtranslate": "Кушала-даора",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "stun",
+        "location": "af,er"
     },
     {
         "name": "Beotodus",
@@ -349,7 +411,9 @@
         "weakness": "fire,thunder",
         "weaknessStatus": "blast,3;poison,2;para,2;stun,2;sleep,2",
         "RUtranslate": "Беотод",
-        "monsterType": "Piscine wyverns"
+        "monsterType": "Piscine wyverns",
+        "attackType": "frost",
+        "location": "hr"
     },
     {
         "name": "Banbaro",
@@ -360,7 +424,9 @@
         "weakness": "dragon,fire",
         "weaknessStatus": "blast,3;stun,3;poison,2;sleep,2;para,2",
         "RUtranslate": "Банбаро",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "frost",
+        "location": "all"
     },
     {
         "name": "Viper Tobi-Kadachi",
@@ -371,7 +437,9 @@
         "weakness": "thunder,frost",
         "weaknessStatus": "sleep,2;blast,2;stun,2;poison,1;para,1",
         "RUtranslate": "Аспидовый Тоби-кадачи",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "poison,noxPoison,para",
+        "location": "hr"
     },
     {
         "name": "Nightshade Paolumu",
@@ -382,7 +450,9 @@
         "weakness": "water,fire",
         "weaknessStatus": "poison,2;para,2;blast,2;stun,2;sleep,1",
         "RUtranslate": "Ночной Паолуму",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "sleep",
+        "location": "ww,af"
     },
     {
         "name": "Coral Pukei-Pukei",
@@ -393,7 +463,9 @@
         "weakness": "frost,thunder,water,fire",
         "weaknessStatus": "poison,3;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Коралловый Поки-Поки",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "water",
+        "location": "ch"
     },
     {
         "name": "Barioth",
@@ -404,7 +476,9 @@
         "weakness": "fire,thunder",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Бариот",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "frost",
+        "location": "hr"
     },
     {
         "name": "Nargacuga",
@@ -415,7 +489,9 @@
         "weakness": "thunder,fire",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Наргакуга",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "bleed",
+        "location": "af,ch"
     },
     {
         "name": "Glavenus",
@@ -426,7 +502,9 @@
         "weakness": "water,frost,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Главенус",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "fire",
+        "location": "af,ww,er"
     },
     {
         "name": "Tigrex",
@@ -437,7 +515,9 @@
         "weakness": "thunder,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Тигрэкс",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "none",
+        "location": "all"
     },
     {
         "name": "Brachydios",
@@ -448,7 +528,9 @@
         "weakness": "frost,water",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Брахидиос",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "blast",
+        "location": "er"
     },
     {
         "name": "Shrieking Legiana",
@@ -459,7 +541,9 @@
         "weakness": "fire,thunder",
         "weaknessStatus": "poison,3;sleep,2;para,2;stun,2;blast,2",
         "RUtranslate": "Визжащая Легиана",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "frost",
+        "location": "hr"
     },
     {
         "name": "Fulgur Anjanath",
@@ -470,7 +554,9 @@
         "weakness": "frost,water,fire",
         "weaknessStatus": "poison,2;sleep,2;para,2;stun,2;blast,1",
         "RUtranslate": "Громовой Аньянат",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "thunder",
+        "location": "all"
     },
     {
         "name": "Acidic Glavenus",
@@ -481,7 +567,9 @@
         "weakness": "fire,thunder,dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Кислотный  Главенус",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "defence down",
+        "location": "rv"
     },
     {
         "name": "Ebony Odogaron",
@@ -492,7 +580,9 @@
         "weakness": "water,thunder,fire,frost",
         "weaknessStatus": "poison,3;para,3;sleep,2;blast,2;stun,2",
         "RUtranslate": "Эбеновый одогарон",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "dragon,bleed",
+        "location": "all"
     },
     {
         "name": "Seething Bazelgeuse",
@@ -503,7 +593,9 @@
         "weakness": "frost,thunder",
         "weaknessStatus": "sleep,3;poison,2;para,2;stun,2;blast,1",
         "RUtranslate": "Вспыльчивый Базельгейс",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,blast",
+        "location": "er"
     },
     {
         "name": "Zinogre",
@@ -514,7 +606,9 @@
         "weakness": "frost,water",
         "weaknessStatus": "poison,2;sleep,2;blast,2;stun,2;para,1",
         "RUtranslate": "Зиногр",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "thunder",
+        "location": "af,ch, gl"
     },
     {
         "name": "Namielle",
@@ -525,7 +619,9 @@
         "weakness": "fire,dragon",
         "weaknessStatus": "poison,3;blast,3;stun,2;sleep,1;para,1",
         "RUtranslate": "Намиэль",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "water,thunder",
+        "location": "ch"
     },
     {
         "name": "Blackveil Vaal Hazak",
@@ -536,7 +632,9 @@
         "weakness": "fire,dragon",
         "weaknessStatus": "blast,2;poison,1;sleep,1;para,1;stun,1",
         "RUtranslate": "Тленный ваал-хазак",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "Effluvial Buildup",
+        "location": "af,rv"
     },
     {
         "name": "Velkhana",
@@ -547,7 +645,9 @@
         "weakness": "fire,dragon,thunder",
         "weaknessStatus": "blast,3;poison,2;sleep,1;para,1;stun,1",
         "RUtranslate": "Велханга",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "frost",
+        "location": "all"
     },
     {
         "name": "Ruiner Nergigante",
@@ -558,7 +658,9 @@
         "weakness": "dragon,thunder",
         "weaknessStatus": "blast,3;poison,2;sleep,2;para,2;stun,1",
         "RUtranslate": "Нергигант-губитель",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "bleed",
+        "location": "gl"
     },
     {
         "name": "Yian Garuga",
@@ -569,7 +671,9 @@
         "weakness": "water,dragon",
         "weaknessStatus": "blast,3;stun,2;para,2;poison,1;sleep,1",
         "RUtranslate": "Йан-гаруга",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "fire,poison",
+        "location": "gl"
     },
     {
         "name": "Rajang",
@@ -580,7 +684,9 @@
         "weakness": "frost",
         "weaknessStatus": "blast,2;poison,1;sleep,1;para,1;stun,1",
         "RUtranslate": "Раянг",
-        "monsterType": "Fanged beasts"
+        "monsterType": "Fanged beasts",
+        "attackType": "thunder",
+        "location": "gl"
     },
     {
         "name": "Furious Rajang",
@@ -591,7 +697,9 @@
         "weakness": "frost",
         "weaknessStatus": "blast,2;poison,1;sleep,1;para,1;stun,1",
         "RUtranslate": "Взбешенный Раянг",
-        "monsterType": "Fanged beasts"
+        "monsterType": "Fanged beasts",
+        "attackType": "thunder",
+        "location": "hr"
     },
     {
         "name": "Scarred Yian Garuga",
@@ -602,7 +710,9 @@
         "weakness": "water,dragon",
         "weaknessStatus": "blast,3;stun,2;para,2;poison,1;sleep,1",
         "RUtranslate": "Матерый йан-гаруга",
-        "monsterType": "Bird wyverns"
+        "monsterType": "Bird wyverns",
+        "attackType": "fire,poison",
+        "location": "gl"
     },
     {
         "name": "Raging Brachydios",
@@ -613,7 +723,9 @@
         "weakness": "frost,water",
         "weaknessStatus": "poison,2;sleep,2;para,2;stun,2;blast,1",
         "RUtranslate": "Неистовый Брахидиос",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "blast",
+        "location": "gl"
     },
     {
         "name": "Savage Deviljho",
@@ -624,7 +736,9 @@
         "weakness": "thunder,dragon,fire,water",
         "weaknessStatus": "poison,3;sleep,3;para,3;blast,2;stun,2",
         "RUtranslate": "Лютый Девильо",
-        "monsterType": "Brute wyverns"
+        "monsterType": "Brute wyverns",
+        "attackType": "dragon",
+        "location": "all"
     },
     {
         "name": "Stygian Zinogre",
@@ -635,7 +749,9 @@
         "weakness": "thunder,water",
         "weaknessStatus": "blast,3;poison,2;sleep,2;para,2;stun,2",
         "RUtranslate": "Стигийский Зиногр",
-        "monsterType": "Fanged wyverns"
+        "monsterType": "Fanged wyverns",
+        "attackType": "dragon",
+        "location": "gl"
     },
     {
         "name": "Frostfang Barioth",
@@ -646,7 +762,9 @@
         "weakness": "fire,thunder",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Ледозубый бариот",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "frost",
+        "location": "hr"
     },
     {
         "name": "Silver Rathalos",
@@ -657,7 +775,9 @@
         "weakness": "water,thunder",
         "weaknessStatus": "sleep,2;para,2;stun,2;poison,1;blast,1",
         "RUtranslate": "Серебристый Раталос",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison",
+        "location": "er,gl"
     },
     {
         "name": "Gold Rathian",
@@ -668,7 +788,9 @@
         "weakness": "thunder,water",
         "weaknessStatus": "sleep,2;para,2;stun,2;poison,1;blast,1",
         "RUtranslate": "Золотая Ратиана",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "fire,poison,noxPoison",
+        "location": "gl"
     },
     {
         "name": "Brute Tigrex",
@@ -679,29 +801,35 @@
         "weakness": "water,thunder",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Свирепый Тигрекс",
-        "monsterType": "Flying wyverns"
+        "monsterType": "Flying wyverns",
+        "attackType": "none",
+        "location": "gl"
     },
     {
         "name": "Ancient Leshen",
         "low": 0,
-        "high": 1,
+        "high": 0,
         "mr": 0,
         "tempered": 0,
         "weakness": "fire,thunder,dragon,frost",
         "weaknessStatus": "poison,2;para,1;blast,1;stun,1",
         "RUtranslate": "Древний Леший",
-        "monsterType": "Relict"
+        "monsterType": "Relict",
+        "attackType": "bleed",
+        "location": "af"
     },
     {
         "name": "Leshen",
-        "low": 0,
-        "high": 1,
+        "low": 1,
+        "high": 0,
         "mr": 0,
         "tempered": 0,
         "weakness": "fire,thunder,dragon",
         "weaknessStatus": "poison,3;para,2;blast,2;stun,1",
         "RUtranslate": "Леший",
-        "monsterType": "Relict"
+        "monsterType": "Relict",
+        "attackType": "bleed",
+        "location": "af"
     },
     {
         "name": "Alatreon",
@@ -712,7 +840,9 @@
         "weakness": null,
         "weaknessStatus": "poison,1;sleep,1;para,1;blast,1;stun,1",
         "RUtranslate": "Алатреон",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "dragon,frost,thunder,fire,water",
+        "location": "sv"
     },
     {
         "name": "Behemoth",
@@ -723,7 +853,9 @@
         "weakness": "dragon",
         "weaknessStatus": "poison,2;sleep,2;para,2;blast,2;stun,2",
         "RUtranslate": "Бахамут",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire,thunder,bleed",
+        "location": "er"
     },
     {
         "name": "Fatalis",
@@ -734,7 +866,9 @@
         "weakness": "dragon,fire",
         "weaknessStatus": "poison,1;sleep,1;para,1;blast,1",
         "RUtranslate": "Фаталис",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire",
+        "location": "cs"
     },
     {
         "name": "Kulve Taroth",
@@ -745,7 +879,9 @@
         "weakness": "water,frost,dragon,thunder",
         "weaknessStatus": "poison,1;sleep,1;para,1;blast,1;stun,1",
         "RUtranslate": "Кулве тарот",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire",
+        "location": "ced"
     },
     {
         "name": "Safi`jiva",
@@ -756,7 +892,9 @@
         "weakness": null,
         "weaknessStatus": "poison,3;blast,3;stun,2;para,2;sleep,1",
         "RUtranslate": "Сафиджива",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire",
+        "location": "sv"
     },
     {
         "name": "Shara Ishvalda",
@@ -767,7 +905,9 @@
         "weakness": "frost,water",
         "weaknessStatus": "blast,3;poison,2;para,1;stun,1",
         "RUtranslate": "Шара-ишвалда",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "none",
+        "location": "oi"
     },
     {
         "name": "Zorah Magdaros",
@@ -778,6 +918,8 @@
         "weakness": "dragon,water,frost,thunder",
         "weaknessStatus": null,
         "RUtranslate": "Дзора Магдарос",
-        "monsterType": "Elder dragon"
+        "monsterType": "Elder dragon",
+        "attackType": "fire",
+        "location": "none"
     }
 ]}
