@@ -114,7 +114,7 @@ namespace Systems
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(_tierListStorage.GetLowRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.LOW,_globalSystems.CurrentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.LOW,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
@@ -125,7 +125,7 @@ namespace Systems
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(_tierListStorage.GetHighRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.HIGH,_globalSystems.CurrentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.HIGH,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
@@ -136,7 +136,7 @@ namespace Systems
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(_tierListStorage.GetMasterRankList(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.MASTER,_globalSystems.CurrentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.MASTER,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }
@@ -147,7 +147,7 @@ namespace Systems
                 scrollView.Initialize(1,_globalSystems.InputSystemHandler);
                 await _cellFactory.CreateCells(_tierListStorage.GetTemperedlist(),scrollView);
                 _allCells.AddRange(scrollView.Cells);
-                _rankTabController.CreateTab(RankType.TEMPERED,_globalSystems.CurrentStyle,scrollView);
+                _rankTabController.CreateTab(RankType.TEMPERED,scrollView);
                 _scrolls.Add(scrollView);
                 scrollView.Hide();
             }

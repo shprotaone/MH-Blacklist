@@ -19,7 +19,7 @@ namespace Cell
         [SerializeField] private Button _detailButton;
 
         [SerializeField] private MonsterCellClickHandler _handler;
-        [SerializeField] private AddToListClickHandler _addToListHandler;
+        //[SerializeField] private AddToListClickHandler _addToListHandler;
 
         private GlobalSystems _globalSystems;
         private IObjectPool<MonsterCell> _pool;
@@ -41,13 +41,14 @@ namespace Cell
 
             string imageName = model.imageName + " " + globalSystems.GetStyle(model.style);
             _monsterImage.sprite = globalSystems.GetSprite(imageName);
-            _rankImage.sprite = globalSystems.GetSprite(model.rank,model.style);
-            _detailButton.onClick.AddListener(() => globalSystems.CallDetail(_model));
+            _rankImage.sprite = globalSystems.GetSprite(model.rank);
+            _detailButton.onClick.AddListener(ChangeState);
             _isDefeated = globalSystems.GetDefeated(model);
+            _defeatedImage.sprite = GlobalSystems.Instance.GetDefeatSprite();
             _defeatedImage.gameObject.SetActive(_isDefeated);
 
             _handler.Initialize(this);
-            _addToListHandler.Initialize(this,_globalSystems.InputSystemHandler);
+            //_addToListHandler.Initialize(this,_globalSystems.InputSystemHandler);
         }
 
         public void ChangeState()
@@ -69,13 +70,12 @@ namespace Cell
 
         public void AddToKillList()
         {
-            _globalSystems.AddToKillList(this);
+            _globalSystems.AddToKillList(Model);
         }
 
         public void CallDetailInfo()
         {
-            Debug.Log("Call detail info");
-
+            GlobalSystems.Instance.CallDetail(Model);
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Cell
 
         private void AddToKillList()
         {
-            _cell.AddToKillList();
+            //_cell.ChangeState();
         }
 
         public void OnPointerEnter(PointerEventData eventData)
@@ -36,9 +36,9 @@ namespace Cell
         }
         public void OnPointerDown(PointerEventData eventData)
         {
-            Debug.Log("Start " + eventData.position.magnitude);
-            _inputHandler.StartDragging(eventData.position.magnitude);
-            StartCoroutine(StartTimer());
+            //Debug.Log("Start " + eventData.position.magnitude);
+            //_inputHandler.StartDragging(eventData.position.magnitude);
+            //StartCoroutine(StartTimer());
         }
 
         private IEnumerator StartTimer()
@@ -57,13 +57,6 @@ namespace Cell
                     _isStart = false;
                 }
             }
-        }
-
-        public void OnPointerUp(PointerEventData eventData)
-        {
-            //Debug.Log("End " + eventData.position.magnitude);
-            _isStart = false;
-            //_inputSystemHandler.EndDragging(eventData.position.magnitude,_dragTime);
         }
     }
 }

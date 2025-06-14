@@ -205,7 +205,7 @@
         "RUtranslate": "Тетранадон",
         "monsterType": "Amphibians",
         "attackType": "water",
-        "location": "sr, fi,lc,j"
+        "location": "sr,fi,lc,j"
     },
     {
         "name": "Somnacanth",
@@ -517,7 +517,7 @@
         "RUtranslate": "Высший Арзурос",
         "monsterType": "Fanged beasts",
         "attackType": "none",
-        "location": "sr,ff, rd"
+        "location": "sr,ff,rs"
     },
     {
         "name": "Apex Diablos",
@@ -530,7 +530,7 @@
         "RUtranslate": "Высший Диаблос",
         "monsterType": "Flying wyverns",
         "attackType": "none",
-        "location": "sp,rd"
+        "location": "sp,rs"
     },
     {
         "name": "Apex Mizutsune",
@@ -543,7 +543,7 @@
         "RUtranslate": "Высший Мидзуцунэ",
         "monsterType": "Leviathans",
         "attackType": "water,bubble",
-        "location": "sr,fi,ff,is,rd"
+        "location": "sr,fi,ff,is,rs"
     },
     {
         "name": "Apex Rathalos",
@@ -556,7 +556,7 @@
         "RUtranslate": "Высший Раталос",
         "monsterType": "Flying wyverns",
         "attackType": "fire,poison",
-        "location": "sr,lc,is,rd"
+        "location": "sr,lc,is,rs"
     },
     {
         "name": "Apex Rathian",
@@ -569,7 +569,7 @@
         "RUtranslate": "Высшая Ратиана",
         "monsterType": "Flying wyverns",
         "attackType": "fire,poison",
-        "location": "sr,sp,ff,lc,rd"
+        "location": "sr,sp,ff,lc,rs"
     },
     {
         "name": "Apex Zinogre",
@@ -582,7 +582,7 @@
         "RUtranslate": "Высший Зиногр",
         "monsterType": "Fanged wyverns",
         "attackType": "thunder",
-        "location": "sr,ff,is,rd"
+        "location": "sr,ff,is,rs"
     },
     {
         "name": "Daimyo Hermitaur",
@@ -1001,4 +1001,5 @@
         "location": "c,fa"
     }
 ]
+
 }

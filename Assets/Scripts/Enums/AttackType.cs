@@ -11,6 +11,7 @@ namespace Enums
         SLEEP,
         PARA,
         BLAST,
-        STUN
+        STUN,
+        UNKNOWN
     }
 }

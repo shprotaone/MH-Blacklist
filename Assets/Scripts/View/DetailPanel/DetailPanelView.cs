@@ -2,6 +2,7 @@ using Data.JSON;
 using Parser;
 using Systems;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace View.DetailPanel
@@ -9,20 +10,30 @@ namespace View.DetailPanel
     public class DetailPanelView : MonoBehaviour
     {
         [SerializeField] private Button _closeButton;
-
+        [SerializeField] private Button _addButton;
+        [SerializeField] private Image _background;
         [SerializeField] private DetailView _detailView;
         [SerializeField] private ResourcesView _resourcesView;
         
         private MonsterResourcesParser _monsterResourcesParser;
+        private MonsterModel _model;
 
         public void Initialize()
         {
             _monsterResourcesParser = GlobalSystems.Instance.MosterResourcesParser;
         }
 
+        private void AddToQuickList()
+        {
+            GlobalSystems.Instance.AddToKillList(_model);
+        }
+
         private void SetUp(MonsterModel model)
         {
             _detailView.Fill(model);
+            _model = model;
+            _addButton.onClick.AddListener(AddToQuickList);
+            _background.sprite = GlobalSystems.Instance.GetDetailBackground();
             _resourcesView.Fill(_monsterResourcesParser.GetResources(model));
         }
 

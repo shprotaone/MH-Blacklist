@@ -17,7 +17,7 @@ namespace Cell
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            _cell.ChangeState();
+            _cell.CallDetailInfo();
         }
     }
 }

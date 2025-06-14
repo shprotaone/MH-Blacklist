@@ -20,10 +20,10 @@ namespace Systems
             _assetProvider = assetProvider;
         }
 
-        public void CreateTab(RankType rank,StyleType styleType, MonsterScrollView scrollView)
+        public void CreateTab(RankType rank, MonsterScrollView scrollView)
         {
             var button = Instantiate(_tabButtonPrefab, _tabButtonsContainer, false);
-            button.Initialize(rank,_assetProvider.GetRankSprite(rank,styleType),scrollView,this);
+            button.Initialize(rank,_assetProvider.GetRankSprite(rank),scrollView,this);
             _buttons.Add(button);
         }
 

@@ -16,13 +16,13 @@ namespace Cell
         private MonsterModel _model;
         public MonsterModel MonsterModel => _model;
 
-        public void Initialize(QuickMonsterListView listView, MonsterModel model,GlobalSystems globalSystems)
+        public void Initialize(QuickMonsterListView listView, MonsterModel model)
         {
             _model = model;
-            _name.text = globalSystems.GetName(model.name);
+            _name.text = GlobalSystems.Instance.GetName(model.name);
             this._listView = listView;
             _completeButton.onClick.AddListener(Complete);
-            _detailButton.onClick.AddListener(() => globalSystems.CallDetail(_model));
+            _detailButton.onClick.AddListener(() => GlobalSystems.Instance.CallDetail(_model));
         }
 
         private void Complete()

@@ -30,7 +30,7 @@ namespace View.DetailPanel
 
             foreach (WeaknessType type in model.weaknessTypes)
             {
-                _weaknessSprites.Add(GlobalSystems.Instance.GetSprite(type, model.style));
+                _weaknessSprites.Add(GlobalSystems.Instance.GetSprite(type));
             }
 
             return _weaknessSprites;

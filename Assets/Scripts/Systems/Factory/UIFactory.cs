@@ -33,7 +33,7 @@ namespace Systems.Factory
             return _settingsView;
         }
 
-        public DetailPanelView GetDetailedView()
+        public DetailPanelView  GetDetailedView()
         {
             return detailPanelView;
         }

@@ -33,17 +33,16 @@ namespace Systems.Factory
             {
                 var monsterCell = Instantiate(_monsterCellPrefab,scrollView.ContentContainer,false);
                 monsterCell.Initialize(_globalSystems,data);
-                monsterCell.SetBackground(GetRandomBackGround());
+                monsterCell.SetBackground(GetBackground());
                 scrollView.AddToList(monsterCell);
             }
 
             await UniTask.Yield();
         }
 
-        private Sprite GetRandomBackGround()
+        private Sprite GetBackground()
         {
-            int index = Random.Range(0, _cellSprites.Count - 1);
-            return _cellSprites[index];
+            return GlobalSystems.Instance.GetCellBackground();
         }
     }
 }

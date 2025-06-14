@@ -100,14 +100,14 @@ namespace Systems
             return _languageProvider.GetName(dataName);
         }
 
-        public Sprite GetSprite(RankType imageName, StyleType dataStyle)
+        public Sprite GetSprite(RankType imageName)
         {
-            return _assetProvider.GetRankSprite(imageName, dataStyle);
+            return _assetProvider.GetRankSprite(imageName);
         }
 
-        public Sprite GetSprite(WeaknessType weaknessType, StyleType style)
+        public Sprite GetSprite(WeaknessType weaknessType)
         {
-            return _assetProvider.GetWeaknessSprite(weaknessType, style);
+            return _assetProvider.GetWeaknessSprite(weaknessType);
         }
 
         public string GetMonsterTypeName(MonsterType dataType)
@@ -146,9 +146,9 @@ namespace Systems
             return " ";
         }
 
-        public void AddToKillList(MonsterCell monsterCell)
+        public void AddToKillList(MonsterModel model)
         {
-            _killList.TryAddToList(monsterCell.Model);
+            _killList.TryAddToList(model);
         }
 
         public void CallDetail(MonsterModel model)
@@ -159,6 +159,11 @@ namespace Systems
         public Sprite GetSprite(WeaknessStatusType weaknessType, StyleType style)
         {
             return _assetProvider.GetWeaknessSprite(weaknessType, style);
+        }
+
+        public Sprite GetSprite(AttackType attackType)
+        {
+            return _assetProvider.GetAttackSprite(attackType);
         }
 
         public Lang GetLang()
@@ -179,6 +184,26 @@ namespace Systems
         
             _monsterListChanger.SetCurrentMonsterList(CurrentStyle);
             OnChangeStyle?.Invoke();
+        }
+
+        public Sprite GetSprite(LocationType location)
+        {
+            return _assetProvider.GetSprite(location);
+        }
+
+        public Sprite GetDefeatSprite()
+        {
+            return _assetProvider.GetDefeatSprite(CurrentStyle);
+        }
+
+        public Sprite GetCellBackground()
+        {
+            return _assetProvider.GetCellBackground(CurrentStyle);
+        }
+
+        public Sprite GetDetailBackground()
+        {
+            return _assetProvider.GetDetailBackground(CurrentStyle);
         }
     }
 }

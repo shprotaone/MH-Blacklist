@@ -15,11 +15,6 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: e7bf14d88bf45a240968518fd9187e2f
   m_SerializeEntries:
-  - m_GUID: 223c14d76f622fc4fb008c99c1334d36
-    m_Address: Thunder
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 266250df41e33fd42b535583dbc700f9
     m_Address: starPrefab
     m_ReadOnly: 0
@@ -40,28 +35,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 436511f86a34b8b47a8167ba12e8434d
-    m_Address: paraWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 43ffc6422a1d8884e8932587c43357a0
-    m_Address: stun
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4b059c205aa18bb469375d522442be49
     m_Address: DetailedPanel
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4d04c8ed68c242c49ba31c77f9e63e3a
-    m_Address: DragonWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 552bf9a10c567a7418ccdc4c92108855
-    m_Address: blastWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -75,43 +50,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7f64dce07fa072045875c30683587b1f
-    m_Address: FireWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8073bf8d2c5c4524f9574f108588c9b1
-    m_Address: FrostWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 827b65be3e9f0234db9724d3e8b8299e
-    m_Address: blast
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 82abbd59840a8c343bfa4c54e0923f88
     m_Address: masterWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f7856d6f397e0f478534c373cb22f4d
-    m_Address: Dragon
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9536a49453d938249848dfc0aec69c95
-    m_Address: para
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9944068b208a2bb46a0f7fe605d945e3
-    m_Address: poisonWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9fbbd05bf98c45f4c84f0fb36b233db1
-    m_Address: sleep
+  - m_GUID: 999b1e6a7cc6178489311844bebcfb11
+    m_Address: down-arrow
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -120,23 +65,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a16fa4ea0a4d4e64cbf7e8ef7ab0387b
-    m_Address: Frost
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a37e7969a56cd984385de0e920793fd0
-    m_Address: Water
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a40855400fa02c447bffc98d647b9346
     m_Address: SettingsPanel
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ab5e6cc6cf6e827409a3f55077a62648
-    m_Address: ThunderWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -155,18 +85,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c8d0e1eeacb930342978af24c741dbe6
-    m_Address: Fire
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d5eb5e1ec55a9384caf11c9a2960cda9
     m_Address: tempered
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: da54eb526e6f6884e924a767e934f1ef
-    m_Address: stunWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -175,23 +95,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ebff5724e5fa69c48a238f3b719b0d85
-    m_Address: poison
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec64bf0f459ab974ba56df7e7a35641c
     m_Address: MonsterCell
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: efcee266e6af6f2409d12741000fa553
-    m_Address: sleepWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f214a636567383f4ba96ed451f212de7
-    m_Address: WaterWorld
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

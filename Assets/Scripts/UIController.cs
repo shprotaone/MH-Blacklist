@@ -42,7 +42,7 @@ public class UIController : MonoBehaviour
         CreateDetailWindow();
 
         _portraitPanel.SettingsButton.onClick.AddListener(() => CallSettings(true));
-        _quickMonsterListView.Initialize(assetProvider, _globalSystems);
+        _quickMonsterListView.Initialize(assetProvider);
     }
 
     private void CreateDetailWindow()

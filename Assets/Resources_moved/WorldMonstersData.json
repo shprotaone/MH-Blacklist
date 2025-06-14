@@ -109,7 +109,7 @@
         "high": 1,
         "mr": 1,
         "tempered": 0,
-        "weakness": "water,frost,fire,fire,dragon",
+        "weakness": "water,frost,fire,dragon",
         "weaknessStatus": "sleep,3;blast,2;poison,2;stun,2;para,1",
         "RUtranslate": "Большой Гиррос",
         "monsterType": "Fanged wyverns",
@@ -166,7 +166,7 @@
         "RUtranslate": "Раталос",
         "monsterType": "Flying wyverns",
         "attackType": "fire,poison",
-        "location": "af, er"
+        "location": "af,er"
     },
     {
         "name": "Diablos",
@@ -175,7 +175,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,dragon,fire,thunder",
-        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun1",
+        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun,1",
         "RUtranslate": "Диаблос",
         "monsterType": "Flying wyverns",
         "attackType": "none",
@@ -253,7 +253,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "frost,water,thunder",
-        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun1",
+        "weaknessStatus": "para,3;poison,2;sleep,2;blast,2;stun,1",
         "RUtranslate": "Черная Диаблос",
         "monsterType": "Flying wyverns",
         "attackType": "none",
@@ -279,7 +279,7 @@
         "mr": 1,
         "tempered": 1,
         "weakness": "water,frost,dragon",
-        "weaknessStatus": "poison,3;stun,3;para,2;blast,2;stun,1",
+        "weaknessStatus": "poison,3;stun,3;para,2;blast,2;sleep,1",
         "RUtranslate": "Урагаан",
         "monsterType": "Brute wyverns",
         "attackType": "fire,sleep",
@@ -292,7 +292,7 @@
         "mr": 0,
         "tempered": 1,
         "weakness": "thunder,frost,dragon,water",
-        "weaknessStatus": "poison,2;sleep,2;para,2;blast,1;sleep,1",
+        "weaknessStatus": "poison,2;sleep,2;para,2;blast,1;stun,1",
         "RUtranslate": "Базельгейс",
         "monsterType": "Flying wyverns",
         "attackType": "fire",
@@ -335,7 +335,7 @@
         "RUtranslate": "Теостра",
         "monsterType": "Elder dragon",
         "attackType": "fire,blast",
-        "location": "ww,er, gl"
+        "location": "ww,er,gl"
     },
     {
         "name": "Lunastra",
@@ -377,7 +377,7 @@
         "location": "er"
     },
     {
-        "name": "Xeno`jiiva",
+        "name": "Nergigante",
         "low": 1,
         "high": 1,
         "mr": 0,
@@ -608,7 +608,7 @@
         "RUtranslate": "Зиногр",
         "monsterType": "Fanged wyverns",
         "attackType": "thunder",
-        "location": "af,ch, gl"
+        "location": "af,ch,gl"
     },
     {
         "name": "Namielle",
@@ -920,6 +920,7 @@
         "RUtranslate": "Дзора Магдарос",
         "monsterType": "Elder dragon",
         "attackType": "fire",
-        "location": "none"
+        "location": "special"
     }
-]}
+]
+}

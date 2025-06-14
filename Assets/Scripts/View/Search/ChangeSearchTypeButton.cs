@@ -22,6 +22,7 @@ namespace View.Search
         private void Change()
         {
             _findType++;
+            if ((int)_findType >= 3) _findType = 0;
 
             if (_findType == FindType.MATERIAL)
             {
@@ -35,6 +36,8 @@ namespace View.Search
             {
                 _text.text = "TYP";
             }
+
+            Debug.Log("Current find " + _findType);
         }
     }
 }

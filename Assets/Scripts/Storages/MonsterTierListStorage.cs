@@ -173,6 +173,18 @@ namespace Storages
                     case "rw":
                         locationTypes.Add(LocationType.RUINS_OF_WYVERIA);
                         break;
+                    case "all":
+                        locationTypes.Add(LocationType.ANCIENT_FOREST);
+                        locationTypes.Add(LocationType.WILDSPIRE_WASTE);
+                        locationTypes.Add(LocationType.CORAL_HIGHLANDS);
+                        locationTypes.Add(LocationType.ROTTEN_VALE);
+                        locationTypes.Add(LocationType.HOARFROST_REACH);
+                        locationTypes.Add(LocationType.THE_GUILDING_LANDS);
+                        locationTypes.Add(LocationType.ELDERS_RECESS);
+                        break;
+                    case "special":
+                        locationTypes.Add(LocationType.SPECIAL);
+                        break;
                     default:
                         Debug.Log(locName + " not found");
                         break;
@@ -199,7 +211,8 @@ namespace Storages
                 else if (attack == "para") attackTypes.Add(AttackType.PARA);
                 else if (attack == "blast") attackTypes.Add(AttackType.BLAST);
                 else if (attack == "stun") attackTypes.Add(AttackType.STUN);
-                else Debug.Log("Add " + attack);
+                else if (attack == "none") attackTypes.Add(AttackType.UNKNOWN);
+                else attackTypes.Add(AttackType.UNKNOWN);;
 
             }
 

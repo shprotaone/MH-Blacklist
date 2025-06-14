@@ -12,16 +12,14 @@ namespace Systems
         [SerializeField] private Button _openListButton;
         [SerializeField] private Button _closeButton;
 
-        private GlobalSystems _globalSystems;
         private List<QuickCell> _cells;
         private KillList _killList;
         private QuickCell _quickCell;
 
-        public void Initialize(AssetProvider assetProvider,GlobalSystems globalSystems)
+        public void Initialize(AssetProvider assetProvider)
         {
-            _killList = globalSystems.KillList;
+            _killList = GlobalSystems.Instance.KillList;
             _quickCell = assetProvider.GetQuickCell();
-            _globalSystems = globalSystems;
             _cells = new List<QuickCell>();
 
             _killList.OnMonsterCountChange += CheckShowButton;
@@ -50,7 +48,7 @@ namespace Systems
             foreach (var model in _killList.CellList)
             {
                 var cell = Instantiate(_quickCell, _container, false);
-                cell.Initialize(this,model,_globalSystems);
+                cell.Initialize(this,model);
                 _cells.Add(cell);
             }
         }
