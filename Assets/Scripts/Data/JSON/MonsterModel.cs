@@ -10,7 +10,9 @@ namespace Data.JSON
         public string name;
         public string imageName;
         public MonsterType type;
-        public WeaknessType[] weaknessTypes;
+        public SpecialWeaknessType specialWeaknessState;
+        public Dictionary<WeaknessType, int> specialWeaknessTypes;
+        public Dictionary<WeaknessType,int> weaknessTypes;
         public AttackType[] attackTypes;
         public LocationType[] locations;
         public Dictionary<WeaknessStatusType,int> weaknessStatusTypes;

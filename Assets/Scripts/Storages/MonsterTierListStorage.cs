@@ -67,6 +67,8 @@ namespace Storages
 
             model.name = monsterData.name;
             model.weaknessTypes = ParseWeakness(monsterData);
+            model.specialWeaknessState = ParseSpecialWeaknessState(monsterData);
+            model.specialWeaknessTypes = ParseSpecialWeaknessTypes(monsterData);
             model.weaknessStatusTypes = ParseWeaknessStatusType(monsterData);
             model.imageName = monsterData.name;
             model.style = style;
@@ -75,6 +77,79 @@ namespace Storages
             model.attackTypes = ParseAttackTypes(monsterData);
             model.locations = ParseLocations(monsterData);
             return model;
+        }
+
+        private SpecialWeaknessType ParseSpecialWeaknessState(MonsterData monsterData)
+        {
+            if (monsterData.specialWeakness == string.Empty) return SpecialWeaknessType.EMPTY;
+
+            var line = monsterData.specialWeakness.Split(";");
+            string name = line[0];
+
+            switch (name)
+            {
+                case "dirty":
+                    return SpecialWeaknessType.DIRTY;
+                case "harding":
+                    return SpecialWeaknessType.HARDING;
+                case "charge":
+                    return SpecialWeaknessType.CHARGE;
+                case "cryst":
+                    return SpecialWeaknessType.CRYST;
+                case "light":
+                    return SpecialWeaknessType.LIGHT;
+                case "gold":
+                    return SpecialWeaknessType.GOLD;
+
+                default: return SpecialWeaknessType.EMPTY;
+            }
+        }
+
+        private Dictionary<WeaknessType, int> ParseSpecialWeaknessTypes(MonsterData monsterData)
+        {
+            if (monsterData.specialWeakness == string.Empty) return null;
+
+            Dictionary<WeaknessType,int> weaknessTypes = new();
+            var weaknessList = monsterData.specialWeakness.Split(';',StringSplitOptions.RemoveEmptyEntries);
+            Dictionary<string, int> weaknessDict = new Dictionary<string, int>();
+
+            try
+            {
+                for (int i = 1; i < weaknessList.Length; i++)
+                {
+                    var result = weaknessList[i].Split(",");
+                    weaknessDict.Add(result[0],Convert.ToInt16(result[1]));
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Add weakness status exception " + monsterData.name);
+            }
+
+            foreach (var weakness in weaknessDict)
+            {
+                switch (weakness.Key)
+                {
+                    case "water":
+                        weaknessTypes.Add(WeaknessType.WATER,weakness.Value);
+                        break;
+                    case "thunder":
+                        weaknessTypes.Add(WeaknessType.THUNDER,weakness.Value);
+                        break;
+                    case "frost":
+                        weaknessTypes.Add(WeaknessType.FROST,weakness.Value);
+                        break;
+                    case "fire":
+                        weaknessTypes.Add(WeaknessType.FIRE,weakness.Value);
+                        break;
+                    case "dragon":
+                        weaknessTypes.Add(WeaknessType.DRAGON,weakness.Value);
+                        break;
+                }
+            }
+
+            return weaknessTypes;
+
         }
 
         private LocationType[] ParseLocations(MonsterData monsterData)
@@ -284,21 +359,48 @@ namespace Storages
                 return MonsterType.NONE;
         }
 
-        private WeaknessType[] ParseWeakness(MonsterData monsterData)
+        private Dictionary<WeaknessType,int> ParseWeakness(MonsterData monsterData)
         {
-            List<WeaknessType> weaknessTypes = new();
-            var weaknessList = monsterData.weakness.Split(',');
+            Dictionary<WeaknessType,int> weaknessTypes = new();
+            var weaknessList = monsterData.weakness.Split(';',StringSplitOptions.RemoveEmptyEntries);
+            Dictionary<string, int> weaknessDict = new Dictionary<string, int>();
 
-            foreach (var weakness in weaknessList)
+            try
             {
-                if(weakness == "water") weaknessTypes.Add(WeaknessType.WATER);
-                else if(weakness == "thunder") weaknessTypes.Add(WeaknessType.THUNDER);
-                else if(weakness == "frost") weaknessTypes.Add(WeaknessType.FROST);
-                else if(weakness == "fire") weaknessTypes.Add(WeaknessType.FIRE);
-                else if(weakness == "dragon")weaknessTypes.Add(WeaknessType.DRAGON);
+                foreach (var weakness in weaknessList)
+                {
+                    var result = weakness.Split(",");
+                    weaknessDict.Add(result[0],Convert.ToInt16(result[1]));
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Add weakness status exception " + monsterData.name);
             }
 
-            return weaknessTypes.ToArray();
+            foreach (var weakness in weaknessDict)
+            {
+                switch (weakness.Key)
+                {
+                    case "water":
+                        weaknessTypes.Add(WeaknessType.WATER,weakness.Value);
+                        break;
+                    case "thunder":
+                        weaknessTypes.Add(WeaknessType.THUNDER,weakness.Value);
+                        break;
+                    case "frost":
+                        weaknessTypes.Add(WeaknessType.FROST,weakness.Value);
+                        break;
+                    case "fire":
+                        weaknessTypes.Add(WeaknessType.FIRE,weakness.Value);
+                        break;
+                    case "dragon":
+                        weaknessTypes.Add(WeaknessType.DRAGON,weakness.Value);
+                        break;
+                }
+            }
+
+            return weaknessTypes;
         }
 
         public List<MonsterModel> GetLowRankList()
@@ -319,6 +421,28 @@ namespace Storages
         public List<MonsterModel> GetTemperedlist()
         {
             return _temperedRankList;
+        }
+
+        public List<RankType> GetRankList(MonsterModel model)
+        {
+            List<RankType> ranks = new();
+
+            if (_lowRankList.Exists(x => x.name == model.name))
+            {
+                ranks.Add(RankType.LOW);
+            }
+
+            if (_highRankList.Exists(x => x.name == model.name))
+            {
+                ranks.Add(RankType.HIGH);
+            }
+
+            if (_masterRankList.Exists(x => x.name == model.name))
+            {
+                ranks.Add(RankType.MASTER);
+            }
+
+            return ranks;
         }
     }
 }

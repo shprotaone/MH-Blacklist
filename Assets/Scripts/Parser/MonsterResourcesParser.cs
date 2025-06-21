@@ -157,5 +157,37 @@ namespace Parser
 
             return null;
         }
+
+        public List<string> GetResourcesWithOtherRank(MonsterModel model, RankType rankType)
+        {
+            Lang lang = GlobalSystems.Instance.GetLang();
+
+            if (model.style == StyleType.RISE)
+            {
+                var monsterList = RiseList.FindAll(x => x.Key == model.name);
+                var rank = rankType;
+
+                if (rank == RankType.TEMPERED) rank = RankType.MASTER;
+                var rankList = monsterList.FindAll(x => x.RankType == rank);
+
+                var langList = rankList.Find(x => x.Lang == lang);
+                return langList.Resources;
+            }
+
+
+            if (model.style == StyleType.WORLD)
+            {
+                var monsterList = WorldList.FindAll(x => x.Key == model.name);
+                var rank = rankType;
+
+                if (rank == RankType.TEMPERED) rank = RankType.MASTER;
+                var rankList = monsterList.FindAll(x => x.RankType == rank);
+
+                var langList = rankList.Find(x => x.Lang == lang);
+                return langList.Resources;
+            }
+
+            return null;
+        }
     }
 }

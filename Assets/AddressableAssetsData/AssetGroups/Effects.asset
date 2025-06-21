@@ -35,11 +35,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 92adcfcd9d41f1742b03643b954440c0
-    m_Address: effectStar
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9536a49453d938249848dfc0aec69c95
     m_Address: para
     m_ReadOnly: 0
@@ -47,11 +42,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9fbbd05bf98c45f4c84f0fb36b233db1
     m_Address: sleep
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a10271fe90082f44a9490b7ac5ca2d15
-    m_Address: effectCross
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

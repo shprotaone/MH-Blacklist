@@ -11,6 +11,7 @@ namespace Cell
         [SerializeField] private Button _completeButton;
         [SerializeField] private Button _detailButton;
         [SerializeField] private TMP_Text _name;
+        [SerializeField] private Image _rankImage;
 
         private QuickMonsterListView _listView;
         private MonsterModel _model;
@@ -19,8 +20,9 @@ namespace Cell
         public void Initialize(QuickMonsterListView listView, MonsterModel model)
         {
             _model = model;
+            _rankImage.sprite = GlobalSystems.Instance.GetSprite(model.rank);
             _name.text = GlobalSystems.Instance.GetName(model.name);
-            this._listView = listView;
+            _listView = listView;
             _completeButton.onClick.AddListener(Complete);
             _detailButton.onClick.AddListener(() => GlobalSystems.Instance.CallDetail(_model));
         }

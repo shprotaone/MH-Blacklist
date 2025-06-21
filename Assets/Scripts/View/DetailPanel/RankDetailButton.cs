@@ -1,6 +1,9 @@
+using Data.JSON;
 using Enums;
+using Systems;
 using UnityEngine;
 using UnityEngine.UI;
+using View.DetailPanel;
 
 public class RankDetailButton : MonoBehaviour
 {
@@ -8,17 +11,21 @@ public class RankDetailButton : MonoBehaviour
     [SerializeField] private Image _image;
 
     private RankType _rankType;
+    private ResourcesView _resourcesView;
+    private MonsterModel _monsterModel;
 
-    public void Init()
+    public void Init(RankType rankType, MonsterModel monsterModel, ResourcesView resourcesView)
     {
+        gameObject.SetActive(true);
+        _monsterModel = monsterModel;
+        _resourcesView = resourcesView;
+        _rankType = rankType;
         _button.onClick.AddListener(ShowRankDetail);
-        //TODO: заполнить картиночку
-        //TODO: заполнить ранк
+        _image.sprite = GlobalSystems.Instance.GetSprite(rankType);
     }
 
     private void ShowRankDetail()
     {
-        //TODO: получить список ресурсов
-        //TODO: отобразить ресурсы
+        _resourcesView.Fill(GlobalSystems.Instance.MosterResourcesParser.GetResourcesWithOtherRank(_monsterModel,_rankType));
     }
 }

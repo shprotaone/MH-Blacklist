@@ -15,8 +15,13 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: e7bf14d88bf45a240968518fd9187e2f
   m_SerializeEntries:
-  - m_GUID: 266250df41e33fd42b535583dbc700f9
-    m_Address: starPrefab
+  - m_GUID: 10b4beb25b6e3ee479eefc1295190b23
+    m_Address: RiseMonstersData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2799ef759b4b92143a193f981048b8b2
+    m_Address: riseMarkUnselect
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -55,6 +60,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88cfd48e96e60994181d59a2babfff25
+    m_Address: worldMarkUnselect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 999b1e6a7cc6178489311844bebcfb11
     m_Address: down-arrow
     m_ReadOnly: 0
@@ -67,6 +77,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a40855400fa02c447bffc98d647b9346
     m_Address: SettingsPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa59ef6be80676d4682cdb745d61af28
+    m_Address: WorldMonstersData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -95,8 +110,23 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea43dc8d6e211a247bc127489c3e1339
+    m_Address: wildsMarkUnselect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea919a2f1d773894cb655b7eee394cee
+    m_Address: starPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ec64bf0f459ab974ba56df7e7a35641c
     m_Address: MonsterCell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcb3e46de63a807409f54f9a6e696d7b
+    m_Address: WildsMonstersData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

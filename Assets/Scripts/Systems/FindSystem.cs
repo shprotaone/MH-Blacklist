@@ -116,7 +116,7 @@ namespace Systems
             {
                 foreach (var nameResource in resourceName.Resources)
                 {
-                    if (nameResource.Contains(val))
+                    if (nameResource.Contains(val,StringComparison.OrdinalIgnoreCase))
                     {
                         dictNames.Add(resourceName.Key);
                         break;

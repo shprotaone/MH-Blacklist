@@ -15,28 +15,13 @@ MonoBehaviour:
   m_GroupName: Data
   m_GUID: 17b6eea2b561b874097e7b353551386e
   m_SerializeEntries:
-  - m_GUID: 10b4beb25b6e3ee479eefc1295190b23
-    m_Address: RiseMonstersData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 795fd02404137804b95dbdf6b0ae281f
     m_Address: SourceListRise
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: aa59ef6be80676d4682cdb745d61af28
-    m_Address: WorldMonstersData
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ccd6b2a3eb23ada4babcca9eea56fe6b
     m_Address: SourceListWorld
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: fcb3e46de63a807409f54f9a6e696d7b
-    m_Address: WildsMonstersData
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Cell;
 using Data;
 using Data.JSON;
@@ -191,9 +192,9 @@ namespace Systems
             return _assetProvider.GetSprite(location);
         }
 
-        public Sprite GetDefeatSprite()
+        public Sprite GetDefeatSprite(bool isDefeated)
         {
-            return _assetProvider.GetDefeatSprite(CurrentStyle);
+            return _assetProvider.GetDefeatSprite(CurrentStyle, isDefeated);
         }
 
         public Sprite GetCellBackground()
@@ -204,6 +205,16 @@ namespace Systems
         public Sprite GetDetailBackground()
         {
             return _assetProvider.GetDetailBackground(CurrentStyle);
+        }
+
+        public List<RankType> GetRanks(MonsterModel model)
+        {
+            return TierListStorage.GetRankList(model);
+        }
+
+        public string GetTextSpecialStatus(MonsterModel model)
+        {
+            return _languageProvider.GetSpecialState(model.specialWeaknessState);
         }
     }
 }

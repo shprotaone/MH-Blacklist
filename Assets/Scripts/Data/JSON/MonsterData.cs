@@ -12,6 +12,7 @@ namespace Data.JSON
         public bool tempered;
         public string weakness;
         public string weaknessStatus;
+        public string specialWeakness;
         public string RUtranslate;
         public string monsterType;
         public string attackType;

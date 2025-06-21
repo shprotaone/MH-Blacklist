@@ -44,8 +44,7 @@ namespace Cell
             _rankImage.sprite = globalSystems.GetSprite(model.rank);
             _detailButton.onClick.AddListener(ChangeState);
             _isDefeated = globalSystems.GetDefeated(model);
-            _defeatedImage.sprite = GlobalSystems.Instance.GetDefeatSprite();
-            _defeatedImage.gameObject.SetActive(_isDefeated);
+            _defeatedImage.sprite = GlobalSystems.Instance.GetDefeatSprite(_isDefeated);
 
             _handler.Initialize(this);
             //_addToListHandler.Initialize(this,_globalSystems.InputSystemHandler);
@@ -54,7 +53,7 @@ namespace Cell
         public void ChangeState()
         {
             _isDefeated = !_isDefeated;
-            _defeatedImage.gameObject.SetActive(_isDefeated);
+            _defeatedImage.sprite = GlobalSystems.Instance.GetDefeatSprite(_isDefeated);
             _globalSystems.SetDefeatedState(_model, _isDefeated);
         }
 

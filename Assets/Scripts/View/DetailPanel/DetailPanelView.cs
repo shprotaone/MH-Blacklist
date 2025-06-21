@@ -2,7 +2,6 @@ using Data.JSON;
 using Parser;
 using Systems;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace View.DetailPanel
@@ -14,6 +13,7 @@ namespace View.DetailPanel
         [SerializeField] private Image _background;
         [SerializeField] private DetailView _detailView;
         [SerializeField] private ResourcesView _resourcesView;
+        [SerializeField] private RankField _rankField;
         
         private MonsterResourcesParser _monsterResourcesParser;
         private MonsterModel _model;
@@ -31,6 +31,8 @@ namespace View.DetailPanel
         private void SetUp(MonsterModel model)
         {
             _detailView.Fill(model);
+            _rankField.Init(model,_resourcesView);
+
             _model = model;
             _addButton.onClick.AddListener(AddToQuickList);
             _background.sprite = GlobalSystems.Instance.GetDetailBackground();

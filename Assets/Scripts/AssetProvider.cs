@@ -195,6 +195,12 @@ public class AssetProvider : MonoBehaviour
         return await Addressables.LoadAssetAsync<GameObject>(name);
     }
 
+    public T GetPrefab<T>(string name) where T : MonoBehaviour
+    {
+        var handle = Addressables.LoadAssetAsync<GameObject>(name);
+        return handle.WaitForCompletion().GetComponent<T>();
+    }
+
     public GameObject GetPrefab(string name)
     {
         var handle = Addressables.LoadAssetAsync<GameObject>(name);
@@ -328,12 +334,22 @@ public class AssetProvider : MonoBehaviour
 
     }
 
-    public Sprite GetDefeatSprite(StyleType currentStyle)
+    public Sprite GetDefeatSprite(StyleType currentStyle, bool isDefeated)
     {
         string loadingName = "";
-        if (currentStyle == StyleType.WORLD) loadingName += "worldMark";
-        if (currentStyle == StyleType.RISE) loadingName += "riseMark";
-        if (currentStyle == StyleType.WILDS) loadingName += "wildsMark";
+        if (isDefeated)
+        {
+            if (currentStyle == StyleType.WORLD) loadingName += "worldMark";
+            if (currentStyle == StyleType.RISE) loadingName += "riseMark";
+            if (currentStyle == StyleType.WILDS) loadingName += "wildsMark";
+        }
+        else
+        {
+            if (currentStyle == StyleType.WORLD) loadingName += "worldMarkUnselect";
+            if (currentStyle == StyleType.RISE) loadingName += "riseMarkUnselect";
+            if (currentStyle == StyleType.WILDS) loadingName += "wildsMarkUnselect";
+        }
+
 
         var operationHandle = Addressables.LoadAssetAsync<Sprite>(loadingName);
         Sprite result = operationHandle.WaitForCompletion();

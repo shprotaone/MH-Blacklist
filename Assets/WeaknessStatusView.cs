@@ -11,12 +11,11 @@ public class WeaknessStatusView : MonoBehaviour
     public async void Fill(MonsterModel model)
     {
         DisableSlots();
-        var prefab = await GlobalSystems.Instance.AssetProvider.GetPrefabAsync("starPrefab");
         var weaknessSprites = CollectWeaknessStatusSprites(model);
 
         for (int i = 0; i < weaknessSprites.Count; i++)
         {
-            _slots[i].Fill(prefab, weaknessSprites.ElementAt(i));
+            _slots[i].Fill(weaknessSprites.ElementAt(i));
         }
     }
 

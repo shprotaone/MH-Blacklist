@@ -136,8 +136,18 @@ namespace Systems
             AddPair("CEPHALOPODS","RUS","Молюск");
             AddPair("CONSTRUCT","ENG","Construct");
             AddPair("CONSTRUCT","RUS","Конструкт");
-            AddPair("NONE", "ENG", "???");
-            AddPair("NONE", "RUS", "???");
+            AddPair("DIRTY", "ENG", "() in the mud");
+            AddPair("DIRTY", "RUS", "() в грязи");
+            AddPair("HARDING", "ENG", "() after hardening");
+            AddPair("HARDING", "RUS", "() после закалки");
+            AddPair("CHARGE", "ENG", "() when charged");
+            AddPair("CHARGE", "RUS", "() когда заряжен");
+            AddPair("CRYST", "ENG", "() after crystal");
+            AddPair("CRYST", "RUS", "() после кристализации");
+            AddPair("LIGHT", "ENG", "() by glow");
+            AddPair("LIGHT", "RUS", "() при свечении");
+            AddPair("GOLD", "ENG", "() with gold cover");
+            AddPair("GOLD", "RUS", "() с золотым покрытием");
 
             foreach (var translateObject in _translateObjects)
             {
@@ -170,6 +180,29 @@ namespace Systems
         public void Add(TranslateObj[] translateObjs)
         {
             _translateObjects.AddRange(translateObjs);
+        }
+
+        public string GetSpecialState(SpecialWeaknessType specialWeaknessType)
+        {
+            switch (specialWeaknessType)
+            {
+                case SpecialWeaknessType.DIRTY:
+                    return GetName("DIRTY");
+                case SpecialWeaknessType.HARDING:
+                    return GetName("HARDING");
+                case SpecialWeaknessType.CHARGE:
+                    return GetName("CHARGE");
+                case SpecialWeaknessType.CRYST:
+                    return GetName("CRYST");
+                case SpecialWeaknessType.LIGHT:
+                    return GetName("LIGHT");
+                case SpecialWeaknessType.GOLD:
+                    return GetName("GOLD");
+                case SpecialWeaknessType.EMPTY:
+                    return "EMPTY";
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(specialWeaknessType), specialWeaknessType, null);
+            }
         }
     }
 }

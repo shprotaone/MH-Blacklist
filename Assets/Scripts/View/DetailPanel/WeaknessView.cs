@@ -1,7 +1,9 @@
 using System.Collections.Generic;
+using System.Linq;
 using Data.JSON;
 using Enums;
 using Systems;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,28 +11,54 @@ namespace View.DetailPanel
 {
     public class WeaknessView : MonoBehaviour
     {
-        [SerializeField] private List<Image> _slots;
+        [SerializeField] private RectTransform _rect;
+        [SerializeField] private List<StatusView> _slots;
+        [SerializeField] private TMP_Text _textStatus;
 
-        public void Fill(MonsterModel model)
+        public async void Fill(MonsterModel model)
         {
             DisableSlots();
-
             var weaknessSprites = CollectWeaknessSprites(model);
+            var weaknessSpecial = CollectSpecialWeaknessSprites(model);
+            FillTextStatus(model);
 
             for (int i = 0; i < weaknessSprites.Count; i++)
             {
-                _slots[i].sprite = weaknessSprites[i];
-                _slots[i].gameObject.SetActive(true);
+                _slots[i].Fill(weaknessSprites.ElementAt(i),weaknessSpecial);
+            }
+
+            LayoutRebuilder.ForceRebuildLayoutImmediate(_rect);
+        }
+
+        private void FillTextStatus(MonsterModel model)
+        {
+            if (model.specialWeaknessState != SpecialWeaknessType.EMPTY)
+            {
+                _textStatus.gameObject.SetActive(true);
+                _textStatus.text = GlobalSystems.Instance.GetTextSpecialStatus(model);
             }
         }
 
-        private List<Sprite> CollectWeaknessSprites(MonsterModel model)
+        private Dictionary<Sprite,int> CollectWeaknessSprites(MonsterModel model)
         {
-            List<Sprite> _weaknessSprites = new List<Sprite>();
+            Dictionary<Sprite,int> _weaknessSprites = new ();
 
-            foreach (WeaknessType type in model.weaknessTypes)
+            foreach (var type in model.weaknessTypes)
             {
-                _weaknessSprites.Add(GlobalSystems.Instance.GetSprite(type));
+                _weaknessSprites.Add(GlobalSystems.Instance.GetSprite(type.Key),type.Value);
+            }
+
+            return _weaknessSprites;
+        }
+
+        private Dictionary<Sprite,int> CollectSpecialWeaknessSprites(MonsterModel model)
+        {
+            if (model.specialWeaknessTypes == null) return null;
+
+            Dictionary<Sprite,int> _weaknessSprites = new ();
+            foreach (var type in model.specialWeaknessTypes)
+            {
+                _weaknessSprites.Add(GlobalSystems.Instance.GetSprite(type.Key),type.Value);
             }
 
             return _weaknessSprites;
@@ -40,8 +68,10 @@ namespace View.DetailPanel
         {
             foreach (var slotImage in _slots)
             {
-                slotImage.gameObject.SetActive(false);
+                slotImage.Disable();
             }
+
+            _textStatus.gameObject.SetActive(false);
         }
     }
 }
